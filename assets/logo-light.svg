@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none" role="img" aria-label="awesome-legal-ai-zh">
-  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round">
+  <g stroke="#1f2937" stroke-width="6" stroke-linecap="round">
     <line x1="26" y1="42" x2="94" y2="42"/>
     <line x1="60" y1="34" x2="60" y2="92"/>
     <line x1="34" y1="42" x2="34" y2="56"/>
@@ -8,5 +8,5 @@
     <path d="M74 56 Q86 80 98 56"/>
     <line x1="44" y1="94" x2="76" y2="94"/>
   </g>
-  <circle cx="60" cy="30" r="5.5" fill="#ffffff"/>
+  <circle cx="60" cy="30" r="5.5" fill="#1f2937"/>
 </svg>
