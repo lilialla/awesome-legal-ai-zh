@@ -1,0 +1,11 @@
+# 抓取的微信原文仅作离线分析，不入库（合规）
+_wechat_raw/
+# 内部战略备忘，不公开
+docs/STRATEGY-internal.md
+# 含对内口吻的规划，清成对外版前暂不公开
+docs/法律全景与缺口图.md
+# 临时产物
+*.bak
+*.bak.*
+/tmp/
+.DS_Store
