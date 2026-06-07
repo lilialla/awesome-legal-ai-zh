@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-179_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-180_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
@@ -154,7 +154,7 @@
 | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything) | 🧩Skill | 600 | ❌ | 💎🔒律师做的「脱敏一切」（本地 LLM 脱敏） |
 | [ethyca/fides](https://github.com/ethyca/fides) | 🛠️平台 | 461 | ✅ | GDPR/CCPA/LGPD 数据主体请求(DSAR)编排 |
 | [philterd/phileas](https://github.com/philterd/phileas) | 🛠️工具 | 98 | ✅ | PII/PHI 去标识（HIPAA/GDPR/CCPA） |
-| 出海 DPA Skill（艾塔/徐莲律师） | 🧩Skill | — | ✅ | 💎中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL（微信发放，上游 [lawve-ai/awesome-legal-skills](https://github.com/lawve-ai/awesome-legal-skills)） |
+| [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | 🧩Skill | 0 | ✅ | 💎艾塔/徐莲律师·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则 |
 
 ## 1.8 劳动 · 家事 · 个人 C 端
 
@@ -369,4 +369,4 @@
 
 ---
 
-*快照 2026-06-07 · 179 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-07 · 180 个条目经 `gh api` 实测（404=0）。*

@@ -24,6 +24,7 @@ ettajingruyang/PRC-merger-control-assessment	antitrust-competition
 lilialla/legal-document-format-skill	contract-doc-ip
 lilialla/request-right-skill-reference	contract-doc-ip
 microsoft/presidio	data-compliance
+LianXU-321/china-outbound-service-dpa-bilingual	data-compliance
 allenymt/PrivacySentry	data-compliance
 TongchengOpenSource/AppScan	data-compliance
 ethyca/fides	data-compliance
