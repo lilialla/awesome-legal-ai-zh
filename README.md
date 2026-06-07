@@ -354,4 +354,23 @@
 - 本仓只做链接索引、不复制任何项目代码或文章正文；收录不代表质量/合法性背书，商用前请自行核验各项目 license。详见 [COMPLIANCE.md](COMPLIANCE.md)。
 - 数据随生态变化，可用 [`scripts/refresh-stars.sh`](scripts/refresh-stars.sh) 重新核验最新 `★ / license`。
 
+<p align="center"><img src="assets/rule.svg" width="880" alt=""></p>
+
+## 📮 联系 & 交流
+
+<div align="center">
+
+**作者：赖宁（执业律师）** —— 做法律 AI 与开源 skill，也在公众号分享法律人怎么用 AI 干活。
+
+扫码加微信，一起交流法律 AI、共建这份清单 👇
+
+<img src="assets/contact-qr.png" alt="加作者微信" width="230">
+
+> 这份清单对你有用的话，欢迎点 ⭐ **Star** 支持，或转给身边的同行。
+> 发现好资源 / 想收录你自己的项目 → 提 [Issue / PR](https://github.com/lilialla/awesome-legal-ai-zh/issues)，或直接加微信聊。
+
+</div>
+
+---
+
 *快照 2026-06-07 · 187 个条目经 `gh api` 实测（404=0）。*
