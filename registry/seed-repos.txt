@@ -4,6 +4,7 @@
 anthropics/claude-for-legal	skill-suite
 zubair-trabzada/ai-legal-claude	skill-suite
 CSlawyer1985/claude-for-legal-ZH	skill-suite
+zhou210712/claude-for-legal-ZH	skill-suite
 cat-xierluo/legal-skills	skill-suite
 evolsb/claude-legal-skill	skill-suite
 THUYRan/Legal-Skills-Chinese	skill-suite

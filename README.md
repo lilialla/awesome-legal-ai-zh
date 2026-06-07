@@ -3,7 +3,7 @@
 # ⚖️ Skill · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-184_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-185_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
@@ -53,6 +53,7 @@
 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 🏛️平台 | 19473 | ✅ | ⭐官方知识工作插件集（含 legal 工作流） |
 | [zubair-trabzada/ai-legal-claude](https://github.com/zubair-trabzada/ai-legal-claude) | 🏛️套件 | 1417 | ❌ | 14 skill + 5 agent：合同/NDA/合规/谈判/PDF |
 | [CSlawyer1985/claude-for-legal-ZH](https://github.com/CSlawyer1985/claude-for-legal-ZH) | 🏛️套件 | 453 | ✅ | ⭐官方版的中国法适配 + 元典 MCP，覆盖 12 法域 |
+| [zhou210712/claude-for-legal-ZH](https://github.com/zhou210712/claude-for-legal-ZH) | 🏛️套件 | 95 | ✅ | 另一作者的中国法 Claude 工作层（公司/商事/IP/劳动/AI治理多域插件） |
 | [cat-xierluo/legal-skills](https://github.com/cat-xierluo/legal-skills) | 🏛️套件 | 318 | ❌ | 💎杨卫薪律师，47 个面向法律人的 Skills |
 | [THUYRan/Legal-Skills-Chinese](https://github.com/THUYRan/Legal-Skills-Chinese) | 🏛️套件 | 200 | ❌ | 清华系 38 个律师手验的法律推理 skill（非商用协议） |
 | [evolsb/claude-legal-skill](https://github.com/evolsb/claude-legal-skill) | 🧩Skill | 314 | ✅ | CUAD 风险检测合同审查，兼容 26+ 工具 |
@@ -347,4 +348,4 @@
 - 本仓只做链接索引、不复制任何项目代码或文章正文；收录不代表质量/合法性背书，商用前请自行核验各项目 license。详见 [COMPLIANCE.md](COMPLIANCE.md)。
 - 数据随生态变化，可用 [`scripts/refresh-stars.sh`](scripts/refresh-stars.sh) 重新核验最新 `★ / license`。
 
-*快照 2026-06-07 · 184 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-07 · 185 个条目经 `gh api` 实测（404=0）。*
