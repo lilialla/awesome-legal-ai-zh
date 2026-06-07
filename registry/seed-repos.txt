@@ -114,7 +114,7 @@ lucide-icons/lucide	ppt-assets
 tabler/tabler-icons	ppt-assets
 tailwindlabs/heroicons	ppt-assets
 iconoir-icons/iconoir	ppt-assets
-comfyanonymous/ComfyUI	ppt-assets
+Comfy-Org/ComfyUI	ppt-assets
 black-forest-labs/flux	ppt-assets
 vercel/satori	ppt-assets
 xcollantes/free-stock-images-mcp	ppt-assets
@@ -170,7 +170,7 @@ LLMQuant/skills	corp-finance-ma-dd
 LLMQuant/awesome-trading-agents	corp-finance-ma-dd
 anthropics/financial-services	corp-finance-ma-dd
 anthropics/knowledge-work-plugins	skill-suite
-wgpsec/ENScan_GO	corp-finance-ma-dd
+wgpsec/ENScan_GO	enterprise-check
 he-yufeng/ContractGuard	corp-finance-ma-dd
 sboghossian/master-claude-for-legal	corp-finance-ma-dd
 chaunsin/go-qcc-sdk	corp-finance-ma-dd
@@ -182,3 +182,12 @@ openaccountants/openaccountants	tax-bankruptcy-realestate
 openbankruptcyproject/bankruptcy-discharge-screener	tax-bankruptcy-realestate
 CSOAI-ORG/tax-calculator-ai-mcp	tax-bankruptcy-realestate
 createrivabu/Iuris-Soft	law-firm-mgmt
+PKU-YuanGroup/ChatLaw	llm
+pengxiao-song/LaWGPT	llm
+FudanDISC/DISC-LawLLM	llm
+open-compass/LawBench	dataset-infra
+opendatalab/MinerU	tech-foundation
+microsoft/markitdown	tech-foundation
+infiniflow/ragflow	tech-foundation
+Mintplex-Labs/anything-llm	tech-foundation
+thunlp/LegalPapers	awesome

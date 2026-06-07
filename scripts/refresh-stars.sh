@@ -24,7 +24,7 @@ for line in sys.stdin:
     if not m: continue
     d=json.loads(m.group(1)); repo=m.group(2); cat=m.group(3)
     lic=d.get("l") or "无"
-    com="✅" if lic in ok else ("⚠️" if lic in warn else "❌")
+    com="✅" if lic in ok else ("⚠️" if (lic in warn or lic=="NOASSERTION") else "❌")
     rows.append((d.get("s",0),(d.get("p") or "")[:7],lic,com,cat,repo))
 rows.sort(key=lambda x:-x[0])
 with open("/tmp/scale_table.md","a") as f:

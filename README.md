@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-181_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-190_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
@@ -40,7 +40,7 @@
 ## 🗂️ 目录
 
 - **一、按法律业务找 Skill**<br/>[综合套件](#11-综合套件与平台) · [合同·文书](#12-合同--交易--文书) · [知产·软著·专利·竞争法](#13-知识产权--软著--专利--竞争法) · [诉讼·刑事·行政·执行](#14-诉讼--刑事--行政--执行) · [涉外·国际仲裁](#15-涉外--国际仲裁) · [公司·投融资·并购·尽调·证券](#16-公司--投融资--并购--尽调--证券) · [数据合规·脱敏](#17-数据合规--隐私--脱敏) · [劳动·家事·个人](#18-劳动--家事--个人-c-端) · [税务·破产·房地产](#19-税务--破产--房地产)
-- **二、法律检索与数据**<br/>[检索·案例·MCP](#21-法规--案例检索--mcp) · [企业核查](#22-企业核查企查查天眼查网核) · [数据集·评测](#23-数据集--评测--语料) · [法律大模型](#24-中文法律大模型)
+- **二、法律检索与数据**<br/>[检索·案例·MCP](#21-法规--案例检索--mcp) · [企业核查](#22-企业核查企查查--天眼查--网核) · [数据集·评测](#23-数据集--评测--语料) · [法律大模型](#24-中文法律大模型)
 - **三、律所运营**<br/>[案件管理·计费·CRM](#31-案件管理--计费--crm)
 - **四、内容与个人 IP**<br/>[自媒体全流程](#41-自媒体全流程) · [PPT·演示](#42-ppt--演示) · [配图·插画·图标·设计](#43-配图--插画--图标--设计) · [图表·可视化](#44-图表--可视化) · [字体](#45-字体)
 - **五、技术基础（AI 上手）**<br/>[RAG·框架](#51-rag--框架) · [提示词·Skill 编写](#52-提示词--skill-编写) · [通用 Skill 合集](#53-通用-skill-合集) · [中文 LLM 入门](#54-中文-llm-入门--ai-导航)
@@ -92,17 +92,17 @@
 | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 🧩Skill | 2325 | ✅ | 💎专利技术交底书（含🔒脱敏 + 国知局查新） |
 | [cat-xierluo/trademark-assistant.skill](https://github.com/cat-xierluo/trademark-assistant.skill) | 🧩Skill | 1 | ❌ | 商标申请类别规划与可注册性初筛 |
 | [ettajingruyang/PRC-merger-control-assessment](https://github.com/ettajingruyang/PRC-merger-control-assessment) | 🧩Skill | 0 | ❌ | 💎**反垄断/竞争法**：经营者集中申报评估（艾塔/徐莲律师） |
-| [CNIPA/PatentDatabases](https://github.com/CNIPA/PatentDatabases) | 📚清单 | 396 | ⚠️ | 国知局维护的全球专利数据库入口 |
+| [CNIPA/PatentDatabases](https://github.com/CNIPA/PatentDatabases) | 📚清单 | 396 | ⚠️ | 个人整理的全球专利数据库 URL 清单（账户名 CNIPA，非官方机构） |
 
 ## 1.4 诉讼 · 刑事 · 行政 · 执行
 
-> ⚠️ 这块**面向律师的成品 skill 还少**——开源主要是「判决/量刑预测」的学术数据集；刑辩辩护词、行政诉讼、执行 skill 基本还没人做（欢迎补充）。
+> ℹ️ 这块开源**以「判决/量刑预测」学术数据集为主**；面向律师的刑辩辩护词、行政诉讼、执行成品 skill 目前较少，下面是可复用的数据底座。
 
 | 项目 | 类型 | ★ | 商用 | 干嘛的 |
 |---|--|--|:--:|--|
 | [thunlp/CAIL](https://github.com/thunlp/CAIL) | 📊数据 | 508 | ✅ | 法研杯·量刑预测数据集（268 万刑事文书） |
 | [Dai-shen/LAiW](https://github.com/Dai-shen/LAiW) | 📊数据 | 92 | ✅ | 中文法律 LLM 14 任务基准 + 指令微调数据 |
-| [PolarisRisingWar/LJP_Collection](https://github.com/PolarisRisingWar/LJP_Collection) | 📊数据 | 64 | ⚠️ | 判决/刑期预测模型可复现合集 |
+| [PolarisRisingWar/LJP_Collection](https://github.com/PolarisRisingWar/LJP_Collection) | 📊数据 | 64 | ❌ | 判决/刑期预测模型可复现合集 |
 | [lololo-xiao/MultiJustice-MPMCP](https://github.com/lololo-xiao/MultiJustice-MPMCP) | 📊数据 | 5 | ✅ | 💎多被告多罪名判决预测数据集 |
 
 ## 1.5 涉外 · 国际仲裁
@@ -125,24 +125,23 @@
 | 项目 | 类型 | ★ | 商用 | 干嘛的 |
 |---|--|--|:--:|--|
 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | 🏛️平台 | 30336 | ✅ | ⭐官方金融插件，PE 含 dd-checklist / dd-meeting-prep |
-| [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 🏛️平台 | 19473 | ✅ | ⭐官方插件集（corporate-legal：决议/尽调/披露/交割清单） |
-| [papermark/papermark](https://github.com/papermark/papermark) | 🛠️应用 | 8457 | ❌ | 💎开源数据室（DocSend 替代，水印/密码/逐页分析） |
+| [papermark/papermark](https://github.com/papermark/papermark) | 🛠️应用 | 8457 | ⚠️ | 💎开源数据室（DocSend 替代，水印/密码/逐页分析） |
 | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | 🛠️Agent | 7195 | ✅ | 金融/财报分析多 agent 平台 |
-| [wgpsec/ENScan_GO](https://github.com/wgpsec/ENScan_GO) | 🛠️工具 | 4432 | ✅ | 💎**网核**：企业工商/控股/对外投资/公众号一键聚合，支持 MCP |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | 🛠️工具 | 2299 | ✅ | SEC 申报分析（10-K/8-K/XBRL/Form 3-4-5） |
 | [captableinc/captable](https://github.com/captableinc/captable) | 🛠️应用 | 807 | ⚠️ | 股权表 + 数据室（Carta/Pulley 替代） |
 | [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp) | 🔌MCP | 311 | ⚠️ | SEC EDGAR 的 MCP server |
 | [SEC-API-io/sec-api-python](https://github.com/SEC-API-io/sec-api-python) | 🛠️工具 | 306 | ✅ | SEC 数据 SDK（2000万+ 申报、招股书） |
-| [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | 📚清单 | 199 | ⚠️ | LLM 金融 agent/MCP 清单 |
+| [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | 📚清单 | 199 | ✅ | LLM 金融 agent/MCP 清单 |
 | [Open-Cap-Table-Coalition/Open-Cap-Format-OCF](https://github.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF) | 📊标准 | 181 | ❌ | 开源股权结构数据标准 |
-| [Ro5s/Startup-Starter-Pack](https://github.com/Ro5s/Startup-Starter-Pack) | 📚范本 | 112 | ⚠️ | ❄️融资范本集（YC SAFE/term sheet/期权，范本不过时） |
-| [LLMQuant/skills](https://github.com/LLMQuant/skills) | 🧩Skill | 84 | ⚠️ | 华尔街金融投资 Skills 库（财报/估值/监管） |
-| [Azure-Samples/ally-legal-assistant](https://github.com/Azure-Samples/ally-legal-assistant) | 🛠️工具 | 77 | ⚠️ | 合同分析/自动批注 Word 插件 |
+| [Ro5s/Startup-Starter-Pack](https://github.com/Ro5s/Startup-Starter-Pack) | 📚范本 | 112 | ❌ | ❄️融资范本集（YC SAFE/term sheet/期权，范本不过时） |
+| [LLMQuant/skills](https://github.com/LLMQuant/skills) | 🧩Skill | 84 | ✅ | 华尔街金融投资 Skills 库（财报/估值/监管） |
+| [Azure-Samples/ally-legal-assistant](https://github.com/Azure-Samples/ally-legal-assistant) | 🛠️工具 | 77 | ❌ | 合同分析/自动批注 Word 插件 |
 | [zoharbabin/due-diligence-agents](https://github.com/zoharbabin/due-diligence-agents) | 🧩Agent | 38 | ✅ | 💎M&A 尽调 13 agent（读数据室、交叉引证、定位页码） |
 | [sboghossian/master-claude-for-legal](https://github.com/sboghossian/master-claude-for-legal) | 🧩Skill | 35 | ⚠️ | M&A 尽调 tabular-review + 多方版本 diff |
 | [chaunsin/go-qcc-sdk](https://github.com/chaunsin/go-qcc-sdk) | 🛠️工具 | 1 | ✅ | 企查查 SDK（失信/被执行核查） |
 
-> 💡 中国语境的决议/尽调表/披露清单，[claude-for-legal-ZH](https://github.com/CSlawyer1985/claude-for-legal-ZH) 的 corporate-legal 插件最对口；VIE 协议生成 Skill 由艾塔法律AI实验室经微信发放（见 [6.3 微信长尾源](#63-微信公众号长尾源)）。
+> 💡 中国语境的决议/尽调表/披露清单，[claude-for-legal-ZH](https://github.com/CSlawyer1985/claude-for-legal-ZH) 的 corporate-legal 插件最对口；VIE 协议生成 Skill 由艾塔法律AI实验室经微信发放（见 [6.3 微信长尾源](#63-微信公众号长尾源)）。Anthropic 官方知识工作插件见 [1.1](#11-综合套件与平台)，企业网核 ENScan_GO 见 [2.2](#22-企业核查企查查--天眼查--网核)。
+> ⚠️ 本表 SEC/EDGAR/华尔街金融多为**美国证券/海外金融**工具，属涉外参考；中国境内股权设计/公司治理资源仍较少。
 
 ## 1.7 数据合规 · 隐私 · 脱敏
 
@@ -211,9 +210,10 @@
 | [jhpyle/docassemble](https://github.com/jhpyle/docassemble) | 🛠️平台 | 953 | ✅ | 💎法律文书自动化老牌平台 |
 | [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | 🛠️平台 | 946 | ⚠️ | 美国判例数据库平台 |
 | [Liquid-Legal-Institute/Legal-Text-Analytics](https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics) | 📚资源 | 721 | ⚠️ | ❄️法律文本分析方法库 |
-| [HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) | 📊评测 | 591 | ⚠️ | 法律 LLM 评测基准（斯坦福 HazyResearch） |
+| [HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) | 📊评测 | 591 | ❌ | 法律 LLM 评测基准（斯坦福 HazyResearch） |
 | [harveyai/biglaw-bench](https://github.com/harveyai/biglaw-bench) | 📊评测 | 160 | ❌ | 💎Harvey AI 官方 BigLaw Bench：律所级真实法律任务评测基准（无明确协议，仅参考/引用） |
-| [neelguha/legal-ml-datasets](https://github.com/neelguha/legal-ml-datasets) | 📊数据 | 437 | ⚠️ | 法律 ML 数据集合集 |
+| [open-compass/LawBench](https://github.com/open-compass/LawBench) | 📊评测 | 432 | ✅ | 💎中文法律能力评测基准（司法部系+多机构，引用最广） |
+| [neelguha/legal-ml-datasets](https://github.com/neelguha/legal-ml-datasets) | 📊数据 | 437 | ❌ | 法律 ML 数据集合集 |
 | [freelawproject/eyecite](https://github.com/freelawproject/eyecite) | 🛠️工具 | 247 | ✅ | 💎判例引证解析 |
 
 ## 2.4 中文法律大模型
@@ -223,6 +223,9 @@
 | [CSHaitao/LexiLaw](https://github.com/CSHaitao/LexiLaw) | 🧠模型 | 1019 | ✅ | 清华 THUIR，ChatGLM-6B 基座法律大模型 |
 | [zhihaiLLM/wisdomInterrogatory](https://github.com/zhihaiLLM/wisdomInterrogatory) | 🧠模型 | 545 | ✅ | 🔒智海-录问（浙大） |
 | [CSHaitao/LegalOne](https://github.com/CSHaitao/LegalOne) | 🧠模型 | 61 | ✅ | 💎法律推理基座（1.7B/4B/8B） |
+| [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) | 🧠模型 | 7520 | ⚠️ | ❄️北大袁粒团队，中文法律 LLM 里最出圈的一个 |
+| [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) | 🧠模型 | 6053 | ⚠️ | ❄️中文法律知识微调 LLM（法律语料预训练） |
+| [FudanDISC/DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) | 🧠模型 | 926 | ✅ | 复旦 DISC 中文法律大模型 |
 
 ---
 
@@ -244,6 +247,7 @@
 # 四、内容与个人 IP
 
 > 律师做公众号 / 视频号 / 小红书、立个人 IP 用得到的整套工具。两位头部作者撑起这块：**卡兹克（数字生命卡兹克）** 与 **op7418（归藏）**。
+> ℹ️ 4.2–4.4 多为**通用**设计/视频/出图工具（非法律专用），按需借用即可。
 
 ## 4.1 自媒体全流程
 
@@ -275,7 +279,7 @@
 
 **设计工具/平台**`🛠️`：[nexu-io/open-design](https://github.com/nexu-io/open-design)(60723·✅·⭐💎**Open Design**——本地优先的开源 Claude Design 替代) · [penpot/penpot](https://github.com/penpot/penpot)(49250·✅·开源 Figma，设计协作) · [onlook-dev/onlook](https://github.com/onlook-dev/onlook)(25887·✅·「设计师版 Cursor」，AI 可视化设计转代码) · [gridaco/grida](https://github.com/gridaco/grida)(2521·✅·Grida Open Design)
 
-**AI 出图 / 封面**`🛠️`：[comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)(116044·⚠️·节点式出图) · [black-forest-labs/flux](https://github.com/black-forest-labs/flux)(25603·FLUX 文生图) · [vercel/satori](https://github.com/vercel/satori)(13504·HTML→封面图) · [xcollantes/free-stock-images-mcp](https://github.com/xcollantes/free-stock-images-mcp)(3·🔌免费图库 MCP)
+**AI 出图 / 封面**`🛠️`：[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)(116068·⚠️·节点式出图) · [black-forest-labs/flux](https://github.com/black-forest-labs/flux)(25603·FLUX 文生图) · [vercel/satori](https://github.com/vercel/satori)(13504·HTML→封面图) · [xcollantes/free-stock-images-mcp](https://github.com/xcollantes/free-stock-images-mcp)(3·🔌免费图库 MCP)
 
 **图标 / emoji**`📚`：[tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons)(23582) · [lucide-icons/lucide](https://github.com/lucide-icons/lucide)(22933) · [tabler/tabler-icons](https://github.com/tabler/tabler-icons)(20864) · [iconoir-icons/iconoir](https://github.com/iconoir-icons/iconoir)(4456) · [jdecked/twemoji](https://github.com/jdecked/twemoji)(1687·emoji)
 
@@ -301,6 +305,10 @@
 
 [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything)`🛠️`(21007·✅·港大 all-in-one RAG 框架)
 
+**文档解析 / OCR**（律师案卷/扫描件转文字）：[opendatalab/MinerU](https://github.com/opendatalab/MinerU)`🛠️`(66740·⚠️·PDF→Markdown/OCR，中文案卷首选) · [microsoft/markitdown](https://github.com/microsoft/markitdown)(147113·✅·各类文档→Markdown)
+
+**自建本地知识库**（喂合同/判决书做私有问答）：[infiniflow/ragflow](https://github.com/infiniflow/ragflow)`🛠️`(82096·✅·深度文档理解 RAG) · [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)(61201·✅·开箱即用本地知识库)
+
 ## 5.2 提示词 · Skill 编写
 
 `📚`：[f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)(163406) · [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)(75371) · [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)(63570) · [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)(60575·中文) · [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)(36212·官方互动教程) · [anthropics/courses](https://github.com/anthropics/courses)(21752·官方课程) · [langgptai/wonderful-prompts](https://github.com/langgptai/wonderful-prompts)(6060·中文)
@@ -323,7 +331,7 @@
 
 > 想自己继续挖？从这些清单顺藤摸瓜。
 
-`📚`：[pengxiao-song/awesome-chinese-legal-resources](https://github.com/pengxiao-song/awesome-chinese-legal-resources)(984·中文法律资源总集) · [international-explore/awesome-privacy-chinese](https://github.com/international-explore/awesome-privacy-chinese)(471·🔒隐私合规) · [lawve-ai/awesome-legal-skills](https://github.com/lawve-ai/awesome-legal-skills)(410·法律 Skill 索引) · [maastrichtlawtech/awesome-legal-nlp](https://github.com/maastrichtlawtech/awesome-legal-nlp)(327·国际法律 NLP) · [openlegaldata/awesome-legal-data](https://github.com/openlegaldata/awesome-legal-data)(253) · [Vaquill-AI/awesome-legaltech](https://github.com/Vaquill-AI/awesome-legaltech)(108)
+`📚`：[pengxiao-song/awesome-chinese-legal-resources](https://github.com/pengxiao-song/awesome-chinese-legal-resources)(984·中文法律资源总集) · [international-explore/awesome-privacy-chinese](https://github.com/international-explore/awesome-privacy-chinese)(471·🔒隐私合规) · [lawve-ai/awesome-legal-skills](https://github.com/lawve-ai/awesome-legal-skills)(410·法律 Skill 索引) · [maastrichtlawtech/awesome-legal-nlp](https://github.com/maastrichtlawtech/awesome-legal-nlp)(327·国际法律 NLP) · [openlegaldata/awesome-legal-data](https://github.com/openlegaldata/awesome-legal-data)(253) · [Vaquill-AI/awesome-legaltech](https://github.com/Vaquill-AI/awesome-legaltech)(108) · [thunlp/LegalPapers](https://github.com/thunlp/LegalPapers)(498·清华 NLP·法律智能必读论文)
 
 ## 6.2 平台
 
@@ -370,4 +378,4 @@
 
 ---
 
-*快照 2026-06-07 · 181 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-07 · 190 个条目经 `gh api` 实测（404=0）。*
