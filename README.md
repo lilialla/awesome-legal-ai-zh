@@ -1,6 +1,8 @@
 <div align="center">
 
-# ⚖️ Skill · 法律人开源工具箱
+<img src="assets/banner.svg" alt="awesome-legal-ai-zh · 法律人开源工具箱" width="860">
+
+<br/>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Resources](https://img.shields.io/badge/已收录-187_仓-3a5a8c)
@@ -16,7 +18,7 @@
 
 </div>
 
----
+<p align="center"><img src="assets/rule.svg" width="880" alt=""></p>
 
 ## 🚀 怎么用这个仓
 

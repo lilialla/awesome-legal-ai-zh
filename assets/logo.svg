@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="awesome-legal-ai-zh logo">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2240"/>
+      <stop offset="1" stop-color="#1f4f8c"/>
+    </linearGradient>
+    <linearGradient id="lgold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3cd6a"/>
+      <stop offset="1" stop-color="#dca42a"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="248" height="248" rx="52" fill="url(#lbg)"/>
+  <rect x="5.5" y="5.5" width="245" height="245" rx="50.5" fill="none" stroke="#3a6098" stroke-opacity="0.5"/>
+  <g transform="translate(58,46)" stroke="url(#lgold)" stroke-width="8" stroke-linecap="round" fill="none">
+    <circle cx="70" cy="4" r="9" fill="url(#lgold)" stroke="none"/>
+    <line x1="70" y1="13" x2="70" y2="150"/>
+    <line x1="8" y1="34" x2="132" y2="34"/>
+    <line x1="16" y1="34" x2="16" y2="60"/>
+    <line x1="124" y1="34" x2="124" y2="60"/>
+    <path d="M-2 60 Q16 100 34 60"/>
+    <path d="M106 60 Q124 100 142 60"/>
+    <line x1="42" y1="152" x2="98" y2="152"/>
+  </g>
+  <g transform="translate(150,40)" fill="url(#lgold)">
+    <path d="M9 0 L12 9 L21 12 L12 15 L9 24 L6 15 L-3 12 L6 9 Z"/>
+  </g>
+</svg>
