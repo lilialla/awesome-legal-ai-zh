@@ -3,7 +3,7 @@
 # ⚖️ Skill · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-185_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-187_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
@@ -68,6 +68,8 @@
 
 | 项目 | 类型 | ★ | 商用 | 干嘛的 |
 |---|--|--|:--:|--|
+| [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | 🧩Skill | 4 | ✅ | 💎「文格」：按 Word 模板生成/批处理/校验法律文书，含格式门禁 |
+| [lilialla/request-right-skill-reference](https://github.com/lilialla/request-right-skill-reference) | 🧩Skill | 7 | ⚠️ | 💎请求权基础（鉴定式案例分析）方法控制面：谁向谁请求什么→要件→抗辩→证据 |
 | [he-yufeng/ContractGuard](https://github.com/he-yufeng/ContractGuard) | 🧩工具 | 164 | ✅ | 中文合同 red flag + 公平度评分（A+~F） |
 | [CSlawyer1985/contract-review-pro](https://github.com/CSlawyer1985/contract-review-pro) | 🧩Skill | 143 | ❌ | 律师做的合同审查 |
 | [zh-xx/legal-assistant-skills](https://github.com/zh-xx/legal-assistant-skills) | 🧩Skill | 131 | ✅ | 合同 + 广告合规 + 请求权可视化 |
@@ -348,4 +350,4 @@
 - 本仓只做链接索引、不复制任何项目代码或文章正文；收录不代表质量/合法性背书，商用前请自行核验各项目 license。详见 [COMPLIANCE.md](COMPLIANCE.md)。
 - 数据随生态变化，可用 [`scripts/refresh-stars.sh`](scripts/refresh-stars.sh) 重新核验最新 `★ / license`。
 
-*快照 2026-06-07 · 185 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-07 · 187 个条目经 `gh api` 实测（404=0）。*

@@ -21,6 +21,8 @@ CSlawyer1985/excellent-judgment-doc-skill	contract-doc-ip
 CSlawyer1985/mineru-converter-skill	contract-doc-ip
 Daknniel-0881/qulv-china-legal-counsel-skill	contract-doc-ip
 ettajingruyang/PRC-merger-control-assessment	antitrust-competition
+lilialla/legal-document-format-skill	contract-doc-ip
+lilialla/request-right-skill-reference	contract-doc-ip
 microsoft/presidio	data-compliance
 allenymt/PrivacySentry	data-compliance
 TongchengOpenSource/AppScan	data-compliance
