@@ -1,4 +1,4 @@
-# Scale 种子清单 · owner/repo<TAB>category
+# awesome-legal-ai-zh 种子清单 · owner/repo<TAB>category
 # 用 ../scripts/refresh-stars.sh 拉取实时 star/更新/license
 # 仅含 GitHub 可核验仓；微信长尾与平台（法律元力等）见 README
 anthropics/claude-for-legal	skill-suite
@@ -64,8 +64,6 @@ moov-io/watchman	cross-border-arbitration
 worldwidelaw/legal-sources	cross-border-arbitration
 Sociovestix/lenu	cross-border-arbitration
 spartypkp/open-source-legislation	cross-border-arbitration
-kleros/erc-792	cross-border-arbitration
-OneWorldData/ISDS	cross-border-arbitration
 pengxiao-song/awesome-chinese-legal-resources	awesome
 international-explore/awesome-privacy-chinese	awesome
 lawve-ai/awesome-legal-skills	awesome
@@ -156,8 +154,6 @@ LawRefBook/Laws	labor-family-personal
 RanKKI/LawRefBook	labor-family-personal
 hellodigua/code996	labor-family-personal
 996icu/996.ICU	labor-family-personal
-theajack/salary	labor-family-personal
-ctkqiang/zhongguolaodongfa_app	labor-family-personal
 papermark/papermark	corp-finance-ma-dd
 AI4Finance-Foundation/FinRobot	corp-finance-ma-dd
 dgunning/edgartools	corp-finance-ma-dd
@@ -168,7 +164,6 @@ Open-Cap-Table-Coalition/Open-Cap-Format-OCF	corp-finance-ma-dd
 Ro5s/Startup-Starter-Pack	corp-finance-ma-dd
 Azure-Samples/ally-legal-assistant	corp-finance-ma-dd
 zoharbabin/due-diligence-agents	corp-finance-ma-dd
-riski-io/grc	corp-finance-ma-dd
 LLMQuant/skills	corp-finance-ma-dd
 LLMQuant/awesome-trading-agents	corp-finance-ma-dd
 anthropics/financial-services	corp-finance-ma-dd
@@ -177,14 +172,11 @@ wgpsec/ENScan_GO	corp-finance-ma-dd
 he-yufeng/ContractGuard	corp-finance-ma-dd
 sboghossian/master-claude-for-legal	corp-finance-ma-dd
 chaunsin/go-qcc-sdk	corp-finance-ma-dd
-zjx-io/personalTaxCalculator	tax-bankruptcy-realestate
 fapiaoapi/invoice	tax-bankruptcy-realestate
 alirezarezvani/claude-skills	tech-foundation
 jnMetaCode/agency-agents-zh	tech-foundation
 laolaoshiren/claude-code-skills-zh	tech-foundation
 openaccountants/openaccountants	tax-bankruptcy-realestate
-freelawproject/bankruptcy-parser	tax-bankruptcy-realestate
 openbankruptcyproject/bankruptcy-discharge-screener	tax-bankruptcy-realestate
 CSOAI-ORG/tax-calculator-ai-mcp	tax-bankruptcy-realestate
-NodineLegal/OpenLawOffice	law-firm-mgmt
 createrivabu/Iuris-Soft	law-firm-mgmt

@@ -1,27 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="awesome-legal-ai-zh logo">
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="awesome-legal-ai-zh logo">
   <defs>
-    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d2240"/>
-      <stop offset="1" stop-color="#1f4f8c"/>
-    </linearGradient>
-    <linearGradient id="lgold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f3cd6a"/>
-      <stop offset="1" stop-color="#dca42a"/>
+    <linearGradient id="g" x1="0" y1="0" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
     </linearGradient>
   </defs>
-  <rect x="4" y="4" width="248" height="248" rx="52" fill="url(#lbg)"/>
-  <rect x="5.5" y="5.5" width="245" height="245" rx="50.5" fill="none" stroke="#3a6098" stroke-opacity="0.5"/>
-  <g transform="translate(58,46)" stroke="url(#lgold)" stroke-width="8" stroke-linecap="round" fill="none">
-    <circle cx="70" cy="4" r="9" fill="url(#lgold)" stroke="none"/>
-    <line x1="70" y1="13" x2="70" y2="150"/>
-    <line x1="8" y1="34" x2="132" y2="34"/>
-    <line x1="16" y1="34" x2="16" y2="60"/>
-    <line x1="124" y1="34" x2="124" y2="60"/>
-    <path d="M-2 60 Q16 100 34 60"/>
-    <path d="M106 60 Q124 100 142 60"/>
-    <line x1="42" y1="152" x2="98" y2="152"/>
+  <rect x="2" y="2" width="156" height="156" rx="36" fill="url(#g)"/>
+  <g stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none">
+    <!-- 天平：横梁 -->
+    <line x1="46" y1="60" x2="114" y2="60"/>
+    <!-- 立柱 -->
+    <line x1="80" y1="50" x2="80" y2="112"/>
+    <!-- 两侧吊绳 -->
+    <line x1="52" y1="60" x2="52" y2="72"/>
+    <line x1="108" y1="60" x2="108" y2="72"/>
+    <!-- 两侧托盘 -->
+    <path d="M40 72 Q52 92 64 72"/>
+    <path d="M96 72 Q108 92 120 72"/>
+    <!-- 底座 -->
+    <line x1="64" y1="114" x2="96" y2="114"/>
   </g>
-  <g transform="translate(150,40)" fill="url(#lgold)">
-    <path d="M9 0 L12 9 L21 12 L12 15 L9 24 L6 15 L-3 12 L6 9 Z"/>
-  </g>
+  <!-- 顶部支点 + AI 火花 -->
+  <circle cx="80" cy="48" r="5.5" fill="#ffffff"/>
+  <path d="M118 40 l2.4 6.6 6.6 2.4 -6.6 2.4 -2.4 6.6 -2.4 -6.6 -6.6 -2.4 6.6 -2.4 Z" fill="#ffffff" opacity="0.92"/>
 </svg>

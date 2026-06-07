@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="awesome-legal-ai-zh · 法律人开源工具箱" width="860">
+<img src="assets/logo.svg" width="120" alt="awesome-legal-ai-zh" />
 
-<br/>
+# ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-187_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-179_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
@@ -14,11 +14,11 @@
 
 办合同、打官司、做尽调、查企业、写文书、运营公众号……每个环节有哪些现成开源 Skill / 工具，这里都帮你找好、标好、验好。
 
-🧑‍⚖️ **本仓维护者（执业律师）也开源了**：[文格 · 法律文书模板执行](https://github.com/lilialla/legal-document-format-skill) · [请求权基础分析](https://github.com/lilialla/request-right-skill-reference)（见 [1.2](#12-合同--交易--文书)）
+🧑‍⚖️ **本仓维护者也开源了**：[文格 · 法律文书模板执行](https://github.com/lilialla/legal-document-format-skill) · [请求权基础分析](https://github.com/lilialla/request-right-skill-reference)（见 [1.2](#12-合同--交易--文书)）
 
 </div>
 
-<p align="center"><img src="assets/rule.svg" width="880" alt=""></p>
+---
 
 ## 🚀 怎么用这个仓
 
@@ -114,7 +114,6 @@
 | [TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening](https://github.com/TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening) | 🧩Skill | 15 | ✅ | 💎律师做的跨境可信数据空间 + 进出口制裁筛查 |
 | [Sociovestix/lenu](https://github.com/Sociovestix/lenu) | 🛠️工具 | 22 | ✅ | ISO 20275 跨 200+ 法域实体法律形式识别 |
 | [spartypkp/open-source-legislation](https://github.com/spartypkp/open-source-legislation) | 📊数据 | 15 | ❌ | 50+ 法域立法统一成 SQL 知识图谱 |
-| [kleros/erc-792](https://github.com/kleros/erc-792) | 📊标准 | 31 | ✅ | ❄️链上仲裁标准（相邻方向，非 ICSID/UNCITRAL） |
 
 ## 1.6 公司 · 投融资 · 并购 · 尽调 · 证券
 
@@ -136,7 +135,6 @@
 | [Ro5s/Startup-Starter-Pack](https://github.com/Ro5s/Startup-Starter-Pack) | 📚范本 | 112 | ⚠️ | ❄️融资范本集（YC SAFE/term sheet/期权，范本不过时） |
 | [LLMQuant/skills](https://github.com/LLMQuant/skills) | 🧩Skill | 84 | ⚠️ | 华尔街金融投资 Skills 库（财报/估值/监管） |
 | [Azure-Samples/ally-legal-assistant](https://github.com/Azure-Samples/ally-legal-assistant) | 🛠️工具 | 77 | ⚠️ | 合同分析/自动批注 Word 插件 |
-| [riski-io/grc](https://github.com/riski-io/grc) | 🛠️平台 | 39 | ⚠️ | ❄️治理-风险-合规（GRC）平台（停更，参考用） |
 | [zoharbabin/due-diligence-agents](https://github.com/zoharbabin/due-diligence-agents) | 🧩Agent | 38 | ✅ | 💎M&A 尽调 13 agent（读数据室、交叉引证、定位页码） |
 | [sboghossian/master-claude-for-legal](https://github.com/sboghossian/master-claude-for-legal) | 🧩Skill | 35 | ⚠️ | M&A 尽调 tabular-review + 多方版本 diff |
 | [chaunsin/go-qcc-sdk](https://github.com/chaunsin/go-qcc-sdk) | 🛠️工具 | 1 | ✅ | 企查查 SDK（失信/被执行核查） |
@@ -165,8 +163,6 @@
 | [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) | 🛠️App | 2430 | ❌ | 法律快查 App（含婚姻/继承编） |
 | [hellodigua/code996](https://github.com/hellodigua/code996) | 🛠️工具 | 1977 | ❌ | 💎量化加班证据（commit 时间反推工时） |
 | [LawRefBook/Laws](https://github.com/LawRefBook/Laws) | 📊数据 | 1809 | ❌ | 💎法律法规 MD 数据库（民法典婚姻/继承编），计算器底座 |
-| [theajack/salary](https://github.com/theajack/salary) | 🛠️工具 | 36 | ❌ | ❄️工资+五险一金+个税计算（N/N+1 赔偿基数） |
-| [ctkqiang/zhongguolaodongfa_app](https://github.com/ctkqiang/zhongguolaodongfa_app) | 📊数据 | 1 | ✅ | ❄️中国劳动法手册 + 结构化 json 法条 |
 
 ## 1.9 税务 · 破产 · 房地产
 
@@ -176,8 +172,6 @@
 |---|--|--|:--:|--|
 | [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants) | 🧩Skill | 154 | ⚠️ | 💎371 个税务 skill 覆盖 134 国（中国可扩展） |
 | [fapiaoapi/invoice](https://github.com/fapiaoapi/invoice) | 🛠️工具 | 72 | ❌ | 数电/全电发票 SDK（金税·开票接口） |
-| [freelawproject/bankruptcy-parser](https://github.com/freelawproject/bankruptcy-parser) | 🛠️工具 | 14 | ✅ | ❄️美国破产文书解析 |
-| [zjx-io/personalTaxCalculator](https://github.com/zjx-io/personalTaxCalculator) | 🛠️工具 | 4 | ❌ | ❄️中国个税+五险一金计算 |
 | [CSOAI-ORG/tax-calculator-ai-mcp](https://github.com/CSOAI-ORG/tax-calculator-ai-mcp) | 🔌MCP | 0 | ✅ | 税额计算 MCP（英/美/欧） |
 
 ---
@@ -238,7 +232,6 @@
 | [createrivabu/Iuris-Soft](https://github.com/createrivabu/Iuris-Soft) | 🛠️平台 | 19 | ❌ | 案件全生命周期 + 开庭管理 + 文档库 |
 | [TracyWang95/awesome-law-firm-design-md](https://github.com/TracyWang95/awesome-law-firm-design-md) | 📚清单 | 4 | ❌ | 律所 DESIGN.md 合集（律所设计规范） |
 | [lawflow-boop/LawLink](https://github.com/lawflow-boop/LawLink) | 🛠️平台 | 3 | ✅ | 💎律师用 AI 自建的中小律所 OA / 案件管理 |
-| [NodineLegal/OpenLawOffice](https://github.com/NodineLegal/OpenLawOffice) | 🛠️平台 | 34 | ✅ | ❄️案件管理+计费一体（.NET，停更，参考架构） |
 
 > 小型管理项目还有 `sochetlaw/legalninja`(计费+CRM)、`Oluwablin/law-crm`、`derekgan08/CaseAce`，按需取用。
 
@@ -354,17 +347,17 @@
 - 本仓只做链接索引、不复制任何项目代码或文章正文；收录不代表质量/合法性背书，商用前请自行核验各项目 license。详见 [COMPLIANCE.md](COMPLIANCE.md)。
 - 数据随生态变化，可用 [`scripts/refresh-stars.sh`](scripts/refresh-stars.sh) 重新核验最新 `★ / license`。
 
-<p align="center"><img src="assets/rule.svg" width="880" alt=""></p>
+---
 
 ## 📮 联系 & 交流
 
 <div align="center">
 
-**作者：赖宁（执业律师）** —— 做法律 AI 与开源 skill，也在公众号分享法律人怎么用 AI 干活。
+**作者：赖宁** —— 做法律 AI、开源 skill，也在公众号分享法律人怎么用 AI 干活。
 
 扫码加微信，一起交流法律 AI、共建这份清单 👇
 
-<img src="assets/contact-qr.png" alt="加作者微信" width="230">
+<img src="assets/contact-qr.png" alt="加作者微信" width="170">
 
 > 这份清单对你有用的话，欢迎点 ⭐ **Star** 支持，或转给身边的同行。
 > 发现好资源 / 想收录你自己的项目 → 提 [Issue / PR](https://github.com/lilialla/awesome-legal-ai-zh/issues)，或直接加微信聊。
@@ -373,4 +366,4 @@
 
 ---
 
-*快照 2026-06-07 · 187 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-07 · 179 个条目经 `gh api` 实测（404=0）。*
