@@ -212,7 +212,7 @@
 | [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | 🛠️平台 | 946 | ⚠️ | 美国判例数据库平台 |
 | [Liquid-Legal-Institute/Legal-Text-Analytics](https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics) | 📚资源 | 721 | ⚠️ | ❄️法律文本分析方法库 |
 | [HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) | 📊评测 | 591 | ⚠️ | 法律 LLM 评测基准（斯坦福 HazyResearch） |
-| [harveyai/biglaw-bench](https://github.com/harveyai/biglaw-bench) | 📊评测 | 160 | ⚠️ | 💎Harvey AI 官方 BigLaw Bench：律所级真实法律任务评测基准 |
+| [harveyai/biglaw-bench](https://github.com/harveyai/biglaw-bench) | 📊评测 | 160 | ❌ | 💎Harvey AI 官方 BigLaw Bench：律所级真实法律任务评测基准（无明确协议，仅参考/引用） |
 | [neelguha/legal-ml-datasets](https://github.com/neelguha/legal-ml-datasets) | 📊数据 | 437 | ⚠️ | 法律 ML 数据集合集 |
 | [freelawproject/eyecite](https://github.com/freelawproject/eyecite) | 🛠️工具 | 247 | ✅ | 💎判例引证解析 |
 
