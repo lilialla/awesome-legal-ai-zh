@@ -12,6 +12,8 @@
 
 办合同、打官司、做尽调、查企业、写文书、运营公众号……每个环节有哪些现成开源 Skill / 工具，这里都帮你找好、标好、验好。
 
+🧑‍⚖️ **本仓维护者（执业律师）也开源了**：[文格 · 法律文书模板执行](https://github.com/lilialla/legal-document-format-skill) · [请求权基础分析](https://github.com/lilialla/request-right-skill-reference)（见 [1.2](#12-合同--交易--文书)）
+
 </div>
 
 ---
@@ -27,7 +29,7 @@
 4. **能不能商用**先看 `能否商用` 列：✅ 可商用 ｜ ⚠️ 有传染性(GPL/AGPL，独立用可，混进闭源产品不行) ｜ ❌ 仅个人/仅链接(无 license 或非商用协议)。
 
 > 📖 **类型图例**：🏛️平台/套件（功能全、规模大） · 🧩Skill/Agent（单点能力，即装即用） · 🔌MCP（数据/工具接口） · 🛠️工具/应用 · 📊数据/语料/评测 · 🧠模型 · 📚清单/范本/资源。
-> 其它标记：⭐头部 · 💎小众精品 · 🔒脱敏/合规 · ❄️已停更（但范本/数据/字体类停更仍可用） · 🗄️已归档。
+> 其它标记：⭐头部 · 💎小众精品 · 🧑‍⚖️维护者出品 · 🔒脱敏/合规 · ❄️已停更（但范本/数据/字体类停更仍可用） · 🗄️已归档。
 > 所有 `★ / license / 能否商用` 由 `gh api` 实测，可用 [`scripts/refresh-stars.sh`](scripts/refresh-stars.sh) 一键刷新；**本仓只做链接索引、不搬运任何代码或文章正文**（[合规说明](COMPLIANCE.md)）。
 
 ## 🗂️ 目录
@@ -68,8 +70,8 @@
 
 | 项目 | 类型 | ★ | 商用 | 干嘛的 |
 |---|--|--|:--:|--|
-| [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | 🧩Skill | 4 | ✅ | 💎「文格」：按 Word 模板生成/批处理/校验法律文书，含格式门禁 |
-| [lilialla/request-right-skill-reference](https://github.com/lilialla/request-right-skill-reference) | 🧩Skill | 7 | ⚠️ | 💎请求权基础（鉴定式案例分析）方法控制面：谁向谁请求什么→要件→抗辩→证据 |
+| [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | 🧩Skill | 4 | ✅ | 🧑‍⚖️**维护者出品**·「文格」：按 Word 模板生成/批处理/校验法律文书，含格式门禁 |
+| [lilialla/request-right-skill-reference](https://github.com/lilialla/request-right-skill-reference) | 🧩Skill | 7 | ⚠️ | 🧑‍⚖️**维护者出品**·请求权基础（鉴定式案例分析）：谁向谁请求什么→要件→抗辩→证据 |
 | [he-yufeng/ContractGuard](https://github.com/he-yufeng/ContractGuard) | 🧩工具 | 164 | ✅ | 中文合同 red flag + 公平度评分（A+~F） |
 | [CSlawyer1985/contract-review-pro](https://github.com/CSlawyer1985/contract-review-pro) | 🧩Skill | 143 | ❌ | 律师做的合同审查 |
 | [zh-xx/legal-assistant-skills](https://github.com/zh-xx/legal-assistant-skills) | 🧩Skill | 131 | ✅ | 合同 + 广告合规 + 请求权可视化 |
