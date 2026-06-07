@@ -57,6 +57,7 @@ jhpyle/docassemble	dataset-infra
 freelawproject/courtlistener	dataset-infra
 Liquid-Legal-Institute/Legal-Text-Analytics	dataset-infra
 HazyResearch/legalbench	dataset-infra
+harveyai/biglaw-bench	dataset-infra
 neelguha/legal-ml-datasets	dataset-infra
 freelawproject/eyecite	dataset-infra
 Breakend/PileOfLaw	dataset-infra

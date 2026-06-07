@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-180_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-181_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
@@ -211,7 +211,8 @@
 | [jhpyle/docassemble](https://github.com/jhpyle/docassemble) | 🛠️平台 | 953 | ✅ | 💎法律文书自动化老牌平台 |
 | [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | 🛠️平台 | 946 | ⚠️ | 美国判例数据库平台 |
 | [Liquid-Legal-Institute/Legal-Text-Analytics](https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics) | 📚资源 | 721 | ⚠️ | ❄️法律文本分析方法库 |
-| [HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) | 📊评测 | 591 | ⚠️ | 法律 LLM 评测基准 |
+| [HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) | 📊评测 | 591 | ⚠️ | 法律 LLM 评测基准（斯坦福 HazyResearch） |
+| [harveyai/biglaw-bench](https://github.com/harveyai/biglaw-bench) | 📊评测 | 160 | ⚠️ | 💎Harvey AI 官方 BigLaw Bench：律所级真实法律任务评测基准 |
 | [neelguha/legal-ml-datasets](https://github.com/neelguha/legal-ml-datasets) | 📊数据 | 437 | ⚠️ | 法律 ML 数据集合集 |
 | [freelawproject/eyecite](https://github.com/freelawproject/eyecite) | 🛠️工具 | 247 | ✅ | 💎判例引证解析 |
 
@@ -369,4 +370,4 @@
 
 ---
 
-*快照 2026-06-07 · 180 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-07 · 181 个条目经 `gh api` 实测（404=0）。*
