@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-204_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-227_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
@@ -69,6 +69,10 @@
 | [TracyWang95/legal-prompts-for-gpt](https://github.com/TracyWang95/legal-prompts-for-gpt) | 📚提示词 | 379 | ✅ | 💎律师开源的法律提示词集 |
 | [TracyWang95/AnythingButLaw](https://github.com/TracyWang95/AnythingButLaw) | 🧩Skill | 33 | ✅ | 给律师的非法律商业分析（博弈/估值/财报） |
 | [legalskill/legalskill](https://github.com/legalskill/legalskill) | 📚社区 | 4 | ❌ | 律锥·legalskill 社区组织 |
+| [cat-xierluo/opc-legal-counsel.skill](https://github.com/cat-xierluo/opc-legal-counsel.skill) | 🧩Skill | 8 | ⚠️ | 一人公司/小微企业开源法律顾问 |
+| [MAXXXXXLI/workbuddy-cn-legal-skills](https://github.com/MAXXXXXLI/workbuddy-cn-legal-skills) | 🏛️套件 | 1 | ✅ | WorkBuddy 中国法适配（合同/数据/劳动/IP/争议） |
+| [goacheng001/legal-skills](https://github.com/goacheng001/legal-skills) | 🏛️套件 | 1 | ✅ | 💎27 个 skill：民诉九步法 + 刑辩 + 文书自动化 |
+| [choosemoon/legal-skills](https://github.com/choosemoon/legal-skills) | 🏛️套件 | 3 | ✅ | 💎四大法学名家 832 篇论文蒸馏的法学 AI 技能库 |
 
 ## 1.2 合同 · 交易 · 文书
 
@@ -85,6 +89,9 @@
 | [CSlawyer1985/excellent-judgment-doc-skill](https://github.com/CSlawyer1985/excellent-judgment-doc-skill) | 🧩Skill | 23 | ❌ | 裁判文书生成 / 质量评判 |
 | [Daknniel-0881/qulv-china-legal-counsel-skill](https://github.com/Daknniel-0881/qulv-china-legal-counsel-skill) | 🧩Skill | 3 | ✅ | 💎内置 2189 条法规知识库的法律顾问 |
 | [MarvinLann/contract-cleaner](https://github.com/MarvinLann/contract-cleaner) | 🧩Skill | 3 | ✅ | 中文合同文本清洗/格式化（术语·语法纠正） |
+| [brucecbi/nda-review-skill](https://github.com/brucecbi/nda-review-skill) | 🧩Skill | 0 | ✅ | NDA 保密协议审查 |
+| [cat-xierluo/contract-copilot.skill](https://github.com/cat-xierluo/contract-copilot.skill) | 🧩Skill | 10 | ⚠️ | 合同起草审查（三层分析+四步，杨卫薪律师） |
+| [evolsb/legal-redline-tools](https://github.com/evolsb/legal-redline-tools) | 🧩工具 | 34 | ✅ | 💎合同红线交付：生成 tracked-changes Word + 红线 PDF |
 | [TracyWang95/DataInfra-Agentic-Contract-Filler-Skill](https://github.com/TracyWang95/DataInfra-Agentic-Contract-Filler-Skill) | 🧩Skill | 7 | ❌ | 国家数据局合同自动填写（Tracy） |
 
 ## 1.3 知识产权 · 软著 · 专利 · 竞争法
@@ -95,6 +102,8 @@
 | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 🧩Skill | 2325 | ✅ | 💎专利技术交底书（含🔒脱敏 + 国知局查新） |
 | [cat-xierluo/trademark-assistant.skill](https://github.com/cat-xierluo/trademark-assistant.skill) | 🧩Skill | 1 | ❌ | 商标申请类别规划与可注册性初筛 |
 | [ettajingruyang/PRC-merger-control-assessment](https://github.com/ettajingruyang/PRC-merger-control-assessment) | 🧩Skill | 0 | ❌ | 💎**反垄断/竞争法**：经营者集中申报评估（艾塔/徐莲律师） |
+| [cat-xierluo/code2patent.skill](https://github.com/cat-xierluo/code2patent.skill) | 🧩Skill | 1 | ⚠️ | 代码仓库转发明专利交底材料 |
+| [cat-xierluo/patent-analysis.skill](https://github.com/cat-xierluo/patent-analysis.skill) | 🧩Skill | 2 | ⚠️ | 专利侵权评估/权利要求比对（7 场景） |
 | [CNIPA/PatentDatabases](https://github.com/CNIPA/PatentDatabases) | 📚清单 | 396 | ⚠️ | 个人整理的全球专利数据库 URL 清单（账户名 CNIPA，非官方机构） |
 
 ## 1.4 诉讼 · 刑事 · 行政 · 执行
@@ -108,6 +117,8 @@
 | [PolarisRisingWar/LJP_Collection](https://github.com/PolarisRisingWar/LJP_Collection) | 📊数据 | 64 | ❌ | 判决/刑期预测模型可复现合集 |
 | [lololo-xiao/MultiJustice-MPMCP](https://github.com/lololo-xiao/MultiJustice-MPMCP) | 📊数据 | 5 | ✅ | 💎多被告多罪名判决预测数据集 |
 | [SimbaCD/legal-period-manager-skills](https://github.com/SimbaCD/legal-period-manager-skills) | 🧩Skill | 8 | ✅ | 💎杜思敏律师·诉讼/劳动仲裁/**执行**/待办 期限管家 |
+| [xtgmf/minfadian](https://github.com/xtgmf/minfadian) | 🧩Skill | 0 | ✅ | 民法典 Skills（数字法务专家） |
+| [CSlawyer1985/case-type-guide](https://github.com/CSlawyer1985/case-type-guide) | 🧩Skill | 13 | ❌ | 💎类案办案要件指南（案件类型识别+要件式清单） |
 
 ## 1.5 涉外 · 国际仲裁
 
@@ -169,6 +180,7 @@
 | 项目 | 类型 | ★ | 商用 | 干嘛的 |
 |---|--|--|:--:|--|
 | [996icu/996.ICU](https://github.com/996icu/996.ICU) | 📚资源 | 276270 | ❌ | 劳动维权标志项目（加班违法论证/法条引用） |
+| [wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill) | 🧩Skill | 17 | ⚠️ | 💎劳动仲裁 skill（劳动争议实务） |
 | [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) | 🛠️App | 2430 | ❌ | 法律快查 App（含婚姻/继承编） |
 | [hellodigua/code996](https://github.com/hellodigua/code996) | 🛠️工具 | 1977 | ❌ | 💎量化加班证据（commit 时间反推工时） |
 | [LawRefBook/Laws](https://github.com/LawRefBook/Laws) | 📊数据 | 1809 | ❌ | 💎法律法规 MD 数据库（民法典婚姻/继承编），计算器底座 |
@@ -195,6 +207,9 @@
 | [aa0101181514/tw-legal-rag](https://github.com/aa0101181514/tw-legal-rag) | 🛠️应用 | 167 | ✅ | 台湾法律 RAG |
 | [lawchat-oss/mcp-taiwan-legal-db](https://github.com/lawchat-oss/mcp-taiwan-legal-db) | 🔌MCP | 134 | ✅ | 台湾司法院判决 + 法规 MCP |
 | [Golden2002/legal-research-skill](https://github.com/Golden2002/legal-research-skill) | 🧩Skill | 101 | ✅ | 法律检索 skill（劳动/合同/侵权/家事/行政/刑事） |
+| [liuhuanyong/CrimeKgAssitant](https://github.com/liuhuanyong/CrimeKgAssitant) | 📊数据 | 1579 | ❌ | ❄️罪名预测+法律知识图谱+20w 问答（经典） |
+| [billvsme/law_ai](https://github.com/billvsme/law_ai) | 🛠️应用 | 222 | ❌ | ❄️LangChain 法律 RAG（200+ 手册+网搜，给出处） |
+| [malnlda/legal-research](https://github.com/malnlda/legal-research) | 🧩Skill | 2 | ✅ | 元典法规+案例+分析师组合研究序列 |
 | [chouenchieh/china-law](https://github.com/chouenchieh/china-law) | 🧩Skill | 7 | ❌ | 💎中国法律实务 Claude 插件·45 技能·**集成北大法宝** |
 | [Liu8Can/pkulaw-mcp-router](https://github.com/Liu8Can/pkulaw-mcp-router) | 🔌MCP | 1 | ✅ | **北大法宝** MCP 多子服务路由 |
 | [malnlda/yd-law-search](https://github.com/malnlda/yd-law-search) | 🧩Skill | 1 | ❌ | 元典法规检索 Copilot Skill（调元典 API） |
@@ -221,6 +236,8 @@
 | [HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) | 📊评测 | 591 | ❌ | 法律 LLM 评测基准（斯坦福 HazyResearch） |
 | [harveyai/biglaw-bench](https://github.com/harveyai/biglaw-bench) | 📊评测 | 160 | ❌ | 💎Harvey AI 官方 BigLaw Bench：律所级真实法律任务评测基准（无明确协议，仅参考/引用） |
 | [open-compass/LawBench](https://github.com/open-compass/LawBench) | 📊评测 | 432 | ✅ | 💎中文法律能力评测基准（司法部系+多机构，引用最广） |
+| [thunlp/LegalPLMs](https://github.com/thunlp/LegalPLMs) | 🧠模型 | 194 | ❌ | 清华 Lawformer 等长文书法律预训练模型 |
+| [THUIR/LeCaRDv2](https://github.com/THUIR/LeCaRDv2) | 📊数据 | 89 | ❌ | 清华大规模中文法律案例检索数据集 v2 |
 | [neelguha/legal-ml-datasets](https://github.com/neelguha/legal-ml-datasets) | 📊数据 | 437 | ❌ | 法律 ML 数据集合集 |
 | [freelawproject/eyecite](https://github.com/freelawproject/eyecite) | 🛠️工具 | 247 | ✅ | 💎判例引证解析 |
 
@@ -234,6 +251,9 @@
 | [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) | 🧠模型 | 7520 | ⚠️ | ❄️北大袁粒团队，中文法律 LLM 里最出圈的一个 |
 | [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) | 🧠模型 | 6053 | ⚠️ | ❄️中文法律知识微调 LLM（法律语料预训练） |
 | [FudanDISC/DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) | 🧠模型 | 926 | ✅ | 复旦 DISC 中文法律大模型 |
+| [davidpig/lychee_law](https://github.com/davidpig/lychee_law) | 🧠模型 | 41 | ✅ | ❄️「律知」法律咨询大模型 |
+| [siat-nlp/HanFei](https://github.com/siat-nlp/HanFei) | 🧠模型 | 130 | ✅ | ❄️韩非·国内首个全参数训练法律大模型（中科院深圳） |
+| [AndrewZhe/lawyer-llama](https://github.com/AndrewZhe/lawyer-llama) | 🧠模型 | 993 | ✅ | ❄️中文法律 LLaMA（律师 llama，经典） |
 
 ---
 
@@ -246,6 +266,7 @@
 | [jlawyerorg/j-lawyer-org](https://github.com/jlawyerorg/j-lawyer-org) | 🛠️平台 | 80 | ⚠️ | 德国开源律所管理系统（案件/文档/归档） |
 | [createrivabu/Iuris-Soft](https://github.com/createrivabu/Iuris-Soft) | 🛠️平台 | 19 | ❌ | 案件全生命周期 + 开庭管理 + 文档库 |
 | [imchongliu/law-firm-worklog](https://github.com/imchongliu/law-firm-worklog) | 🧩Skill | 2 | ✅ | 💎律所工时月报生成（任务→Excel/CSV，刘冲律师） |
+| [imchongliu/lpm-skills-zh](https://github.com/imchongliu/lpm-skills-zh) | 🧩Skill | 0 | ✅ | LPM 法律项目管理 14 skill 中文版 |
 | [brucecbi/directory-index](https://github.com/brucecbi/directory-index) | 🧩Skill | 1 | ✅ | 本地目录索引器（案卷目录→Markdown） |
 | [TracyWang95/awesome-law-firm-design-md](https://github.com/TracyWang95/awesome-law-firm-design-md) | 📚清单 | 4 | ❌ | 律所 DESIGN.md 合集（律所设计规范） |
 | [lawflow-boop/LawLink](https://github.com/lawflow-boop/LawLink) | 🛠️平台 | 3 | ✅ | 💎律师用 AI 自建的中小律所 OA / 案件管理 |
@@ -315,7 +336,7 @@
 
 [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything)`🛠️`(21007·✅·港大 all-in-one RAG 框架)
 
-**文档解析 / OCR**（律师案卷/扫描件转文字）：[opendatalab/MinerU](https://github.com/opendatalab/MinerU)`🛠️`(66740·⚠️·PDF→Markdown/OCR，中文案卷首选) · [microsoft/markitdown](https://github.com/microsoft/markitdown)(147113·✅·各类文档→Markdown)
+**文档解析 / OCR**（律师案卷/扫描件转文字）：[opendatalab/MinerU](https://github.com/opendatalab/MinerU)`🛠️`(66740·⚠️·PDF→Markdown/OCR，中文案卷首选) · [microsoft/markitdown](https://github.com/microsoft/markitdown)(147113·✅·各类文档→Markdown) · [handsomestWei/red-seal-ocr](https://github.com/handsomestWei/red-seal-ocr)(0·✅·🔒印章/红章文字识别) · [cyontheway/word-replacer](https://github.com/cyontheway/word-replacer)(0·✅·🔒Word 号码/字段批量脱敏替换)
 
 **自建本地知识库**（喂合同/判决书做私有问答）：[infiniflow/ragflow](https://github.com/infiniflow/ragflow)`🛠️`(82096·✅·深度文档理解 RAG) · [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)(61201·✅·开箱即用本地知识库)
 
@@ -388,4 +409,4 @@
 
 ---
 
-*快照 2026-06-07 · 204 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-07 · 227 个条目经 `gh api` 实测（404=0）。*
