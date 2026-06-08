@@ -11,7 +11,7 @@
 ![Resources](https://img.shields.io/badge/已收录-227_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--06--08-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -387,6 +387,7 @@
 ## 🤝 贡献 & 合规
 
 - 想推荐新资源？收录标准与提交模板见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- 更新历史见 [CHANGELOG.md](CHANGELOG.md)；每次收录变更都会记一条。
 - 本仓只做链接索引、不复制任何项目代码或文章正文；收录不代表质量/合法性背书，商用前请自行核验各项目 license。详见 [COMPLIANCE.md](COMPLIANCE.md)。
 - 数据随生态变化，可用 [`scripts/refresh-stars.sh`](scripts/refresh-stars.sh) 重新核验最新 `★ / license`。
 
@@ -409,4 +410,4 @@
 
 ---
 
-*快照 2026-06-07 · 227 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-08 · 227 个条目经 `gh api` 实测（404=0）。*

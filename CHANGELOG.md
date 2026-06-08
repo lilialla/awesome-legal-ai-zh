@@ -1,0 +1,40 @@
+# 更新日志 · Changelog
+
+本项目所有重要变更都记录在此。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/)，倒序排列（最新在上）。
+收录数 = `registry/seed-repos.txt` 中经 `gh api` 实测的真实仓数量。
+
+---
+
+## 2026-06-08
+
+### 新增
+- **平台/社区/作者全扫**（+23 仓 → **227**）：
+  - 法律大模型补全：`AndrewZhe/lawyer-llama`、`siat-nlp/HanFei`（韩非）、`davidpig/lychee_law`（律知）、`thunlp/LegalPLMs`（Lawformer）
+  - 数据/检索：`THUIR/LeCaRDv2`、`liuhuanyong/CrimeKgAssitant`、`billvsme/law_ai`
+  - 社区套件：`choosemoon/legal-skills`（832 篇法学论文蒸馏）、`goacheng001/legal-skills`（27 skill·含刑辩）、`MAXXXXXLI/workbuddy-cn-legal-skills`
+  - 实务 skill：`evolsb/legal-redline-tools`（合同红线交付）、`CSlawyer1985/case-type-guide`（类案要件）、`xtgmf/minfadian`（民法典）、`wangchangwei/arb-skill`（劳动仲裁）、`imchongliu/lpm-skills-zh`（法律项目管理）、cat-xierluo 4 个单点 skill
+  - 工具：`handsomestWei/red-seal-ocr`（印章识别）、`cyontheway/word-replacer`（文书脱敏替换）
+- **法律元力（yuanli.ailaw.cn）API 收割**（+14 仓 → 204）：经 Playwright 拦截平台 API 提取全部 58 skill 的 GitHub 源仓，去重后新增 `yuandian-ailaw/Agent-for-legal-cn`（元典官方）、`anthropics/skills`、`malnlda/legal-due-diligence`（尽调）、`SimbaCD/legal-period-manager-skills`（执行/期限管家）、`imchongliu/law-firm-worklog`（律所工时）、`imchongliu/foreign-law-research`（涉外）、隐私协议生成器等。
+
+### 修正
+- **对抗式多 agent 评审**后批量修正：8 处「能否商用」标注与真实 license 不符（如 `LLMQuant/skills` MIT 误标 ⚠️→✅、多个无 license 项 ⚠️→❌）；`refresh-stars.sh` 增加 NOASSERTION→⚠️ 判定。
+- 目录 §2.2 中文锚点失效已修；`CNIPA/PatentDatabases` 描述纠错（非国知局官方）；去除 `knowledge-work-plugins`/`ENScan_GO` 重复展示。
+
+## 2026-06-07
+
+### 新增（首发 → ~190 仓）
+- 创建公开仓 **awesome-legal-ai-zh**（CC0，本清单自身）。
+- **两级目录**（6 大类 / 26 子类），每条标 `类型 · ★ · 能否商用 · 用途`，全部 `gh api` 实测。
+- 覆盖：法律 Skill 套件、合同/文书/IP、诉讼/刑事、涉外、公司投融资尽调、数据合规脱敏、劳动家事、税务、检索/案例/MCP（含**企查查/北大法宝/天眼查** MCP）、法律大模型、数据集评测（含 **Harvey BigLaw Bench**、`open-compass/LawBench`）、律所运营、自媒体 IP（卡兹克/op7418）、PPT/配图/设计（含 `nexu-io/open-design`）、技术基础（RAG/文档解析 MinerU）。
+- 收录**维护者自有** skill：`lilialla/legal-document-format-skill`、`lilialla/request-right-skill-reference`（🧑‍⚖️维护者出品）。
+- 收录艾塔出海 DPA、元典检索、清华系/中文法律大模型等。
+
+### 质量
+- **可用性审计**：全量 `gh api` 实测，404 = 0；清理 8 个停更且依赖现行法律的死项目（过时法条/税率计算器等）。
+- 视觉：极简白色天平 logo（深浅自适应）+ 徽章。
+- 配套：`CONTRIBUTING.md`（收录标准）、`COMPLIANCE.md`（索引非搬运 + license 红线）、`scripts/refresh-stars.sh`（一键刷新 star/license）。
+- 引流：底部「联系 & 交流」区（作者微信）。
+
+---
+
+> 维护约定：**每次新增/删除/修正条目，都在本文件顶部对应日期下补一条**。
