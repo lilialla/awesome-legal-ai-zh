@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-190_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-204_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--07-b5462f)
@@ -61,6 +61,7 @@
 | [zubair-trabzada/ai-legal-claude](https://github.com/zubair-trabzada/ai-legal-claude) | 🏛️套件 | 1417 | ❌ | 14 skill + 5 agent：合同/NDA/合规/谈判/PDF |
 | [CSlawyer1985/claude-for-legal-ZH](https://github.com/CSlawyer1985/claude-for-legal-ZH) | 🏛️套件 | 453 | ✅ | ⭐官方版的中国法适配 + 元典 MCP，覆盖 12 法域 |
 | [zhou210712/claude-for-legal-ZH](https://github.com/zhou210712/claude-for-legal-ZH) | 🏛️套件 | 95 | ✅ | 另一作者的中国法 Claude 工作层（公司/商事/IP/劳动/AI治理多域插件） |
+| [yuandian-ailaw/Agent-for-legal-cn](https://github.com/yuandian-ailaw/Agent-for-legal-cn) | 🏛️套件 | 8 | ⚠️ | ⭐**元典官方**：claude-for-legal 中国法本地化套件（Apache） |
 | [cat-xierluo/legal-skills](https://github.com/cat-xierluo/legal-skills) | 🏛️套件 | 318 | ❌ | 💎杨卫薪律师，47 个面向法律人的 Skills |
 | [THUYRan/Legal-Skills-Chinese](https://github.com/THUYRan/Legal-Skills-Chinese) | 🏛️套件 | 200 | ❌ | 清华系 38 个律师手验的法律推理 skill（非商用协议） |
 | [evolsb/claude-legal-skill](https://github.com/evolsb/claude-legal-skill) | 🧩Skill | 314 | ✅ | CUAD 风险检测合同审查，兼容 26+ 工具 |
@@ -83,6 +84,8 @@
 | [xiaodingfeng/contract-review](https://github.com/xiaodingfeng/contract-review) | 🛠️应用 | 94 | ✅ | 合同审查（Vue 全栈） |
 | [CSlawyer1985/excellent-judgment-doc-skill](https://github.com/CSlawyer1985/excellent-judgment-doc-skill) | 🧩Skill | 23 | ❌ | 裁判文书生成 / 质量评判 |
 | [Daknniel-0881/qulv-china-legal-counsel-skill](https://github.com/Daknniel-0881/qulv-china-legal-counsel-skill) | 🧩Skill | 3 | ✅ | 💎内置 2189 条法规知识库的法律顾问 |
+| [MarvinLann/contract-cleaner](https://github.com/MarvinLann/contract-cleaner) | 🧩Skill | 3 | ✅ | 中文合同文本清洗/格式化（术语·语法纠正） |
+| [TracyWang95/DataInfra-Agentic-Contract-Filler-Skill](https://github.com/TracyWang95/DataInfra-Agentic-Contract-Filler-Skill) | 🧩Skill | 7 | ❌ | 国家数据局合同自动填写（Tracy） |
 
 ## 1.3 知识产权 · 软著 · 专利 · 竞争法
 
@@ -104,6 +107,7 @@
 | [Dai-shen/LAiW](https://github.com/Dai-shen/LAiW) | 📊数据 | 92 | ✅ | 中文法律 LLM 14 任务基准 + 指令微调数据 |
 | [PolarisRisingWar/LJP_Collection](https://github.com/PolarisRisingWar/LJP_Collection) | 📊数据 | 64 | ❌ | 判决/刑期预测模型可复现合集 |
 | [lololo-xiao/MultiJustice-MPMCP](https://github.com/lololo-xiao/MultiJustice-MPMCP) | 📊数据 | 5 | ✅ | 💎多被告多罪名判决预测数据集 |
+| [SimbaCD/legal-period-manager-skills](https://github.com/SimbaCD/legal-period-manager-skills) | 🧩Skill | 8 | ✅ | 💎杜思敏律师·诉讼/劳动仲裁/**执行**/待办 期限管家 |
 
 ## 1.5 涉外 · 国际仲裁
 
@@ -117,6 +121,7 @@
 | [TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening](https://github.com/TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening) | 🧩Skill | 15 | ✅ | 💎律师做的跨境可信数据空间 + 进出口制裁筛查 |
 | [Sociovestix/lenu](https://github.com/Sociovestix/lenu) | 🛠️工具 | 22 | ✅ | ISO 20275 跨 200+ 法域实体法律形式识别 |
 | [spartypkp/open-source-legislation](https://github.com/spartypkp/open-source-legislation) | 📊数据 | 15 | ❌ | 50+ 法域立法统一成 SQL 知识图谱 |
+| [imchongliu/foreign-law-research](https://github.com/imchongliu/foreign-law-research) | 🧩Skill | 6 | ✅ | 💎域外法律研究 skill（刘冲律师·涉外） |
 
 ## 1.6 公司 · 投融资 · 并购 · 尽调 · 证券
 
@@ -139,6 +144,7 @@
 | [zoharbabin/due-diligence-agents](https://github.com/zoharbabin/due-diligence-agents) | 🧩Agent | 38 | ✅ | 💎M&A 尽调 13 agent（读数据室、交叉引证、定位页码） |
 | [sboghossian/master-claude-for-legal](https://github.com/sboghossian/master-claude-for-legal) | 🧩Skill | 35 | ⚠️ | M&A 尽调 tabular-review + 多方版本 diff |
 | [chaunsin/go-qcc-sdk](https://github.com/chaunsin/go-qcc-sdk) | 🛠️工具 | 1 | ✅ | 企查查 SDK（失信/被执行核查） |
+| [malnlda/legal-due-diligence](https://github.com/malnlda/legal-due-diligence) | 🧩Skill | 1 | ❌ | 💎中国法律尽职调查 skill（莫成哲） |
 
 > 💡 中国语境的决议/尽调表/披露清单，[claude-for-legal-ZH](https://github.com/CSlawyer1985/claude-for-legal-ZH) 的 corporate-legal 插件最对口；VIE 协议生成 Skill 由艾塔法律AI实验室经微信发放（见 [6.3 微信长尾源](#63-微信公众号长尾源)）。Anthropic 官方知识工作插件见 [1.1](#11-综合套件与平台)，企业网核 ENScan_GO 见 [2.2](#22-企业核查企查查--天眼查--网核)。
 > ⚠️ 本表 SEC/EDGAR/华尔街金融多为**美国证券/海外金融**工具，属涉外参考；中国境内股权设计/公司治理资源仍较少。
@@ -153,6 +159,7 @@
 | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything) | 🧩Skill | 600 | ❌ | 💎🔒律师做的「脱敏一切」（本地 LLM 脱敏） |
 | [ethyca/fides](https://github.com/ethyca/fides) | 🛠️平台 | 461 | ✅ | GDPR/CCPA/LGPD 数据主体请求(DSAR)编排 |
 | [philterd/phileas](https://github.com/philterd/phileas) | 🛠️工具 | 98 | ✅ | PII/PHI 去标识（HIPAA/GDPR/CCPA） |
+| [youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp](https://github.com/youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp) | 🧩Skill | 10 | ⚠️ | 中文隐私协议自助生成器（数据安全法体系，最小合规版） |
 | [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | 🧩Skill | 0 | ✅ | 💎艾塔/徐莲律师·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则 |
 
 ## 1.8 劳动 · 家事 · 个人 C 端
@@ -202,6 +209,7 @@
 | [tyc-tech/mcp-skills](https://github.com/tyc-tech/mcp-skills) | 🔌MCP | 11 | ❌ | **天眼查 MCP** Skills |
 | [duhu2000/vibe-lawyering-qcc](https://github.com/duhu2000/vibe-lawyering-qcc) | 🔌MCP | 5 | ✅ | **企查查 MCP** 增强版·法律人 AI 工具箱 |
 | [Ace-Kelly/qcc-mcp-batch](https://github.com/Ace-Kelly/qcc-mcp-batch) | 🔌MCP | 2 | ✅ | **企查查 MCP** 批量抓取（工商/风险/知产 67 字段） |
+| [malnlda/yd-enterprise-info](https://github.com/malnlda/yd-enterprise-info) | 🧩Skill | 1 | ❌ | 元典开放平台企业信息查询（22 子命令） |
 
 ## 2.3 数据集 · 评测 · 语料
 
@@ -237,6 +245,8 @@
 |---|--|--|:--:|--|
 | [jlawyerorg/j-lawyer-org](https://github.com/jlawyerorg/j-lawyer-org) | 🛠️平台 | 80 | ⚠️ | 德国开源律所管理系统（案件/文档/归档） |
 | [createrivabu/Iuris-Soft](https://github.com/createrivabu/Iuris-Soft) | 🛠️平台 | 19 | ❌ | 案件全生命周期 + 开庭管理 + 文档库 |
+| [imchongliu/law-firm-worklog](https://github.com/imchongliu/law-firm-worklog) | 🧩Skill | 2 | ✅ | 💎律所工时月报生成（任务→Excel/CSV，刘冲律师） |
+| [brucecbi/directory-index](https://github.com/brucecbi/directory-index) | 🧩Skill | 1 | ✅ | 本地目录索引器（案卷目录→Markdown） |
 | [TracyWang95/awesome-law-firm-design-md](https://github.com/TracyWang95/awesome-law-firm-design-md) | 📚清单 | 4 | ❌ | 律所 DESIGN.md 合集（律所设计规范） |
 | [lawflow-boop/LawLink](https://github.com/lawflow-boop/LawLink) | 🛠️平台 | 3 | ✅ | 💎律师用 AI 自建的中小律所 OA / 案件管理 |
 
@@ -273,7 +283,7 @@
 
 ## 4.2 PPT · 演示
 
-`🛠️/🧩`：[slidevjs/slidev](https://github.com/slidevjs/slidev)(47024·MD 演示) · [hakimel/reveal.js](https://github.com/hakimel/reveal.js)(71631·HTML 演示) · [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist)(9033·⚠️·在线 PPT 编辑) · [presenton/presenton](https://github.com/presenton/presenton)(7980·AI 生成演示) · [gitbrent/PptxGenJS](https://github.com/gitbrent/PptxGenJS)(5555·JS 生成 PPTX) · [icip-cas/PPTAgent](https://github.com/icip-cas/PPTAgent)(4602·Agent 化 PPT) · [marp-team/marp-cli](https://github.com/marp-team/marp-cli)(3609·MD→PPTX) · [scanny/python-pptx](https://github.com/scanny/python-pptx)(3407·Python 生成 PPTX) · [GongRzhe/Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server)(1766·🔌MCP·🗄️已归档但可用)
+`🛠️/🧩`：[slidevjs/slidev](https://github.com/slidevjs/slidev)(47024·MD 演示) · [hakimel/reveal.js](https://github.com/hakimel/reveal.js)(71631·HTML 演示) · [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist)(9033·⚠️·在线 PPT 编辑) · [presenton/presenton](https://github.com/presenton/presenton)(7980·AI 生成演示) · [gitbrent/PptxGenJS](https://github.com/gitbrent/PptxGenJS)(5555·JS 生成 PPTX) · [icip-cas/PPTAgent](https://github.com/icip-cas/PPTAgent)(4602·Agent 化 PPT) · [marp-team/marp-cli](https://github.com/marp-team/marp-cli)(3609·MD→PPTX) · [scanny/python-pptx](https://github.com/scanny/python-pptx)(3407·Python 生成 PPTX) · [GongRzhe/Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server)(1766·🔌MCP·🗄️已归档但可用) · [SimbaCD/html-slides-studio](https://github.com/SimbaCD/html-slides-studio)(1·✅·HTML 幻灯片)
 
 ## 4.3 配图 · 插画 · 图标 · 设计
 
@@ -311,13 +321,13 @@
 
 ## 5.2 提示词 · Skill 编写
 
-`📚`：[f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)(163406) · [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)(75371) · [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)(63570) · [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)(60575·中文) · [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)(36212·官方互动教程) · [anthropics/courses](https://github.com/anthropics/courses)(21752·官方课程) · [langgptai/wonderful-prompts](https://github.com/langgptai/wonderful-prompts)(6060·中文)
+`📚`：[f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)(163406) · [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)(75371) · [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)(63570) · [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)(60575·中文) · [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)(36212·官方互动教程) · [anthropics/courses](https://github.com/anthropics/courses)(21752·官方课程) · [langgptai/wonderful-prompts](https://github.com/langgptai/wonderful-prompts)(6060·中文) · [anthropics/skills](https://github.com/anthropics/skills)(147641·官方 Agent Skills：docx/pdf/pptx/xlsx/skill-creator)
 
 ## 5.3 通用 Skill 合集
 
 > 非法律专用，但能挑出合规/财务/办公的子集给律师用。
 
-`🏛️`：[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)(17383·330+ skills 含 compliance/finance) · [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh)(14142·211 中文专家角色) · [laolaoshiren/claude-code-skills-zh](https://github.com/laolaoshiren/claude-code-skills-zh)(287·中文 Claude skills 100+)
+`🏛️`：[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)(17383·330+ skills 含 compliance/finance) · [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh)(14142·211 中文专家角色) · [laolaoshiren/claude-code-skills-zh](https://github.com/laolaoshiren/claude-code-skills-zh)(287·中文 Claude skills 100+) · [MarvinLann/rightclick-creator](https://github.com/MarvinLann/rightclick-creator)(4·macOS Finder 右键神器) · [cyontheway/mac-clipboard-to-md](https://github.com/cyontheway/mac-clipboard-to-md)(0·剪贴板转 MD)
 
 ## 5.4 中文 LLM 入门 · AI 导航
 
@@ -335,7 +345,7 @@
 
 ## 6.2 平台
 
-- **法律元力 Yuanli Vault**（华宇元典）→ https://yuanli.ailaw.cn —— 法律 skill 聚合平台（应用商店式，收 Anthropic 官方 + 律师博主的 skill，一键下载、龙虾可装）。
+- **法律元力 Yuanli Vault**（华宇元典）→ https://yuanli.ailaw.cn —— 法律 skill 聚合平台（应用商店式，共 58 个 skill）。其中**有公开 GitHub 源仓的已收进本仓各区**（元典官方套件、刘冲/杜思敏/积成等律师的 skill）；部分平台独占（无公开 GitHub），需去平台下载。
 
 ## 6.3 微信公众号长尾源
 
@@ -378,4 +388,4 @@
 
 ---
 
-*快照 2026-06-07 · 190 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-06-07 · 204 个条目经 `gh api` 实测（404=0）。*

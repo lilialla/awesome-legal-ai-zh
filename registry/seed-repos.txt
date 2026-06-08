@@ -191,3 +191,17 @@ microsoft/markitdown	tech-foundation
 infiniflow/ragflow	tech-foundation
 Mintplex-Labs/anything-llm	tech-foundation
 thunlp/LegalPapers	awesome
+yuandian-ailaw/Agent-for-legal-cn	skill-suite
+anthropics/skills	tech-foundation
+malnlda/legal-due-diligence	corp-finance-ma-dd
+malnlda/yd-enterprise-info	enterprise-check
+imchongliu/foreign-law-research	cross-border-arbitration
+imchongliu/law-firm-worklog	law-firm-mgmt
+SimbaCD/legal-period-manager-skills	criminal-admin-exec
+SimbaCD/html-slides-studio	ppt-assets
+MarvinLann/rightclick-creator	tech-foundation
+MarvinLann/contract-cleaner	contract-doc-ip
+youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp	data-compliance
+brucecbi/directory-index	law-firm-mgmt
+cyontheway/mac-clipboard-to-md	tech-foundation
+TracyWang95/DataInfra-Agentic-Contract-Filler-Skill	contract-doc-ip
