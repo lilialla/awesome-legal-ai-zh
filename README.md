@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-229_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-230_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--11-b5462f)
@@ -171,7 +171,7 @@
 | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything) | 🧩Skill | 600 | ❌ | 💎🔒律师做的「脱敏一切」（本地 LLM 脱敏） |
 | [ethyca/fides](https://github.com/ethyca/fides) | 🛠️平台 | 461 | ✅ | GDPR/CCPA/LGPD 数据主体请求(DSAR)编排 |
 | [philterd/phileas](https://github.com/philterd/phileas) | 🛠️工具 | 98 | ✅ | PII/PHI 去标识（HIPAA/GDPR/CCPA） |
-| [youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp](https://github.com/youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp) | 🧩Skill | 10 | ⚠️ | 中文隐私协议自助生成器（数据安全法体系，最小合规版） |
+| [youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp](https://github.com/youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp) | 🧩Skill | 10 | ⚠️ | 💎隐私协议 MVP 生成器（面向 OPC/founder，事实采集→合规校验→生成复查；于泽辉律师·有点智能事务所，已预告 v2/v3） |
 | [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | 🧩Skill | 0 | ✅ | 💎艾塔/徐莲律师·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则 |
 
 ## 1.8 劳动 · 家事 · 个人 C 端
@@ -237,6 +237,7 @@
 | [HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) | 📊评测 | 591 | ❌ | 法律 LLM 评测基准（斯坦福 HazyResearch） |
 | [harveyai/biglaw-bench](https://github.com/harveyai/biglaw-bench) | 📊评测 | 160 | ❌ | 💎Harvey AI 官方 BigLaw Bench：律所级真实法律任务评测基准（无明确协议，仅参考/引用） |
 | [open-compass/LawBench](https://github.com/open-compass/LawBench) | 📊评测 | 432 | ✅ | 💎中文法律能力评测基准（司法部系+多机构，引用最广） |
+| [SKYLENAGE-AI/PLawBench](https://github.com/SKYLENAGE-AI/PLawBench) | 📊评测 | 23 | ❌ | 💎法律实务评测基准（Qwen×阿里AIData×晓天衡宇·13 场景 850 题 12500 条 rubric，模拟真实咨询而非考题） |
 | [thunlp/LegalPLMs](https://github.com/thunlp/LegalPLMs) | 🧠模型 | 194 | ❌ | 清华 Lawformer 等长文书法律预训练模型 |
 | [THUIR/LeCaRDv2](https://github.com/THUIR/LeCaRDv2) | 📊数据 | 89 | ❌ | 清华大规模中文法律案例检索数据集 v2 |
 | [neelguha/legal-ml-datasets](https://github.com/neelguha/legal-ml-datasets) | 📊数据 | 437 | ❌ | 法律 ML 数据集合集 |
@@ -381,6 +382,7 @@
 | LLMQuant | 金融/投融资/证券 | 华尔街金融 Skills 库（[已开源](https://github.com/LLMQuant/skills)） |
 | 律锥·legalskill（孙律师） | skill 社区 | legalskill org |
 | 那一片数据星辰 | 数据合规/隐私 | 隐私协议生成器 |
+| 有点智能事务所（于泽辉律师·北京星也） | AI 合规/数据合规 | 隐私协议 MVP 生成器（[已开源](https://github.com/youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp)，预告 v2 深度版/v3 持续扩充） |
 | 不允法典 | 民法 | 请求权基础 Skill |
 | 智法AI · 策略律师 · 知识产权与竞争法 | 综合/竞争法 | （多在公众号，持续跟进） |
 
