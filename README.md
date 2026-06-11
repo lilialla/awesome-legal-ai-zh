@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-227_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-229_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--06--08-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--06--11-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -118,6 +118,7 @@
 | [lololo-xiao/MultiJustice-MPMCP](https://github.com/lololo-xiao/MultiJustice-MPMCP) | 📊数据 | 5 | ✅ | 💎多被告多罪名判决预测数据集 |
 | [SimbaCD/legal-period-manager-skills](https://github.com/SimbaCD/legal-period-manager-skills) | 🧩Skill | 8 | ✅ | 💎杜思敏律师·诉讼/劳动仲裁/**执行**/待办 期限管家 |
 | [xtgmf/minfadian](https://github.com/xtgmf/minfadian) | 🧩Skill | 0 | ✅ | 民法典 Skills（数字法务专家） |
+| [Youchu-lawhub/gutachten-civil-case](https://github.com/Youchu-lawhub/gutachten-civil-case) | 🧩Skill | 0 | ❌ | 💎民法典请求权基础·德国鉴定式案例研习报告（留空白能力槽接自配 MCP/知识库，游初） |
 | [CSlawyer1985/case-type-guide](https://github.com/CSlawyer1985/case-type-guide) | 🧩Skill | 13 | ❌ | 💎类案办案要件指南（案件类型识别+要件式清单） |
 
 ## 1.5 涉外 · 国际仲裁
@@ -270,6 +271,7 @@
 | [brucecbi/directory-index](https://github.com/brucecbi/directory-index) | 🧩Skill | 1 | ✅ | 本地目录索引器（案卷目录→Markdown） |
 | [TracyWang95/awesome-law-firm-design-md](https://github.com/TracyWang95/awesome-law-firm-design-md) | 📚清单 | 4 | ❌ | 律所 DESIGN.md 合集（律所设计规范） |
 | [lawflow-boop/LawLink](https://github.com/lawflow-boop/LawLink) | 🛠️平台 | 3 | ✅ | 💎律师用 AI 自建的中小律所 OA / 案件管理 |
+| [leo123-tto/case-board](https://github.com/leo123-tto/case-board) | 🛠️工具 | 4 | ❌ | 💎律师个人案件可视化看板（macOS 桌面端，Tauri+React；PolyForm 非商业免费） |
 
 > 小型管理项目还有 `sochetlaw/legalninja`(计费+CRM)、`Oluwablin/law-crm`、`derekgan08/CaseAce`，按需取用。
 

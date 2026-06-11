@@ -228,3 +228,5 @@ wangchangwei/arb-skill	labor-family-personal
 imchongliu/lpm-skills-zh	law-firm-mgmt
 handsomestWei/red-seal-ocr	tech-foundation
 cyontheway/word-replacer	data-compliance
+leo123-tto/case-board	law-firm-mgmt
+Youchu-lawhub/gutachten-civil-case	criminal-admin-exec
