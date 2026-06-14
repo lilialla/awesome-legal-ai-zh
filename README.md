@@ -101,7 +101,7 @@
 | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 🧩Skill | 3689 | ✅ | 💎软件著作权申请材料生成 |
 | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 🧩Skill | 2325 | ✅ | 💎专利技术交底书（含🔒脱敏 + 国知局查新） |
 | [cat-xierluo/trademark-assistant.skill](https://github.com/cat-xierluo/trademark-assistant.skill) | 🧩Skill | 1 | ❌ | 商标申请类别规划与可注册性初筛 |
-| [ettajingruyang/PRC-merger-control-assessment](https://github.com/ettajingruyang/PRC-merger-control-assessment) | 🧩Skill | 0 | ❌ | 💎**反垄断/竞争法**：经营者集中申报评估（艾塔/徐莲律师） |
+| [ettajingruyang/PRC-merger-control-assessment](https://github.com/ettajingruyang/PRC-merger-control-assessment) | 🧩Skill | 0 | ❌ | 💎**反垄断/竞争法**：经营者集中申报评估（艾塔法律AI实验室·Etta/Jingru Yang） |
 | [cat-xierluo/code2patent.skill](https://github.com/cat-xierluo/code2patent.skill) | 🧩Skill | 1 | ⚠️ | 代码仓库转发明专利交底材料 |
 | [cat-xierluo/patent-analysis.skill](https://github.com/cat-xierluo/patent-analysis.skill) | 🧩Skill | 2 | ⚠️ | 专利侵权评估/权利要求比对（7 场景） |
 | [CNIPA/PatentDatabases](https://github.com/CNIPA/PatentDatabases) | 📚清单 | 396 | ⚠️ | 个人整理的全球专利数据库 URL 清单（账户名 CNIPA，非官方机构） |
@@ -173,7 +173,7 @@
 | [ethyca/fides](https://github.com/ethyca/fides) | 🛠️平台 | 461 | ✅ | GDPR/CCPA/LGPD 数据主体请求(DSAR)编排 |
 | [philterd/phileas](https://github.com/philterd/phileas) | 🛠️工具 | 98 | ✅ | PII/PHI 去标识（HIPAA/GDPR/CCPA） |
 | [youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp](https://github.com/youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp) | 🧩Skill | 10 | ⚠️ | 💎隐私协议 MVP 生成器（面向 OPC/founder，事实采集→合规校验→生成复查；于泽辉律师·有点智能事务所，已预告 v2/v3） |
-| [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | 🧩Skill | 0 | ✅ | 💎艾塔/徐莲律师·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则 |
+| [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | 🧩Skill | 0 | ✅ | 💎艾塔法律AI实验室·徐莲（LianXU）·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则 |
 
 ## 1.8 劳动 · 家事 · 个人 C 端
 
@@ -378,7 +378,7 @@
 
 | 公众号 / 社区 | 方向 | 代表产物 |
 |---|---|---|
-| 艾塔法律AI实验室（徐莲律师） | 🔒数据合规/出海/竞争法/投融资 | 出海 DPA、经营者集中申报、VIE 协议生成 Skill |
+| 艾塔法律AI实验室 EttaLaw（Etta/Jingru Yang + 徐莲） | 🔒数据合规/出海/竞争法/投融资/担保 | 出海 DPA、经营者集中申报（已开源）；保证合同审阅、VIE 协议生成（微信群独家发放） |
 | 律见法度 | 尽调 | 同花顺快查 MCP（一句话企业尽调） |
 | LLMQuant | 金融/投融资/证券 | 华尔街金融 Skills 库（[已开源](https://github.com/LLMQuant/skills)） |
 | 律锥·legalskill（孙律师） | skill 社区 | legalskill org |
