@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-230_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-231_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--06--11-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--06--14-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -154,6 +154,7 @@
 | [LLMQuant/skills](https://github.com/LLMQuant/skills) | 🧩Skill | 84 | ✅ | 华尔街金融投资 Skills 库（财报/估值/监管） |
 | [Azure-Samples/ally-legal-assistant](https://github.com/Azure-Samples/ally-legal-assistant) | 🛠️工具 | 77 | ❌ | 合同分析/自动批注 Word 插件 |
 | [zoharbabin/due-diligence-agents](https://github.com/zoharbabin/due-diligence-agents) | 🧩Agent | 38 | ✅ | 💎M&A 尽调 13 agent（读数据室、交叉引证、定位页码） |
+| [skala-io/legal-skills](https://github.com/skala-io/legal-skills) | 🧩Skill | 37 | ✅ | 💎Skala（skala.io）创业法 11 skill：SAFE/SAFT/term sheet 审查·Reg S 离岸发行·startup 尽调·辖区选择（Delaware/Cayman/BVI/新加坡） |
 | [sboghossian/master-claude-for-legal](https://github.com/sboghossian/master-claude-for-legal) | 🧩Skill | 35 | ⚠️ | M&A 尽调 tabular-review + 多方版本 diff |
 | [chaunsin/go-qcc-sdk](https://github.com/chaunsin/go-qcc-sdk) | 🛠️工具 | 1 | ✅ | 企查查 SDK（失信/被执行核查） |
 | [malnlda/legal-due-diligence](https://github.com/malnlda/legal-due-diligence) | 🧩Skill | 1 | ❌ | 💎中国法律尽职调查 skill（莫成哲） |
