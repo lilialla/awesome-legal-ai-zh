@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-231_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-232_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--14-b5462f)
@@ -120,6 +120,7 @@
 | [xtgmf/minfadian](https://github.com/xtgmf/minfadian) | 🧩Skill | 0 | ✅ | 民法典 Skills（数字法务专家） |
 | [Youchu-lawhub/gutachten-civil-case](https://github.com/Youchu-lawhub/gutachten-civil-case) | 🧩Skill | 0 | ❌ | 💎民法典请求权基础·德国鉴定式案例研习报告（留空白能力槽接自配 MCP/知识库，游初） |
 | [CSlawyer1985/case-type-guide](https://github.com/CSlawyer1985/case-type-guide) | 🧩Skill | 13 | ❌ | 💎类案办案要件指南（案件类型识别+要件式清单） |
+| [yxk-lawyer/litigation-prep-skill-cn](https://github.com/yxk-lawyer/litigation-prep-skill-cn) | 🧩Skill | 3 | ❌ | 💎CorpClaim CN·公司民商事诉讼指导：案由→请求权基础→构成要件→证据清单→诉讼策略（执业律师，无 license） |
 
 ## 1.5 涉外 · 国际仲裁
 

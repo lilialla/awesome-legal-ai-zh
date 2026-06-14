@@ -8,6 +8,7 @@
 ## 2026-06-14
 
 ### 新增
+- **CorpClaim CN**（+1 仓 → **232**）：`yxk-lawyer/litigation-prep-skill-cn`（★3，无 license → 商用❌）——执业律师做的公司民商事诉讼指导 skill，请求权基础理论 + 民事案由规定，输出「案由→请求权基础→构成要件→证据清单→诉讼策略」→ §1.4。
 - **公众号线索深挖**（+1 仓 → **231**）：追查艾塔「保证合同审阅 Skill」公众号文章时，确认该 skill 未上 GitHub（仅微信群发放），但顺藤挖到 `skala-io/legal-skills`（★37，Apache-2.0）——Skala（skala.io）律师团队的英文创业法 11 skill：SAFE/SAFT/term sheet 审查、Reg S 离岸发行、startup 尽调、董事会决议、网红/承包商协议、辖区选择、开源 license → §1.6。填「涉外/美国创业融资法」空白。
 - 旁证：艾塔真身 = Jingru Yang（`ettajingruyang`），`LianXU-321`（徐莲）为合作者；技术合作者 `xhqing`（许华清）。保证合同 / VIE skill 走微信群独家，GitHub 无源仓。
 
