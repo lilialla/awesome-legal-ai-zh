@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-232_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-236_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--06--14-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--06--22-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -73,6 +73,9 @@
 | [MAXXXXXLI/workbuddy-cn-legal-skills](https://github.com/MAXXXXXLI/workbuddy-cn-legal-skills) | 🏛️套件 | 1 | ✅ | WorkBuddy 中国法适配（合同/数据/劳动/IP/争议） |
 | [goacheng001/legal-skills](https://github.com/goacheng001/legal-skills) | 🏛️套件 | 1 | ✅ | 💎27 个 skill：民诉九步法 + 刑辩 + 文书自动化 |
 | [choosemoon/legal-skills](https://github.com/choosemoon/legal-skills) | 🏛️套件 | 3 | ✅ | 💎四大法学名家 832 篇论文蒸馏的法学 AI 技能库 |
+| [zeweihan/aiworkdeck](https://github.com/zeweihan/aiworkdeck) | 🏛️平台 | 54 | ⚠️ | 💎AI 原生「律师版 VS Code」工作台：案件/文件树 + Agent + 插件 + WPS 在线编辑 + OCR + 证据链（AGPLv3 可私有化） |
+| [sunyifeisb-art/legalwork](https://github.com/sunyifeisb-art/legalwork) | 🏛️套件 | 6 | ❌ | LegalWork 本地优先法律 AI 工作台：70+ 法律技能 + 智能 OCR + 文件脱敏 + 案件管理（bytelegal.cn） |
+| [abaiar/-LexAI](https://github.com/abaiar/-LexAI) | 🛠️平台 | 19 | ❌ | 小理智法 AI 法律咨询平台：咨询/合同审查/起草/对比/文书解读，LangChain Agent + 得理法律数据库检索 |
 
 ## 1.2 合同 · 交易 · 文书
 
@@ -267,6 +270,7 @@
 
 | 项目 | 类型 | ★ | 商用 | 干嘛的 |
 |---|--|--|:--:|--|
+| [Lawyer-ray/FachuanHybridSystem](https://github.com/Lawyer-ray/FachuanHybridSystem) | 🛠️平台 | 191 | ⚠️ | ⭐💎一线律师自研「法穿 AI Copilot」：法院短信自动解析归档 + 一次生成全套委托材料 + OA/一张网立案 + 本地知识库，Django 6 + React 19 + MCP（127 模型/483 API/35 模块；Elastic 2.0：自用可商用，禁转售为托管服务） |
 | [jlawyerorg/j-lawyer-org](https://github.com/jlawyerorg/j-lawyer-org) | 🛠️平台 | 80 | ⚠️ | 德国开源律所管理系统（案件/文档/归档） |
 | [createrivabu/Iuris-Soft](https://github.com/createrivabu/Iuris-Soft) | 🛠️平台 | 19 | ❌ | 案件全生命周期 + 开庭管理 + 文档库 |
 | [imchongliu/law-firm-worklog](https://github.com/imchongliu/law-firm-worklog) | 🧩Skill | 2 | ✅ | 💎律所工时月报生成（任务→Excel/CSV，刘冲律师） |
@@ -274,7 +278,7 @@
 | [brucecbi/directory-index](https://github.com/brucecbi/directory-index) | 🧩Skill | 1 | ✅ | 本地目录索引器（案卷目录→Markdown） |
 | [TracyWang95/awesome-law-firm-design-md](https://github.com/TracyWang95/awesome-law-firm-design-md) | 📚清单 | 4 | ❌ | 律所 DESIGN.md 合集（律所设计规范） |
 | [lawflow-boop/LawLink](https://github.com/lawflow-boop/LawLink) | 🛠️平台 | 3 | ✅ | 💎律师用 AI 自建的中小律所 OA / 案件管理 |
-| [leo123-tto/case-board](https://github.com/leo123-tto/case-board) | 🛠️工具 | 4 | ❌ | 💎律师个人案件可视化看板（macOS 桌面端，Tauri+React；PolyForm 非商业免费） |
+| [leo123-tto/case-board](https://github.com/leo123-tto/case-board) | 🛠️工具 | 13 | ❌ | 💎律师个人案件可视化看板（macOS 桌面端，Tauri+React；已正式公开源码 v0.3.9，可丢给 AI 自行编译 Windows 版；PolyForm 非商业免费） |
 
 > 小型管理项目还有 `sochetlaw/legalninja`(计费+CRM)、`Oluwablin/law-crm`、`derekgan08/CaseAce`，按需取用。
 

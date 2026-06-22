@@ -6,6 +6,9 @@ zubair-trabzada/ai-legal-claude	skill-suite
 CSlawyer1985/claude-for-legal-ZH	skill-suite
 zhou210712/claude-for-legal-ZH	skill-suite
 cat-xierluo/legal-skills	skill-suite
+zeweihan/aiworkdeck	skill-suite
+sunyifeisb-art/legalwork	skill-suite
+abaiar/-LexAI	skill-suite
 evolsb/claude-legal-skill	skill-suite
 THUYRan/Legal-Skills-Chinese	skill-suite
 cat-xierluo/SuitAgent	skill-suite
@@ -229,6 +232,7 @@ imchongliu/lpm-skills-zh	law-firm-mgmt
 handsomestWei/red-seal-ocr	tech-foundation
 cyontheway/word-replacer	data-compliance
 leo123-tto/case-board	law-firm-mgmt
+Lawyer-ray/FachuanHybridSystem	law-firm-mgmt
 Youchu-lawhub/gutachten-civil-case	criminal-admin-exec
 SKYLENAGE-AI/PLawBench	dataset-infra
 skala-io/legal-skills	corp-finance-ma-dd

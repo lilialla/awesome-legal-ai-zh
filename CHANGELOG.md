@@ -5,6 +5,21 @@
 
 ---
 
+## 2026-06-22
+
+### 新增
+- **法穿 AI Copilot**（+1 仓 → **233**）：`Lawyer-ray/FachuanHybridSystem`（★191，Elastic License 2.0 → 商用⚠️：自用可商用，禁转售为托管服务）——一线执业律师自研的律所一体化系统，由司法局比赛作品演化而来。核心：法院短信自动解析/下载/归档（6 种送达平台，飞书/Telegram/企微通知）+ 一次生成全套委托材料（合同/授权委托书/法代身份证明，结构化模型按规则生成，无需人工再改）+ OA 立案与一张网立案统一入口 + 本地知识库。Django 6 + React 19 + MCP，127 模型 / 483 API / 35 模块。→ §3.1
+  - 线索来源：抓取「不折腾的刘律」案件看板开源公告（`mp.weixin.qq.com/s/GeY_ZS-uuwnqeMP3Yp5Ldw`），文末致敬法穿项目顺藤收录。
+- **多平台扫描收割**（+3 仓 → **236**）：扫 GitHub 近期更新 + 公众号/小红书/知乎/V2EX 线索，去重核验后新增——
+  - `zeweihan/aiworkdeck`（★54，AGPL-3.0 → 商用⚠️）：AI 原生「律师版 VS Code」工作台，案件/文件树 + Agent + 插件 + WPS 在线编辑 + OCR + 证据链，可私有化 → §1.1。
+  - `sunyifeisb-art/legalwork`（★6，无 license → 商用❌）：LegalWork 本地优先法律 AI 工作台，70+ 技能 + OCR + 脱敏 + 案件管理（bytelegal.cn）→ §1.1。
+  - `abaiar/-LexAI`（★19，无 license → 商用❌）：小理智法 AI 法律咨询平台，LangChain Agent + 得理法律数据库检索 → §1.1。
+- **扫到但暂未收录**（待维护者定夺）：`qingyun1022/smart_contract_reviewer`（★80 但停更 >1 年、无 license）、`Materialism-1/Contract-Review-Judgment-Summary-prompt`（★45 提示词集，2024 停更）、知乎 ContractGuard（仓库地址待查）、以及一批 GitHub 0–2★ 新 demo（学生/课程项目为主）。小红书对搜索引擎封闭、公众号正文 GitHub 链接不被索引，两渠道 WebSearch 基本挖不动。
+
+### 修正
+- §3.1 `leo123-tto/case-board` star 4 → 13，描述补「已正式公开源码 v0.3.9，可丢给 AI 自行编译 Windows 版」（同篇公告确认正式开源）。
+- 公告另提及「鲸鱼兄弟 CodeWhale」（`Hmbown/CodeWhale`，通用 Agent harness ★38k）——属通用开发工具，非法律垂直项目，按收录口径不录。
+
 ## 2026-06-14
 
 ### 新增
