@@ -26,6 +26,7 @@ Daknniel-0881/qulv-china-legal-counsel-skill	contract-doc-ip
 ettajingruyang/PRC-merger-control-assessment	antitrust-competition
 lilialla/legal-document-format-skill	contract-doc-ip
 lilialla/request-right-skill-reference	contract-doc-ip
+lilialla/equity-transfer-review-skill	corp-finance-ma-dd
 microsoft/presidio	data-compliance
 LianXU-321/china-outbound-service-dpa-bilingual	data-compliance
 allenymt/PrivacySentry	data-compliance

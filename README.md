@@ -8,16 +8,16 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-236_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-237_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--06--22-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--06--24-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
 办合同、打官司、做尽调、查企业、写文书、运营公众号……每个环节有哪些现成开源 Skill / 工具，这里都帮你找好、标好、验好。
 
-🧑‍⚖️ **本仓维护者也开源了**：[文格 · 法律文书模板执行](https://github.com/lilialla/legal-document-format-skill) · [请求权基础分析](https://github.com/lilialla/request-right-skill-reference)（见 [1.2](#12-合同--交易--文书)）
+🧑‍⚖️ **本仓维护者也开源了**：[文格 · 法律文书模板执行](https://github.com/lilialla/legal-document-format-skill) · [请求权基础分析](https://github.com/lilialla/request-right-skill-reference) · [股权转让审核](https://github.com/lilialla/equity-transfer-review-skill)（见 [1.2](#12-合同--交易--文书)、[1.6](#16-公司--投融资--并购--尽调--证券)）
 
 </div>
 
@@ -160,6 +160,7 @@
 | [zoharbabin/due-diligence-agents](https://github.com/zoharbabin/due-diligence-agents) | 🧩Agent | 38 | ✅ | 💎M&A 尽调 13 agent（读数据室、交叉引证、定位页码） |
 | [skala-io/legal-skills](https://github.com/skala-io/legal-skills) | 🧩Skill | 37 | ✅ | 💎Skala（skala.io）创业法 11 skill：SAFE/SAFT/term sheet 审查·Reg S 离岸发行·startup 尽调·辖区选择（Delaware/Cayman/BVI/新加坡） |
 | [sboghossian/master-claude-for-legal](https://github.com/sboghossian/master-claude-for-legal) | 🧩Skill | 35 | ⚠️ | M&A 尽调 tabular-review + 多方版本 diff |
+| [lilialla/equity-transfer-review-skill](https://github.com/lilialla/equity-transfer-review-skill) | 🧩Skill | 0 | ✅ | 🧑‍⚖️**维护者出品**·股权转让审查：协议条款 + 尽调红旗 + 交割条件，覆盖权属、转让限制、监管核验、证据引用 |
 | [chaunsin/go-qcc-sdk](https://github.com/chaunsin/go-qcc-sdk) | 🛠️工具 | 1 | ✅ | 企查查 SDK（失信/被执行核查） |
 | [malnlda/legal-due-diligence](https://github.com/malnlda/legal-due-diligence) | 🧩Skill | 1 | ❌ | 💎中国法律尽职调查 skill（莫成哲） |
 
