@@ -160,7 +160,7 @@
 | [zoharbabin/due-diligence-agents](https://github.com/zoharbabin/due-diligence-agents) | 🧩Agent | 38 | ✅ | 💎M&A 尽调 13 agent（读数据室、交叉引证、定位页码） |
 | [skala-io/legal-skills](https://github.com/skala-io/legal-skills) | 🧩Skill | 37 | ✅ | 💎Skala（skala.io）创业法 11 skill：SAFE/SAFT/term sheet 审查·Reg S 离岸发行·startup 尽调·辖区选择（Delaware/Cayman/BVI/新加坡） |
 | [sboghossian/master-claude-for-legal](https://github.com/sboghossian/master-claude-for-legal) | 🧩Skill | 35 | ⚠️ | M&A 尽调 tabular-review + 多方版本 diff |
-| [lilialla/equity-transfer-review-skill](https://github.com/lilialla/equity-transfer-review-skill) | 🧩Skill | 0 | ✅ | 🧑‍⚖️**维护者出品**·股权转让审查：协议条款 + 尽调红旗 + 交割条件，覆盖权属、转让限制、监管核验、证据引用 |
+| [lilialla/equity-transfer-review-skill](https://github.com/lilialla/equity-transfer-review-skill) | 🧩Skill | 0 | ✅ | 🧑‍⚖️**维护者出品**·股权/股份/持股平台份额转让审查：交易类型分流 + 出资责任 + 税务/外汇 + 监管闸门 + 交割条件 |
 | [chaunsin/go-qcc-sdk](https://github.com/chaunsin/go-qcc-sdk) | 🛠️工具 | 1 | ✅ | 企查查 SDK（失信/被执行核查） |
 | [malnlda/legal-due-diligence](https://github.com/malnlda/legal-due-diligence) | 🧩Skill | 1 | ❌ | 💎中国法律尽职调查 skill（莫成哲） |
 
