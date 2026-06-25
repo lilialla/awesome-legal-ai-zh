@@ -6,9 +6,11 @@ zubair-trabzada/ai-legal-claude	skill-suite
 CSlawyer1985/claude-for-legal-ZH	skill-suite
 zhou210712/claude-for-legal-ZH	skill-suite
 cat-xierluo/legal-skills	skill-suite
+pa1nrui1/legal-skills	skill-suite
 zeweihan/aiworkdeck	skill-suite
 sunyifeisb-art/legalwork	skill-suite
 abaiar/-LexAI	skill-suite
+Hill-1024/Lawyance	skill-suite
 evolsb/claude-legal-skill	skill-suite
 THUYRan/Legal-Skills-Chinese	skill-suite
 cat-xierluo/SuitAgent	skill-suite
