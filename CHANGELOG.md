@@ -17,6 +17,10 @@
   - `yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus`（★0，无 license → 商用❌）：电商信息 AI 校对 Plus，辅助法务/合规核对网店页面与权威资料差异 → §1.7。
   - `yuhudie598-dev/workbuddy-calendar`（★1，无 license → 商用❌）：WorkBuddy 侧边栏日历，适合法律日程/开庭/截止日期管理 → §3.1。
   - `cyontheway/pdf-watermark-tool`（★0，MIT → 商用✅）：离线 PDF 水印工具，纯前端本地处理、不上传文件；作为法律文档处理辅助工具低位收录 → §5.1。
+- **OCR / 文档解析底座补录**（+3 仓 → **250**）：按律师案卷、扫描件、批量 PDF 处理场景补入通用 OCR 基础设施：
+  - `PaddlePaddle/PaddleOCR`（★83734，Apache-2.0 → 商用✅）：百度飞桨 OCR 主项目，PP-OCR/PP-Structure/文档解析/表格与版面识别，覆盖 100+ 语言 → §5.1。
+  - `baidu/Unlimited-OCR`（★6667，MIT → 商用✅）：百度最新开源长文档 one-shot OCR，面向 40+ 页连续解析，模型/代码/Hugging Face 同步公开 → §5.1。
+  - `deepseek-ai/DeepSeek-OCR`（★23379，MIT → 商用✅）：视觉文本压缩 OCR，作为长文档解析与小模型 OCR 方案的技术底座 → §5.1。
 
 ### 修正
 - **全量 GitHub 元数据回扫**：用 GitHub GraphQL/API 复核 registry 全部仓库，批量更新 README 所有表格与行内 star；同步修正 `gcheng001/legal-skills`、`f/prompts.chat`、`Open-Source-Legal/OpenContracts` 等重定向后的规范仓名。

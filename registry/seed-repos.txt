@@ -195,6 +195,9 @@ pengxiao-song/LaWGPT	llm
 FudanDISC/DISC-LawLLM	llm
 open-compass/LawBench	dataset-infra
 opendatalab/MinerU	tech-foundation
+PaddlePaddle/PaddleOCR	tech-foundation
+baidu/Unlimited-OCR	tech-foundation
+deepseek-ai/DeepSeek-OCR	tech-foundation
 microsoft/markitdown	tech-foundation
 infiniflow/ragflow	tech-foundation
 Mintplex-Labs/anything-llm	tech-foundation
