@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-246_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-247_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--25-b5462f)
@@ -346,7 +346,7 @@
 
 [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything)`🛠️`(21568·✅·港大 all-in-one RAG 框架)
 
-**文档解析 / OCR**（律师案卷/扫描件转文字）：[opendatalab/MinerU](https://github.com/opendatalab/MinerU)`🛠️`(68913·⚠️·PDF→Markdown/OCR，中文案卷首选) · [microsoft/markitdown](https://github.com/microsoft/markitdown)(158829·✅·各类文档→Markdown) · [handsomestWei/red-seal-ocr](https://github.com/handsomestWei/red-seal-ocr)(1·✅·🔒印章/红章文字识别) · [cyontheway/word-replacer](https://github.com/cyontheway/word-replacer)(0·✅·🔒Word 号码/字段批量脱敏替换)
+**文档解析 / OCR / PDF**（律师案卷/扫描件转文字）：[opendatalab/MinerU](https://github.com/opendatalab/MinerU)`🛠️`(68913·⚠️·PDF→Markdown/OCR，中文案卷首选) · [microsoft/markitdown](https://github.com/microsoft/markitdown)(158829·✅·各类文档→Markdown) · [handsomestWei/red-seal-ocr](https://github.com/handsomestWei/red-seal-ocr)(1·✅·🔒印章/红章文字识别) · [cyontheway/word-replacer](https://github.com/cyontheway/word-replacer)(0·✅·🔒Word 号码/字段批量脱敏替换) · [cyontheway/pdf-watermark-tool](https://github.com/cyontheway/pdf-watermark-tool)(0·✅·离线 PDF 水印，纯前端不上传)
 
 **自建本地知识库**（喂合同/判决书做私有问答）：[infiniflow/ragflow](https://github.com/infiniflow/ragflow)`🛠️`(83566·✅·深度文档理解 RAG) · [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)(62055·✅·开箱即用本地知识库)
 

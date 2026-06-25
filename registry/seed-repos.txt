@@ -214,6 +214,7 @@ yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofrea
 brucecbi/directory-index	law-firm-mgmt
 yuhudie598-dev/workbuddy-calendar	law-firm-mgmt
 cyontheway/mac-clipboard-to-md	tech-foundation
+cyontheway/pdf-watermark-tool	tech-foundation
 TracyWang95/DataInfra-Agentic-Contract-Filler-Skill	contract-doc-ip
 AndrewZhe/lawyer-llama	llm
 siat-nlp/HanFei	llm
