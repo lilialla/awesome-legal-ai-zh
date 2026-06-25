@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-250_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-261_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--25-b5462f)
@@ -344,11 +344,13 @@
 
 ## 5.1 RAG / 框架
 
-[HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything)`🛠️`(21568·✅·港大 all-in-one RAG 框架)
+**RAG / Agent 数据底座**：[HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything)`🛠️`(21568·✅·港大 all-in-one RAG 框架) · [Zleap-AI/SAG](https://github.com/Zleap-AI/SAG)(1606·✅·面向 Agent 的增量写入/多跳检索数据底座) · [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)(33391·✅·Vectorless reasoning-based RAG 文档索引) · [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R)(7894·✅·生产级 Agentic RAG / REST API)
 
 **文档解析 / OCR / PDF**（律师案卷/扫描件转文字）：[opendatalab/MinerU](https://github.com/opendatalab/MinerU)`🛠️`(68913·⚠️·PDF→Markdown/OCR，中文案卷首选) · [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)(83734·✅·PP-OCR/文档解析/表格与版面识别，100+ 语言) · [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR)(6667·✅·长文档 one-shot OCR，OmniDocBench SOTA，模型/代码已开源) · [deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR)(23379·✅·视觉文本压缩 OCR，长文档解析底座) · [microsoft/markitdown](https://github.com/microsoft/markitdown)(158829·✅·各类文档→Markdown) · [handsomestWei/red-seal-ocr](https://github.com/handsomestWei/red-seal-ocr)(1·✅·🔒印章/红章文字识别) · [cyontheway/word-replacer](https://github.com/cyontheway/word-replacer)(0·✅·🔒Word 号码/字段批量脱敏替换) · [cyontheway/pdf-watermark-tool](https://github.com/cyontheway/pdf-watermark-tool)(0·✅·离线 PDF 水印，纯前端不上传)
 
-**自建本地知识库**（喂合同/判决书做私有问答）：[infiniflow/ragflow](https://github.com/infiniflow/ragflow)`🛠️`(83566·✅·深度文档理解 RAG) · [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)(62055·✅·开箱即用本地知识库)
+**自建本地知识库 / 第二大脑**（喂合同/判决书做私有问答）：[infiniflow/ragflow](https://github.com/infiniflow/ragflow)`🛠️`(83566·✅·深度文档理解 RAG) · [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)(62055·✅·开箱即用本地知识库) · [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki)(12750·⚠️·本地文档自动维护互链 Wiki，GPLv3) · [SamurAIGPT/llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent)(3030·✅·Claude/Codex/Gemini 维护 Markdown Wiki 知识库) · [khoj-ai/khoj](https://github.com/khoj-ai/khoj)(35289·⚠️·自托管 AI second brain / 本地文档问答，AGPLv3)
+
+**GraphRAG / 知识图谱 / Agent 记忆**：[microsoft/graphrag](https://github.com/microsoft/graphrag)(33979·✅·微软模块化 GraphRAG) · [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)(36941·✅·轻量知识图谱 RAG) · [getzep/graphiti](https://github.com/getzep/graphiti)(27847·✅·实时知识图谱记忆，面向 AI Agent) · [mem0ai/mem0](https://github.com/mem0ai/mem0)(59393·✅·AI Agent 通用长期记忆层) · [neo4j/neo4j-graphrag-python](https://github.com/neo4j/neo4j-graphrag-python)(1196·✅·Neo4j Python GraphRAG SDK)
 
 ## 5.2 提示词 · Skill 编写
 

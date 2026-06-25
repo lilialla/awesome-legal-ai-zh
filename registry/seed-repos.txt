@@ -137,6 +137,9 @@ notofonts/noto-cjk	ppt-assets
 google/fonts	ppt-assets
 kevchentw/awesome-chinese-fonts	ppt-assets
 HKUDS/RAG-Anything	tech-foundation
+Zleap-AI/SAG	tech-foundation
+VectifyAI/PageIndex	tech-foundation
+SciPhi-AI/R2R	tech-foundation
 f/prompts.chat	tech-foundation
 PlexPt/awesome-chatgpt-prompts-zh	tech-foundation
 dair-ai/Prompt-Engineering-Guide	tech-foundation
@@ -201,6 +204,14 @@ deepseek-ai/DeepSeek-OCR	tech-foundation
 microsoft/markitdown	tech-foundation
 infiniflow/ragflow	tech-foundation
 Mintplex-Labs/anything-llm	tech-foundation
+nashsu/llm_wiki	tech-foundation
+SamurAIGPT/llm-wiki-agent	tech-foundation
+khoj-ai/khoj	tech-foundation
+microsoft/graphrag	tech-foundation
+HKUDS/LightRAG	tech-foundation
+getzep/graphiti	tech-foundation
+mem0ai/mem0	tech-foundation
+neo4j/neo4j-graphrag-python	tech-foundation
 thunlp/LegalPapers	awesome
 yuandian-ailaw/Agent-for-legal-cn	skill-suite
 anthropics/skills	tech-foundation

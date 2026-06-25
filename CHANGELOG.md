@@ -21,6 +21,11 @@
   - `PaddlePaddle/PaddleOCR`（★83734，Apache-2.0 → 商用✅）：百度飞桨 OCR 主项目，PP-OCR/PP-Structure/文档解析/表格与版面识别，覆盖 100+ 语言 → §5.1。
   - `baidu/Unlimited-OCR`（★6667，MIT → 商用✅）：百度最新开源长文档 one-shot OCR，面向 40+ 页连续解析，模型/代码/Hugging Face 同步公开 → §5.1。
   - `deepseek-ai/DeepSeek-OCR`（★23379，MIT → 商用✅）：视觉文本压缩 OCR，作为长文档解析与小模型 OCR 方案的技术底座 → §5.1。
+- **本地知识库 / GraphRAG / Agent 记忆补录**（+11 仓 → **261**）：按截图线索与 GitHub 搜索补入通用知识库底座，作为法律案卷、合同库、判例资料库的技术选型参考：
+  - 截图线索：`Zleap-AI/SAG`（★1606，MIT → 商用✅）、`VectifyAI/PageIndex`（★33391，MIT → 商用✅）、`nashsu/llm_wiki`（★12750，GPL-3.0 → 商用⚠️）。
+  - 本地/第二大脑：`SamurAIGPT/llm-wiki-agent`（★3030，MIT → 商用✅）、`khoj-ai/khoj`（★35289，AGPL-3.0 → 商用⚠️）。
+  - GraphRAG/记忆：`microsoft/graphrag`（★33979，MIT → 商用✅）、`HKUDS/LightRAG`（★36941，MIT → 商用✅）、`getzep/graphiti`（★27847，Apache-2.0 → 商用✅）、`mem0ai/mem0`（★59393，Apache-2.0 → 商用✅）、`neo4j/neo4j-graphrag-python`（★1196，Apache/Python license → 商用✅）。
+  - 生产级检索：`SciPhi-AI/R2R`（★7894，MIT → 商用✅）。
 
 ### 修正
 - **全量 GitHub 元数据回扫**：用 GitHub GraphQL/API 复核 registry 全部仓库，批量更新 README 所有表格与行内 star；同步修正 `gcheng001/legal-skills`、`f/prompts.chat`、`Open-Source-Legal/OpenContracts` 等重定向后的规范仓名。
