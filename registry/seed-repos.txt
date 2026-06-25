@@ -11,6 +11,7 @@ zeweihan/aiworkdeck	skill-suite
 sunyifeisb-art/legalwork	skill-suite
 abaiar/-LexAI	skill-suite
 Hill-1024/Lawyance	skill-suite
+leo123-tto/legal-ai	skill-suite
 evolsb/claude-legal-skill	skill-suite
 THUYRan/Legal-Skills-Chinese	skill-suite
 cat-xierluo/SuitAgent	skill-suite
@@ -79,7 +80,7 @@ CNIPA/PatentDatabases	awesome
 maastrichtlawtech/awesome-legal-nlp	awesome
 openlegaldata/awesome-legal-data	awesome
 Vaquill-AI/awesome-legaltech	awesome
-Open-Source-Legal/cite	intl-tools
+Open-Source-Legal/OpenContracts	intl-tools
 lawglance/lawglance	intl-tools
 LegalQuants/lq-ai	intl-tools
 lawflow-boop/LawLink	law-firm-mgmt
@@ -134,8 +135,9 @@ adobe-fonts/source-han-sans	ppt-assets
 adobe-fonts/source-han-serif	ppt-assets
 notofonts/noto-cjk	ppt-assets
 google/fonts	ppt-assets
+kevchentw/awesome-chinese-fonts	ppt-assets
 HKUDS/RAG-Anything	tech-foundation
-f/awesome-chatgpt-prompts	tech-foundation
+f/prompts.chat	tech-foundation
 PlexPt/awesome-chatgpt-prompts-zh	tech-foundation
 dair-ai/Prompt-Engineering-Guide	tech-foundation
 anthropics/prompt-eng-interactive-tutorial	tech-foundation
@@ -208,7 +210,9 @@ SimbaCD/html-slides-studio	ppt-assets
 MarvinLann/rightclick-creator	tech-foundation
 MarvinLann/contract-cleaner	contract-doc-ip
 youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp	data-compliance
+yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus	data-compliance
 brucecbi/directory-index	law-firm-mgmt
+yuhudie598-dev/workbuddy-calendar	law-firm-mgmt
 cyontheway/mac-clipboard-to-md	tech-foundation
 TracyWang95/DataInfra-Agentic-Contract-Filler-Skill	contract-doc-ip
 AndrewZhe/lawyer-llama	llm
@@ -217,10 +221,11 @@ davidpig/lychee_law	llm
 THUIR/LeCaRDv2	dataset-infra
 thunlp/LegalPLMs	llm
 malnlda/legal-research	retrieval-mcp
+hisnontright/jiandawang-jicui-consultation	retrieval-mcp
 billvsme/law_ai	retrieval-mcp
 liuhuanyong/CrimeKgAssitant	dataset-infra
 choosemoon/legal-skills	skill-suite
-goacheng001/legal-skills	skill-suite
+gcheng001/legal-skills	skill-suite
 MAXXXXXLI/workbuddy-cn-legal-skills	skill-suite
 cat-xierluo/opc-legal-counsel.skill	skill-suite
 evolsb/legal-redline-tools	contract-doc-ip
@@ -238,6 +243,7 @@ leo123-tto/case-board	law-firm-mgmt
 Lawyer-ray/FachuanHybridSystem	law-firm-mgmt
 Youchu-lawhub/gutachten-civil-case	criminal-admin-exec
 Youchu-lawhub/gutachten-criminal-case	criminal-admin-exec
+yuhudie598-dev/legal-case-analysis-plus	criminal-admin-exec
 SKYLENAGE-AI/PLawBench	dataset-infra
 skala-io/legal-skills	corp-finance-ma-dd
 yxk-lawyer/litigation-prep-skill-cn	criminal-admin-exec

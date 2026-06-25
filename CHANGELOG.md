@@ -10,8 +10,18 @@
 ### 新增
 - **潘睿律师 Legal Skills**（+1 仓 → **239**）：`pa1nrui1/legal-skills`（★19，MIT → 商用✅）——面向中国法律工作的 AI Agent Skills 集合，GitHub API 核验 59 个 `SKILL.md`，覆盖咨询、诉讼、刑辩、劳动争议、破产、合同、合规、法律检索与文书交付。→ §1.1
 - **Lawyance 中文法律 AI 助手原型**（+1 仓 → **240**）：`Hill-1024/Lawyance`（★1，AGPL-3.0 → 商用⚠️）——FastAPI + React/Vite 的中文法律 AI 应用原型，集成法条/案例检索、企业信息、PDF/Word 处理、对话记忆、模拟法庭和前端工作区。低位收录，不作重点推荐。→ §1.1
+- **法律元力（yuanli.ailaw.cn）全量复扫**（+5 仓 → **246**）：经公开 API 全量核验（65 skill / 13 工具包）与 GitHub API/仓库文件交叉核验，新增国内法律 AI / 法律 Skill / 律所工具：
+  - `leo123-tto/legal-ai`（★0，MIT → 商用✅）：刘成律师·本地法律知识库增强包，legal-kb + 元典检索 + MinerU OCR + ZIP 导入导出 → §1.1。
+  - `hisnontright/jiandawang-jicui-consultation`（★0，MIT → 商用✅）：检答网集萃第 1–140 批本地检索技能，面向检察业务/最高检答疑可溯源检索 → §2.1。
+  - `yuhudie598-dev/legal-case-analysis-plus`（★0，无 license → 商用❌）：龚家勇律师·案件分析报告（法律关系分析法 Plus），依赖华宇元典 MCP 检索法规/案例/法答网 → §1.4。
+  - `yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus`（★0，无 license → 商用❌）：电商信息 AI 校对 Plus，辅助法务/合规核对网店页面与权威资料差异 → §1.7。
+  - `yuhudie598-dev/workbuddy-calendar`（★1，无 license → 商用❌）：WorkBuddy 侧边栏日历，适合法律日程/开庭/截止日期管理 → §3.1。
+  - 扫到但暂缓：`cyontheway/pdf-watermark-tool`（MIT）是离线 PDF 水印工具，法律场景可用但非法律 AI / Skill 主线，本次不进主清单。
 
 ### 修正
+- **全量 GitHub 元数据回扫**：用 GitHub GraphQL/API 复核 registry 全部仓库，批量更新 README 所有表格与行内 star；同步修正 `gcheng001/legal-skills`、`f/prompts.chat`、`Open-Source-Legal/OpenContracts` 等重定向后的规范仓名。
+- **控制面补齐**：`kevchentw/awesome-chinese-fonts` 已在 README 字体区展示但漏入 registry，本次补入 `ppt-assets`，收录数同步为 **241**。
+- **商用标记校正**：按 GitHub license 识别，将 `legalskill/legalskill`（Apache-2.0）、`hellodigua/code996`（MIT）、`THUIR/LeCaRDv2`（MIT）从 ❌ 修正为 ✅。
 - §3.1 `lawflow-boop/LawLink` 已确认早已收录；按 GitHub API 更新 star 3 → 39，并将描述改为“开源自部署中小律所案件与执业管理系统”，避免误写成 AI 项目。
 - 维护口径更新：近期增量扫描优先盯国内法律 AI / 法律 Skill / 律所工具；国外纯法域项目暂不推进，除非与中国律师涉外业务直接相关。
 
@@ -67,7 +77,7 @@
 - **平台/社区/作者全扫**（+23 仓 → **227**）：
   - 法律大模型补全：`AndrewZhe/lawyer-llama`、`siat-nlp/HanFei`（韩非）、`davidpig/lychee_law`（律知）、`thunlp/LegalPLMs`（Lawformer）
   - 数据/检索：`THUIR/LeCaRDv2`、`liuhuanyong/CrimeKgAssitant`、`billvsme/law_ai`
-  - 社区套件：`choosemoon/legal-skills`（832 篇法学论文蒸馏）、`goacheng001/legal-skills`（27 skill·含刑辩）、`MAXXXXXLI/workbuddy-cn-legal-skills`
+  - 社区套件：`choosemoon/legal-skills`（832 篇法学论文蒸馏）、`gcheng001/legal-skills`（27 skill·含刑辩）、`MAXXXXXLI/workbuddy-cn-legal-skills`
   - 实务 skill：`evolsb/legal-redline-tools`（合同红线交付）、`CSlawyer1985/case-type-guide`（类案要件）、`xtgmf/minfadian`（民法典）、`wangchangwei/arb-skill`（劳动仲裁）、`imchongliu/lpm-skills-zh`（法律项目管理）、cat-xierluo 4 个单点 skill
   - 工具：`handsomestWei/red-seal-ocr`（印章识别）、`cyontheway/word-replacer`（文书脱敏替换）
 - **法律元力（yuanli.ailaw.cn）API 收割**（+14 仓 → 204）：经 Playwright 拦截平台 API 提取全部 58 skill 的 GitHub 源仓，去重后新增 `yuandian-ailaw/Agent-for-legal-cn`（元典官方）、`anthropics/skills`、`malnlda/legal-due-diligence`（尽调）、`SimbaCD/legal-period-manager-skills`（执行/期限管家）、`imchongliu/law-firm-worklog`（律所工时）、`imchongliu/foreign-law-research`（涉外）、隐私协议生成器等。
