@@ -5,6 +5,41 @@
 
 ---
 
+## 2026-06-28
+
+### 新增
+- **劳动权益 Skill 补录**（+1 仓 → **268**）：`jerry046918/labor_rights_skills`（★1，Anti-996/NOASSERTION → 商用⚠️）——大陆劳动权益法律顾问 Skill，覆盖违法解除、欠薪、未签合同、加班费、工伤等争议，含证据采集、法律意见书模板、本地录音转写脚本与测试结构；轻量技术核验 `py_compile scripts/*.py` 通过，完整 pytest 因本机缺 `pytest` 未运行。→ §1.8
+- **EttaLaw 平台下载 Skill 补录**（不计入 GitHub 仓库数，仍为 **268 仓**）：用本机 Tabbit 正常登录态从 `ettalawailab.com/skills` 下载并解包核验 5 个 Skill 包；不保存账号、Cookie、Token 或包内正文到本仓。新增平台资源表 → §6.2：
+  - [VIE协议生成](https://ettalawailab.com/skills/vie-assistant)（无 LICENSE → 商用❌）：杨思灿律师 VIE 协议套件生成 Skill，含 Excel/飞书信息表、5 份 DOCX 模板、字段校验、元典工商信息补全脚本和一键 DOCX + ZIP 生成器；`py_compile scripts/*.py` 通过，脱敏测试数据实测生成 4 份 DOCX + ZIP，未发现残留 `【...】` 占位符。
+  - [保证合同审查](https://ettalawailab.com/skills/guarantee-contract-review)（CC BY-NC 4.0 → 商用❌）：L3 保证合同审查 Skill，541 行 `SKILL.md`，覆盖 20+ 风险点、强制性/任意性规定分层、谈判地位调整、跨境担保/融资保证场景与示例报告。
+  - [中文合同审阅Skill](https://ettalawailab.com/skills/contract-review-cn)（CC BY-NC 4.0 → 商用❌）：L2 中文商事合同审阅 Skill，575 行 `SKILL.md`，覆盖结构化提问、P1/P2/P3 分级、法规标准有效性核查、合同类型 checklist 与 redline 指引；因较通用，作为低位参考。
+
+### 暂缓 / 排除
+- **`atongmuliuhong` 仓库清单实质审查**：公开仓多为 fork/镜像，`MinerU`、`FachuanHybridSystem`、`SuitAgent`、`opc-legal-counsel.skill`、`LaWGPT`、`awesome-legal-ai-zh`、`claude-howto` 均不重复收录；疑似原创仓 `case-archive`、`law-case-automation` 有一定实务价值但无独立 license 文件/非商用或律所定制明显，`case-type-guide` 与已收录 `CSlawyer1985/case-type-guide` 高度重合，`AI-Powered-LegalComplianceAssistant` 更像作品集式工程 Demo，暂不新增。
+
+### 修正
+- **许可口径校正**：`LianXU-321/china-outbound-service-dpa-bilingual` 包内 `LICENSE.txt` 为 Apache-2.0，但 `SKILL.md` / `agents/openai.yaml` metadata 标注 `CC-BY-NC-4.0`，先将 README 商用列从 ✅ 改为 ⚠️，待作者/仓库许可口径澄清。
+- **重复项处理**：EttaLaw 下载包中的 `merger control assessment` 已确认对应 `ettajingruyang/PRC-merger-control-assessment`（包内 `.git/config` origin 指向该仓），不重复新增；出海 DPA 也不重复新增。
+
+## 2026-06-27
+
+### 新增
+- **法律 AI / Skill 增量扫描 · 实质审查后收录**（+6 仓 → **267**）：先经 GitHub API、仓库文件、README 可运行性、license 与同类项目对比核验，再低位或正式收录：
+  - `yuandian-ailaw/yuandian-mcp-server`（★3，MIT → 商用✅）：**元典官方 MCP Server**，动态注册元典开放平台法规/案例/企业等 API；需用户自备 `YUANDIAN_API_KEY`，使用仍受元典平台条款约束 → §2.1。
+  - `katejianglaw/refine-legal-chinese`（★5，MIT → 商用✅）：**法言法语**法律中文改写/审校 Skill，真实 `SKILL.md` + 参考文件，聚焦语言表达层，不替代法律判断 → §1.2。
+  - `Xigua9xi/ai-legal-review-skillkit`（★2，MIT → 商用✅）：中文合同审查 workflow 模板基座，含 `SKILL.md`、公开规则、profiles、schema、fixtures 与 tests；低位收录为可 fork 基座，不标成律师实战审查成品 → §1.2。
+  - `worker-aid-ai/worker-aid-agent`（★1，AGPL-3.0-or-later → 商用⚠️）：劳动者权益自助 Agent/Skill，本地 Web + CLI + 多个劳动争议子 skill，覆盖欠薪、未签合同、违法解除、加班费、证据整理与仲裁申请草稿 → §1.8。
+  - `moyupeng0422/legal-doc-redactor`（★94，MIT → 商用✅）：彭雨诗律师·离线法律文档脱敏/还原工具，支持 docx 批量一致替换、白黑名单、自定义类型、脱敏后外部审阅痕迹还原 → §1.7。
+  - `THUIR/LegalOne-R1`（★11，Apache-2.0 → 商用✅）：LegalOne-R1 法律推理模型系列发布页，提供 1.7B/4B/8B Hugging Face 权重链接；仓库本体以 README/图表为主，低位收录 → §2.4。
+
+### 暂缓 / 排除
+- 经子镜头抽样审查，暂缓 `FAYANHUIYING/claude-for-legal-HoriZon`：插件骨架真实，但多处核心法条库/经验资产仍为 placeholder，先不与成熟中国法套件并列。
+- 暂缓 `moyupeng0422/legal-tools`：人民法院案例库 MCP 与国家法律法规数据库 MCP 均有真实入口，但顶层为 CC-BY-NC，README 明示非商用，且案例库部分要求用户自行提取登录 token；待拆分收录或补充合规说明。
+- 暂缓 `GaaZeon-Hui/legal-text-splitter-mcp`：有包结构和测试，但 README 默认 `uvx` 安装路径与实际发布状态不一致，且更偏法律文本预处理而非检索。
+- 暂缓 `ZongziForu/npc-law-db`：国家法律法规数据库 Skill 技术上成立且测试可跑，但无 license 且 README 明示学习研究用途，不进入本轮收录。
+- 排除 `wesky820/china-law-case-analysis-skills`：虽有大量 `SKILL.md`，但抽样发现主题错配和批量生成污染，且无 license。
+- 排除 `YONHKAN11/witness-cross-examination-skills`：CC0 但无真实 Skill/应用入口，更像个人文章页；暂缓 `winterliu6/law-audit-skill`，因 README 启动说明不完整且根目录无 license 文件。
+
 ## 2026-06-25
 
 ### 新增

@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-261_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-268_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--06--25-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--06--28-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -88,10 +88,12 @@
 |---|--|--|:--:|--|
 | [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | 🧩Skill | 9 | ✅ | 🧑‍⚖️**维护者出品**·「文格」：按 Word 模板生成/批处理/校验法律文书，含格式门禁 |
 | [lilialla/request-right-skill-reference](https://github.com/lilialla/request-right-skill-reference) | 🧩Skill | 8 | ⚠️ | 🧑‍⚖️**维护者出品**·请求权基础（鉴定式案例分析）：谁向谁请求什么→要件→抗辩→证据 |
+| [katejianglaw/refine-legal-chinese](https://github.com/katejianglaw/refine-legal-chinese) | 🧩Skill | 5 | ✅ | 💎「法言法语」法律中文改写/审校：保留事实、立场与法律效果，术语辨析 + 质量清单 |
 | [he-yufeng/ContractGuard](https://github.com/he-yufeng/ContractGuard) | 🧩工具 | 172 | ✅ | 中文合同 red flag + 公平度评分（A+~F） |
 | [CSlawyer1985/contract-review-pro](https://github.com/CSlawyer1985/contract-review-pro) | 🧩Skill | 169 | ❌ | 律师做的合同审查 |
 | [zh-xx/legal-assistant-skills](https://github.com/zh-xx/legal-assistant-skills) | 🧩Skill | 139 | ✅ | 合同 + 广告合规 + 请求权可视化 |
 | [xiaodingfeng/contract-review](https://github.com/xiaodingfeng/contract-review) | 🛠️应用 | 101 | ✅ | 合同审查（Vue 全栈） |
+| [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | 🧩Skill | 2 | ✅ | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
 | [CSlawyer1985/excellent-judgment-doc-skill](https://github.com/CSlawyer1985/excellent-judgment-doc-skill) | 🧩Skill | 25 | ❌ | 裁判文书生成 / 质量评判 |
 | [Daknniel-0881/qulv-china-legal-counsel-skill](https://github.com/Daknniel-0881/qulv-china-legal-counsel-skill) | 🧩Skill | 5 | ✅ | 💎内置 2189 条法规知识库的法律顾问 |
 | [MarvinLann/contract-cleaner](https://github.com/MarvinLann/contract-cleaner) | 🧩Skill | 4 | ✅ | 中文合同文本清洗/格式化（术语·语法纠正） |
@@ -178,9 +180,10 @@
 | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything) | 🧩Skill | 888 | ❌ | 💎🔒律师做的「脱敏一切」（本地 LLM 脱敏） |
 | [ethyca/fides](https://github.com/ethyca/fides) | 🛠️平台 | 465 | ✅ | GDPR/CCPA/LGPD 数据主体请求(DSAR)编排 |
 | [philterd/phileas](https://github.com/philterd/phileas) | 🛠️工具 | 97 | ✅ | PII/PHI 去标识（HIPAA/GDPR/CCPA） |
+| [moyupeng0422/legal-doc-redactor](https://github.com/moyupeng0422/legal-doc-redactor) | 🛠️工具 | 94 | ✅ | 💎🔒彭雨诗律师·离线法律文档脱敏/还原：docx 批量一致替换、白黑名单、自定义类型、保留外部审阅痕迹 |
 | [youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp](https://github.com/youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp) | 🧩Skill | 12 | ⚠️ | 💎隐私协议 MVP 生成器（面向 OPC/founder，事实采集→合规校验→生成复查；于泽辉律师·有点智能事务所，已预告 v2/v3） |
 | [yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus](https://github.com/yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus) | 🧩Skill | 0 | ❌ | 龚家勇律师·电商信息 AI 校对 Plus：营业执照/商标/产品资料与网店/网页逐项差异比对，辅助法务/合规核查（无 license） |
-| [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | 🧩Skill | 0 | ✅ | 💎艾塔法律AI实验室·徐莲（LianXU）·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则 |
+| [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | 🧩Skill | 0 | ⚠️ | 💎艾塔法律AI实验室·徐莲（LianXU）·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则（包内 LICENSE 与 metadata 许可口径需复核） |
 
 ## 1.8 劳动 · 家事 · 个人 C 端
 
@@ -190,6 +193,8 @@
 |---|--|--|:--:|--|
 | [996icu/996.ICU](https://github.com/996icu/996.ICU) | 📚资源 | 276319 | ❌ | 劳动维权标志项目（加班违法论证/法条引用） |
 | [wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill) | 🧩Skill | 25 | ⚠️ | 💎劳动仲裁 skill（劳动争议实务） |
+| [worker-aid-ai/worker-aid-agent](https://github.com/worker-aid-ai/worker-aid-agent) | 🛠️Agent | 1 | ⚠️ | 💎劳动者权益自助 Agent/Skill：本地 Web + CLI，欠薪/未签合同/违法解除/加班费材料整理与仲裁申请草稿 |
+| [jerry046918/labor_rights_skills](https://github.com/jerry046918/labor_rights_skills) | 🧩Skill | 1 | ⚠️ | 💎劳动权益法律顾问 Skill：大陆劳动争议结构化调查、证据采集、法条/类案检索与法律意见书生成，含录音本地 FunASR 处理（Anti-996 条件许可） |
 | [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) | 🛠️App | 2434 | ❌ | 法律快查 App（含婚姻/继承编） |
 | [hellodigua/code996](https://github.com/hellodigua/code996) | 🛠️工具 | 1995 | ✅ | 💎量化加班证据（commit 时间反推工时） |
 | [LawRefBook/Laws](https://github.com/LawRefBook/Laws) | 📊数据 | 1818 | ❌ | 💎法律法规 MD 数据库（民法典婚姻/继承编），计算器底座 |
@@ -215,6 +220,7 @@
 | [aa0101181514/tw-legal-rag](https://github.com/aa0101181514/tw-legal-rag) | 🛠️应用 | 175 | ✅ | 台湾法律 RAG |
 | [lawchat-oss/mcp-taiwan-legal-db](https://github.com/lawchat-oss/mcp-taiwan-legal-db) | 🔌MCP | 145 | ✅ | 台湾司法院判决 + 法规 MCP |
 | [Golden2002/legal-research-skill](https://github.com/Golden2002/legal-research-skill) | 🧩Skill | 116 | ✅ | 法律检索 skill（劳动/合同/侵权/家事/行政/刑事） |
+| [yuandian-ailaw/yuandian-mcp-server](https://github.com/yuandian-ailaw/yuandian-mcp-server) | 🔌MCP | 3 | ✅ | **元典官方 MCP Server**：动态注册法规/案例/企业等开放平台 API，需自备 `YUANDIAN_API_KEY` |
 | [hisnontright/jiandawang-jicui-consultation](https://github.com/hisnontright/jiandawang-jicui-consultation) | 🧩Skill | 0 | ✅ | 💎检答网集萃第 1–140 批本地检索技能：检察业务/最高检答疑 Markdown 内置，强调可溯源检索与免责声明（MIT） |
 | [liuhuanyong/CrimeKgAssitant](https://github.com/liuhuanyong/CrimeKgAssitant) | 📊数据 | 1581 | ❌ | ❄️罪名预测+法律知识图谱+20w 问答（经典） |
 | [billvsme/law_ai](https://github.com/billvsme/law_ai) | 🛠️应用 | 226 | ❌ | ❄️LangChain 法律 RAG（200+ 手册+网搜，给出处） |
@@ -257,6 +263,7 @@
 | [CSHaitao/LexiLaw](https://github.com/CSHaitao/LexiLaw) | 🧠模型 | 1024 | ✅ | 清华 THUIR，ChatGLM-6B 基座法律大模型 |
 | [zhihaiLLM/wisdomInterrogatory](https://github.com/zhihaiLLM/wisdomInterrogatory) | 🧠模型 | 547 | ✅ | 🔒智海-录问（浙大） |
 | [CSHaitao/LegalOne](https://github.com/CSHaitao/LegalOne) | 🧠模型 | 64 | ✅ | 💎法律推理基座（1.7B/4B/8B） |
+| [THUIR/LegalOne-R1](https://github.com/THUIR/LegalOne-R1) | 🧠模型 | 11 | ✅ | LegalOne-R1 法律推理模型系列发布页（1.7B/4B/8B HF 权重；仓库本体以 README/图表为主，低位收录） |
 | [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) | 🧠模型 | 7533 | ⚠️ | ❄️北大袁粒团队，中文法律 LLM 里最出圈的一个 |
 | [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) | 🧠模型 | 6053 | ⚠️ | ❄️中文法律知识微调 LLM（法律语料预训练） |
 | [FudanDISC/DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) | 🧠模型 | 932 | ✅ | 复旦 DISC 中文法律大模型 |
@@ -379,6 +386,13 @@
 ## 6.2 平台
 
 - **法律元力 Yuanli Vault**（华宇元典）→ https://yuanli.ailaw.cn —— 法律 skill / 工具包聚合平台（应用商店式，2026-06-25 API 实测 65 个 skill / 13 个工具包）。其中**有公开 GitHub 源仓的已收进本仓各区**（元典官方套件、刘成/龚家勇/刘冲/杜思敏/积成等律师的 skill）；部分平台独占（无公开 GitHub），需去平台下载。
+- **EttaLaw Skill 库**（艾塔法律AI实验室）→ https://ettalawailab.com/skills —— 法律 Skill 登录下载平台。2026-06-28 已用正常登录态下载并核验 5 个包；其中出海 DPA、经营者集中申报有 GitHub 源仓并已列入上文，平台独占/暂未公开 GitHub 源的实质包如下：
+
+| 平台资源 | 类型 | 商用 | 核验状态 | 干嘛的 |
+|---|---|:--:|---|---|
+| [VIE协议生成](https://ettalawailab.com/skills/vie-assistant) | 🧩Skill | ❌ | ✅ 包内实测 | 💎杨思灿律师·VIE 协议套件生成：Excel/飞书信息表、5 份 DOCX 模板、字段校验、元典工商信息补全、一键生成 DOCX + ZIP；当前无 LICENSE，需按平台/作者授权使用 |
+| [保证合同审查](https://ettalawailab.com/skills/guarantee-contract-review) | 🧩Skill | ❌ | ✅ 包内实测 | 💎保证合同审查 L3 Skill：20+ 风险点、强制性/任意性规定分层、谈判地位调整、跨境担保/融资保证场景与示例报告（CC BY-NC 4.0） |
+| [中文合同审阅Skill](https://ettalawailab.com/skills/contract-review-cn) | 🧩Skill | ❌ | ✅ 包内实测 | 中文商事合同审阅 L2 Skill：结构化提问、P1/P2/P3 分级、法规标准有效性核查、合同类型 checklist 与 redline 指引（CC BY-NC 4.0，通用型低位参考） |
 
 ## 6.3 微信公众号长尾源
 
@@ -386,7 +400,7 @@
 
 | 公众号 / 社区 | 方向 | 代表产物 |
 |---|---|---|
-| 艾塔法律AI实验室 EttaLaw（Etta/Jingru Yang + 徐莲） | 🔒数据合规/出海/竞争法/投融资/担保 | 出海 DPA、经营者集中申报（已开源）；保证合同审阅、VIE 协议生成（微信群独家发放） |
+| 艾塔法律AI实验室 EttaLaw（Etta/Jingru Yang + 徐莲） | 🔒数据合规/出海/竞争法/投融资/担保 | 出海 DPA、经营者集中申报（已开源）；VIE 协议生成、保证合同审阅、中文合同审阅（见 [EttaLaw Skill 库](#62-平台)，登录下载） |
 | 律见法度 | 尽调 | 同花顺快查 MCP（一句话企业尽调） |
 | LLMQuant | 金融/投融资/证券 | 华尔街金融 Skills 库（[已开源](https://github.com/LLMQuant/skills)） |
 | 律锥·legalskill（孙律师） | skill 社区 | legalskill org |

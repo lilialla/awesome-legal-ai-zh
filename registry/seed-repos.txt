@@ -29,6 +29,8 @@ Daknniel-0881/qulv-china-legal-counsel-skill	contract-doc-ip
 ettajingruyang/PRC-merger-control-assessment	antitrust-competition
 lilialla/legal-document-format-skill	contract-doc-ip
 lilialla/request-right-skill-reference	contract-doc-ip
+katejianglaw/refine-legal-chinese	contract-doc-ip
+Xigua9xi/ai-legal-review-skillkit	contract-doc-ip
 lilialla/equity-transfer-review-skill	corp-finance-ma-dd
 microsoft/presidio	data-compliance
 LianXU-321/china-outbound-service-dpa-bilingual	data-compliance
@@ -37,10 +39,12 @@ TongchengOpenSource/AppScan	data-compliance
 ethyca/fides	data-compliance
 philterd/phileas	data-compliance
 OpenPipe/pii-redaction	data-compliance
+moyupeng0422/legal-doc-redactor	data-compliance
 cncases/cases	retrieval-mcp
 aa0101181514/tw-legal-rag	retrieval-mcp
 lawchat-oss/mcp-taiwan-legal-db	retrieval-mcp
 Golden2002/legal-research-skill	retrieval-mcp
+yuandian-ailaw/yuandian-mcp-server	retrieval-mcp
 DerpZhenjun/Partlawyer-LAA	retrieval-mcp
 JamesANZ/us-legal-mcp	retrieval-mcp
 freelawproject/courtlistener-api-client	retrieval-mcp
@@ -59,6 +63,7 @@ cat-xierluo/trademark-assistant.skill	contract-doc-ip
 CSHaitao/LexiLaw	llm
 zhihaiLLM/wisdomInterrogatory	llm
 CSHaitao/LegalOne	llm
+THUIR/LegalOne-R1	llm
 MetaGLM/LawGLM	llm
 jhpyle/docassemble	dataset-infra
 freelawproject/courtlistener	dataset-infra
@@ -251,6 +256,8 @@ cat-xierluo/code2patent.skill	contract-doc-ip
 CSlawyer1985/case-type-guide	criminal-admin-exec
 xtgmf/minfadian	criminal-admin-exec
 wangchangwei/arb-skill	labor-family-personal
+worker-aid-ai/worker-aid-agent	labor-family-personal
+jerry046918/labor_rights_skills	labor-family-personal
 imchongliu/lpm-skills-zh	law-firm-mgmt
 handsomestWei/red-seal-ocr	tech-foundation
 cyontheway/word-replacer	data-compliance
