@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-268_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-269_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--06--28-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--06--30-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -221,6 +221,7 @@
 | [lawchat-oss/mcp-taiwan-legal-db](https://github.com/lawchat-oss/mcp-taiwan-legal-db) | 🔌MCP | 145 | ✅ | 台湾司法院判决 + 法规 MCP |
 | [Golden2002/legal-research-skill](https://github.com/Golden2002/legal-research-skill) | 🧩Skill | 116 | ✅ | 法律检索 skill（劳动/合同/侵权/家事/行政/刑事） |
 | [yuandian-ailaw/yuandian-mcp-server](https://github.com/yuandian-ailaw/yuandian-mcp-server) | 🔌MCP | 3 | ✅ | **元典官方 MCP Server**：动态注册法规/案例/企业等开放平台 API，需自备 `YUANDIAN_API_KEY` |
+| [nh59yytyd5-dev/chinalaw-cli](https://github.com/nh59yytyd5-dev/chinalaw-cli) | 🔌MCP/🛠️CLI | 1 | ✅ | 💎中国法律法规本地检索 CLI + MCP：实测内置 49 部基础规范/7516 条条文，支持官方源按需补全、来源元数据和 7 个 Agent Skill |
 | [hisnontright/jiandawang-jicui-consultation](https://github.com/hisnontright/jiandawang-jicui-consultation) | 🧩Skill | 0 | ✅ | 💎检答网集萃第 1–140 批本地检索技能：检察业务/最高检答疑 Markdown 内置，强调可溯源检索与免责声明（MIT） |
 | [liuhuanyong/CrimeKgAssitant](https://github.com/liuhuanyong/CrimeKgAssitant) | 📊数据 | 1581 | ❌ | ❄️罪名预测+法律知识图谱+20w 问答（经典） |
 | [billvsme/law_ai](https://github.com/billvsme/law_ai) | 🛠️应用 | 226 | ❌ | ❄️LangChain 法律 RAG（200+ 手册+网搜，给出处） |

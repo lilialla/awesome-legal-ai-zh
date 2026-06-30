@@ -45,6 +45,7 @@ aa0101181514/tw-legal-rag	retrieval-mcp
 lawchat-oss/mcp-taiwan-legal-db	retrieval-mcp
 Golden2002/legal-research-skill	retrieval-mcp
 yuandian-ailaw/yuandian-mcp-server	retrieval-mcp
+nh59yytyd5-dev/chinalaw-cli	retrieval-mcp
 DerpZhenjun/Partlawyer-LAA	retrieval-mcp
 JamesANZ/us-legal-mcp	retrieval-mcp
 freelawproject/courtlistener-api-client	retrieval-mcp

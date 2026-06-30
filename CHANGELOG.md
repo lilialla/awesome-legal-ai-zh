@@ -5,6 +5,11 @@
 
 ---
 
+## 2026-06-30
+
+### 新增
+- **中国法规本地检索 CLI / MCP 补录**（+1 仓 → **269**）：`nh59yytyd5-dev/chinalaw-cli`（★1，Apache-2.0 → 商用✅）——面向 AI Agent 的中国法律法规本地检索基础设施，提供 `chinalaw` CLI、`chinalaw-mcp`、7 个 Agent Skill、来源元数据、条文级引用与官方源按需补全。实质核验：隔离安装 `scripts/install-local` 通过；`scripts/install-skills --copy` 可安装到 `.claude/.agents/opencode`；`scripts/check-public-fixtures` 通过；`python -m unittest discover -s tests -v` 通过（678 tests OK, skipped=33）；`verify-source flk_npc` 返回 `ok=true`；实测从国家法律法规数据库补全旧《合同法》第 52 条并落库。定位为“本地检索基础设施”，不是全量法律数据库；实测初始库为 49 部法规 / 7516 条条文 / 74 个版本修订，时间效力规则需另行 `sync --applicability`。→ §2.1
+
 ## 2026-06-28
 
 ### 新增
