@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-269_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-270_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--06--30-b5462f)
@@ -143,6 +143,7 @@
 | [Sociovestix/lenu](https://github.com/Sociovestix/lenu) | 🛠️工具 | 22 | ✅ | ISO 20275 跨 200+ 法域实体法律形式识别 |
 | [spartypkp/open-source-legislation](https://github.com/spartypkp/open-source-legislation) | 📊数据 | 17 | ❌ | 50+ 法域立法统一成 SQL 知识图谱 |
 | [imchongliu/foreign-law-research](https://github.com/imchongliu/foreign-law-research) | 🧩Skill | 8 | ✅ | 💎域外法律研究 skill（刘冲律师·涉外） |
+| [open-agreements/open-agreements](https://github.com/open-agreements/open-agreements) | 🔌MCP/📚模板 | 39 | ✅ | 💎美国/跨境合同模板与法律实践库：NDA、SAFE/NVCA、隐私、雇佣等模板 + checklists + MCP/CLI 生成 DOCX |
 ## 1.6 公司 · 投融资 · 并购 · 尽调 · 证券
 
 > 资源分散在 GitHub 英文、GitHub 中文、微信公众号三层，这里尽量汇齐。**仍较少**：中国境内股权设计/对赌/ESOP 专用 skill。

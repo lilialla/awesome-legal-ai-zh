@@ -79,6 +79,7 @@ moov-io/watchman	cross-border-arbitration
 worldwidelaw/legal-sources	cross-border-arbitration
 Sociovestix/lenu	cross-border-arbitration
 spartypkp/open-source-legislation	cross-border-arbitration
+open-agreements/open-agreements	cross-border-arbitration
 pengxiao-song/awesome-chinese-legal-resources	awesome
 international-explore/awesome-privacy-chinese	awesome
 lawve-ai/awesome-legal-skills	awesome
