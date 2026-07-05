@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-270_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-277_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--06--30-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--07--05-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -94,6 +94,9 @@
 | [zh-xx/legal-assistant-skills](https://github.com/zh-xx/legal-assistant-skills) | 🧩Skill | 139 | ✅ | 合同 + 广告合规 + 请求权可视化 |
 | [xiaodingfeng/contract-review](https://github.com/xiaodingfeng/contract-review) | 🛠️应用 | 101 | ✅ | 合同审查（Vue 全栈） |
 | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | 🧩Skill | 2 | ✅ | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
+| [fayayy888/legal-document-assistant](https://github.com/fayayy888/legal-document-assistant) | 🏛️套件 | 19 | ❌ | 💎中国法律文书撰写 Skill 套件：答辩状、合同审查、法律意见书、代理前案件分析、案例检索、常法服务等（无 license） |
+| [malnlda/contract-review](https://github.com/malnlda/contract-review) | 🧩Skill | 0 | ⚠️ | 💎专业合同审核 Claude Skill：7 步工作流、5 类门禁、终稿三件套、Track Changes + Comments；README 写 MIT 但 GitHub 未识别 license，需复核 |
+| [ThomasLiu/contract-review-zh](https://github.com/ThomasLiu/contract-review-zh) | 🧩Skill | 0 | ✅ | 💎委托律师合同审查：面向委托代理/法律服务/风险代理合同，红黄蓝风险清单 + 可复用修改条款（Apache-2.0） |
 | [CSlawyer1985/excellent-judgment-doc-skill](https://github.com/CSlawyer1985/excellent-judgment-doc-skill) | 🧩Skill | 25 | ❌ | 裁判文书生成 / 质量评判 |
 | [Daknniel-0881/qulv-china-legal-counsel-skill](https://github.com/Daknniel-0881/qulv-china-legal-counsel-skill) | 🧩Skill | 5 | ✅ | 💎内置 2189 条法规知识库的法律顾问 |
 | [MarvinLann/contract-cleaner](https://github.com/MarvinLann/contract-cleaner) | 🧩Skill | 4 | ✅ | 中文合同文本清洗/格式化（术语·语法纠正） |
@@ -127,6 +130,7 @@
 | [xtgmf/minfadian](https://github.com/xtgmf/minfadian) | 🧩Skill | 1 | ✅ | 民法典 Skills（数字法务专家） |
 | [Youchu-lawhub/gutachten-civil-case](https://github.com/Youchu-lawhub/gutachten-civil-case) | 🧩Skill | 36 | ❌ | 💎民法典请求权基础·德国鉴定式案例研习报告（留空白能力槽接自配 MCP/知识库，游初） |
 | [Youchu-lawhub/gutachten-criminal-case](https://github.com/Youchu-lawhub/gutachten-criminal-case) | 🧩Skill | 10 | ✅ | 💎鉴定式刑法案例研习：三阶层犯罪论、罪名发现、双闸确认、并行写作、法条校验与 Word 输出（Apache 文本，GitHub 未自动识别） |
+| [Youchu-lawhub/gutachten-admin-case](https://github.com/Youchu-lawhub/gutachten-admin-case) | 🧩Skill | 0 | ❌ | 💎鉴定式行政法案例研习：可受理性 8 闸门 + 行政行为类型路由 + 六要素合法性审查 + 比例原则/裁量审查（CC BY-NC-ND） |
 | [yuhudie598-dev/legal-case-analysis-plus](https://github.com/yuhudie598-dev/legal-case-analysis-plus) | 🧩Skill | 0 | ❌ | 💎龚家勇律师·案件分析报告（法律关系分析法 Plus）：接华宇元典 MCP 检索法规/案例/法答网，按法律关系分析法输出结构化报告（无 license） |
 | [CSlawyer1985/case-type-guide](https://github.com/CSlawyer1985/case-type-guide) | 🧩Skill | 12 | ❌ | 💎类案办案要件指南（案件类型识别+要件式清单） |
 | [yxk-lawyer/litigation-prep-skill-cn](https://github.com/yxk-lawyer/litigation-prep-skill-cn) | 🧩Skill | 10 | ❌ | 💎CorpClaim CN·公司民商事诉讼指导：案由→请求权基础→构成要件→证据清单→诉讼策略（执业律师，无 license） |
@@ -195,6 +199,7 @@
 | [996icu/996.ICU](https://github.com/996icu/996.ICU) | 📚资源 | 276319 | ❌ | 劳动维权标志项目（加班违法论证/法条引用） |
 | [wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill) | 🧩Skill | 25 | ⚠️ | 💎劳动仲裁 skill（劳动争议实务） |
 | [worker-aid-ai/worker-aid-agent](https://github.com/worker-aid-ai/worker-aid-agent) | 🛠️Agent | 1 | ⚠️ | 💎劳动者权益自助 Agent/Skill：本地 Web + CLI，欠薪/未签合同/违法解除/加班费材料整理与仲裁申请草稿 |
+| [workingclass-ai/workingclass](https://github.com/workingclass-ai/workingclass) | 🧩Skill | 6 | ✅ | 💎劳动者 AI 助手：话术解码、PIP/裁员/加班/薪资谈判、OPSEC 提醒与 9 个法域劳动法地图（Apache-2.0） |
 | [jerry046918/labor_rights_skills](https://github.com/jerry046918/labor_rights_skills) | 🧩Skill | 1 | ⚠️ | 💎劳动权益法律顾问 Skill：大陆劳动争议结构化调查、证据采集、法条/类案检索与法律意见书生成，含录音本地 FunASR 处理（Anti-996 条件许可） |
 | [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) | 🛠️App | 2434 | ❌ | 法律快查 App（含婚姻/继承编） |
 | [hellodigua/code996](https://github.com/hellodigua/code996) | 🛠️工具 | 1995 | ✅ | 💎量化加班证据（commit 时间反推工时） |
@@ -281,6 +286,8 @@
 | 项目 | 类型 | ★ | 商用 | 干嘛的 |
 |---|--|--|:--:|--|
 | [Lawyer-ray/FachuanHybridSystem](https://github.com/Lawyer-ray/FachuanHybridSystem) | 🛠️平台 | 192 | ⚠️ | ⭐💎一线律师自研「法穿 AI Copilot」：法院短信自动解析归档 + 一次生成全套委托材料 + OA/一张网立案 + 本地知识库，Django 6 + React 19 + MCP（127 模型/483 API/35 模块；Elastic 2.0：自用可商用，禁转售为托管服务） |
+| [AnttiHero/lavern](https://github.com/AnttiHero/lavern) | 🏛️平台 | 266 | ✅ | 💎法律多智能体系统：67 个 specialist/orchestrator agents + 21 个 MCP tools，证据引用、辩论协议、三层校验与 human gate（Apache-2.0） |
+| [stella/stella](https://github.com/stella/stella) | 🏛️平台 | 147 | ✅ | 💎开源法律 workspace + data stack：案件/文档/Word 编辑、Tabular Review、Legal Atlas、企业登记客户端、匿名化与 stella MCP server（Apache-2.0） |
 | [jlawyerorg/j-lawyer-org](https://github.com/jlawyerorg/j-lawyer-org) | 🛠️平台 | 82 | ⚠️ | 德国开源律所管理系统（案件/文档/归档） |
 | [createrivabu/Iuris-Soft](https://github.com/createrivabu/Iuris-Soft) | 🛠️平台 | 20 | ❌ | 案件全生命周期 + 开庭管理 + 文档库 |
 | [imchongliu/law-firm-worklog](https://github.com/imchongliu/law-firm-worklog) | 🧩Skill | 2 | ✅ | 💎律所工时月报生成（任务→Excel/CSV，刘冲律师） |
@@ -439,4 +446,4 @@
 
 ---
 
-*快照 2026-06-24 · 238 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-07-05 · 277 个条目经 `gh api` 实测（404=0）。*

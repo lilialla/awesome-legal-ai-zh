@@ -5,6 +5,29 @@
 
 ---
 
+## 2026-07-05
+
+### 新增
+- **法律多智能体 / Workspace 补录**（+2 仓 → **277**）：经 GitHub API、仓库 README、LICENSE 文件与 package 元数据核验，新增两个可自托管的法律工作台 / 多智能体系统：
+  - `AnttiHero/lavern`（★266，Apache-2.0 → 商用✅）：法律多智能体系统，67 个 specialist/orchestrator agents + 21 个 MCP tools，围绕文档证据引用、agent 辩论协议、三层校验、10-pass verification 与 human gate 组织法律审查工作流 → §3.1。
+  - `stella/stella`（★147，Apache-2.0 → 商用✅）：开源法律 workspace 与 data stack，覆盖案件/文档/Word 编辑、Tabular Review、Legal Atlas、企业登记客户端、匿名化工具与 stella MCP server，可自托管 → §3.1。
+
+## 2026-07-04
+
+### 新增
+- **法律 AI / Skill 增量扫描补录**（+5 仓 → **275**）：经 GitHub API、仓库文件、README/SKILL 与 license 口径核验，新增国内法律 Skill / 法律文书 / 劳动权益资源：
+  - `Youchu-lawhub/gutachten-admin-case`（★0，CC BY-NC-ND → 商用❌）：游初·行政法鉴定式案例研习 Skill，覆盖可受理性 8 闸门、行政行为类型路由、六要素合法性审查、比例原则与裁量审查 → §1.4。
+  - `workingclass-ai/workingclass`（★6，Apache-2.0 → 商用✅）：劳动者 AI 助手，覆盖话术解码、PIP/裁员/加班/薪资谈判、OPSEC 提醒与 9 个法域劳动法地图 → §1.8。
+  - `ThomasLiu/contract-review-zh`（★0，Apache-2.0 → 商用✅）：委托律师合同审查 Skill，面向委托代理合同、法律服务合同、风险代理合同，输出红黄蓝风险清单与可复用修改条款 → §1.2。
+  - `fayayy888/legal-document-assistant`（★19，无 license → 商用❌）：中国法律文书撰写 Skill 套件，覆盖答辩状、合同审查、项目法律意见书、代理前案件分析、案例检索与常法服务 → §1.2。
+  - `malnlda/contract-review`（★0，README 写 MIT 但 GitHub 未识别 license → 商用⚠️）：专业合同审核 Claude Skill，7 步工作流、5 类审查门禁、终稿三件套与 Track Changes + Comments 输出；许可口径待作者补充标准 LICENSE 文件 → §1.2。
+
+### 暂缓 / 排除
+- 暂缓 `qomob/Verdict`：诉讼攻防推演 Skill 结构完整，但无 license，且 Jina MCP 法律检索链路需实测。
+- 暂缓龚家勇律师 `fadawang-qa-plus` / `civil-appeal-petition-ai-structured-writing-` / `case-analysis-copy-tze-chien-wang-plus`：均为真实 Skill，但无 license，且内置法答网全文/元典 MCP 依赖与授权边界需人工确认后再统一处理。
+- 暂缓 `vivy-yi/Greater-China-Legal`：体量大、覆盖 500+ 原子 Skill，但无 license，需进一步抽样 QA。
+- 暂缓 `huguangqin/ER-case-communication.skill`：根目录以 `.skill` 压缩包形式发布且无 license，暂不作为标准 GitHub Skill 仓收录。
+
 ## 2026-06-30
 
 ### 新增

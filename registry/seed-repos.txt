@@ -265,9 +265,16 @@ handsomestWei/red-seal-ocr	tech-foundation
 cyontheway/word-replacer	data-compliance
 leo123-tto/case-board	law-firm-mgmt
 Lawyer-ray/FachuanHybridSystem	law-firm-mgmt
+AnttiHero/lavern	law-firm-mgmt
+stella/stella	law-firm-mgmt
 Youchu-lawhub/gutachten-civil-case	criminal-admin-exec
 Youchu-lawhub/gutachten-criminal-case	criminal-admin-exec
 yuhudie598-dev/legal-case-analysis-plus	criminal-admin-exec
 SKYLENAGE-AI/PLawBench	dataset-infra
 skala-io/legal-skills	corp-finance-ma-dd
 yxk-lawyer/litigation-prep-skill-cn	criminal-admin-exec
+Youchu-lawhub/gutachten-admin-case	criminal-admin-exec
+workingclass-ai/workingclass	labor-family-personal
+ThomasLiu/contract-review-zh	contract-doc-ip
+fayayy888/legal-document-assistant	contract-doc-ip
+malnlda/contract-review	contract-doc-ip
