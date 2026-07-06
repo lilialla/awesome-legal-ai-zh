@@ -1,9 +1,17 @@
 # 更新日志 · Changelog
 
 本项目所有重要变更都记录在此。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/)，倒序排列（最新在上）。
-收录数 = `registry/seed-repos.txt` 中经 `gh api` 实测的真实仓数量。
+收录数 = `registry/seed-repos.txt` 中经 GitHub API / 仓库文件核验的真实仓数量。
 
 ---
+
+## 2026-07-06
+
+### 新增
+- **法律 Skill / 合规工具增量补录**（+3 仓 → **280**）：经 GitHub Search API、仓库文件、README/SKILL、license 口径与轻量脚本编译核验，新增 3 个中国法律实务向 Skill / 工具：
+  - `Youchu-lawhub/app-compliance-review`（★0，CC BY-NC-ND → 商用❌）：游初·APP 个人信息保护合规检查 Skill，覆盖 APK 静态分析、隐私政策、权限、SDK、敏感个人信息、数据出境等检查模块，并预留法规 / 案例 MCP 核验能力槽 → §1.7。
+  - `SenryLee/rule-harness`（★1，README/pyproject 写 MIT 但 GitHub 未识别 license → 商用⚠️）：法律规则抽取、核验与 Skill 生成平台，可从合同、法规、裁判文书、企业内规中抽取可溯源审查规则；`backend` Python 文件编译通过 → §1.2。
+  - `YouGram-001/legal-empirical-research-skills`（★1，README 写 MIT 但 GitHub 未识别 license → 商用⚠️）：裁判文书实证研究 Claude Code Skill 套件，覆盖 doc/docx 转文本、清洗去重、字段抽取、标签统一、质量/幻觉抽检与 CSV 输出；脚本编译通过 → §2.3。
 
 ## 2026-07-05
 

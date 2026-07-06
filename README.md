@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-277_仓-3a5a8c)
-![Verified](https://img.shields.io/badge/数据-gh_api_实测-2e8b57)
+![Resources](https://img.shields.io/badge/已收录-280_仓-3a5a8c)
+![Verified](https://img.shields.io/badge/数据-GitHub_API_核验-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--07--05-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--07--06-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -35,7 +35,7 @@
 
 > 📖 **类型图例**：🏛️平台/套件（功能全、规模大） · 🧩Skill/Agent（单点能力，即装即用） · 🔌MCP（数据/工具接口） · 🛠️工具/应用 · 📊数据/语料/评测 · 🧠模型 · 📚清单/范本/资源。
 > 其它标记：⭐头部 · 💎小众精品 · 🧑‍⚖️维护者出品 · 🔒脱敏/合规 · ❄️已停更（但范本/数据/字体类停更仍可用） · 🗄️已归档。
-> 所有 `★ / license / 能否商用` 由 `gh api` 实测，可用 [`scripts/refresh-stars.sh`](scripts/refresh-stars.sh) 一键刷新；**本仓只做链接索引、不搬运任何代码或文章正文**（[合规说明](COMPLIANCE.md)）。
+> 所有 `★ / license / 能否商用` 由 GitHub API / 仓库文件核验，可用 [`scripts/refresh-stars.sh`](scripts/refresh-stars.sh) 一键刷新；**本仓只做链接索引、不搬运任何代码或文章正文**（[合规说明](COMPLIANCE.md)）。
 
 ## 🗂️ 目录
 
@@ -96,6 +96,7 @@
 | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | 🧩Skill | 2 | ✅ | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
 | [fayayy888/legal-document-assistant](https://github.com/fayayy888/legal-document-assistant) | 🏛️套件 | 19 | ❌ | 💎中国法律文书撰写 Skill 套件：答辩状、合同审查、法律意见书、代理前案件分析、案例检索、常法服务等（无 license） |
 | [malnlda/contract-review](https://github.com/malnlda/contract-review) | 🧩Skill | 0 | ⚠️ | 💎专业合同审核 Claude Skill：7 步工作流、5 类门禁、终稿三件套、Track Changes + Comments；README 写 MIT 但 GitHub 未识别 license，需复核 |
+| [SenryLee/rule-harness](https://github.com/SenryLee/rule-harness) | 🛠️平台 | 1 | ⚠️ | 💎法律规则抽取/核验/Skill 生成平台：从合同、法规、裁判文书、内规中抽取可溯源审查规则，README/pyproject 写 MIT 但 GitHub 未识别 license |
 | [ThomasLiu/contract-review-zh](https://github.com/ThomasLiu/contract-review-zh) | 🧩Skill | 0 | ✅ | 💎委托律师合同审查：面向委托代理/法律服务/风险代理合同，红黄蓝风险清单 + 可复用修改条款（Apache-2.0） |
 | [CSlawyer1985/excellent-judgment-doc-skill](https://github.com/CSlawyer1985/excellent-judgment-doc-skill) | 🧩Skill | 25 | ❌ | 裁判文书生成 / 质量评判 |
 | [Daknniel-0881/qulv-china-legal-counsel-skill](https://github.com/Daknniel-0881/qulv-china-legal-counsel-skill) | 🧩Skill | 5 | ✅ | 💎内置 2189 条法规知识库的法律顾问 |
@@ -187,6 +188,7 @@
 | [philterd/phileas](https://github.com/philterd/phileas) | 🛠️工具 | 97 | ✅ | PII/PHI 去标识（HIPAA/GDPR/CCPA） |
 | [moyupeng0422/legal-doc-redactor](https://github.com/moyupeng0422/legal-doc-redactor) | 🛠️工具 | 94 | ✅ | 💎🔒彭雨诗律师·离线法律文档脱敏/还原：docx 批量一致替换、白黑名单、自定义类型、保留外部审阅痕迹 |
 | [youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp](https://github.com/youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp) | 🧩Skill | 12 | ⚠️ | 💎隐私协议 MVP 生成器（面向 OPC/founder，事实采集→合规校验→生成复查；于泽辉律师·有点智能事务所，已预告 v2/v3） |
+| [Youchu-lawhub/app-compliance-review](https://github.com/Youchu-lawhub/app-compliance-review) | 🧩Skill | 0 | ❌ | 💎游初·APP 个人信息保护合规检查：APK 静态分析、隐私政策、权限、SDK、敏感个人信息与数据出境检查（CC BY-NC-ND） |
 | [yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus](https://github.com/yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus) | 🧩Skill | 0 | ❌ | 龚家勇律师·电商信息 AI 校对 Plus：营业执照/商标/产品资料与网店/网页逐项差异比对，辅助法务/合规核查（无 license） |
 | [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | 🧩Skill | 0 | ⚠️ | 💎艾塔法律AI实验室·徐莲（LianXU）·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则（包内 LICENSE 与 metadata 许可口径需复核） |
 
@@ -259,6 +261,7 @@
 | [harveyai/biglaw-bench](https://github.com/harveyai/biglaw-bench) | 📊评测 | 165 | ❌ | 💎Harvey AI 官方 BigLaw Bench：律所级真实法律任务评测基准（无明确协议，仅参考/引用） |
 | [open-compass/LawBench](https://github.com/open-compass/LawBench) | 📊评测 | 434 | ✅ | 💎中文法律能力评测基准（司法部系+多机构，引用最广） |
 | [SKYLENAGE-AI/PLawBench](https://github.com/SKYLENAGE-AI/PLawBench) | 📊评测 | 25 | ❌ | 💎法律实务评测基准（Qwen×阿里AIData×晓天衡宇·13 场景 850 题 12500 条 rubric，模拟真实咨询而非考题） |
+| [YouGram-001/legal-empirical-research-skills](https://github.com/YouGram-001/legal-empirical-research-skills) | 🧩Skill | 1 | ⚠️ | 💎裁判文书实证研究 Skill 套件：文书转换、清洗去重、字段抽取、标签统一、质量/幻觉抽检，输出回归分析用 CSV；README 写 MIT 但 GitHub 未识别 license |
 | [thunlp/LegalPLMs](https://github.com/thunlp/LegalPLMs) | 🧠模型 | 194 | ❌ | 清华 Lawformer 等长文书法律预训练模型 |
 | [THUIR/LeCaRDv2](https://github.com/THUIR/LeCaRDv2) | 📊数据 | 92 | ✅ | 清华大规模中文法律案例检索数据集 v2 |
 | [neelguha/legal-ml-datasets](https://github.com/neelguha/legal-ml-datasets) | 📊数据 | 438 | ❌ | 法律 ML 数据集合集 |
@@ -446,4 +449,4 @@
 
 ---
 
-*快照 2026-07-05 · 277 个条目经 `gh api` 实测（404=0）。*
+*快照 2026-07-06 · 280 个条目经 GitHub API / 仓库文件核验（404=0）。*

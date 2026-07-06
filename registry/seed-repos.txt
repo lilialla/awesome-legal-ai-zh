@@ -278,3 +278,6 @@ workingclass-ai/workingclass	labor-family-personal
 ThomasLiu/contract-review-zh	contract-doc-ip
 fayayy888/legal-document-assistant	contract-doc-ip
 malnlda/contract-review	contract-doc-ip
+Youchu-lawhub/app-compliance-review	data-compliance
+SenryLee/rule-harness	contract-doc-ip
+YouGram-001/legal-empirical-research-skills	dataset-infra
