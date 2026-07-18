@@ -2,6 +2,7 @@
 # 用 ../scripts/refresh-stars.sh 拉取实时 star/更新/license
 # 仅含 GitHub 可核验仓；微信长尾与平台（法律元力等）见 README
 anthropics/claude-for-legal	skill-suite
+zgbrenner/agentcounsel	skill-suite
 zubair-trabzada/ai-legal-claude	skill-suite
 CSlawyer1985/claude-for-legal-ZH	skill-suite
 zhou210712/claude-for-legal-ZH	skill-suite
@@ -46,6 +47,8 @@ lawchat-oss/mcp-taiwan-legal-db	retrieval-mcp
 Golden2002/legal-research-skill	retrieval-mcp
 yuandian-ailaw/yuandian-mcp-server	retrieval-mcp
 nh59yytyd5-dev/chinalaw-cli	retrieval-mcp
+ZongziForu/cn-law-hub	retrieval-mcp
+GaaZeon-Hui/legal-text-splitter-mcp	retrieval-mcp
 DerpZhenjun/Partlawyer-LAA	retrieval-mcp
 JamesANZ/us-legal-mcp	retrieval-mcp
 freelawproject/courtlistener-api-client	retrieval-mcp
@@ -56,6 +59,7 @@ Liu8Can/pkulaw-mcp-router	retrieval-mcp
 tyc-tech/mcp-skills	enterprise-check
 duhu2000/vibe-lawyering-qcc	enterprise-check
 Ace-Kelly/qcc-mcp-batch	enterprise-check
+zhanglunet/qcc	enterprise-check
 nexu-io/open-design	ppt-assets
 penpot/penpot	ppt-assets
 onlook-dev/onlook	ppt-assets
@@ -267,6 +271,7 @@ leo123-tto/case-board	law-firm-mgmt
 Lawyer-ray/FachuanHybridSystem	law-firm-mgmt
 AnttiHero/lavern	law-firm-mgmt
 stella/stella	law-firm-mgmt
+AzureTsui/GiGi	law-firm-mgmt
 Youchu-lawhub/gutachten-civil-case	criminal-admin-exec
 Youchu-lawhub/gutachten-criminal-case	criminal-admin-exec
 yuhudie598-dev/legal-case-analysis-plus	criminal-admin-exec

@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-280_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-285_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-GitHub_API_核验-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--07--06-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--07--18-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -58,6 +58,7 @@
 |---|--|--|:--:|--|
 | [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal) | 🏛️平台 | 8486 | ✅ | ⭐Anthropic 官方法律套件，80+ agent / 12 plugin / ~20 MCP |
 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 🏛️平台 | 21908 | ✅ | ⭐官方知识工作插件集（含 legal 工作流） |
+| [zgbrenner/agentcounsel](https://github.com/zgbrenner/agentcounsel) | 🏛️套件 | 14 | ✅ | 💎AI-agnostic 法律团队 skill 库：221 个 skills + matter packs / playbooks / review panels，含 CI、验证脚本与核心 unittest（MIT） |
 | [zubair-trabzada/ai-legal-claude](https://github.com/zubair-trabzada/ai-legal-claude) | 🏛️套件 | 1481 | ❌ | 14 skill + 5 agent：合同/NDA/合规/谈判/PDF |
 | [CSlawyer1985/claude-for-legal-ZH](https://github.com/CSlawyer1985/claude-for-legal-ZH) | 🏛️套件 | 497 | ✅ | ⭐官方版的中国法适配 + 元典 MCP，覆盖 12 法域 |
 | [zhou210712/claude-for-legal-ZH](https://github.com/zhou210712/claude-for-legal-ZH) | 🏛️套件 | 108 | ✅ | 另一作者的中国法 Claude 工作层（公司/商事/IP/劳动/AI治理多域插件） |
@@ -230,6 +231,8 @@
 | [Golden2002/legal-research-skill](https://github.com/Golden2002/legal-research-skill) | 🧩Skill | 116 | ✅ | 法律检索 skill（劳动/合同/侵权/家事/行政/刑事） |
 | [yuandian-ailaw/yuandian-mcp-server](https://github.com/yuandian-ailaw/yuandian-mcp-server) | 🔌MCP | 3 | ✅ | **元典官方 MCP Server**：动态注册法规/案例/企业等开放平台 API，需自备 `YUANDIAN_API_KEY` |
 | [nh59yytyd5-dev/chinalaw-cli](https://github.com/nh59yytyd5-dev/chinalaw-cli) | 🔌MCP/🛠️CLI | 1 | ✅ | 💎中国法律法规本地检索 CLI + MCP：实测内置 49 部基础规范/7516 条条文，支持官方源按需补全、来源元数据和 7 个 Agent Skill |
+| [ZongziForu/cn-law-hub](https://github.com/ZongziForu/cn-law-hub) | 🧩Skill | 31 | ❌ | 💎中国国家法律法规数据库 Skill：检索、下载、分类与条文查询，浅克隆实测 33 个 unittest 通过（无 license） |
+| [GaaZeon-Hui/legal-text-splitter-mcp](https://github.com/GaaZeon-Hui/legal-text-splitter-mcp) | 🔌MCP | 1 | ✅ | 💎中文法规条款切分 MCP：按条/款/项等层级拆分法规文本，含 8 个 pytest 用例；本地运行，MIT |
 | [hisnontright/jiandawang-jicui-consultation](https://github.com/hisnontright/jiandawang-jicui-consultation) | 🧩Skill | 0 | ✅ | 💎检答网集萃第 1–140 批本地检索技能：检察业务/最高检答疑 Markdown 内置，强调可溯源检索与免责声明（MIT） |
 | [liuhuanyong/CrimeKgAssitant](https://github.com/liuhuanyong/CrimeKgAssitant) | 📊数据 | 1581 | ❌ | ❄️罪名预测+法律知识图谱+20w 问答（经典） |
 | [billvsme/law_ai](https://github.com/billvsme/law_ai) | 🛠️应用 | 226 | ❌ | ❄️LangChain 法律 RAG（200+ 手册+网搜，给出处） |
@@ -248,6 +251,7 @@
 | [tyc-tech/mcp-skills](https://github.com/tyc-tech/mcp-skills) | 🔌MCP | 13 | ❌ | **天眼查 MCP** Skills |
 | [duhu2000/vibe-lawyering-qcc](https://github.com/duhu2000/vibe-lawyering-qcc) | 🔌MCP | 6 | ✅ | **企查查 MCP** 增强版·法律人 AI 工具箱 |
 | [Ace-Kelly/qcc-mcp-batch](https://github.com/Ace-Kelly/qcc-mcp-batch) | 🔌MCP | 2 | ✅ | **企查查 MCP** 批量抓取（工商/风险/知产 67 字段） |
+| [zhanglunet/qcc](https://github.com/zhanglunet/qcc) | 🔌MCP/🧩Skill | 1 | ✅ | 💎企查查 Agent MCP 一站式接入：Python/TypeScript 客户端 + 8 个 workflow skill + 146 tool inventory；需自备 QCC API Key |
 | [malnlda/yd-enterprise-info](https://github.com/malnlda/yd-enterprise-info) | 🧩Skill | 1 | ❌ | 元典开放平台企业信息查询（22 子命令） |
 
 ## 2.3 数据集 · 评测 · 语料
@@ -291,6 +295,7 @@
 | [Lawyer-ray/FachuanHybridSystem](https://github.com/Lawyer-ray/FachuanHybridSystem) | 🛠️平台 | 192 | ⚠️ | ⭐💎一线律师自研「法穿 AI Copilot」：法院短信自动解析归档 + 一次生成全套委托材料 + OA/一张网立案 + 本地知识库，Django 6 + React 19 + MCP（127 模型/483 API/35 模块；Elastic 2.0：自用可商用，禁转售为托管服务） |
 | [AnttiHero/lavern](https://github.com/AnttiHero/lavern) | 🏛️平台 | 266 | ✅ | 💎法律多智能体系统：67 个 specialist/orchestrator agents + 21 个 MCP tools，证据引用、辩论协议、三层校验与 human gate（Apache-2.0） |
 | [stella/stella](https://github.com/stella/stella) | 🏛️平台 | 147 | ✅ | 💎开源法律 workspace + data stack：案件/文档/Word 编辑、Tabular Review、Legal Atlas、企业登记客户端、匿名化与 stella MCP server（Apache-2.0） |
+| [AzureTsui/GiGi](https://github.com/AzureTsui/GiGi) | 🛠️应用 | 0 | ✅ | 💎法务雪鸮：面向律师的本地优先开庭提醒桌面助手，传票 PDF/OCR 解析、开庭强提醒、卷宗看板，Tauri/Rust/React + SQLite |
 | [jlawyerorg/j-lawyer-org](https://github.com/jlawyerorg/j-lawyer-org) | 🛠️平台 | 82 | ⚠️ | 德国开源律所管理系统（案件/文档/归档） |
 | [createrivabu/Iuris-Soft](https://github.com/createrivabu/Iuris-Soft) | 🛠️平台 | 20 | ❌ | 案件全生命周期 + 开庭管理 + 文档库 |
 | [imchongliu/law-firm-worklog](https://github.com/imchongliu/law-firm-worklog) | 🧩Skill | 2 | ✅ | 💎律所工时月报生成（任务→Excel/CSV，刘冲律师） |

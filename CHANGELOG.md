@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-07-18
+
+### 新增
+- **强纳入项目实质扫描后补录**（+5 仓 → **285**）：经 GitHub API、仓库文件、浅克隆实质扫描、`compileall`、可运行测试 / 验证脚本核验，新增 5 个非玩具项目：
+  - `ZongziForu/cn-law-hub`（★31，无 license → 商用❌）：中国国家法律法规数据库 Skill，面向 `flk.npc.gov.cn` 做检索、下载、分类与条文查询；20 files / 1 Skill / 9 code / 3 tests，33 个 unittest 通过 → §2.1。
+  - `GaaZeon-Hui/legal-text-splitter-mcp`（★1，MIT → 商用✅）：中文法规条款切分 MCP，按条 / 款 / 项等层级拆分法规文本；22 files / 18 code / 8 pytest tests，`compileall` 通过；此前暂缓项，本次因测试结构和包结构补齐改为收录 → §2.1。
+  - `zhanglunet/qcc`（★1，Apache-2.0 → 商用✅）：企查查 Agent MCP 一站式接入，Python / TypeScript 客户端 + 8 个 workflow skill + 146 tool inventory；需自备 QCC API Key，实际使用仍受企查查授权与平台条款约束 → §2.2。
+  - `AzureTsui/GiGi`（★0，MIT → 商用✅）：法务雪鸮，面向律师的本地优先开庭提醒桌面助手，Tauri / Rust / React + SQLite + 本地 OCR，支持传票解析、开庭强提醒与卷宗看板 → §3.1。
+  - `zgbrenner/agentcounsel`（★14，MIT → 商用✅）：AI-agnostic 法律团队 skill 库；221 skills / 31 code / 16 tests / 3 CI，`validate_repo.py` 通过，16 个核心 unittest 通过 → §1.1。
+
 ## 2026-07-06
 
 ### 新增
