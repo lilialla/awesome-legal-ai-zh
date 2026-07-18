@@ -3,6 +3,7 @@
 # 仅含 GitHub 可核验仓；微信长尾与平台（法律元力等）见 README
 anthropics/claude-for-legal	skill-suite
 zgbrenner/agentcounsel	skill-suite
+NEU-ZHA/legal-ai-skills	skill-suite
 zubair-trabzada/ai-legal-claude	skill-suite
 CSlawyer1985/claude-for-legal-ZH	skill-suite
 zhou210712/claude-for-legal-ZH	skill-suite
@@ -32,6 +33,7 @@ lilialla/legal-document-format-skill	contract-doc-ip
 lilialla/request-right-skill-reference	contract-doc-ip
 katejianglaw/refine-legal-chinese	contract-doc-ip
 Xigua9xi/ai-legal-review-skillkit	contract-doc-ip
+nwwfewx/contract-review	contract-doc-ip
 lilialla/equity-transfer-review-skill	corp-finance-ma-dd
 microsoft/presidio	data-compliance
 LianXU-321/china-outbound-service-dpa-bilingual	data-compliance
@@ -65,6 +67,7 @@ penpot/penpot	ppt-assets
 onlook-dev/onlook	ppt-assets
 gridaco/grida	ppt-assets
 cat-xierluo/trademark-assistant.skill	contract-doc-ip
+yuc16/PatentRadar	contract-doc-ip
 CSHaitao/LexiLaw	llm
 zhihaiLLM/wisdomInterrogatory	llm
 CSHaitao/LegalOne	llm

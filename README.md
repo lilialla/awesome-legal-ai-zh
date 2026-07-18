@@ -8,7 +8,7 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-285_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-288_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-GitHub_API_核验-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
 ![Updated](https://img.shields.io/badge/快照-2026--07--18-b5462f)
@@ -59,6 +59,7 @@
 | [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal) | 🏛️平台 | 8486 | ✅ | ⭐Anthropic 官方法律套件，80+ agent / 12 plugin / ~20 MCP |
 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 🏛️平台 | 21908 | ✅ | ⭐官方知识工作插件集（含 legal 工作流） |
 | [zgbrenner/agentcounsel](https://github.com/zgbrenner/agentcounsel) | 🏛️套件 | 14 | ✅ | 💎AI-agnostic 法律团队 skill 库：221 个 skills + matter packs / playbooks / review panels，含 CI、验证脚本与核心 unittest（MIT） |
+| [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills) | 🏛️套件 | 43 | ✅ | 💎法律 AI Skills 集：北大法宝 MCP、法律事实核查、引注核验、DOCX/证据目录工作流；公开包不附第三方手册索引，严格引注全量核验需用户自备合法来源 |
 | [zubair-trabzada/ai-legal-claude](https://github.com/zubair-trabzada/ai-legal-claude) | 🏛️套件 | 1481 | ❌ | 14 skill + 5 agent：合同/NDA/合规/谈判/PDF |
 | [CSlawyer1985/claude-for-legal-ZH](https://github.com/CSlawyer1985/claude-for-legal-ZH) | 🏛️套件 | 497 | ✅ | ⭐官方版的中国法适配 + 元典 MCP，覆盖 12 法域 |
 | [zhou210712/claude-for-legal-ZH](https://github.com/zhou210712/claude-for-legal-ZH) | 🏛️套件 | 108 | ✅ | 另一作者的中国法 Claude 工作层（公司/商事/IP/劳动/AI治理多域插件） |
@@ -95,6 +96,7 @@
 | [zh-xx/legal-assistant-skills](https://github.com/zh-xx/legal-assistant-skills) | 🧩Skill | 139 | ✅ | 合同 + 广告合规 + 请求权可视化 |
 | [xiaodingfeng/contract-review](https://github.com/xiaodingfeng/contract-review) | 🛠️应用 | 101 | ✅ | 合同审查（Vue 全栈） |
 | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | 🧩Skill | 2 | ✅ | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
+| [nwwfewx/contract-review](https://github.com/nwwfewx/contract-review) | 🧩Skill | 4 | ✅ | 💎中文合同审查 Skill：通用/资管/托管协议审查路线，含风险表、证据门禁、DOCX Track Changes/Comments 辅助脚本 |
 | [fayayy888/legal-document-assistant](https://github.com/fayayy888/legal-document-assistant) | 🏛️套件 | 19 | ❌ | 💎中国法律文书撰写 Skill 套件：答辩状、合同审查、法律意见书、代理前案件分析、案例检索、常法服务等（无 license） |
 | [malnlda/contract-review](https://github.com/malnlda/contract-review) | 🧩Skill | 0 | ⚠️ | 💎专业合同审核 Claude Skill：7 步工作流、5 类门禁、终稿三件套、Track Changes + Comments；README 写 MIT 但 GitHub 未识别 license，需复核 |
 | [SenryLee/rule-harness](https://github.com/SenryLee/rule-harness) | 🛠️平台 | 1 | ⚠️ | 💎法律规则抽取/核验/Skill 生成平台：从合同、法规、裁判文书、内规中抽取可溯源审查规则，README/pyproject 写 MIT 但 GitHub 未识别 license |
@@ -117,6 +119,7 @@
 | [ettajingruyang/PRC-merger-control-assessment](https://github.com/ettajingruyang/PRC-merger-control-assessment) | 🧩Skill | 0 | ❌ | 💎**反垄断/竞争法**：经营者集中申报评估（艾塔法律AI实验室·Etta/Jingru Yang） |
 | [cat-xierluo/code2patent.skill](https://github.com/cat-xierluo/code2patent.skill) | 🧩Skill | 1 | ⚠️ | 代码仓库转发明专利交底材料 |
 | [cat-xierluo/patent-analysis.skill](https://github.com/cat-xierluo/patent-analysis.skill) | 🧩Skill | 3 | ⚠️ | 专利侵权评估/权利要求比对（7 场景） |
+| [yuc16/PatentRadar](https://github.com/yuc16/PatentRadar) | 🛠️工具/🧩Skill | 45 | ⚠️ | 💎专利侵权竞品分析系统：专利 claim 拆解、竞品搜索、逐特征 claim chart、证据 URL 与 PDF 报告；README 写 MIT 但缺标准 LICENSE，需自备 LLM/Search API |
 | [CNIPA/PatentDatabases](https://github.com/CNIPA/PatentDatabases) | 📚清单 | 412 | ⚠️ | 个人整理的全球专利数据库 URL 清单（账户名 CNIPA，非官方机构） |
 ## 1.4 诉讼 · 刑事 · 行政 · 执行
 

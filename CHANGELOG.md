@@ -14,6 +14,10 @@
   - `zhanglunet/qcc`（★1，Apache-2.0 → 商用✅）：企查查 Agent MCP 一站式接入，Python / TypeScript 客户端 + 8 个 workflow skill + 146 tool inventory；需自备 QCC API Key，实际使用仍受企查查授权与平台条款约束 → §2.2。
   - `AzureTsui/GiGi`（★0，MIT → 商用✅）：法务雪鸮，面向律师的本地优先开庭提醒桌面助手，Tauri / Rust / React + SQLite + 本地 OCR，支持传票解析、开庭强提醒与卷宗看板 → §3.1。
   - `zgbrenner/agentcounsel`（★14，MIT → 商用✅）：AI-agnostic 法律团队 skill 库；221 skills / 31 code / 16 tests / 3 CI，`validate_repo.py` 通过，16 个核心 unittest 通过 → §1.1。
+- **法律 Skill / 专利工具实质审查补录**（+3 仓 → **288**）：经 GitHub API、仓库文件、浅克隆、脚本编译与最小 smoke / pytest 核验，新增 3 个非玩具项目：
+  - `NEU-ZHA/legal-ai-skills`（★43，MIT → 商用✅）：法律 AI Skills 集，28 个 `SKILL.md`，覆盖北大法宝 MCP、法律事实核查、引注核验、DOCX/证据目录工作流；`compileall` 通过，证据目录脚本实测生成 DOCX；严格引注全量核验需用户自备合法来源的手册索引 → §1.1。
+  - `nwwfewx/contract-review`（★4，MIT → 商用✅）：中文合同审查 Skill，覆盖通用、资管、托管协议等审查路线，含 references/checklists/protocols/templates 与 3 个 DOCX/结构化辅助脚本；`compileall` 与最小合同结构抽取 smoke 通过 → §1.2。
+  - `yuc16/PatentRadar`（★45，README 写 MIT 但 GitHub 未识别 license → 商用⚠️）：专利侵权竞品分析系统，提供 CLI/Web/Docker 与 skill 模式，覆盖 claim 拆解、竞品搜索、逐特征 claim chart、证据 URL 与 PDF 报告；`uv run pytest` 回归子集 52 passed，CLI 启动正常；需自备 LLM/Search API，建议作者补标准 LICENSE 文件 → §1.3。
 
 ## 2026-07-06
 
