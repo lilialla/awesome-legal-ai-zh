@@ -8,10 +8,10 @@
 # ⚖️ awesome-legal-ai-zh · 法律人开源工具箱
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Resources](https://img.shields.io/badge/已收录-288_仓-3a5a8c)
+![Resources](https://img.shields.io/badge/已收录-293_仓-3a5a8c)
 ![Verified](https://img.shields.io/badge/数据-GitHub_API_核验-2e8b57)
 ![License](https://img.shields.io/badge/本清单-CC0--1.0-9aa0ab)
-![Updated](https://img.shields.io/badge/快照-2026--07--18-b5462f)
+![Updated](https://img.shields.io/badge/快照-2026--07--19-b5462f)
 
 **给中国律师 / 法务的一站式开源 AI 工具地图——按你的工作场景，找到能直接装、能直接用的东西。**
 
@@ -60,6 +60,7 @@
 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 🏛️平台 | 21908 | ✅ | ⭐官方知识工作插件集（含 legal 工作流） |
 | [zgbrenner/agentcounsel](https://github.com/zgbrenner/agentcounsel) | 🏛️套件 | 14 | ✅ | 💎AI-agnostic 法律团队 skill 库：221 个 skills + matter packs / playbooks / review panels，含 CI、验证脚本与核心 unittest（MIT） |
 | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills) | 🏛️套件 | 43 | ✅ | 💎法律 AI Skills 集：北大法宝 MCP、法律事实核查、引注核验、DOCX/证据目录工作流；公开包不附第三方手册索引，严格引注全量核验需用户自备合法来源 |
+| [yangyc03/yangyc-legalai-skills](https://github.com/yangyc03/yangyc-legalai-skills) | 🏛️套件 | 1 | ✅ | 💎法律 AI 插件套件：本地脱敏、法律关系网络核验、法律事项归档；本地实测 22 个 unittest 通过（Apache-2.0） |
 | [zubair-trabzada/ai-legal-claude](https://github.com/zubair-trabzada/ai-legal-claude) | 🏛️套件 | 1481 | ❌ | 14 skill + 5 agent：合同/NDA/合规/谈判/PDF |
 | [CSlawyer1985/claude-for-legal-ZH](https://github.com/CSlawyer1985/claude-for-legal-ZH) | 🏛️套件 | 497 | ✅ | ⭐官方版的中国法适配 + 元典 MCP，覆盖 12 法域 |
 | [zhou210712/claude-for-legal-ZH](https://github.com/zhou210712/claude-for-legal-ZH) | 🏛️套件 | 108 | ✅ | 另一作者的中国法 Claude 工作层（公司/商事/IP/劳动/AI治理多域插件） |
@@ -204,6 +205,7 @@
 |---|--|--|:--:|--|
 | [996icu/996.ICU](https://github.com/996icu/996.ICU) | 📚资源 | 276319 | ❌ | 劳动维权标志项目（加班违法论证/法条引用） |
 | [wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill) | 🧩Skill | 25 | ⚠️ | 💎劳动仲裁 skill（劳动争议实务） |
+| [f12336414-ship-it/labor-arbitration-skill](https://github.com/f12336414-ship-it/labor-arbitration-skill) | 🧩Skill | 0 | ✅ | 💎劳动仲裁引用完整性内核：法条、时效、金额、证据引用核验流程；本地实测 416 个 unittest 通过（Apache-2.0） |
 | [worker-aid-ai/worker-aid-agent](https://github.com/worker-aid-ai/worker-aid-agent) | 🛠️Agent | 1 | ⚠️ | 💎劳动者权益自助 Agent/Skill：本地 Web + CLI，欠薪/未签合同/违法解除/加班费材料整理与仲裁申请草稿 |
 | [workingclass-ai/workingclass](https://github.com/workingclass-ai/workingclass) | 🧩Skill | 6 | ✅ | 💎劳动者 AI 助手：话术解码、PIP/裁员/加班/薪资谈判、OPSEC 提醒与 9 个法域劳动法地图（Apache-2.0） |
 | [jerry046918/labor_rights_skills](https://github.com/jerry046918/labor_rights_skills) | 🧩Skill | 1 | ⚠️ | 💎劳动权益法律顾问 Skill：大陆劳动争议结构化调查、证据采集、法条/类案检索与法律意见书生成，含录音本地 FunASR 处理（Anti-996 条件许可） |
@@ -229,10 +231,12 @@
 | 项目 | 类型 | ★ | 商用 | 干嘛的 |
 |---|--|--|:--:|--|
 | [cncases/cases](https://github.com/cncases/cases) | 🛠️工具 | 1031 | ✅ | 💎中国裁判文书本地离线检索 |
+| [245678000000/caselaw-mcp-server](https://github.com/245678000000/caselaw-mcp-server) | 🔌MCP | 2 | ✅ | 💎中国裁判案例库 MCP + FastAPI：对接 `cncases/cases`，支持案例检索与结构化接口；本地实测 57 个 pytest 通过（MIT） |
 | [aa0101181514/tw-legal-rag](https://github.com/aa0101181514/tw-legal-rag) | 🛠️应用 | 175 | ✅ | 台湾法律 RAG |
 | [lawchat-oss/mcp-taiwan-legal-db](https://github.com/lawchat-oss/mcp-taiwan-legal-db) | 🔌MCP | 145 | ✅ | 台湾司法院判决 + 法规 MCP |
 | [Golden2002/legal-research-skill](https://github.com/Golden2002/legal-research-skill) | 🧩Skill | 116 | ✅ | 法律检索 skill（劳动/合同/侵权/家事/行政/刑事） |
 | [yuandian-ailaw/yuandian-mcp-server](https://github.com/yuandian-ailaw/yuandian-mcp-server) | 🔌MCP | 3 | ✅ | **元典官方 MCP Server**：动态注册法规/案例/企业等开放平台 API，需自备 `YUANDIAN_API_KEY` |
+| [bangchuiLee/yuandian-current-law-verifier](https://github.com/bangchuiLee/yuandian-current-law-verifier) | 🧩Skill | 0 | ✅ | 💎元典现行法规核验 Skill：引用具体中国大陆法规前先查版本、正文与时效，MCP 失败时 fail closed；本地实测 7 个 unittest 通过（MIT，需 yuandian-law MCP） |
 | [nh59yytyd5-dev/chinalaw-cli](https://github.com/nh59yytyd5-dev/chinalaw-cli) | 🔌MCP/🛠️CLI | 1 | ✅ | 💎中国法律法规本地检索 CLI + MCP：实测内置 49 部基础规范/7516 条条文，支持官方源按需补全、来源元数据和 7 个 Agent Skill |
 | [ZongziForu/cn-law-hub](https://github.com/ZongziForu/cn-law-hub) | 🧩Skill | 31 | ❌ | 💎中国国家法律法规数据库 Skill：检索、下载、分类与条文查询，浅克隆实测 33 个 unittest 通过（无 license） |
 | [GaaZeon-Hui/legal-text-splitter-mcp](https://github.com/GaaZeon-Hui/legal-text-splitter-mcp) | 🔌MCP | 1 | ✅ | 💎中文法规条款切分 MCP：按条/款/项等层级拆分法规文本，含 8 个 pytest 用例；本地运行，MIT |
@@ -255,6 +259,7 @@
 | [duhu2000/vibe-lawyering-qcc](https://github.com/duhu2000/vibe-lawyering-qcc) | 🔌MCP | 6 | ✅ | **企查查 MCP** 增强版·法律人 AI 工具箱 |
 | [Ace-Kelly/qcc-mcp-batch](https://github.com/Ace-Kelly/qcc-mcp-batch) | 🔌MCP | 2 | ✅ | **企查查 MCP** 批量抓取（工商/风险/知产 67 字段） |
 | [zhanglunet/qcc](https://github.com/zhanglunet/qcc) | 🔌MCP/🧩Skill | 1 | ✅ | 💎企查查 Agent MCP 一站式接入：Python/TypeScript 客户端 + 8 个 workflow skill + 146 tool inventory；需自备 QCC API Key |
+| [duhu2000/qcc-agent-cli](https://github.com/duhu2000/qcc-agent-cli) | 🛠️CLI | 1 | ✅ | 💎企查查智能体数据平台 CLI：工具自省、配置诊断、企业/文档查询命令；本地实测 98 个 Jest 测试通过，需 QCC 授权（MIT） |
 | [malnlda/yd-enterprise-info](https://github.com/malnlda/yd-enterprise-info) | 🧩Skill | 1 | ❌ | 元典开放平台企业信息查询（22 子命令） |
 
 ## 2.3 数据集 · 评测 · 语料

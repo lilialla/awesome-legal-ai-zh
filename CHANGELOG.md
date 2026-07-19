@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-07-19
+
+### 新增
+- **法律 AI / Skill 强纳入项目实质审查补录**（+5 仓 → **293**）：按 2026-07-19 增量扫描结果，对候选仓做浅克隆、仓库文件、license、敏感凭证、可运行测试 / smoke 核验后，新增 5 个强纳入项目：
+  - `yangyc03/yangyc-legalai-skills`（★1，Apache-2.0 → 商用✅）：法律 AI 插件套件，覆盖本地脱敏、法律关系网络核验、法律事项归档；本地运行本地脱敏与法律网络核验测试共 22 个 unittest 通过 → §1.1。
+  - `f12336414-ship-it/labor-arbitration-skill`（★0，Apache-2.0 → 商用✅）：劳动仲裁引用完整性内核，围绕法条、时效、金额、证据引用核验组织劳动争议文书/意见输出；本地 416 个 unittest 通过 → §1.8。
+  - `245678000000/caselaw-mcp-server`（★2，MIT → 商用✅）：中国裁判案例库 MCP + FastAPI，基于 `cncases/cases` 提供案例检索与结构化接口；本地 `ADAPTER_TYPE=mock` 下 57 个 pytest 通过 → §2.1。
+  - `bangchuiLee/yuandian-current-law-verifier`（★0，MIT → 商用✅）：元典现行法规核验 Skill，在法律输出引用具体中国大陆法规前核验版本、正文与时效；MCP 失败时 fail closed，不保存 API Key/Cookie；本地 7 个 unittest 通过，需用户自备 yuandian-law MCP 授权 → §2.1。
+  - `duhu2000/qcc-agent-cli`（★1，MIT → 商用✅）：企查查智能体数据平台 CLI，支持工具自省、配置诊断、企业/文档查询命令；本地 98 个 Jest 测试通过，实际查询需 QCC 授权与平台条款约束 → §2.2。
+
 ## 2026-07-18
 
 ### 新增
