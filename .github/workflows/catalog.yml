@@ -1,0 +1,29 @@
+name: Catalog
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Registry and generated pages
+        run: python3 scripts/catalog.py check
+      - name: Reject sensitive material
+        run: |
+          if git grep -nE 'github_pat_[A-Za-z0-9_]{20,}|gh[opsu]_[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|BEGIN ([A-Z0-9-]+ )?PRIVATE KEY'; then
+            echo "Potential credential found in tracked files" >&2
+            exit 1
+          fi

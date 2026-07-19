@@ -1,0 +1,806 @@
+{
+  "schema_version": 2,
+  "capabilities": [
+    {
+      "id": "starter-suites",
+      "title": "综合套件",
+      "description": "从覆盖面、中文适配和可验证性选择入门套件。",
+      "order": 1
+    },
+    {
+      "id": "contracts",
+      "title": "合同审查与红线",
+      "description": "区分通用审查、专项审查和红线交付。",
+      "order": 2
+    },
+    {
+      "id": "legal-documents",
+      "title": "法律文书与 OCR",
+      "description": "文书格式、OCR、转换和本地脱敏。",
+      "order": 3
+    },
+    {
+      "id": "legal-research",
+      "title": "法规与案例检索",
+      "description": "区分本地法规、案例库、商业数据库接口和现行性核验。",
+      "order": 4
+    },
+    {
+      "id": "litigation",
+      "title": "诉讼、证据与期限",
+      "description": "案件分析、请求权基础、证据和程序期限。",
+      "order": 5
+    },
+    {
+      "id": "enterprise-dd",
+      "title": "企业核查与尽调",
+      "description": "企业数据入口、批量核查和尽调工作流。",
+      "order": 6
+    },
+    {
+      "id": "corporate-ma",
+      "title": "公司、投融资与并购",
+      "description": "股权交易、公司治理、投融资和并购尽调。",
+      "order": 7
+    },
+    {
+      "id": "data-compliance",
+      "title": "数据合规与脱敏",
+      "description": "数据合规检查、隐私文书和材料脱敏。",
+      "order": 8
+    },
+    {
+      "id": "labor-family",
+      "title": "劳动、家事与个人权益",
+      "description": "劳动争议优先；家事与个人权益仍有明显缺口。",
+      "order": 9
+    },
+    {
+      "id": "ip-competition",
+      "title": "知识产权与竞争法",
+      "description": "软著、专利、商标和经营者集中。",
+      "order": 10
+    },
+    {
+      "id": "cross-border-arbitration",
+      "title": "涉外与仲裁",
+      "description": "域外研究、制裁筛查和跨境合同；国际仲裁仍是缺口。",
+      "order": 11
+    },
+    {
+      "id": "law-firm-operations",
+      "title": "律所与案件运营",
+      "description": "个人案件提醒、案件管理和律所工作流。",
+      "order": 12
+    },
+    {
+      "id": "tax-bankruptcy-realestate",
+      "title": "税务、破产与房地产",
+      "description": "中国法专用成熟项目仍然稀缺。",
+      "order": 13
+    }
+  ],
+  "slots": [
+    {
+      "id": "china-practice-suite",
+      "capability": "starter-suites",
+      "title": "中国律师日常套件",
+      "homepage": true,
+      "decision_basis": "比较中文法律任务覆盖、单 Skill 安装、更新机制、交付物和可验证代码，不以 Star 排序。",
+      "primary": {
+        "project": "cat-xierluo/legal-skills",
+        "reason": "杨卫薪律师持续维护，50 个 Skill 覆盖合同、诉讼、检索、知产和律师工作流，可单独下载。"
+      },
+      "alternatives": [
+        {
+          "project": "NEU-ZHA/legal-ai-skills",
+          "reason": "中国法律任务结构完整，已有脚本级 Smoke 证据。"
+        },
+        {
+          "project": "pa1nrui1/legal-skills",
+          "reason": "59 个中文法律 Skill，覆盖破产、刑辩、劳动和文书交付。"
+        }
+      ],
+      "gap": null,
+      "order": 1
+    },
+    {
+      "id": "large-legal-library",
+      "capability": "starter-suites",
+      "title": "大型法律 Skill 库",
+      "homepage": false,
+      "decision_basis": "比较 Skill 数量、路由结构、测试框架、中国法适配和上游关系。",
+      "primary": {
+        "project": "zgbrenner/agentcounsel",
+        "reason": "221 个 Skill 并有仓库验证脚本和核心单元测试。"
+      },
+      "alternatives": [
+        {
+          "project": "CSlawyer1985/claude-for-legal-ZH",
+          "reason": "Anthropic 法律套件的中国法适配版，内容覆盖广。"
+        },
+        {
+          "project": "anthropics/claude-for-legal",
+          "reason": "适合需要上游通用法律方法库的用户。"
+        }
+      ],
+      "gap": null,
+      "order": 2
+    },
+    {
+      "id": "contract-review",
+      "capability": "contracts",
+      "title": "通用合同审查",
+      "homepage": true,
+      "decision_basis": "比较中国合同法方法、风险分层、Word 批注/修订交付、脚本和测试。",
+      "primary": {
+        "project": "cat-xierluo/contract-copilot.skill",
+        "reason": "三层分析与四步审查流程直接交付 Word 批注/修订，6 项 DOCX 回归测试通过。"
+      },
+      "alternatives": [
+        {
+          "project": "nwwfewx/contract-review",
+          "reason": "中国合同审查路线与结构化资料完整，Smoke 通过。"
+        },
+        {
+          "project": "Xigua9xi/ai-legal-review-skillkit",
+          "reason": "适合自行扩展审查规则和测试夹具。"
+        }
+      ],
+      "gap": null,
+      "order": 3
+    },
+    {
+      "id": "contract-redline",
+      "capability": "contracts",
+      "title": "Word 红线与审查交付",
+      "homepage": false,
+      "decision_basis": "只比较能把审查结果写回 DOCX、保留批注或修订痕迹的项目。",
+      "primary": {
+        "project": "evolsb/legal-redline-tools",
+        "reason": "专门面向 Word 红线、批注和 PDF 交付。"
+      },
+      "alternatives": [
+        {
+          "project": "cat-xierluo/contract-copilot.skill",
+          "reason": "将法律审查方法和 DOCX 交付合在一个 Skill 中。"
+        }
+      ],
+      "gap": null,
+      "order": 4
+    },
+    {
+      "id": "contract-form-fill",
+      "capability": "contracts",
+      "title": "标准合同自动填写",
+      "homepage": false,
+      "decision_basis": "区分合同审查与基于固定模板、事实字段的自动填写。",
+      "primary": {
+        "project": "TracyWang95/DataInfra-Agentic-Contract-Filler-Skill",
+        "reason": "面向国家数据局合同模板的专项填写 Skill，任务边界清晰。"
+      },
+      "alternatives": [],
+      "gap": null,
+      "order": 5
+    },
+    {
+      "id": "docx-format",
+      "capability": "legal-documents",
+      "title": "Word 法律文书排版",
+      "homepage": true,
+      "decision_basis": "比较模板执行、格式锁定、批处理、渲染验收和自动化测试。",
+      "primary": {
+        "project": "lilialla/legal-document-format-skill",
+        "reason": "面向法律 Word 模板执行、内容锁定和格式门禁，67 项测试通过。"
+      },
+      "alternatives": [],
+      "gap": null,
+      "order": 6
+    },
+    {
+      "id": "legal-document-drafting",
+      "capability": "legal-documents",
+      "title": "诉讼文书与法律意见书起草",
+      "homepage": false,
+      "decision_basis": "比较事实询问、请求/抗辩结构、法源引用、法律意见书与可交付文档。",
+      "primary": {
+        "project": "fayayy888/legal-document-assistant",
+        "reason": "13 个 Skill 覆盖答辩状、法律意见书、代理前案件分析和常年法律服务。"
+      },
+      "alternatives": [],
+      "gap": "当前只完成仓库审阅，尚无文书内容正确性或 DOCX 交付回归测试。",
+      "order": 6.5
+    },
+    {
+      "id": "legal-ocr",
+      "capability": "legal-documents",
+      "title": "案卷 OCR 与 PDF 解析",
+      "homepage": true,
+      "decision_basis": "比较扫描件、表格、复杂 PDF、本地处理和后续法律切分接口。",
+      "primary": {
+        "project": "opendatalab/MinerU",
+        "reason": "复杂 PDF/OCR 生态成熟，适合作为案卷解析底座。"
+      },
+      "alternatives": [],
+      "gap": null,
+      "order": 7
+    },
+    {
+      "id": "legal-text-segmentation",
+      "capability": "legal-documents",
+      "title": "法规文本条款切分",
+      "homepage": false,
+      "decision_basis": "只比较 OCR/文本提取后的条、款、项结构化切分和 MCP 接入，不与 OCR 引擎作平替比较。",
+      "primary": {
+        "project": "GaaZeon-Hui/legal-text-splitter-mcp",
+        "reason": "专门处理中文法规条/款/项切分，包结构化接口并已完成编译级 Smoke。"
+      },
+      "alternatives": [],
+      "gap": null,
+      "order": 7.5
+    },
+    {
+      "id": "local-redaction",
+      "capability": "data-compliance",
+      "title": "本地法律材料脱敏",
+      "homepage": true,
+      "decision_basis": "分别比较轻量 DOCX 脱敏和多格式本地 AI 工作台，重点看材料是否出本机、部署门槛和实测证据。",
+      "primary": {
+        "project": "moyupeng0422/legal-doc-redactor",
+        "reason": "离线 DOCX 一致替换、还原和审阅痕迹处理，个人律师上手更轻。"
+      },
+      "alternatives": [
+        {
+          "project": "TracyWang95/DataInfra-RedactionEverything",
+          "reason": "多格式、OCR、视觉定位和人工复核更强，548 项后端测试通过，但部署门槛高。"
+        },
+        {
+          "project": "yangyc03/yangyc-legalai-skills",
+          "reason": "轻量本地脱敏并有 22 项法律网络/脱敏测试。"
+        }
+      ],
+      "gap": null,
+      "order": 8
+    },
+    {
+      "id": "law-search",
+      "capability": "legal-research",
+      "title": "中国法规检索",
+      "homepage": true,
+      "decision_basis": "比较法规数据来源、本地可用性、CLI/MCP 接口、来源元数据和回归测试。",
+      "primary": {
+        "project": "nh59yytyd5-dev/chinalaw-cli",
+        "reason": "本地法规 CLI/MCP、来源元数据和安装路径完整，678 项测试通过。"
+      },
+      "alternatives": [
+        {
+          "project": "ZongziForu/cn-law-hub",
+          "reason": "法规检索与 MCP 路径轻量，33 项单元测试通过。"
+        }
+      ],
+      "gap": null,
+      "order": 9
+    },
+    {
+      "id": "case-search",
+      "capability": "legal-research",
+      "title": "中国案例库检索",
+      "homepage": true,
+      "decision_basis": "只比较真实提供案例数据底座或可调用检索接口的项目。",
+      "primary": {
+        "project": "245678000000/caselaw-mcp-server",
+        "reason": "标准 MCP 与 FastAPI 接口，mock 适配器下 57 项测试通过。"
+      },
+      "alternatives": [
+        {
+          "project": "cncases/cases",
+          "reason": "适合作为本地离线案例数据底座。"
+        }
+      ],
+      "gap": null,
+      "order": 10
+    },
+    {
+      "id": "law-validity",
+      "capability": "legal-research",
+      "title": "法规现行性核验",
+      "homepage": false,
+      "decision_basis": "比较是否在法律输出前独立核验法规版本、正文和时效。",
+      "primary": {
+        "project": "bangchuiLee/yuandian-current-law-verifier",
+        "reason": "把现行性核验做成独立门禁，7 项单元测试通过。"
+      },
+      "alternatives": [
+        {
+          "project": "yuandian-ailaw/yuandian-mcp-server",
+          "reason": "适合同时需要法规、案例和企业数据 API 的用户。"
+        }
+      ],
+      "gap": null,
+      "order": 11
+    },
+    {
+      "id": "legal-kb",
+      "capability": "legal-research",
+      "title": "本地法律知识库",
+      "homepage": true,
+      "decision_basis": "比较材料解析、切分、检索、质量门禁、MCP/API 服务和本地数据路径。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "Youchu-lawhub/legal-kb-builder",
+          "reason": "工厂化流程覆盖解析、混合检索、API 与 MCP，脚本编译通过，但尚未功能实测。"
+        },
+        {
+          "project": "leo123-tto/legal-ai",
+          "reason": "集成 MinerU、元典检索和知识库导入导出。"
+        }
+      ],
+      "gap": "尚无同时完成真实法律材料入库、检索质量实测且权利边界适合个人律师/法务的当前推荐。",
+      "order": 12
+    },
+    {
+      "id": "litigation-full-cycle",
+      "capability": "litigation",
+      "title": "民商事诉讼全流程",
+      "homepage": true,
+      "decision_basis": "比较案情建模、请求权/要件、证据、文书、庭审、质控和外部检索解耦。",
+      "primary": {
+        "project": "Youchu-lawhub/cn-litigation-toolkit",
+        "reason": "23 个 Skill 覆盖从立案访谈到证据、庭审和复盘，MCP 为可选增强，脚本编译通过。"
+      },
+      "alternatives": [
+        {
+          "project": "cat-xierluo/SuitAgent",
+          "reason": "适合需要多角色 Agent 并行分析争点、证据和攻防的用户。"
+        },
+        {
+          "project": "yxk-lawyer/litigation-prep-skill-cn",
+          "reason": "适合公司民商事案件的请求权基础和证据清单。"
+        }
+      ],
+      "gap": null,
+      "order": 13
+    },
+    {
+      "id": "civil-case-method",
+      "capability": "litigation",
+      "title": "民事请求权与鉴定式分析",
+      "homepage": true,
+      "decision_basis": "比较请求权基础检视、要件涵摄、反论结构、法条校验和输出可复核性。",
+      "primary": {
+        "project": "Youchu-lawhub/gutachten-civil-case",
+        "reason": "把德国鉴定式与中国民法典请求权基础检视结合，方法边界清晰。"
+      },
+      "alternatives": [
+        {
+          "project": "lilialla/request-right-skill-reference",
+          "reason": "适合需要更轻量中国民事请求权分析参考实现的用户。"
+        }
+      ],
+      "gap": null,
+      "order": 14
+    },
+    {
+      "id": "criminal-case-method",
+      "capability": "litigation",
+      "title": "刑事三阶层鉴定式分析",
+      "homepage": false,
+      "decision_basis": "聚焦罪名发现、三阶层犯罪论、双闸确认、法条核验和 Word 交付。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "Youchu-lawhub/gutachten-criminal-case",
+          "reason": "覆盖案情解析、罪名预选、并行写作和三维核验；当前仅有仓库审阅且无同类候选对比。"
+        }
+      ],
+      "gap": "只有单一方法型候选，尚不足以作出当前推荐。",
+      "order": 15
+    },
+    {
+      "id": "admin-case-method",
+      "capability": "litigation",
+      "title": "行政行为合法性与鉴定式分析",
+      "homepage": false,
+      "decision_basis": "聚焦可受理性、行政行为类型、合法性六要素、比例原则和裁量审查。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "Youchu-lawhub/gutachten-admin-case",
+          "reason": "行政法专项路由和审查框架完整；当前仅有仓库审阅且无同类候选对比。"
+        }
+      ],
+      "gap": "只有单一方法型候选，尚不足以作出当前推荐。",
+      "order": 16
+    },
+    {
+      "id": "litigation-period",
+      "capability": "litigation",
+      "title": "诉讼、仲裁与执行期限",
+      "homepage": true,
+      "decision_basis": "只比较程序日期识别、期限计算、提醒和复核记录。",
+      "primary": {
+        "project": "SimbaCD/legal-period-manager-skills",
+        "reason": "专门处理诉讼、仲裁、执行和待办期限，与诉讼分析套件互补。"
+      },
+      "alternatives": [
+        {
+          "project": "Youchu-lawhub/cn-litigation-toolkit",
+          "reason": "需要期限管理与全流程案件工作结合时使用。"
+        }
+      ],
+      "gap": null,
+      "order": 17
+    },
+    {
+      "id": "enterprise-check",
+      "capability": "enterprise-dd",
+      "title": "企查查企业核查",
+      "homepage": true,
+      "decision_basis": "比较官方 API 依赖、CLI/MCP 接口、配置诊断、批量查询和测试，不对“官方产品”宣称背书。",
+      "primary": {
+        "project": "duhu2000/qcc-agent-cli",
+        "reason": "CLI 工具自省和配置诊断完整，98 项 Jest 测试通过。"
+      },
+      "alternatives": [
+        {
+          "project": "zhanglunet/qcc",
+          "reason": "同时提供 MCP、Python/TypeScript 客户端和法律工作流 Skill。"
+        }
+      ],
+      "gap": null,
+      "order": 18
+    },
+    {
+      "id": "corporate-transactions",
+      "capability": "corporate-ma",
+      "title": "股权转让与公司交易",
+      "homepage": true,
+      "decision_basis": "先按股权转让、融资、并购尽调拆开；首页只给已有明确中国法闸门和交割逻辑的单点项目。",
+      "primary": {
+        "project": "lilialla/equity-transfer-review-skill",
+        "reason": "聚焦中国股权转让、出资责任、监管闸门和交割条件。"
+      },
+      "alternatives": [],
+      "gap": "股权转让之外的法律尽调和创业融资已拆分为独立任务，不用本项目代表。",
+      "order": 19
+    },
+    {
+      "id": "legal-due-diligence",
+      "capability": "corporate-ma",
+      "title": "中国法律尽职调查",
+      "homepage": false,
+      "decision_basis": "比较尽调清单、材料缺口、风险分级、引证和数据室材料路径。",
+      "primary": {
+        "project": "malnlda/legal-due-diligence",
+        "reason": "面向中国法律尽调的专项 Skill，任务范围和交付结构明确。"
+      },
+      "alternatives": [
+        {
+          "project": "zoharbabin/due-diligence-agents",
+          "reason": "更适合复杂 M&A 数据室的多 Agent 交叉引证，但需复核外部模型的材料上传路径。"
+        }
+      ],
+      "gap": "中国法候选尚无自动化功能测试。",
+      "order": 19.5
+    },
+    {
+      "id": "app-compliance",
+      "capability": "data-compliance",
+      "title": "APP 个人信息保护审查",
+      "homepage": true,
+      "decision_basis": "比较 APK 事实提取、隐私政策一致性、SDK/权限、法规锚定和整改清单；可运行性是当前硬门槛。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "Youchu-lawhub/app-compliance-review",
+          "reason": "方法论和 50+ 检查项有价值，但当前 material_validator.py 存在 SyntaxError，修复前不列当前推荐。"
+        },
+        {
+          "project": "allenymt/PrivacySentry",
+          "reason": "可作为 Android SDK、权限和隐私行为的技术事实提取工具，但不替代法律评价与整改意见。"
+        }
+      ],
+      "gap": "法律评价候选的核心脚本有语法错误；技术检测项目只能补充 APK/SDK/权限事实。",
+      "order": 20
+    },
+    {
+      "id": "labor-dispute",
+      "capability": "labor-family",
+      "title": "劳动仲裁",
+      "homepage": true,
+      "decision_basis": "比较法条时效、金额计算、证据引用、仲裁文书和自动化测试。",
+      "primary": {
+        "project": "f12336414-ship-it/labor-arbitration-skill",
+        "reason": "法条、时效、金额和证据引用都有核验内核，416 项测试通过。"
+      },
+      "alternatives": [
+        {
+          "project": "worker-aid-ai/worker-aid-agent",
+          "reason": "更偏劳动者自助整理材料和申请草稿。"
+        },
+        {
+          "project": "wangchangwei/arb-skill",
+          "reason": "更轻量的劳动仲裁实务 Skill。"
+        }
+      ],
+      "gap": null,
+      "order": 21
+    },
+    {
+      "id": "family-law",
+      "capability": "labor-family",
+      "title": "婚姻、继承与家事",
+      "homepage": false,
+      "decision_basis": "分开处理劳动与家事，不再因劳动项目成熟就宣称家事能力已覆盖。",
+      "primary": null,
+      "alternatives": [],
+      "gap": "离婚财产分割、抚养、继承份额等中国家事工具仍缺成熟开源项目。",
+      "order": 22
+    },
+    {
+      "id": "patent-drafting",
+      "capability": "ip-competition",
+      "title": "专利交底与起草",
+      "homepage": true,
+      "decision_basis": "比较技术证据提取、交底书结构、查新、本地脱敏和离线测试。",
+      "primary": {
+        "project": "handsomestWei/patent-disclosure-skill",
+        "reason": "专利交底材料路径清晰，强调本地脱敏和查新，8 项离线测试通过。"
+      },
+      "alternatives": [
+        {
+          "project": "cat-xierluo/legal-skills",
+          "reason": "套件内含 code2patent，适合从代码库提取技术证据并生成中国发明专利材料。"
+        }
+      ],
+      "gap": null,
+      "order": 23
+    },
+    {
+      "id": "patent-analysis",
+      "capability": "ip-competition",
+      "title": "专利侵权、无效与 FTO",
+      "homepage": false,
+      "decision_basis": "不与专利起草混合，只比较权利要求拆解、侵权比对、稳定性、FTO 和规避设计。",
+      "primary": {
+        "project": "yuc16/PatentRadar",
+        "reason": "权利要求拆解和竞品侵权分析路径明确，52 项回归测试通过。"
+      },
+      "alternatives": [
+        {
+          "project": "cat-xierluo/patent-analysis.skill",
+          "reason": "覆盖侵权、无效、FTO、规避设计和价值评估七类场景。"
+        }
+      ],
+      "gap": null,
+      "order": 24
+    },
+    {
+      "id": "trademark-filing",
+      "capability": "ip-competition",
+      "title": "商标申请与可注册性初筛",
+      "homepage": false,
+      "decision_basis": "单独比较商标类别规划、可注册性初筛和申请材料准备。",
+      "primary": {
+        "project": "cat-xierluo/trademark-assistant.skill",
+        "reason": "中国商标申请任务边界明确，与专利工具分开展示。"
+      },
+      "alternatives": [],
+      "gap": null,
+      "order": 25
+    },
+    {
+      "id": "software-copyright",
+      "capability": "ip-competition",
+      "title": "软件著作权申请材料",
+      "homepage": false,
+      "decision_basis": "比较源码与说明文档取样、申请表字段、材料排版和本地处理。",
+      "primary": {
+        "project": "Fokkyp/SoftwareCopyright-Skill",
+        "reason": "专门生成软著申请所需的源码和文档材料，执行入口明确。"
+      },
+      "alternatives": [],
+      "gap": "当前仅有仓库审阅，未使用脱敏项目验收申请材料。",
+      "order": 25.5
+    },
+    {
+      "id": "merger-control",
+      "capability": "ip-competition",
+      "title": "经营者集中申报评估",
+      "homepage": false,
+      "decision_basis": "单独比较控制权、营业额门槛、相关市场、申报程序和风险输出。",
+      "primary": {
+        "project": "ettajingruyang/PRC-merger-control-assessment",
+        "reason": "聚焦中国经营者集中申报评估，不与专利或商标工具混作一类。"
+      },
+      "alternatives": [],
+      "gap": "当前仅有仓库审阅，无案例夹具或自动化门槛测试。",
+      "order": 25.6
+    },
+    {
+      "id": "foreign-law",
+      "capability": "cross-border-arbitration",
+      "title": "域外法律研究",
+      "homepage": true,
+      "decision_basis": "比较问题分解、法域识别、一手法源、引用可回溯性和面向中国律师的交付。",
+      "primary": {
+        "project": "imchongliu/foreign-law-research",
+        "reason": "面向中国律师的域外法研究路径，强调公开一手法源。"
+      },
+      "alternatives": [],
+      "gap": null,
+      "order": 26
+    },
+    {
+      "id": "sanctions-screening",
+      "capability": "cross-border-arbitration",
+      "title": "进出口制裁筛查",
+      "homepage": true,
+      "decision_basis": "比较名单覆盖和更新、模糊匹配、误报复核、部署门槛与面向律师的工作流。",
+      "primary": {
+        "project": "opensanctions/opensanctions",
+        "reason": "337 个制裁、PEP 和监视名单源，更新与实体对齐底座完整，仓库含 104 个测试文件。"
+      },
+      "alternatives": [
+        {
+          "project": "moov-io/watchman",
+          "reason": "更轻量的本地 OFAC/全球制裁筛查引擎，适合自建匹配流程。"
+        },
+        {
+          "project": "TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening",
+          "reason": "更偏跨境数据空间与律师工作流，但当前只完成仓库审阅。"
+        }
+      ],
+      "gap": null,
+      "order": 27
+    },
+    {
+      "id": "international-arbitration",
+      "capability": "cross-border-arbitration",
+      "title": "国际商事仲裁",
+      "homepage": false,
+      "decision_basis": "要求至少覆盖程序管理、书状、证据、庭审或裁决书工作流，不用域外法检索项目代替。",
+      "primary": null,
+      "alternatives": [],
+      "gap": "当前索引只有域外法、制裁和跨境合同最近邻，缺成熟中文开源国际仲裁全流程。",
+      "order": 28
+    },
+    {
+      "id": "law-firm-ops",
+      "capability": "law-firm-operations",
+      "title": "个人律师开庭提醒与卷宗看板",
+      "homepage": true,
+      "decision_basis": "只比较个人律师的开庭/期限提醒、传票解析、卷宗看板和本地数据路径。",
+      "primary": {
+        "project": "AzureTsui/GiGi",
+        "reason": "本地优先，聚焦个人律师开庭提醒、传票解析和卷宗看板。"
+      },
+      "alternatives": [],
+      "gap": null,
+      "order": 29
+    },
+    {
+      "id": "law-firm-management",
+      "capability": "law-firm-operations",
+      "title": "中小律所案件与执业管理",
+      "homepage": false,
+      "decision_basis": "比较收案、冲突检索、案件跟进、财务、结案归档、委托/立案材料和部署成本。",
+      "primary": {
+        "project": "lawflow-boop/LawLink",
+        "reason": "自部署案件和执业管理功能完整，仓库含 18 个测试文件。"
+      },
+      "alternatives": [
+        {
+          "project": "Lawyer-ray/FachuanHybridSystem",
+          "reason": "更大型的一体化律师工作台，覆盖送达、立案、委托材料和知识库，但数据流更复杂。"
+        }
+      ],
+      "gap": null,
+      "order": 29.5
+    },
+    {
+      "id": "tax-law-gap",
+      "capability": "tax-bankruptcy-realestate",
+      "title": "中国税法与税务合规",
+      "homepage": true,
+      "decision_basis": "只比较中国税法研究、税务合规、争议与申报工作流，不用发票 API 或多法域税务库代表。",
+      "primary": null,
+      "alternatives": [],
+      "gap": "尚无达到中国税法实务推荐门槛的开源项目。",
+      "order": 30
+    },
+    {
+      "id": "bankruptcy-law-gap",
+      "capability": "tax-bankruptcy-realestate",
+      "title": "破产申报、重整与清算",
+      "homepage": false,
+      "decision_basis": "比较债权申报、审查、重整计划、管理人工作和清算流程。",
+      "primary": null,
+      "alternatives": [],
+      "gap": "完整索引中尚无达到推荐门槛的中国破产实务项目。",
+      "order": 30.1
+    },
+    {
+      "id": "real-estate-law-gap",
+      "capability": "tax-bankruptcy-realestate",
+      "title": "房地产与建设工程",
+      "homepage": false,
+      "decision_basis": "比较不动产交易、租赁、建设工程合同、结算和索赔工作流。",
+      "primary": null,
+      "alternatives": [],
+      "gap": "完整索引中尚无达到推荐门槛的中国房地产/工程法项目。",
+      "order": 30.2
+    },
+    {
+      "id": "tax-technical-references",
+      "capability": "tax-bankruptcy-realestate",
+      "title": "税务与发票技术参考",
+      "homepage": false,
+      "decision_basis": "只作邻近资源，不上调为中国税法实务推荐。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "openaccountants/openaccountants",
+          "reason": "多法域税务 Skill 参考库。"
+        },
+        {
+          "project": "fapiaoapi/invoice",
+          "reason": "中国发票接口技术底座，不是税务法律工作流。"
+        }
+      ],
+      "gap": null,
+      "order": 31
+    }
+  ],
+  "featured_creators": [
+    {
+      "id": "youchu",
+      "name": "游初 / Youchu-lawhub",
+      "projects": [
+        "Youchu-lawhub/cn-litigation-toolkit",
+        "Youchu-lawhub/gutachten-civil-case",
+        "Youchu-lawhub/gutachten-criminal-case",
+        "Youchu-lawhub/gutachten-admin-case",
+        "Youchu-lawhub/legal-kb-builder",
+        "Youchu-lawhub/app-compliance-review"
+      ],
+      "coverage": "诉讼全流程、民/刑/行政鉴定式分析、本地知识库、APP 合规",
+      "reason": "诉讼、鉴定式案例分析、知识库和 APP 合规均有明确法律方法论。",
+      "boundary": "多数项目无自动化功能测试；授权限个人非商业使用；APP 合规脚本当前有 SyntaxError。"
+    },
+    {
+      "id": "yang-weixin",
+      "name": "杨卫薪律师 / cat-xierluo",
+      "projects": [
+        "cat-xierluo/legal-skills",
+        "cat-xierluo/contract-copilot.skill",
+        "cat-xierluo/SuitAgent"
+      ],
+      "coverage": "中国律师套件、合同审查、诉讼分析、专利与商标",
+      "reason": "持续更新的律师工作流套件，合同、诉讼、知产和文书交付都有可执行入口。",
+      "boundary": "套件混合法律与通用工具；定向测试 10 项通过，听悟转写 4 项因签名漂移报错；套件未识别统一 License。"
+    },
+    {
+      "id": "tracy",
+      "name": "Tracy / TracyWang95",
+      "projects": [
+        "TracyWang95/DataInfra-RedactionEverything",
+        "TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening"
+      ],
+      "coverage": "多格式本地脱敏、标准合同填写、跨境制裁筛查",
+      "reason": "在多格式本地脱敏和跨境制裁工作流上有实质性工程或方法。",
+      "boundary": "脱敏工作台 548 项测试通过，但本地部署门槛高且当前 CI/依赖清单有问题；制裁 Skill 仅完成仓库审阅。"
+    },
+    {
+      "id": "cslawyer",
+      "name": "CSlawyer1985",
+      "projects": [
+        "CSlawyer1985/claude-for-legal-ZH"
+      ],
+      "coverage": "大型法律 Skill 库、中国法适配",
+      "reason": "长期维护 Anthropic 法律 Skill 的中国法适配套件，是大型方法库的重要参照。",
+      "boundary": "体量大且外部 MCP/平台依赖多，当前为仓库审阅，未完成全套功能实测。"
+    }
+  ]
+}

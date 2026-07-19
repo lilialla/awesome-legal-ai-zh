@@ -10,4 +10,11 @@ docs/法律全景与缺口图.md
 *.bak
 *.bak.*
 /tmp/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+registry/.audit-checkpoint.json
 .DS_Store

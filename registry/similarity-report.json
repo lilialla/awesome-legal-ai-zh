@@ -1,0 +1,4106 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-07-19T14:37:19Z",
+  "method": "Normalized SKILL.md SHA-256; bottom-64 hashed 5-character shingle sketches generate candidates, then exact Jaccard scores candidates. Findings require human review.",
+  "exact_groups": [
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/amendment-history/SKILL.md",
+        "hash": "258b49c2ec216761b61fbec5da3c9267e85f1b3562b7735b2dbef233bec57ecb",
+        "chars": 2383
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/amendment-history/SKILL.md",
+        "hash": "258b49c2ec216761b61fbec5da3c9267e85f1b3562b7735b2dbef233bec57ecb",
+        "chars": 2383
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/escalation-flagger/SKILL.md",
+        "hash": "c07e8dbf61e5cd31b19f722c99b52707e2a4865e4097b5e5907885bf76069f2c",
+        "chars": 1836
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/escalation-flagger/SKILL.md",
+        "hash": "c07e8dbf61e5cd31b19f722c99b52707e2a4865e4097b5e5907885bf76069f2c",
+        "chars": 1836
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/review/SKILL.md",
+        "hash": "587c0a08ca609a0a4cc9c973604628251531268d793b0eb5e298095ab4fae8e2",
+        "chars": 1080
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/review/SKILL.md",
+        "hash": "587c0a08ca609a0a4cc9c973604628251531268d793b0eb5e298095ab4fae8e2",
+        "chars": 1080
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/saas-msa-review/SKILL.md",
+        "hash": "0b30e62ed51cddaa0c03958392159c84fe39ba2181066dc506275c0e1668c3b7",
+        "chars": 2608
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/saas-msa-review/SKILL.md",
+        "hash": "0b30e62ed51cddaa0c03958392159c84fe39ba2181066dc506275c0e1668c3b7",
+        "chars": 2608
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/stakeholder-summary/SKILL.md",
+        "hash": "48e572915ea9f9de46b4ecdcd3ff2e426bd25b16cf912b6852b3227faa8e4f19",
+        "chars": 1658
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/stakeholder-summary/SKILL.md",
+        "hash": "48e572915ea9f9de46b4ecdcd3ff2e426bd25b16cf912b6852b3227faa8e4f19",
+        "chars": 1658
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-memo/SKILL.md",
+        "hash": "61560ac63992898db772dd2df2d4c7a17a1e170b53960514a7c42eb969ecdda1",
+        "chars": 741
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-memo/SKILL.md",
+        "hash": "61560ac63992898db772dd2df2d4c7a17a1e170b53960514a7c42eb969ecdda1",
+        "chars": 741
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-query/SKILL.md",
+        "hash": "cee0b9de42b6073bf3a8f738485d19dde72a85b0051265c76fa7a3630278ef30",
+        "chars": 673
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-query/SKILL.md",
+        "hash": "cee0b9de42b6073bf3a8f738485d19dde72a85b0051265c76fa7a3630278ef30",
+        "chars": 673
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-summary/SKILL.md",
+        "hash": "8630d3b8c9d92235a8a9ac30e2641f700a36158703340c9d7ef8803ee80d1d59",
+        "chars": 676
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-summary/SKILL.md",
+        "hash": "8630d3b8c9d92235a8a9ac30e2641f700a36158703340c9d7ef8803ee80d1d59",
+        "chars": 676
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/takedown/SKILL.md",
+        "hash": "2e7a2d6655b137c81b5a488f58461ba962f839bad65a598f8f9c1666d471d48e",
+        "chars": 3504
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/takedown/SKILL.md",
+        "hash": "2e7a2d6655b137c81b5a488f58461ba962f839bad65a598f8f9c1666d471d48e",
+        "chars": 3504
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/form-generation/SKILL.md",
+        "hash": "338ae55312bdadf9c38789fe717a6f91c195f2b67c22eefa71e4a78993ef82c6",
+        "chars": 189
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/form-generation/SKILL.md",
+        "hash": "338ae55312bdadf9c38789fe717a6f91c195f2b67c22eefa71e4a78993ef82c6",
+        "chars": 189
+      }
+    ],
+    [
+      {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/plain-language-letters/SKILL.md",
+        "hash": "cab64dfad8aec6a0b77d1960b786956e4c310e747a1c8badfa184ad7d8ad0644",
+        "chars": 281
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/plain-language-letters/SKILL.md",
+        "hash": "cab64dfad8aec6a0b77d1960b786956e4c310e747a1c8badfa184ad7d8ad0644",
+        "chars": 281
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/Legal-Abductive-Reasoning/SKILL.md",
+        "hash": "772bf1fbb60b7fc39397859b59e72bce2402988fe387ae4a49abe4705098befa",
+        "chars": 6363
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_abductive_reasoning/SKILL.md",
+        "hash": "772bf1fbb60b7fc39397859b59e72bce2402988fe387ae4a49abe4705098befa",
+        "chars": 6363
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/analogical-reasoning/SKILL.md",
+        "hash": "7b95e20c0e5c70bb6005ffe41ca812a0e57020698805cdc767882726442d4109",
+        "chars": 20018
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/analogical_reasoning/SKILL.md",
+        "hash": "7b95e20c0e5c70bb6005ffe41ca812a0e57020698805cdc767882726442d4109",
+        "chars": 20018
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/billing-and-litigation-budget/SKILL.md",
+        "hash": "f5e64bae5e81de81934e634d6a630d686db46aa18676d7d5dbbda55cbb943f56",
+        "chars": 7656
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/billing_and_litigation_budget/SKILL.md",
+        "hash": "f5e64bae5e81de81934e634d6a630d686db46aa18676d7d5dbbda55cbb943f56",
+        "chars": 7656
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/case-retrieval/SKILL.md",
+        "hash": "cc290fddc58330e7ee827f5dc7ba6ec1d2d7b3c92a64e26b04334624db7c0fac",
+        "chars": 24631
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/case_retrieval/SKILL.md",
+        "hash": "cc290fddc58330e7ee827f5dc7ba6ec1d2d7b3c92a64e26b04334624db7c0fac",
+        "chars": 24631
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/conflict-resolution/SKILL.md",
+        "hash": "f3aa28179d3318ba4e6aeb48b31f747bea45f7fac85cf5708e51665cd83cc15c",
+        "chars": 20721
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/conflict_resolution/SKILL.md",
+        "hash": "f3aa28179d3318ba4e6aeb48b31f747bea45f7fac85cf5708e51665cd83cc15c",
+        "chars": 20721
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/counterfactual-reasoning/SKILL.md",
+        "hash": "b844b9e09e13f2aca1ed586cade1ded70973ebc874351eed2fa859e9736baa78",
+        "chars": 17255
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/counterfactual_reasoning/SKILL.md",
+        "hash": "b844b9e09e13f2aca1ed586cade1ded70973ebc874351eed2fa859e9736baa78",
+        "chars": 17255
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/dispute-and-performance-risk/SKILL.md",
+        "hash": "634caebc3b3d6e403ac834b27a0766f9e06f5ef3d8e9b6bf4f99f8b521863dc1",
+        "chars": 22190
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/dispute_and_performance_risk/SKILL.md",
+        "hash": "634caebc3b3d6e403ac834b27a0766f9e06f5ef3d8e9b6bf4f99f8b521863dc1",
+        "chars": 22190
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/evidence-argument-chain/SKILL.md",
+        "hash": "9f269975a5b0acf9b29bc43bf24ee8218f45c7b1a42177f11c0386f4880b975d",
+        "chars": 24417
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/evidence_argument_chain/SKILL.md",
+        "hash": "9f269975a5b0acf9b29bc43bf24ee8218f45c7b1a42177f11c0386f4880b975d",
+        "chars": 24417
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/evidence-evaluation/SKILL.md",
+        "hash": "6afc275d6b32ee2beb6197316047e6ca09df9a2d0919dab6384abee1bff9869a",
+        "chars": 24661
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/evidence_evaluation/SKILL.md",
+        "hash": "6afc275d6b32ee2beb6197316047e6ca09df9a2d0919dab6384abee1bff9869a",
+        "chars": 24661
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/internal-compliance-risk-identification/SKILL.md",
+        "hash": "b46e0cd934c2c78ea8c8ec8cf8742031385ed0e157bd677341b878e86b83d5ca",
+        "chars": 8972
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/internal_compliance_risk_identification/SKILL.md",
+        "hash": "b46e0cd934c2c78ea8c8ec8cf8742031385ed0e157bd677341b878e86b83d5ca",
+        "chars": 8972
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-interpretation-argument/SKILL.md",
+        "hash": "cc9b9159365794f9644ba44d1cb72f6bc91904390ca4eb132c399d7f4823d5a9",
+        "chars": 19027
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_interpretation_argument/SKILL.md",
+        "hash": "cc9b9159365794f9644ba44d1cb72f6bc91904390ca4eb132c399d7f4823d5a9",
+        "chars": 19027
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-norm-validity-check/SKILL.md",
+        "hash": "33d1aade54972175da8f6a22b7dbe7df38cb6294283a1d46b9db3baa882bbe0c",
+        "chars": 20329
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_norm_validity_check/SKILL.md",
+        "hash": "33d1aade54972175da8f6a22b7dbe7df38cb6294283a1d46b9db3baa882bbe0c",
+        "chars": 20329
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-terminology/SKILL.md",
+        "hash": "64e3d24726a5a1983add3cb60ae7b6e868514111c2b64d7840758fe707249ce5",
+        "chars": 16761
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_terminology/SKILL.md",
+        "hash": "64e3d24726a5a1983add3cb60ae7b6e868514111c2b64d7840758fe707249ce5",
+        "chars": 16761
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/multi-document-summarization/SKILL.md",
+        "hash": "5a86280050b39e6b5408d79dfd940461a46e06fea80b90ef86d44c04b9994f24",
+        "chars": 9008
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/multi_document_summarization/SKILL.md",
+        "hash": "5a86280050b39e6b5408d79dfd940461a46e06fea80b90ef86d44c04b9994f24",
+        "chars": 9008
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/other-legal-retrieval/SKILL.md",
+        "hash": "d3767604ed594f42f13e016b884922347588bdf209abd45fa94755ea78651c3f",
+        "chars": 20090
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/other_legal_retrieval/SKILL.md",
+        "hash": "d3767604ed594f42f13e016b884922347588bdf209abd45fa94755ea78651c3f",
+        "chars": 20090
+      }
+    ],
+    [
+      {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/structured-element-extraction/SKILL.md",
+        "hash": "5cba3ed8e0b3e11a50f9501ed309d9d66cae928b3737da1aebcd5b8f50aeac15",
+        "chars": 14492
+      },
+      {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/structured_element_extraction/SKILL.md",
+        "hash": "5cba3ed8e0b3e11a50f9501ed309d9d66cae928b3737da1aebcd5b8f50aeac15",
+        "chars": 14492
+      }
+    ],
+    [
+      {
+        "repo": "anthropics/claude-for-legal",
+        "path": "employment-legal/skills/internal-investigation/SKILL.md",
+        "hash": "68b9547c6eba6d2a3693ee10ed07fe87090d01845bf6043f4b91dbd0946498f3",
+        "chars": 26283
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/internal-investigation/SKILL.md",
+        "hash": "68b9547c6eba6d2a3693ee10ed07fe87090d01845bf6043f4b91dbd0946498f3",
+        "chars": 26283
+      }
+    ],
+    [
+      {
+        "repo": "anthropics/claude-for-legal",
+        "path": "employment-legal/skills/international-expansion/SKILL.md",
+        "hash": "650884dccc00fca9227605072ca8415c59ff108088bc75d18ea16683308b0524",
+        "chars": 14929
+      },
+      {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/international-expansion/SKILL.md",
+        "hash": "650884dccc00fca9227605072ca8415c59ff108088bc75d18ea16683308b0524",
+        "chars": 14929
+      }
+    ],
+    [
+      {
+        "repo": "cat-xierluo/SuitAgent",
+        "path": ".claude/skills/mineru-ocr/SKILL.md",
+        "hash": "48508402bf21edcb47786bc13b8cd4afd09e41d134fffbe6b7d18eaa6ac7ce0d",
+        "chars": 4253
+      },
+      {
+        "repo": "cat-xierluo/legal-skills",
+        "path": "skills/mineru-ocr/SKILL.md",
+        "hash": "48508402bf21edcb47786bc13b8cd4afd09e41d134fffbe6b7d18eaa6ac7ce0d",
+        "chars": 4253
+      }
+    ],
+    [
+      {
+        "repo": "cat-xierluo/code2patent.skill",
+        "path": "SKILL.md",
+        "hash": "f6dc88f766c220c6d6bdfe24778d89838c567237ec7e673222b13bf1a5d76a7d",
+        "chars": 5118
+      },
+      {
+        "repo": "cat-xierluo/legal-skills",
+        "path": "skills/code2patent/SKILL.md",
+        "hash": "f6dc88f766c220c6d6bdfe24778d89838c567237ec7e673222b13bf1a5d76a7d",
+        "chars": 5118
+      }
+    ],
+    [
+      {
+        "repo": "cat-xierluo/contract-copilot.skill",
+        "path": "SKILL.md",
+        "hash": "78c4d4f869819f17cdeb8344db04a79c66b5539fcee289d8a871824fc1cb9dfa",
+        "chars": 11021
+      },
+      {
+        "repo": "cat-xierluo/legal-skills",
+        "path": "skills/contract-copilot/SKILL.md",
+        "hash": "78c4d4f869819f17cdeb8344db04a79c66b5539fcee289d8a871824fc1cb9dfa",
+        "chars": 11021
+      }
+    ],
+    [
+      {
+        "repo": "cat-xierluo/legal-skills",
+        "path": "skills/trademark-assistant/SKILL.md",
+        "hash": "605f1922f554d2b5c5f34b22a8aad0b0bfc206ca50d49051c73bbab009f2552a",
+        "chars": 4375
+      },
+      {
+        "repo": "cat-xierluo/trademark-assistant.skill",
+        "path": "SKILL.md",
+        "hash": "605f1922f554d2b5c5f34b22a8aad0b0bfc206ca50d49051c73bbab009f2552a",
+        "chars": 4375
+      }
+    ],
+    [
+      {
+        "repo": "malnlda/legal-research",
+        "path": "skills/yd-law-search/SKILL.md",
+        "hash": "4ef25e1ac26de4a9e03caa48870247c61b006def304a514e3354fb6172b5bb6a",
+        "chars": 2373
+      },
+      {
+        "repo": "malnlda/yd-law-search",
+        "path": "SKILL.md",
+        "hash": "4ef25e1ac26de4a9e03caa48870247c61b006def304a514e3354fb6172b5bb6a",
+        "chars": 2373
+      }
+    ]
+  ],
+  "similar_pairs": [
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "8a25e68f414c1465123eadbcc7ca80295bc32db0a4b3eff4673dd88a1c016d59",
+        "chars": 15537
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "413183c970c9664fd165c00bfeed9d3af595931c89eb913153747a05e8524316",
+        "chars": 15513
+      },
+      "jaccard": 0.9992,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/internal-investigation/SKILL.md",
+        "hash": "f784ae2911b886c9d9b5c2edd6cdfec722c539419c60a7e507ff860e0ec75d5a",
+        "chars": 26313
+      },
+      "right": {
+        "repo": "anthropics/claude-for-legal",
+        "path": "employment-legal/skills/internal-investigation/SKILL.md",
+        "hash": "68b9547c6eba6d2a3693ee10ed07fe87090d01845bf6043f4b91dbd0946498f3",
+        "chars": 26283
+      },
+      "jaccard": 0.9992,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/internal-investigation/SKILL.md",
+        "hash": "f784ae2911b886c9d9b5c2edd6cdfec722c539419c60a7e507ff860e0ec75d5a",
+        "chars": 26313
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/internal-investigation/SKILL.md",
+        "hash": "68b9547c6eba6d2a3693ee10ed07fe87090d01845bf6043f4b91dbd0946498f3",
+        "chars": 26283
+      },
+      "jaccard": 0.9992,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/international-expansion/SKILL.md",
+        "hash": "5cecb81e3488136ba0a9fd9899f5e27950e08541a9224d684a0b0a3be5d06a97",
+        "chars": 14944
+      },
+      "right": {
+        "repo": "anthropics/claude-for-legal",
+        "path": "employment-legal/skills/international-expansion/SKILL.md",
+        "hash": "650884dccc00fca9227605072ca8415c59ff108088bc75d18ea16683308b0524",
+        "chars": 14929
+      },
+      "jaccard": 0.9988,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/international-expansion/SKILL.md",
+        "hash": "5cecb81e3488136ba0a9fd9899f5e27950e08541a9224d684a0b0a3be5d06a97",
+        "chars": 14944
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/international-expansion/SKILL.md",
+        "hash": "650884dccc00fca9227605072ca8415c59ff108088bc75d18ea16683308b0524",
+        "chars": 14929
+      },
+      "jaccard": 0.9988,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "dedca988bbfd8b901ad7586cbba3402edd05144f40ab2067019ad5589199dd2e",
+        "chars": 15094
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "005f45596c7b8b135b6450c7bde0189dbb074e2e0797c5629704564f6b7b25b9",
+        "chars": 15049
+      },
+      "jaccard": 0.9988,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/skill-installer/SKILL.md",
+        "hash": "ba91388a35f99632dccdcd326cd7cf9361f29f507e695b47349f51f102ffc539",
+        "chars": 11482
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/skill-installer/SKILL.md",
+        "hash": "5f45dd12a7ad645cbba9388a4b16e00b2b32e6768d12493fa0fea0cbe37b9420",
+        "chars": 11461
+      },
+      "jaccard": 0.9988,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "2cb3b841aee6152d80e273b202ed6941b6bd8299077fa34179e6f945fc3ff69f",
+        "chars": 15079
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "7b2e1a7e4c764891d663402d3a13399269eaf1e9b335c0f36b71119a20c4ae9b",
+        "chars": 15052
+      },
+      "jaccard": 0.9988,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "product-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "2d451460c0c8bcd8294e805e99950c808a6a9842b1f313ec4c4b533279499d7f",
+        "chars": 13956
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "product-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "1df6550fed577f8d33ce6c2459b155b17ccc318623b3545f3c2b61d766be398b",
+        "chars": 13929
+      },
+      "jaccard": 0.9987,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/infringement-triage/SKILL.md",
+        "hash": "4acbf9d43327176e19a7e109f2c3b6d811424c7458e04cf1e1e728ca4a10d741",
+        "chars": 9712
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/infringement-triage/SKILL.md",
+        "hash": "6cde41a83f59336adafe0bdfcf07916c3075b0c5b603805293d537bd861f998b",
+        "chars": 9691
+      },
+      "jaccard": 0.9986,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/entity-compliance/SKILL.md",
+        "hash": "d5d310b91e002242926030e0416a41429611dbe4aa7b7d94861845089dc93203",
+        "chars": 8826
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/entity-compliance/SKILL.md",
+        "hash": "a4ff876e4f8171a5e6ce3f12fda90579593554b0e2c47eef19b84a11f9232e70",
+        "chars": 8793
+      },
+      "jaccard": 0.9985,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/integration-management/SKILL.md",
+        "hash": "d594b620f7b86f7089a6a80abc07b7412c7f38035cc43a7a0caa4e9acf8a891f",
+        "chars": 10581
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/integration-management/SKILL.md",
+        "hash": "2148cc43a7221f29eeae406db7addc686063da7ab2cae08892b04d12bb25faa4",
+        "chars": 10563
+      },
+      "jaccard": 0.9985,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/worker-classification/SKILL.md",
+        "hash": "eb4508580c9e5ea938f8af865fea228e92c0d4ddbcb27be221cb923f25900b8a",
+        "chars": 7467
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/worker-classification/SKILL.md",
+        "hash": "db8898b51bab8e501d641b8c23a89cc1fa0399a9148bbc1158cada10cca329b2",
+        "chars": 7452
+      },
+      "jaccard": 0.9984,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/invention-intake/SKILL.md",
+        "hash": "d66bbc4a29faeac1cc02c8642120f317b75b3149b5044d404a0aae7345b18f0c",
+        "chars": 7511
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/invention-intake/SKILL.md",
+        "hash": "f81ac62c48317f17bd4a45ab76cc08bc83629c1361d5af7c9e69518c9dd636b7",
+        "chars": 7502
+      },
+      "jaccard": 0.9984,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/cold-start-interview/SKILL.md",
+        "hash": "9fb031250c84ef509ee6df9eddcc7b02e13da782aa47f7311d402f86ef86f58d",
+        "chars": 13347
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/cold-start-interview/SKILL.md",
+        "hash": "d584a11867457b607d1935d45cc0f55d751c22501fa337e5f94d114f2a7fdcc7",
+        "chars": 13320
+      },
+      "jaccard": 0.9984,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/tabular-review/SKILL.md",
+        "hash": "51adc97de31cce72b649296d3643f66427774b4d44d6f12133662f5b18757ed2",
+        "chars": 7344
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/tabular-review/SKILL.md",
+        "hash": "553da3a1c12b14fc7905d85d93abdc6bc781a66648e615ff39db2f6a85fa7349",
+        "chars": 7332
+      },
+      "jaccard": 0.9983,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/written-consent/SKILL.md",
+        "hash": "e19a32dba4a86d20d0debf2745927aee0b340a77c6fb234cc5b3aa7980b1f365",
+        "chars": 7029
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/written-consent/SKILL.md",
+        "hash": "52becb253f62252c327c9cafa4405534fd25bcdbc25d204a51954d4b95e8c07a",
+        "chars": 6996
+      },
+      "jaccard": 0.9983,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/oss-review/SKILL.md",
+        "hash": "0e92cb06a3d57ce4d3663c5cf26e07c0057eedc698f739d5a724816d3036951f",
+        "chars": 7722
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/oss-review/SKILL.md",
+        "hash": "d632e47ff774c2e75eb9894fc8e48229406e7fa54f79377576d68385b6949f3a",
+        "chars": 7707
+      },
+      "jaccard": 0.9983,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/skills-qa/SKILL.md",
+        "hash": "dcd4f4d797f30937ccfb519a4318b4f5992495d8b9c5afced41d7f4c35c179d1",
+        "chars": 12490
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/skills-qa/SKILL.md",
+        "hash": "86b251fee6285c168790f10545194d003faf9fa9986aa6a0d4a12487a2a3a1da",
+        "chars": 12478
+      },
+      "jaccard": 0.9983,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/dpa-review/SKILL.md",
+        "hash": "5b47c5d29eb455298d6e43c9adea6b397725b54c613e5453576f4abec6acd0db",
+        "chars": 7599
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/dpa-review/SKILL.md",
+        "hash": "430b82f671e59dfda93eb162a43003dd87e585c8a0858f787c3e54129a575825",
+        "chars": 7569
+      },
+      "jaccard": 0.9983,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "product-legal/skills/launch-review/SKILL.md",
+        "hash": "5b373509e8d7e17cdf0e6584697f02d2c61e8cd2fb962ffbfb0a5d8acd32a2fd",
+        "chars": 7833
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "product-legal/skills/launch-review/SKILL.md",
+        "hash": "3100be90f419321a884ff579931bcc3e16b113e5fc378ba846da391dd2522ab6",
+        "chars": 7797
+      },
+      "jaccard": 0.9983,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/nda-review/SKILL.md",
+        "hash": "557840bbeab32e58a06f2d19486b1094c01e1daeb469190a5e93c07d39d730af",
+        "chars": 7703
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/nda-review/SKILL.md",
+        "hash": "729e596f75d62fa772116ef587b9b5e8379552e52e5a57ac1fe42be1bbecc49d",
+        "chars": 7637
+      },
+      "jaccard": 0.9982,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/ip-clause-review/SKILL.md",
+        "hash": "852f95da8bd513c7c3f186a57a9954eeaae15c356dd695fd59d60738890a497c",
+        "chars": 6917
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/ip-clause-review/SKILL.md",
+        "hash": "742ccb20b05d47fbc5b51295068a5564df048d6ee5453e35fc5fc263818efa84",
+        "chars": 6899
+      },
+      "jaccard": 0.9982,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/portfolio/SKILL.md",
+        "hash": "0f15dcc1a402d60bbbc5bc8269a0e9320e90aceadc280e34e685a4c946d52414",
+        "chars": 8269
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/portfolio/SKILL.md",
+        "hash": "c3f5baf9e8e4c9f4ceb105a6d4ff4ef5b3f8af4da7e75e00cd1c2e66b7665035",
+        "chars": 8254
+      },
+      "jaccard": 0.9982,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/dsar-response/SKILL.md",
+        "hash": "068699c182f491611086b485d76e85290bfacbc1f9054229539d9535aebd0433",
+        "chars": 7249
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/dsar-response/SKILL.md",
+        "hash": "ca8d9dca95d886ea67f71c97534e567ff02c021dfb6c059ea731930c0cebd39d",
+        "chars": 7222
+      },
+      "jaccard": 0.9982,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/clearance/SKILL.md",
+        "hash": "91546ef1dd2f70baeeea1dbe848569da06a8434f22da80edf450bea4e43f9fa0",
+        "chars": 6821
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/clearance/SKILL.md",
+        "hash": "32677918214463dc5afe54fab2ab9265f04cafc6b34adc3278ca242ef95b7ffe",
+        "chars": 6812
+      },
+      "jaccard": 0.9981,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/pia-generation/SKILL.md",
+        "hash": "83b10691f32fb1e09e54c4996663f606d4c350fd6bc79b05b3052d85bc4a36d5",
+        "chars": 7094
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/pia-generation/SKILL.md",
+        "hash": "5a0793147a4b01bab3a37ca563561aca3f22fbeb73c12d516c499db21226de3b",
+        "chars": 7064
+      },
+      "jaccard": 0.9981,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/termination-review/SKILL.md",
+        "hash": "0835a28c4fd84b2ff0bb2ed4823d97dafd1af8f5c210760dfd36e9e35c477532",
+        "chars": 6617
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/termination-review/SKILL.md",
+        "hash": "6a7d3424dd9d277dd1aeec002537b94c8323aac6d836f5317c11c1be157c0c61",
+        "chars": 6587
+      },
+      "jaccard": 0.998,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/subpoena-triage/SKILL.md",
+        "hash": "edd90507c64c75a193021a682cdd866df474f152cfc97aa6d1a36ab7f0b81bd6",
+        "chars": 6358
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/subpoena-triage/SKILL.md",
+        "hash": "dc0f41acac433b7eb504ccb9834b48f3c120131a13bbb749986951c861793c67",
+        "chars": 6328
+      },
+      "jaccard": 0.998,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/policy-monitor/SKILL.md",
+        "hash": "fccde2f916b41db9878a85b5112f4164ddbacacfa5e0454625886616945d80c7",
+        "chars": 6731
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/policy-monitor/SKILL.md",
+        "hash": "68664b8af6d5e5abff3e729c4b3615e6e21efc47f959ed12af608b24d19d6691",
+        "chars": 6713
+      },
+      "jaccard": 0.998,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/use-case-triage/SKILL.md",
+        "hash": "2159e0c3b320b0df433022dec1ddd56467ab9cbd08693063c2d2a78b56eadeb8",
+        "chars": 6745
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/use-case-triage/SKILL.md",
+        "hash": "9934ad4032a3065336f98f0915617b010978a38ba2078b40f1606e58ecf53c72",
+        "chars": 6727
+      },
+      "jaccard": 0.998,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/bar-prep-questions/SKILL.md",
+        "hash": "cd016bdce705b1a05ca12cf4bf9a7c16f84b0a6fa81074a3f9dd5b37dd3f468e",
+        "chars": 6478
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/bar-prep-questions/SKILL.md",
+        "hash": "c7d2a397474b081e0227f7171e67a8d3a2700d00428504340901d8806bc77b2b",
+        "chars": 6454
+      },
+      "jaccard": 0.9978,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/diligence-issue-extraction/SKILL.md",
+        "hash": "dfc922592df311dd4019c0c9cc31e2a9c39c55db7988a199ad613efba2e20da8",
+        "chars": 5295
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/diligence-issue-extraction/SKILL.md",
+        "hash": "b4b3bc1e8e6eb65b6fe12670ca06b6b79df5a6d36c4ab0b274545aa3b30b2bda",
+        "chars": 5262
+      },
+      "jaccard": 0.9977,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "product-legal/skills/marketing-claims-review/SKILL.md",
+        "hash": "6ed6efc524dfc43e3c87f17c1b6efc4781a422a3a88181875060dadc7d36fb91",
+        "chars": 5548
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "product-legal/skills/marketing-claims-review/SKILL.md",
+        "hash": "28a79a1b5571a14f8a6fd2e14c0eeb9f56dac7394a17fbeb14639196dad681dc",
+        "chars": 5530
+      },
+      "jaccard": 0.9977,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/vendor-agreement-review/SKILL.md",
+        "hash": "bd837e70e93588ca1fa844db8112ba6c95132c8d601edc60a1eb62bfdd306922",
+        "chars": 4574
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/vendor-agreement-review/SKILL.md",
+        "hash": "2be102cac78e2d72118a38c1f671e36026bf5a2aa9bcb5d89eb8d42e76828d2d",
+        "chars": 4568
+      },
+      "jaccard": 0.9976,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/closing-checklist/SKILL.md",
+        "hash": "31ffba8af1cb754a575ca0317cc63db079e63f6322c4b07b9d46a24b11b099fc",
+        "chars": 4825
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/closing-checklist/SKILL.md",
+        "hash": "8227d813c5664ca464f3550a16aa6a03219c46701cd73a0cf3706cdae07cf557",
+        "chars": 4813
+      },
+      "jaccard": 0.9976,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/study-plan/SKILL.md",
+        "hash": "30917001eba94eff0baae9d01584defec17abe1643f20f8f142fa0773c6befeb",
+        "chars": 6144
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/study-plan/SKILL.md",
+        "hash": "28a5704363cac6aee9829a40cd5c8cbc29305660bf208585b02dc44e78aa78b4",
+        "chars": 6126
+      },
+      "jaccard": 0.9976,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/build-guide/SKILL.md",
+        "hash": "cc1b5d5f1e13d6ac6e0b4faa18291b29d59cfdc559bb1a34c9a097059ad16f58",
+        "chars": 6066
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/build-guide/SKILL.md",
+        "hash": "652e4fd2759edbeb0c801eeaa1a6f15e35be3aa104f81184d8e569d2d6b42a24",
+        "chars": 6045
+      },
+      "jaccard": 0.9976,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/demand-received/SKILL.md",
+        "hash": "dd22a53f3ab4b04826cf28ab48a9931ea89707017ca49b31b1fcb4cf5359c4c2",
+        "chars": 5190
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/demand-received/SKILL.md",
+        "hash": "2cd435eb1fcfc57c78259c267a6d5a165b109983b4db97486a33dba8996b30c0",
+        "chars": 5163
+      },
+      "jaccard": 0.9976,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "b15e3d55169dabda2b4c7e29fb88dfc0e41b6f25c0d951b9c03ca1a9ba224a75",
+        "chars": 4060
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "03bc14079af79b01b4c87b65b359c82525222405cec6b35af3fce0d18594b9f4",
+        "chars": 4051
+      },
+      "jaccard": 0.9975,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/board-minutes/SKILL.md",
+        "hash": "7693518c5a99932d5028de8356af49e93d02968841b537779baa30e983062a80",
+        "chars": 4739
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/board-minutes/SKILL.md",
+        "hash": "736ee72b9e998ceef09b0ff73357064f7e57252628831b246fc77c12a5145b9d",
+        "chars": 4712
+      },
+      "jaccard": 0.9975,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/hiring-review/SKILL.md",
+        "hash": "94e722be44019525f622e4360af953f727ed36acbdb9c31bbda480915332a197",
+        "chars": 5185
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/hiring-review/SKILL.md",
+        "hash": "5cd45fe35eee5a051d98d3d75cb4d6252c91d997c26ac476b106f7bf304aa1a4",
+        "chars": 5164
+      },
+      "jaccard": 0.9975,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/cold-start-interview/SKILL.md",
+        "hash": "e7e4c09e2b94aeb1f158db0e841497878448821f8f35d2e5fd2baf06497a9015",
+        "chars": 8454
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/cold-start-interview/SKILL.md",
+        "hash": "24aff50ea4ae06efcca8276fda904da176ce0860491a215d51ceabe45e1f6b8b",
+        "chars": 8433
+      },
+      "jaccard": 0.9975,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/wage-hour-qa/SKILL.md",
+        "hash": "7ef154012dea5dc2a4bf8929eec1c02cbd7477d496d051f26ebef95960866c21",
+        "chars": 4676
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/wage-hour-qa/SKILL.md",
+        "hash": "ecad3ebecce04d306b56b5e1ad35f126cffc4e6e860cbed33fb15ba7b58c54a3",
+        "chars": 4670
+      },
+      "jaccard": 0.9974,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/cease-desist/SKILL.md",
+        "hash": "f91681d688464808f14485439607b6cfb22d7e62213e216cb1d986bedcd0081a",
+        "chars": 4791
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/cease-desist/SKILL.md",
+        "hash": "8beec9fc5ddecac0691e0dfe741d3eef8ce28a57a7b9036845661d4a71ae227c",
+        "chars": 4788
+      },
+      "jaccard": 0.9974,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/policy-monitor/SKILL.md",
+        "hash": "6a34eef687e5543f2241b339d3e5e9f56acf5d54096c102d56f38606a09c6ea5",
+        "chars": 4946
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/policy-monitor/SKILL.md",
+        "hash": "e99095a49022e18a9a0440c86f636679e4fa9ec1c4f677fb7581d0d38e914a85",
+        "chars": 4934
+      },
+      "jaccard": 0.9973,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/claim-chart/SKILL.md",
+        "hash": "58c766efa90460c65c458c637d1a694ce7c0a6638f1ffaa706857dbc241c6b8b",
+        "chars": 4679
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/claim-chart/SKILL.md",
+        "hash": "f63ee93bf96d7d14270afae39aac8bbb118b58cc8db6282a6b89e705e6b0dc14",
+        "chars": 4673
+      },
+      "jaccard": 0.9973,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-intake/SKILL.md",
+        "hash": "d28bf26cb241164485e9330fe2217a7a0864b968b77c7ead18510f48614a67f6",
+        "chars": 5830
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-intake/SKILL.md",
+        "hash": "902bb2e051fdae876c2f3f50099ca3e28860f913cf8e9703e5785111f3f7d242",
+        "chars": 5782
+      },
+      "jaccard": 0.9973,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "1c987b2dceb834675fc708588a1d0a0dc708d7947e9878680a86dd30f04337f7",
+        "chars": 4349
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "aace1c4a17d5663b09fb519f007223062e1bf7bdb1d64d764adc2058eadc4425",
+        "chars": 4340
+      },
+      "jaccard": 0.9973,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "553d0fdbc5a6069b800ee71a51145c4993cfdb15a7cdb17878dac45cd0c093be",
+        "chars": 6945
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "f221b8b63c811f4283abaf05373cdd29035770d502e1adbd1aaedbf326d6f0ee",
+        "chars": 6927
+      },
+      "jaccard": 0.9972,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/fto-triage/SKILL.md",
+        "hash": "677f46fb9096f10412e94915e0661698928dc412da02de6c43b190c73015e825",
+        "chars": 4539
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/fto-triage/SKILL.md",
+        "hash": "a30cd35b6ecaf8939ac0b0a5a98c21670b8e1fb2b06930ea9759063aa6da83a8",
+        "chars": 4536
+      },
+      "jaccard": 0.9972,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/reg-gap-analysis/SKILL.md",
+        "hash": "12b71253e6a9c54b396e7a9fc815106c8d19b552653de34038c224f3a2ce13cc",
+        "chars": 4382
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/reg-gap-analysis/SKILL.md",
+        "hash": "dde04cf0b0abc561634113ba94a3e662ed55df0fd630e1c915f84dd27d9de933",
+        "chars": 4373
+      },
+      "jaccard": 0.9971,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/client-intake/SKILL.md",
+        "hash": "d3bd05ebe65ea350c78f2f88f4793b53ad2f5149cec434428d47d5f34497d900",
+        "chars": 4383
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/client-intake/SKILL.md",
+        "hash": "afd2fff968df5427ce4e9a038707789303cf4fa2519e72eb1e333c892337dfce",
+        "chars": 4365
+      },
+      "jaccard": 0.9971,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/reg-feed-watcher/SKILL.md",
+        "hash": "5a3aec8146c66e18403aa2e87002705616bc9c505ea26a4b8c00f4f356c91181",
+        "chars": 4420
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/reg-feed-watcher/SKILL.md",
+        "hash": "3f7ca41869082040371b44da1b798a837d4a92d3643a5b301bdea0c76f57ef9a",
+        "chars": 4405
+      },
+      "jaccard": 0.997,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/aia-generation/SKILL.md",
+        "hash": "a8a0faf83074ef9d9b70680d4be2c6c8bc959d2b0d446bfa281973729a4d8b8f",
+        "chars": 5019
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/aia-generation/SKILL.md",
+        "hash": "51e0d65d0f8e848f2bf428cc4b0d53a39dfa4e7b9e848a0d155f162ab1014615",
+        "chars": 5007
+      },
+      "jaccard": 0.9969,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/irac-practice/SKILL.md",
+        "hash": "c7a77a70eec92a6e544db6ace3dbf2b818a13d4d86ddc01726535ae5b86f941c",
+        "chars": 4110
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/irac-practice/SKILL.md",
+        "hash": "f270c3bc7398ebfd9cef1e83b3391305f7cf4ab2c1c948e2f039ff69212d02be",
+        "chars": 4095
+      },
+      "jaccard": 0.9969,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/vendor-ai-review/SKILL.md",
+        "hash": "04c037b5b705cf27481865dbc13d68be87ca0d9c7c1f90aa6b74a9e7aebf824e",
+        "chars": 4304
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/vendor-ai-review/SKILL.md",
+        "hash": "462cf15efffcf006cce598b85ee7cd5f2016c6898276feaa114da5defbbdffda",
+        "chars": 4298
+      },
+      "jaccard": 0.9968,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/matter-workspace/SKILL.md",
+        "hash": "13a99dcd45ca57410cbbb7c15f6038fb4366a4cecf7eadbe76b1fe4f37374ed6",
+        "chars": 4664
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/matter-workspace/SKILL.md",
+        "hash": "d1e3732dda895c175105740f7876a7a226959b1e523b375d5f52d6442eb75b33",
+        "chars": 4643
+      },
+      "jaccard": 0.9968,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/research-start/SKILL.md",
+        "hash": "69929890365bb244ef209ccc8cdd4b5a50398faa639c582e5de6ca4e8eb81d36",
+        "chars": 3933
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/research-start/SKILL.md",
+        "hash": "38fb0a998bdac0896a8dd2b2ffce8eb8129d64e720fd8e8b61631ce7d0f68658",
+        "chars": 3924
+      },
+      "jaccard": 0.9968,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/reg-gap-analysis/SKILL.md",
+        "hash": "3bf7d390983b53da54d02ae83c04bef8a86240a2e7f4843ba6be401387fe6400",
+        "chars": 3925
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/reg-gap-analysis/SKILL.md",
+        "hash": "f7439199f86e12e2025e8a40c711edf0390b956513986e54f41eaa616e4decee",
+        "chars": 3913
+      },
+      "jaccard": 0.9968,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/policy-starter/SKILL.md",
+        "hash": "ca65ddc06e55dfcb1a458834e828c8a96b9fefa3024cba120e1ee156331cc1bd",
+        "chars": 4137
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/policy-starter/SKILL.md",
+        "hash": "ab3033a5c988994ce940f0a48d246a83fb54944aa799df1293edb736fdd9b12f",
+        "chars": 4131
+      },
+      "jaccard": 0.9967,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/memo/SKILL.md",
+        "hash": "15561af20f09dfcd1a0bbd3bfa56b8fbabe69c668e88f609bc6e60bce57a0215",
+        "chars": 3917
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/memo/SKILL.md",
+        "hash": "5f5866ec13eab94292e95e02dc72f7b853315bfb249a63dac3edf07616cfa177",
+        "chars": 3908
+      },
+      "jaccard": 0.9967,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "7b54f8e53cf1b596c95c2ea8d938fc0b21c15129dec3dbbeb8b5a6f889029fdf",
+        "chars": 7065
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "9ec74ab4daeab8a6cb6e598958fb40c0cccc2367f5853e8452abc1202aa67162",
+        "chars": 7050
+      },
+      "jaccard": 0.9966,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/matter-workspace/SKILL.md",
+        "hash": "a7cebf62c505098d78789b5aa240611bc4064108f588f21878c6772434fb8cdb",
+        "chars": 4968
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/matter-workspace/SKILL.md",
+        "hash": "af913567064e0d8ac58f1c55df934b554fb760ed9e7ee5ef680a9fc61b5672d6",
+        "chars": 4947
+      },
+      "jaccard": 0.9966,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/matter-workspace/SKILL.md",
+        "hash": "253a23a6f8fd37612c3048de7830e1db1b243471337c6849a067e3b5b84f846c",
+        "chars": 4917
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/matter-workspace/SKILL.md",
+        "hash": "9836261be6681b153ffcc09ecd9b28b9cb244264231d636d5574cf780eb778d9",
+        "chars": 4896
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/matter-workspace/SKILL.md",
+        "hash": "3f2df95f62c6c2ccdf7dfb1bf410461a76183baf90c06f97cfa4099d0e2d63fd",
+        "chars": 4743
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/matter-workspace/SKILL.md",
+        "hash": "9903a0f84a56511a4f4e6494167b33548b84f099ced8668b9ed4310d008e08d8",
+        "chars": 4722
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/legal-writing/SKILL.md",
+        "hash": "93acabc7b3f09616ad6dcfb81a652d9e2dfdb6df9c02457785d21c50c78a1c75",
+        "chars": 3534
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/legal-writing/SKILL.md",
+        "hash": "829e611b38db7701e9ac61ffed577416180a654698953827d79d3d51b475e5d9",
+        "chars": 3522
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/semester-handoff/SKILL.md",
+        "hash": "8debda933bccc62e37bb97c06170a1840e3eb0eda5dfeced858a5d15703e7910",
+        "chars": 4504
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/semester-handoff/SKILL.md",
+        "hash": "b09cb6c7f1712403bac2328b87fb302ef791a665c543a8bec2012dc78c529aa2",
+        "chars": 4456
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "53ef53a903f595adf8a89a705a323966624523e091efef9f06608eb20d14bac7",
+        "chars": 3545
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "531a21a63a64c01a87e7cff5b22d0331fd3954c7ca499cac9d535df9a8891e38",
+        "chars": 3536
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/matter-workspace/SKILL.md",
+        "hash": "b929d0ffe6aeba6c75513264e0c70d14e8609f98685f405a5c31d663531b888f",
+        "chars": 4650
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/matter-workspace/SKILL.md",
+        "hash": "720421226eb0656e42e35412da036553de0fcab1cd7cab8281fad77055dcc4d3",
+        "chars": 4629
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "product-legal/skills/feature-risk-assessment/SKILL.md",
+        "hash": "0c93255d6db59e819c4a94213eb67b3d5a6b141ce2b210c2507651531b61bf4f",
+        "chars": 3420
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "product-legal/skills/feature-risk-assessment/SKILL.md",
+        "hash": "b662ff97bce538240e047fed9e66746639d5d1b6dca3d80ab4a5b1c896c04bef",
+        "chars": 3408
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "product-legal/skills/is-this-a-problem/SKILL.md",
+        "hash": "880365e5e6cb2b942c3fb30e7e32d0c715ba94aa2d9a7556babec2b558d490f1",
+        "chars": 3620
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "product-legal/skills/is-this-a-problem/SKILL.md",
+        "hash": "bcc01d321cee4fe8cfd264fe8a59dd99b23842e5bd2c05c8abc82ecdb6a49a03",
+        "chars": 3608
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "product-legal/skills/matter-workspace/SKILL.md",
+        "hash": "5d25d8016f3824e5acecb023444ab768b34c12e16509fb01040652d070aec3fd",
+        "chars": 4797
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "product-legal/skills/matter-workspace/SKILL.md",
+        "hash": "fbb1852a8cad984eac2ad998f294f4ee5edfee73ffc549e91136711fac019bb6",
+        "chars": 4776
+      },
+      "jaccard": 0.9965,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/draft/SKILL.md",
+        "hash": "7353db907959959884245f9f835ab0de5f3fe9a73e0ab39931cc1297b2f4f14f",
+        "chars": 3878
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/draft/SKILL.md",
+        "hash": "02b2495f52b0584b9f64e6ec244adedced67a37d602ba4eb502d77f263b1d624",
+        "chars": 3857
+      },
+      "jaccard": 0.9964,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-workspace/SKILL.md",
+        "hash": "bd8d21bc669575c0b15efc87513e2b612e0dbc35a0abfd4ecc1a76132bb9f5ec",
+        "chars": 4686
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-workspace/SKILL.md",
+        "hash": "3d6a9baf0e4b2e7b3e484f8e6d8435b324cebe70c7527da4bb9dafe78a78bff5",
+        "chars": 4665
+      },
+      "jaccard": 0.9964,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/deadlines/SKILL.md",
+        "hash": "95d9a0e1060f733a7782fee8f46d1fe35ec3bed227c620a08521c3a484e26e24",
+        "chars": 3862
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/deadlines/SKILL.md",
+        "hash": "1a82ba29e81f6b3a28b59031a31e94bc466732d00139bd343c5f5d19c42e9680",
+        "chars": 3841
+      },
+      "jaccard": 0.9963,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/use-case-triage/SKILL.md",
+        "hash": "d2b7b2cf9c260daf041588770cac7e5162718c924bbaae6fc54a36a9a62a5bff",
+        "chars": 3667
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/use-case-triage/SKILL.md",
+        "hash": "dd0e4bd6b500b6c4f9a34ce837379b62074abe0edd8234a90b92e12ebdd9ae1c",
+        "chars": 3661
+      },
+      "jaccard": 0.9962,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/ai-inventory/SKILL.md",
+        "hash": "2100ad25aced5ecd0d5380392a8675003ccfdff7ddc103a80e9b45b56079a2dc",
+        "chars": 3952
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/ai-inventory/SKILL.md",
+        "hash": "a144d99f71cd4238179331bfd043611aabdde076846e9dfabc51e724c745e9a0",
+        "chars": 3943
+      },
+      "jaccard": 0.9961,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/exam-forecast/SKILL.md",
+        "hash": "230597bbd08b0ca9be102857366330f267f4e63f10b0be466fb6d2496dca9e6e",
+        "chars": 3508
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/exam-forecast/SKILL.md",
+        "hash": "be3aa74b3a9df65951e24b8f6115acb7de2d6f06fe415f70c4c22745ff13b7c2",
+        "chars": 3496
+      },
+      "jaccard": 0.9961,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/flashcards/SKILL.md",
+        "hash": "41c19a18249be0a27d08b2007ace0096758de33e31adf32551da1906a7a3d20d",
+        "chars": 3946
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/flashcards/SKILL.md",
+        "hash": "d3f2e7c860b8ae98810be611ca94ed300f2a97104cf40a7aee2694b45c459041",
+        "chars": 3925
+      },
+      "jaccard": 0.9961,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/outline-builder/SKILL.md",
+        "hash": "8facd6edff381d88f29af6290323eb4eb26b141467411e01af565f0a4963aa59",
+        "chars": 3324
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/outline-builder/SKILL.md",
+        "hash": "ea6f00c2e54fd6a10dff664d998aa56f86f20c5712752323b929f2cfd111032a",
+        "chars": 3315
+      },
+      "jaccard": 0.996,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/ramp/SKILL.md",
+        "hash": "805c1569af96d4cc8b07bd37c6fcf0b3a632b288f99f206ef3847705f929fbb2",
+        "chars": 3065
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/ramp/SKILL.md",
+        "hash": "5708af2ab11e9f0ba826c10d64a4d7058ea33f59cdb051526d49da007112f984",
+        "chars": 3056
+      },
+      "jaccard": 0.9959,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-update/SKILL.md",
+        "hash": "f0132a8b722f9658ddb4e4f57c356f7705a0d87b07e33d69ca2b66e6fad5bac0",
+        "chars": 3653
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-update/SKILL.md",
+        "hash": "4250f9ecd4c87d50559d4c10151c221fe536d820a51c3107b2b6a383092837a9",
+        "chars": 3620
+      },
+      "jaccard": 0.9958,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/ai-tool-handoff/SKILL.md",
+        "hash": "9a40394268d5069c46a11529a373f9ee91c1008f1241726f63d9d2afe910d08c",
+        "chars": 3051
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/ai-tool-handoff/SKILL.md",
+        "hash": "ef3856796a359bde58c3904a778aa0406408fd71372e16a00cf0dd86d44f6862",
+        "chars": 3024
+      },
+      "jaccard": 0.9957,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/policy-diff/SKILL.md",
+        "hash": "b4a16cd270cd5510a58c9e17b5023587c0cdb5982fce37e5069ee1198b93ae7e",
+        "chars": 2829
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/policy-diff/SKILL.md",
+        "hash": "5e98e738f5d9f1c28b93243840b95c645050c0511568213511662c764444d06d",
+        "chars": 2823
+      },
+      "jaccard": 0.9957,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/client-letter/SKILL.md",
+        "hash": "796952403a335ffcb0363980aafca2df99b75fe8daa7461f0c7b09d45e94b59b",
+        "chars": 3326
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/client-letter/SKILL.md",
+        "hash": "1c7c113ecbeefd21e1beeddb71d37f5860343b834aea63656d3b6d8900482f3b",
+        "chars": 3305
+      },
+      "jaccard": 0.9956,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/material-contract-schedule/SKILL.md",
+        "hash": "53a8529ffe57d7e4f6e2eeb3ef8a5791355eb75de43c911d9dfb9a4187d3d541",
+        "chars": 2477
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/material-contract-schedule/SKILL.md",
+        "hash": "f1af1284f75cca3c12de24f7b772259a9b4a310793873755929df0188830520e",
+        "chars": 2471
+      },
+      "jaccard": 0.9955,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/status/SKILL.md",
+        "hash": "15bb7c6951029cb6bb6edbdfa0df7e43cf5f12af018546e9042209341b5dd665",
+        "chars": 3025
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/status/SKILL.md",
+        "hash": "e993b2504dc585cd1074cd0dad80d5a8b97a89799f8ebc856237600a8746d273",
+        "chars": 3010
+      },
+      "jaccard": 0.9953,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/chronology/SKILL.md",
+        "hash": "21e334e43cd9b9c1f261d6a53f1cec12886f98b9912db724a0f78e42eb41f173",
+        "chars": 2665
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/chronology/SKILL.md",
+        "hash": "f33ccfc6dd268dea3914f24d36f24d8d7d6bda37d4c9c7d52906b4807a8c3e2c",
+        "chars": 2656
+      },
+      "jaccard": 0.9953,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/cold-call-prep/SKILL.md",
+        "hash": "2b9ddbcebb88b84f13be2c738c1982495a58ef96d615b4440677bc768eabaeee",
+        "chars": 2881
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/cold-call-prep/SKILL.md",
+        "hash": "725ca522ccaa160bff523cf0b5ba0e66c9d54e7b576a2a4b101102685500c7fa",
+        "chars": 2866
+      },
+      "jaccard": 0.9952,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/demand-draft/SKILL.md",
+        "hash": "ffca0f2747ba7a1d2f9c7a8922db0d4f6f5bcb29f1ba431a7904e0724fb49158",
+        "chars": 2679
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/demand-draft/SKILL.md",
+        "hash": "ea9d5e36c566a41877417045ede41ee91ab2bd90a6b7455c0ff62ff1643546c0",
+        "chars": 2667
+      },
+      "jaccard": 0.9952,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/oc-status/SKILL.md",
+        "hash": "d70d60385badc89304dccc99e504c62fe05fd5744a04a6d4408c89a42e03f524",
+        "chars": 3805
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/oc-status/SKILL.md",
+        "hash": "e51345e4416483a166c219076ea775abae549321b7e22405a0da2f72e9fb60ea",
+        "chars": 3757
+      },
+      "jaccard": 0.9952,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/gap-surfacer/SKILL.md",
+        "hash": "caa47052f49610a9a8af5f5f05deb6f08f901f42e635a82cfdb965651b6f1cc7",
+        "chars": 2647
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/gap-surfacer/SKILL.md",
+        "hash": "cf4788ab1ef80b021b127aa1321b4f3dde13130d9fb39ffdc109c87d09fdbadf",
+        "chars": 2644
+      },
+      "jaccard": 0.9952,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/policy-redraft/SKILL.md",
+        "hash": "95839ea2a5b9c1d09518e03aa0abc4d411a8333b5bfd2d2c3ee59d3d6d2b68d8",
+        "chars": 2780
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/policy-redraft/SKILL.md",
+        "hash": "08cb11bb5b27aabd11c36e5f4f836f4e87aeffa8f6a4249190e662d5987c5f42",
+        "chars": 2777
+      },
+      "jaccard": 0.9952,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/policy-drafting/SKILL.md",
+        "hash": "5de8156c5fbfe7d1c92a8e595e2c7eae1e153f3879719bea5e19d7129f12b99a",
+        "chars": 2433
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/policy-drafting/SKILL.md",
+        "hash": "b2596c3f31a9340dbd729ab7e15e402e1b4ed471880e38ac4760250321954956",
+        "chars": 2427
+      },
+      "jaccard": 0.995,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-close/SKILL.md",
+        "hash": "ebdc52a5bafb180929306090fbf698e2b33e72bb99a207f1234c66b85ac9539b",
+        "chars": 2785
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-close/SKILL.md",
+        "hash": "c7d6bd795337fb02f3842e62e5ff3dd7ca3d44f24985ecfabd0e1f5c77bba9b2",
+        "chars": 2758
+      },
+      "jaccard": 0.995,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/client-comms-log/SKILL.md",
+        "hash": "3853328077bcc0c6b046b7ddf2268b26c1bfd3241a3133942ee8c4c31631371c",
+        "chars": 2614
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/client-comms-log/SKILL.md",
+        "hash": "af19db0879a8d2480df047f51e41ec8013118a160fa0520ddfe7fe2118040edf",
+        "chars": 2602
+      },
+      "jaccard": 0.9949,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/case-brief/SKILL.md",
+        "hash": "9bdd21ee635a937840a00fdf51ebe1ef36d3fbba801f60c6562227e840d51d61",
+        "chars": 2508
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/case-brief/SKILL.md",
+        "hash": "34fe323ff538b4e9a1916e753a487a3d718314ccc4b178b46fe1c80e15ab50dc",
+        "chars": 2496
+      },
+      "jaccard": 0.9947,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/socratic-drill/SKILL.md",
+        "hash": "47efbd8731348799c08a502a6b82d5de7bc3a3f716e7455cae35f42df2b5076b",
+        "chars": 2368
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/socratic-drill/SKILL.md",
+        "hash": "98ab3ab5ea2f5b39b4c9fdb85cf556ff321a370686ee024bff5a3ad70c8f2521",
+        "chars": 2356
+      },
+      "jaccard": 0.9945,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/auto-updater/SKILL.md",
+        "hash": "079d3da7c9bb885b5b19e3d2f61d53ea85cabdd887d285406585cfd9c02bccaf",
+        "chars": 2375
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/auto-updater/SKILL.md",
+        "hash": "e123955eb475cd2c0c43bb6fafb499ed792bc965393ec30f61458fe78f33afdd",
+        "chars": 2369
+      },
+      "jaccard": 0.9945,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/deal-team-summary/SKILL.md",
+        "hash": "28278953e6d8afb86d6dca574ddd91d8ac267c03cae0c835f72c1933de63db51",
+        "chars": 2225
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/deal-team-summary/SKILL.md",
+        "hash": "40a3087a5c81d715d11432264c9f48b5954ab6991645dc79d90d20c74ef009a5",
+        "chars": 2210
+      },
+      "jaccard": 0.9944,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/portfolio-status/SKILL.md",
+        "hash": "ed2ee8aa25008136d63c2a7196a4b6c5f860fd3e65baf8b37bd781e009502f3d",
+        "chars": 2661
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/portfolio-status/SKILL.md",
+        "hash": "520629a6b7640a1eeed0ff4870aba0baa5b339fcbbe1659a902d8aab2252413d",
+        "chars": 2649
+      },
+      "jaccard": 0.9943,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/customize/SKILL.md",
+        "hash": "65a58adb82e4e662efa8dbe89d2c5dcb2e8d566238cf718c3eae8f5e728a3ec7",
+        "chars": 4002
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/customize/SKILL.md",
+        "hash": "d49b521b6a2c66a266d4d711fdcaa88cc0dd7388c46d444acc289b2b909e77bd",
+        "chars": 3993
+      },
+      "jaccard": 0.9942,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/privilege-log-review/SKILL.md",
+        "hash": "023296f2f4ff4b8152d1e756368d2e71c0a347f97d0e1d82dbb41a52701bb214",
+        "chars": 2263
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/privilege-log-review/SKILL.md",
+        "hash": "bf52defba17c67a6acd21f09fabe5f2d75727862bc3afb524d47e89926fec8cf",
+        "chars": 2257
+      },
+      "jaccard": 0.9942,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "anthropics/claude-for-legal",
+        "path": "ip-legal/skills/customize/SKILL.md",
+        "hash": "a5e9c98372a5da288293f28ae0bdec4c59975fc7eab1f6adaa636e4a67302a7b",
+        "chars": 3996
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ip-legal/skills/customize/SKILL.md",
+        "hash": "d49b521b6a2c66a266d4d711fdcaa88cc0dd7388c46d444acc289b2b909e77bd",
+        "chars": 3993
+      },
+      "jaccard": 0.9942,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/renewal-tracker/SKILL.md",
+        "hash": "41770ee115a947e5ad798630de2257d6352b077c44a7192e05e563a3c45a911c",
+        "chars": 2397
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/renewal-tracker/SKILL.md",
+        "hash": "705267b4e27f49e31335c35789a4ecfce66a94ab9e7a5ab6aaa6d243360d8e1f",
+        "chars": 2391
+      },
+      "jaccard": 0.994,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/customize/SKILL.md",
+        "hash": "211e70cce284b52a78f593fc5aa8d0c441978cfaeba735bffc492d911478ec4e",
+        "chars": 3799
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/customize/SKILL.md",
+        "hash": "d196439e5d37220d9352ef5e944fe0a56fcb928998c81f5aabe28176a207a854",
+        "chars": 3790
+      },
+      "jaccard": 0.994,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/demand-intake/SKILL.md",
+        "hash": "fffdbb297e718584a0e9d0335d758a8c693d45a323fca8c4ad88cc384a6e5efe",
+        "chars": 2236
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/demand-intake/SKILL.md",
+        "hash": "db7b6d4537ad7bf6d7a2b531d5f93057d6ce85dacaac04fad82205bbbfa380d8",
+        "chars": 2224
+      },
+      "jaccard": 0.9937,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/deposition-prep/SKILL.md",
+        "hash": "e850d87336e34f615db8e7550f31fabf5c9ef3250fadc201600c746a7f7efeee",
+        "chars": 1916
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/deposition-prep/SKILL.md",
+        "hash": "b9fe5a42cef17f5f14dd0a86bf7ccde4759efab0822c42835bb283b6b07f2f72",
+        "chars": 1910
+      },
+      "jaccard": 0.9937,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/brief-section-drafter/SKILL.md",
+        "hash": "de75733cf8faf23ea7bc30265eaa754f74dbb0658a503f8f8a3cffd066079060",
+        "chars": 1871
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/brief-section-drafter/SKILL.md",
+        "hash": "f4eda64cda411f7a2f9794ded564767a213387690ed2a6cbb673647368b8b1fd",
+        "chars": 1862
+      },
+      "jaccard": 0.9934,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-briefing/SKILL.md",
+        "hash": "9df9be4cb959d00d25ba7004e7bcda2704323b8b45da9236f865bf4f66859329",
+        "chars": 2298
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-briefing/SKILL.md",
+        "hash": "c80518d8f32e7915d08b7ad0d1fd7ce46dbd095d29d9b080504f27b45c4e9d4c",
+        "chars": 2277
+      },
+      "jaccard": 0.9934,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/matter-workspace/SKILL.md",
+        "hash": "384a9d795ef23e7b138f504b48fb02c8fe14c2a65fd2644e6c6ec8fb52c262ed",
+        "chars": 2386
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/matter-workspace/SKILL.md",
+        "hash": "24d894ed6dcbb2284d68680acf489088e9d98d77d15638722da1aaa5ab236506",
+        "chars": 2371
+      },
+      "jaccard": 0.9933,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/customize/SKILL.md",
+        "hash": "7718d5f309750ebde004e000b21ef5e3311d35077c9e2f9ce9dd981bc04cbac4",
+        "chars": 1585
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/customize/SKILL.md",
+        "hash": "92cac5732e96a70e5ae5723527f79437404edb99f568578e363cdfb9e9d25756",
+        "chars": 1582
+      },
+      "jaccard": 0.9926,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/supervisor-review-queue/SKILL.md",
+        "hash": "b138a7fb7b1c4526b5f5ee4bb7049ce4feacc52b493de31335f9237f498f1e51",
+        "chars": 1892
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-clinic/skills/supervisor-review-queue/SKILL.md",
+        "hash": "6c15656dbc7326e7963145baf4a5aafb0c5419dc89d8ed8162514fc84467737a",
+        "chars": 1883
+      },
+      "jaccard": 0.9926,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/matter-workspace/SKILL.md",
+        "hash": "e366bef285069e5e625dfca977276abe597e994851cfd1810f2baf02497f51f4",
+        "chars": 1950
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/matter-workspace/SKILL.md",
+        "hash": "ecb725fd6506bdeac5571020f0e219562efdcbc49d9b5c306d1735710f4665ec",
+        "chars": 1947
+      },
+      "jaccard": 0.9925,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/legal-hold/SKILL.md",
+        "hash": "cb3cf06ec83c8dd1a256dfbbca4b0f5a015e3977ecb36352f5e409be935e1ca2",
+        "chars": 1545
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/legal-hold/SKILL.md",
+        "hash": "a9daa03f2845dc2e04612b4593f7c41e1f373f4b330a0e1dddf076d411773876",
+        "chars": 1539
+      },
+      "jaccard": 0.9924,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/handbook-updates/SKILL.md",
+        "hash": "19d020977e884106eed586cb9d57e426402f2df9541b4e797260210d799523f2",
+        "chars": 1646
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/handbook-updates/SKILL.md",
+        "hash": "418b3802be2a40f0dbcba06ac46008addcebf455fb8280ba468d017c45823f24",
+        "chars": 1640
+      },
+      "jaccard": 0.9922,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/customize/SKILL.md",
+        "hash": "bd2e5b3fa80342583e18fda811285e06d499214f606e30edd79dac0db43e8f80",
+        "chars": 1647
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/customize/SKILL.md",
+        "hash": "46cc1db1273bb9fbd2bb89b188e2d8c11a215e73d9e5447d70571f8cb6612b40",
+        "chars": 1641
+      },
+      "jaccard": 0.9918,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/cold-start-interview/SKILL.md",
+        "hash": "711315c47ca3f41e9da7b173026f6a426f05982fa834d57efe49e299c105aed1",
+        "chars": 2389
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/cold-start-interview/SKILL.md",
+        "hash": "ff013b5e26e650e0d3742ae0282ee4c682d1b59a36247d0429ad0f1942addbfe",
+        "chars": 2380
+      },
+      "jaccard": 0.9915,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/customize/SKILL.md",
+        "hash": "44d5696547ba3e8df8bdb9352edf38a9a5c1dd26a5db37f149c30cbeef1c4625",
+        "chars": 1439
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/customize/SKILL.md",
+        "hash": "88dba2e4e2b584337823126efe4d9cf2caa9a277a3a2bc59bc69efb505de842b",
+        "chars": 1436
+      },
+      "jaccard": 0.9913,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/log-leave/SKILL.md",
+        "hash": "bb0485710d6afd81dc86e4d456f6d619cdb76af32bb25f1330ff3cf42c4cfa5e",
+        "chars": 1528
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/log-leave/SKILL.md",
+        "hash": "d06d75fd099090a404944593d58902a37ba5f93a534012484191554759321c35",
+        "chars": 1516
+      },
+      "jaccard": 0.9903,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/strategic-risk-prioritization/SKILL.md",
+        "hash": "6e467efd68057c26938cb5340042c6506f51f5622b5fff8e698cf09c86922994",
+        "chars": 18643
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/strategic_risk_prioritization/SKILL.md",
+        "hash": "6d9ea8a0c122daff58dc809debad60a47f0e280663c74787a3a3a63c7d174662",
+        "chars": 18787
+      },
+      "jaccard": 0.99,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/related-skills-surfacer/SKILL.md",
+        "hash": "81e319f26583e034ac9ab70e65a41f2b767c1694272b019ae2d9762efd189352",
+        "chars": 1281
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/related-skills-surfacer/SKILL.md",
+        "hash": "d735152a91627280600c18b564933ecf6625f6dcb534f01df6c81552dd96f4de",
+        "chars": 1272
+      },
+      "jaccard": 0.9897,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/expansion-kickoff/SKILL.md",
+        "hash": "e0b143df1f9808f8cd8b069fe93290372864a2d78f02d93cdf4dc3ea466417fc",
+        "chars": 1217
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/expansion-kickoff/SKILL.md",
+        "hash": "ef14b91beb3afe46295e788740cde8a27d4651a957bdb80deeedb0224d6532c6",
+        "chars": 1208
+      },
+      "jaccard": 0.9892,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/customize/SKILL.md",
+        "hash": "c45b4c53c42c20c33379f5347b5c6aba483906ac87955c92537732e0264879d9",
+        "chars": 1721
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/customize/SKILL.md",
+        "hash": "6ba8304f739de1dadf7cb35168ea7f1010b6945f9acbdd75f546bd89cd12c1a3",
+        "chars": 1712
+      },
+      "jaccard": 0.989,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "product-legal/skills/customize/SKILL.md",
+        "hash": "a5cbde60dbee5f82b9f6aa9632725acabe4bdc487b0baffadee5d24e6b77a5f4",
+        "chars": 1707
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "product-legal/skills/customize/SKILL.md",
+        "hash": "05423098dcd5c12da5e1eba7254cfa7ad2427cff9fb73409bd84e2dcaf6e787f",
+        "chars": 1698
+      },
+      "jaccard": 0.989,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/customize/SKILL.md",
+        "hash": "6370c9174c4c644000c412a69a324f52ef94c131b39c40003f3cdc6986575d21",
+        "chars": 967
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/customize/SKILL.md",
+        "hash": "2d410c21e50592631de6dc7820700ff2ce446d1f40bfbaeb93411b8f038d8cce",
+        "chars": 964
+      },
+      "jaccard": 0.9888,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/skill-manager/SKILL.md",
+        "hash": "87426ace44ad1eacc1a94e17b896bdbf4fbe6c28963988c94eae58b85b8a8637",
+        "chars": 1953
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/skill-manager/SKILL.md",
+        "hash": "ffcee7df5ff2372f46fe1dff3417bf54c69e0d91713c3f9f41f632ff1dc43a33",
+        "chars": 1947
+      },
+      "jaccard": 0.9887,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ip-legal/skills/customize/SKILL.md",
+        "hash": "65a58adb82e4e662efa8dbe89d2c5dcb2e8d566238cf718c3eae8f5e728a3ec7",
+        "chars": 4002
+      },
+      "right": {
+        "repo": "anthropics/claude-for-legal",
+        "path": "ip-legal/skills/customize/SKILL.md",
+        "hash": "a5e9c98372a5da288293f28ae0bdec4c59975fc7eab1f6adaa636e4a67302a7b",
+        "chars": 3996
+      },
+      "jaccard": 0.9885,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/comments/SKILL.md",
+        "hash": "f515d86c745211ac87ae6e2fec85a7c9ade714ef431cf01391a6de2261c8b5a4",
+        "chars": 1210
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/comments/SKILL.md",
+        "hash": "4fe4d23674bf844c061e218d5235005c404db6ae901e50465b570d7568f95d39",
+        "chars": 1204
+      },
+      "jaccard": 0.9882,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/registry-browser/SKILL.md",
+        "hash": "98f0bef902274d117d46ecac08c67bb941830039d18377219f1701f19ac3eed2",
+        "chars": 1171
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/registry-browser/SKILL.md",
+        "hash": "0494e0da6c0950294e97d7e3f08bbe2bbd3d42ce4fff7272265604a732e3bde3",
+        "chars": 1162
+      },
+      "jaccard": 0.988,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/customize/SKILL.md",
+        "hash": "4bd103c562ad920c50afaecf1ebbf56bca174bba90d0b4238b7c31421ecd96de",
+        "chars": 1562
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/customize/SKILL.md",
+        "hash": "c54a7f0ef984ea280a0793bc0cf57a114704db73ef71e7b0e08636ec96f2a158",
+        "chars": 1553
+      },
+      "jaccard": 0.9877,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/expansion-update/SKILL.md",
+        "hash": "963e08338b74a62c644ff26427a91046e979d961b85252a97715cbf1a8fdc7c2",
+        "chars": 956
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/expansion-update/SKILL.md",
+        "hash": "268cac60540ff77472d9fbbb0bca6c5972cf73d54577c20556c1e803901e8988",
+        "chars": 950
+      },
+      "jaccard": 0.9868,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/customize/SKILL.md",
+        "hash": "74067eedbde7ff1e4dee0cd665de859c11f4258245e633d145e648662237fe37",
+        "chars": 1083
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "ai-governance-legal/skills/customize/SKILL.md",
+        "hash": "2d8a94707f4df37635c5bd379c1d8eddf74018112a3f1871d7582b1cc436c0dc",
+        "chars": 1077
+      },
+      "jaccard": 0.9867,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-element-extraction/SKILL.md",
+        "hash": "6261df26c204b32a94739e7c93b7ab6d69209d111646d3afe52e9391c345f6f1",
+        "chars": 10837
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_element_extraction/SKILL.md",
+        "hash": "ba657c4d1dc95652f51556a967bd2f64315878e87379a9b37a5f8051e53b625d",
+        "chars": 10955
+      },
+      "jaccard": 0.9866,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-open/SKILL.md",
+        "hash": "55d244fbe4f7d56dc524f35f9c2f6ab27a6b800bafcc1347e96d7a5392169c80",
+        "chars": 864
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-open/SKILL.md",
+        "hash": "1858441c0c4497db783b95a87b6f3ee8597025aa796175e475399270866ab152",
+        "chars": 861
+      },
+      "jaccard": 0.986,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/customize/SKILL.md",
+        "hash": "8253a3001460c86fc1391fc98527dca52b9ac0f7308f3a4ab659b197f5e9edbe",
+        "chars": 1272
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/customize/SKILL.md",
+        "hash": "21ee5dc01b78e600860f4b2a6fed2fdc00671f0b4aefebafb3747a0671d1944e",
+        "chars": 1266
+      },
+      "jaccard": 0.9858,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/customize/SKILL.md",
+        "hash": "07bea2e3d9e6de1bce0d00661f7ff553cad4797f681fec3d3bc53bd9dc0d4619",
+        "chars": 790
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/customize/SKILL.md",
+        "hash": "402b95cb5c5553d5eadfb0a93bfc8a88193d2fe12e97985a895042b1d2df0164",
+        "chars": 787
+      },
+      "jaccard": 0.9851,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-concept-comprehension/SKILL.md",
+        "hash": "f07ce16f6298324f6fa6d87815729a0c76581b3d5661296f778b10ceed7e86e5",
+        "chars": 10623
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_concept_comprehension/SKILL.md",
+        "hash": "0296d665b4546ae5caed647f55d4db4166e004bfb052388660f69f162270272b",
+        "chars": 10742
+      },
+      "jaccard": 0.9849,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/formal-legal-consequence/SKILL.md",
+        "hash": "39401adfc01943cccfae0baf0200df5ac6a1e1a037236aa131238251671988ed",
+        "chars": 19921
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/formal_legal_consequence/SKILL.md",
+        "hash": "8154e78b73da739741dcac98f1aa975c0d3648d897f1a3f6d7de211ff1abda43",
+        "chars": 20040
+      },
+      "jaccard": 0.9825,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-document-summarization/SKILL.md",
+        "hash": "0be229e920e7fe6d883a2f713329d521c8f45d6f7dd31afd5380fe896fa22162",
+        "chars": 10653
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_document_summarization/SKILL.md",
+        "hash": "4a9c9be96f158fe13bbe7ea42d0895c907397574819ea67f5f8430c8cb5525fc",
+        "chars": 10794
+      },
+      "jaccard": 0.9822,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/leave-tracker/SKILL.md",
+        "hash": "d7beda407be3a81413e44cadb22ab54f35c844d312dbc3cd24f0974ec5ed8424",
+        "chars": 804
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/leave-tracker/SKILL.md",
+        "hash": "6827e0439293d0be713f1065399cbf9bfe309d9026e960f9fb2436df449dce16",
+        "chars": 798
+      },
+      "jaccard": 0.9821,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-add/SKILL.md",
+        "hash": "40fba28642712dc9e7b6b042e61b9913ddd3d92a43950d12e56e08c0131a5cb8",
+        "chars": 710
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "employment-legal/skills/investigation-add/SKILL.md",
+        "hash": "17c4bc026a7b6f8f1a2c07f104eec4f42bf29869e2370db9c45de43c83db155a",
+        "chars": 707
+      },
+      "jaccard": 0.9817,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "law-student/skills/session/SKILL.md",
+        "hash": "4fc0a654bc286cf797bde35ee5e9e9a974bc513b08cf81c5b2a9b9f86c46eca9",
+        "chars": 852
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "law-student/skills/session/SKILL.md",
+        "hash": "032bbf9e9696f2e174622f1a71acb7fa5384e93685f85f5ff43e78edb6ba0bef",
+        "chars": 843
+      },
+      "jaccard": 0.9812,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/inductive-reasoning/SKILL.md",
+        "hash": "9b509ff63b7990a09a2dd1c77c2d3e23107f0b8d1aa7770ded06c536a15b4578",
+        "chars": 6864
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/inductive_reasoning/SKILL.md",
+        "hash": "abcc584ff6d0cafb4241ff162e460fa71a6aa7b034f3b62b62837c784857450e",
+        "chars": 6983
+      },
+      "jaccard": 0.9804,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/argument-strength-evaluation/SKILL.md",
+        "hash": "acc03ef6fed80866d4b6c2621323bc18a3d23d22b1d72a06bf4ff3d3307e83ae",
+        "chars": 17116
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/argument_strength_evaluation/SKILL.md",
+        "hash": "eb8de69818994a8686b2ae4eefa618acb619e528c61c8929b1f66e7acebf2eaf",
+        "chars": 17203
+      },
+      "jaccard": 0.9803,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/disable/SKILL.md",
+        "hash": "27e2d69d4b943f3e928d32670d1adc859d1f6d3ef9202cd2c5fd8bd7c6209b26",
+        "chars": 558
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/disable/SKILL.md",
+        "hash": "2ac01f4157324d5374f91d5df4a26756abac54bd317e6256c32e07a78dc7b5ea",
+        "chars": 555
+      },
+      "jaccard": 0.9779,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/uninstall/SKILL.md",
+        "hash": "16aa69decf22d8d36752190d9148fe8e42e5628f8bd71c5f1cd40c41586f0214",
+        "chars": 556
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "legal-builder-hub/skills/uninstall/SKILL.md",
+        "hash": "a3d57ea94c4965c288426a9d1083bca14534ae42ea8f11a19225edea0f13a974",
+        "chars": 553
+      },
+      "jaccard": 0.9772,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/review-proposals/SKILL.md",
+        "hash": "2c12a450a3e65299d18a3675b71ed0ae22d14ef880fd3b6e05bba3bb2527ea21",
+        "chars": 427
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/review-proposals/SKILL.md",
+        "hash": "45afff021e7404f0524942e8f210f12caf33c268ecf385f3bcd55c9fb17cb7d2",
+        "chars": 424
+      },
+      "jaccard": 0.9753,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-judgment-prediction/SKILL.md",
+        "hash": "ed87ef2338ab6bf7a8ffa9911261cd13cec79c7bb9f50506ae6052743b6f438d",
+        "chars": 14109
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_judgment_prediction/SKILL.md",
+        "hash": "83df37ed40996e0ee5b8901b15d3301e86dab99ab28b92c9afbd692b7fc760ae",
+        "chars": 14206
+      },
+      "jaccard": 0.9748,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "anthropics/claude-for-legal",
+        "path": "privacy-legal/skills/customize/SKILL.md",
+        "hash": "cf7973caa696c9911a78c3e6167183268c79c64321707b419c31fd4770ce7ebb",
+        "chars": 3805
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/customize/SKILL.md",
+        "hash": "d196439e5d37220d9352ef5e944fe0a56fcb928998c81f5aabe28176a207a854",
+        "chars": 3790
+      },
+      "jaccard": 0.9687,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-tabular-review/SKILL.md",
+        "hash": "895ec5a190c853c728beffe81d54712af9cf4e2333d438ac043fbbeb7eb74bb2",
+        "chars": 7213
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/tabular-review/SKILL.md",
+        "hash": "553da3a1c12b14fc7905d85d93abdc6bc781a66648e615ff39db2f6a85fa7349",
+        "chars": 7332
+      },
+      "jaccard": 0.967,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/tabular-review/SKILL.md",
+        "hash": "51adc97de31cce72b649296d3643f66427774b4d44d6f12133662f5b18757ed2",
+        "chars": 7344
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-tabular-review/SKILL.md",
+        "hash": "895ec5a190c853c728beffe81d54712af9cf4e2333d438ac043fbbeb7eb74bb2",
+        "chars": 7213
+      },
+      "jaccard": 0.9661,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/gaps/SKILL.md",
+        "hash": "dc719240535a07d722dbe732f1d469c944aef30cc5069e1cd0720c5555065639",
+        "chars": 312
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "regulatory-legal/skills/gaps/SKILL.md",
+        "hash": "3cd6d37988d762b9a996efd53e577e40107af1c17f1bee148f7782fdb4a95049",
+        "chars": 309
+      },
+      "jaccard": 0.9645,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "privacy-legal/skills/customize/SKILL.md",
+        "hash": "211e70cce284b52a78f593fc5aa8d0c441978cfaeba735bffc492d911478ec4e",
+        "chars": 3799
+      },
+      "right": {
+        "repo": "anthropics/claude-for-legal",
+        "path": "privacy-legal/skills/customize/SKILL.md",
+        "hash": "cf7973caa696c9911a78c3e6167183268c79c64321707b419c31fd4770ce7ebb",
+        "chars": 3805
+      },
+      "jaccard": 0.9629,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-written-consent/SKILL.md",
+        "hash": "4b79e087ecdada5871d65a064887e75445c48782e4f8d88e8243a532a98c0ab7",
+        "chars": 6854
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/written-consent/SKILL.md",
+        "hash": "52becb253f62252c327c9cafa4405534fd25bcdbc25d204a51954d4b95e8c07a",
+        "chars": 6996
+      },
+      "jaccard": 0.9601,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/written-consent/SKILL.md",
+        "hash": "e19a32dba4a86d20d0debf2745927aee0b340a77c6fb234cc5b3aa7980b1f365",
+        "chars": 7029
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-written-consent/SKILL.md",
+        "hash": "4b79e087ecdada5871d65a064887e75445c48782e4f8d88e8243a532a98c0ab7",
+        "chars": 6854
+      },
+      "jaccard": 0.9592,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-entity-compliance/SKILL.md",
+        "hash": "f285fe8e5a80c52949c42536e0a9228bb99a29f67fbbf3e4b3d29ae22a420c8e",
+        "chars": 8582
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/entity-compliance/SKILL.md",
+        "hash": "a4ff876e4f8171a5e6ce3f12fda90579593554b0e2c47eef19b84a11f9232e70",
+        "chars": 8793
+      },
+      "jaccard": 0.9572,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/systematic-interpretation/SKILL.md",
+        "hash": "3d8e951dbfb7bda44b9d73d44c24c249e1313a1c805ee48fb6dd45886dc0ff77",
+        "chars": 4789
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/systematic_interpretation/SKILL.md",
+        "hash": "006af692aa1876f8e7dea75fec33435df8b09bd40136a3dc86cd1d40078e6c94",
+        "chars": 4970
+      },
+      "jaccard": 0.9566,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/entity-compliance/SKILL.md",
+        "hash": "d5d310b91e002242926030e0416a41429611dbe4aa7b7d94861845089dc93203",
+        "chars": 8826
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-entity-compliance/SKILL.md",
+        "hash": "f285fe8e5a80c52949c42536e0a9228bb99a29f67fbbf3e4b3d29ae22a420c8e",
+        "chars": 8582
+      },
+      "jaccard": 0.9564,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-portfolio-status/SKILL.md",
+        "hash": "d223bf5d8cd20dd2be5d27ce3493d8db77d2b0b38588120a3fafaf4bf4c40740",
+        "chars": 2587
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/portfolio-status/SKILL.md",
+        "hash": "520629a6b7640a1eeed0ff4870aba0baa5b339fcbbe1659a902d8aab2252413d",
+        "chars": 2649
+      },
+      "jaccard": 0.9492,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-intake/SKILL.md",
+        "hash": "cc3cfd8837b515a574a7f203eeeac19514d4c9177c74ab98695133a8c2a94c57",
+        "chars": 5535
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-intake/SKILL.md",
+        "hash": "902bb2e051fdae876c2f3f50099ca3e28860f913cf8e9703e5785111f3f7d242",
+        "chars": 5782
+      },
+      "jaccard": 0.9481,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-intake/SKILL.md",
+        "hash": "d28bf26cb241164485e9330fe2217a7a0864b968b77c7ead18510f48614a67f6",
+        "chars": 5830
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-intake/SKILL.md",
+        "hash": "cc3cfd8837b515a574a7f203eeeac19514d4c9177c74ab98695133a8c2a94c57",
+        "chars": 5535
+      },
+      "jaccard": 0.9471,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/portfolio-status/SKILL.md",
+        "hash": "ed2ee8aa25008136d63c2a7196a4b6c5f860fd3e65baf8b37bd781e009502f3d",
+        "chars": 2661
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-portfolio-status/SKILL.md",
+        "hash": "d223bf5d8cd20dd2be5d27ce3493d8db77d2b0b38588120a3fafaf4bf4c40740",
+        "chars": 2587
+      },
+      "jaccard": 0.9471,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/teleological-interpretation/SKILL.md",
+        "hash": "0817e8056886fd1a1021891a9d7169c0751d9aa19415bc5e7bbacd7c7a331e2c",
+        "chars": 6474
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/teleological_interpretation/SKILL.md",
+        "hash": "fe3f88598ed2d6ad9d19aa4e49778d8f3bb2eae3f7f7030da8b8938d581d34da",
+        "chars": 6784
+      },
+      "jaccard": 0.9444,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-material-contract-schedule/SKILL.md",
+        "hash": "e614a5d9be4239db673ccc60b51156a500436900598991aba710f57435ac7a0c",
+        "chars": 2448
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/material-contract-schedule/SKILL.md",
+        "hash": "f1af1284f75cca3c12de24f7b772259a9b4a310793873755929df0188830520e",
+        "chars": 2471
+      },
+      "jaccard": 0.9441,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-cold-start-interview/SKILL.md",
+        "hash": "37f302e6c00606834788e0176182633b8fa02a0e61d91bb52558601bf008652f",
+        "chars": 3491
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "531a21a63a64c01a87e7cff5b22d0331fd3954c7ca499cac9d535df9a8891e38",
+        "chars": 3536
+      },
+      "jaccard": 0.9441,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "53ef53a903f595adf8a89a705a323966624523e091efef9f06608eb20d14bac7",
+        "chars": 3545
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-cold-start-interview/SKILL.md",
+        "hash": "37f302e6c00606834788e0176182633b8fa02a0e61d91bb52558601bf008652f",
+        "chars": 3491
+      },
+      "jaccard": 0.9428,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/material-contract-schedule/SKILL.md",
+        "hash": "53a8529ffe57d7e4f6e2eeb3ef8a5791355eb75de43c911d9dfb9a4187d3d541",
+        "chars": 2477
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-material-contract-schedule/SKILL.md",
+        "hash": "e614a5d9be4239db673ccc60b51156a500436900598991aba710f57435ac7a0c",
+        "chars": 2448
+      },
+      "jaccard": 0.9418,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/argument-chain-construction/SKILL.md",
+        "hash": "119921557c4427d86be1274e86ec3f0925f6ae6b8df5a9400b4134872cecac8a",
+        "chars": 21062
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/argument_chain_construction/SKILL.md",
+        "hash": "d28e1454ff7c09993ca53405ec7a1355316ebd4ea55c324074056444ba1fb032",
+        "chars": 21372
+      },
+      "jaccard": 0.9402,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-update/SKILL.md",
+        "hash": "bfcabb8062840dc96800d5c8ea7f69ae19d50241df1f224196f5c1eed6e0c83f",
+        "chars": 3441
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-update/SKILL.md",
+        "hash": "4250f9ecd4c87d50559d4c10151c221fe536d820a51c3107b2b6a383092837a9",
+        "chars": 3620
+      },
+      "jaccard": 0.9397,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-update/SKILL.md",
+        "hash": "f0132a8b722f9658ddb4e4f57c356f7705a0d87b07e33d69ca2b66e6fad5bac0",
+        "chars": 3653
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-update/SKILL.md",
+        "hash": "bfcabb8062840dc96800d5c8ea7f69ae19d50241df1f224196f5c1eed6e0c83f",
+        "chars": 3441
+      },
+      "jaccard": 0.9382,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-ai-tool-handoff/SKILL.md",
+        "hash": "3ca8e804902c701082261369cfcc172ebb876e7d65def6f87db3bc72a491f03c",
+        "chars": 2874
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/ai-tool-handoff/SKILL.md",
+        "hash": "ef3856796a359bde58c3904a778aa0406408fd71372e16a00cf0dd86d44f6862",
+        "chars": 3024
+      },
+      "jaccard": 0.9327,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/ai-tool-handoff/SKILL.md",
+        "hash": "9a40394268d5069c46a11529a373f9ee91c1008f1241726f63d9d2afe910d08c",
+        "chars": 3051
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-ai-tool-handoff/SKILL.md",
+        "hash": "3ca8e804902c701082261369cfcc172ebb876e7d65def6f87db3bc72a491f03c",
+        "chars": 2874
+      },
+      "jaccard": 0.9305,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-workspace/SKILL.md",
+        "hash": "36d82b8cb76548159a202ebb31b24b73b244adeb1f68fb9b9c33aa910d30272a",
+        "chars": 4491
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-workspace/SKILL.md",
+        "hash": "3d6a9baf0e4b2e7b3e484f8e6d8435b324cebe70c7527da4bb9dafe78a78bff5",
+        "chars": 4665
+      },
+      "jaccard": 0.9289,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-workspace/SKILL.md",
+        "hash": "bd8d21bc669575c0b15efc87513e2b612e0dbc35a0abfd4ecc1a76132bb9f5ec",
+        "chars": 4686
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-workspace/SKILL.md",
+        "hash": "36d82b8cb76548159a202ebb31b24b73b244adeb1f68fb9b9c33aa910d30272a",
+        "chars": 4491
+      },
+      "jaccard": 0.9276,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/judicial-value-judgment/SKILL.md",
+        "hash": "7016f3d3ef9c110db0575b87d1bc8e8c5ba10a4622fb7fad80ac2a923a940647",
+        "chars": 7244
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/judicial_value_judgment/SKILL.md",
+        "hash": "eee1c48c38ac0683a2e96e1139080f5130c2f07e943ef66d598f12bdeaad19c5",
+        "chars": 7822
+      },
+      "jaccard": 0.9265,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/judgment-document-generation/SKILL.md",
+        "hash": "a0c3033d5dde19eff03123768d76c7e4ab45670ed328ae437a7cb7ba317d46b3",
+        "chars": 10804
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/judgment_document_generation/SKILL.md",
+        "hash": "058ef83367a431fc562ece82ff96a02a6e1ad095c78077c9ac656a34fffed15f",
+        "chars": 10984
+      },
+      "jaccard": 0.9264,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-oc-status/SKILL.md",
+        "hash": "bde6afda758fc265c769b8ff9683ba8c9b995a3eacda8718966b7e9b72e7308f",
+        "chars": 3502
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/oc-status/SKILL.md",
+        "hash": "e51345e4416483a166c219076ea775abae549321b7e22405a0da2f72e9fb60ea",
+        "chars": 3757
+      },
+      "jaccard": 0.925,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-article-retrieval/SKILL.md",
+        "hash": "ecdddc9ea190769d94a208595e8ccadd8ee9e9b1b9ea5bc27ca93301cf69def8",
+        "chars": 27968
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_article_retrieval/SKILL.md",
+        "hash": "3670d9ea9fd1736cb9a4174237f187991e498cedcfc9bd11aabff749668a8358",
+        "chars": 29651
+      },
+      "jaccard": 0.9245,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-close/SKILL.md",
+        "hash": "793ec6715f6b965c9a205cbea3a0b1b3dd9a423b35e63102d48b025017638cc5",
+        "chars": 2608
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-close/SKILL.md",
+        "hash": "c7d6bd795337fb02f3842e62e5ff3dd7ca3d44f24985ecfabd0e1f5c77bba9b2",
+        "chars": 2758
+      },
+      "jaccard": 0.9242,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/oc-status/SKILL.md",
+        "hash": "d70d60385badc89304dccc99e504c62fe05fd5744a04a6d4408c89a42e03f524",
+        "chars": 3805
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-oc-status/SKILL.md",
+        "hash": "bde6afda758fc265c769b8ff9683ba8c9b995a3eacda8718966b7e9b72e7308f",
+        "chars": 3502
+      },
+      "jaccard": 0.9232,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-close/SKILL.md",
+        "hash": "ebdc52a5bafb180929306090fbf698e2b33e72bb99a207f1234c66b85ac9539b",
+        "chars": 2785
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-close/SKILL.md",
+        "hash": "793ec6715f6b965c9a205cbea3a0b1b3dd9a423b35e63102d48b025017638cc5",
+        "chars": 2608
+      },
+      "jaccard": 0.9227,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-briefing/SKILL.md",
+        "hash": "6a53222e571bf08cc4bd3d24404860e368eb6c30934c58c85c661368b5ad1c91",
+        "chars": 2153
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-briefing/SKILL.md",
+        "hash": "c80518d8f32e7915d08b7ad0d1fd7ce46dbd095d29d9b080504f27b45c4e9d4c",
+        "chars": 2277
+      },
+      "jaccard": 0.9203,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-board-minutes/SKILL.md",
+        "hash": "9c92a1b15a6f1a18299793138cb7e24633412cd1921cbc8c8686aca97e24b2dc",
+        "chars": 4608
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/board-minutes/SKILL.md",
+        "hash": "736ee72b9e998ceef09b0ff73357064f7e57252628831b246fc77c12a5145b9d",
+        "chars": 4712
+      },
+      "jaccard": 0.9194,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-customize/SKILL.md",
+        "hash": "6fbedc90fec89b10f89d847006bec774a0ba33e8a9ecae90199f8ebbd273ae1e",
+        "chars": 1589
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/customize/SKILL.md",
+        "hash": "46cc1db1273bb9fbd2bb89b188e2d8c11a215e73d9e5447d70571f8cb6612b40",
+        "chars": 1641
+      },
+      "jaccard": 0.9183,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/board-minutes/SKILL.md",
+        "hash": "7693518c5a99932d5028de8356af49e93d02968841b537779baa30e983062a80",
+        "chars": 4739
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-board-minutes/SKILL.md",
+        "hash": "9c92a1b15a6f1a18299793138cb7e24633412cd1921cbc8c8686aca97e24b2dc",
+        "chars": 4608
+      },
+      "jaccard": 0.9182,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/matter-briefing/SKILL.md",
+        "hash": "9df9be4cb959d00d25ba7004e7bcda2704323b8b45da9236f865bf4f66859329",
+        "chars": 2298
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-matter-briefing/SKILL.md",
+        "hash": "6a53222e571bf08cc4bd3d24404860e368eb6c30934c58c85c661368b5ad1c91",
+        "chars": 2153
+      },
+      "jaccard": 0.918,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/customize/SKILL.md",
+        "hash": "bd2e5b3fa80342583e18fda811285e06d499214f606e30edd79dac0db43e8f80",
+        "chars": 1647
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-customize/SKILL.md",
+        "hash": "6fbedc90fec89b10f89d847006bec774a0ba33e8a9ecae90199f8ebbd273ae1e",
+        "chars": 1589
+      },
+      "jaccard": 0.915,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "cat-xierluo/legal-skills",
+        "path": "skills/opc-legal-counsel/SKILL.md",
+        "hash": "d82a63312718594f4c99e0604cdb5f51a54ea288103664748ef1bc5c020eea7a",
+        "chars": 7953
+      },
+      "right": {
+        "repo": "cat-xierluo/opc-legal-counsel.skill",
+        "path": "SKILL.md",
+        "hash": "7b2e1489876516ee696807936877a74b32124deb27de7a24c77cf3dd3b2f047b",
+        "chars": 7321
+      },
+      "jaccard": 0.9109,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-customize/SKILL.md",
+        "hash": "23beafc13013fa5338514ddfd8799a173812a6737950d3cf279c72771497c586",
+        "chars": 1485
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/customize/SKILL.md",
+        "hash": "c54a7f0ef984ea280a0793bc0cf57a114704db73ef71e7b0e08636ec96f2a158",
+        "chars": 1553
+      },
+      "jaccard": 0.9022,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "litigation-legal/skills/customize/SKILL.md",
+        "hash": "4bd103c562ad920c50afaecf1ebbf56bca174bba90d0b4238b7c31421ecd96de",
+        "chars": 1562
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-litigation-legal/skills/litigation-customize/SKILL.md",
+        "hash": "23beafc13013fa5338514ddfd8799a173812a6737950d3cf279c72771497c586",
+        "chars": 1485
+      },
+      "jaccard": 0.8987,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-document-formatting/SKILL.md",
+        "hash": "08951826d60511dd537ab047504e37b812c4a3e14de261c6cdc03a8e7bad4fe4",
+        "chars": 14974
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_document_formatting/SKILL.md",
+        "hash": "c1af24863bd56822939f6e6e4537345ef3b7b88ad9e34576c8b41771cfd23c3c",
+        "chars": 15421
+      },
+      "jaccard": 0.8777,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "contracts",
+      "left": {
+        "repo": "CSlawyer1985/contract-review-pro",
+        "path": "SKILL.md",
+        "hash": "6dd93c9481a21e94c7983d5fb18c423582fb3a5621aa18c77687e7888aa20c5c",
+        "chars": 3790
+      },
+      "right": {
+        "repo": "malnlda/contract-review",
+        "path": "SKILL.md",
+        "hash": "0ab348ea67b404d1241fb0cb966bb0b019755fea9ae5cce56e3d3be0d959649c",
+        "chars": 4099
+      },
+      "jaccard": 0.8663,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/administrative-value-judgment/SKILL.md",
+        "hash": "bdb046527b27aeaf4cea78ef2a8b69a98902767bc162ae82628236701eb673f4",
+        "chars": 4633
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/administrative_value_judgment/SKILL.md",
+        "hash": "59f74f8bd7c59c009fb21fd3b4838d7271a3a84e56220f2db199ce7caa346a58",
+        "chars": 5212
+      },
+      "jaccard": 0.8594,
+      "review_band": "near_duplicate"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/Normative-Meaning-Argumentation/SKILL.md",
+        "hash": "c59ec795cd55370b85431d7f372ad0dd592a1697119c0bd040f8a271728f08b9",
+        "chars": 3418
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/normative_meaning_argumentation/SKILL.md",
+        "hash": "00c78c26485668f5a61bfa193f6dd7c293283492fbc8e24554f9bd45a6f59da3",
+        "chars": 4011
+      },
+      "jaccard": 0.8486,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-commercial-legal/skills/commercial-nda-review/SKILL.md",
+        "hash": "6a4ad63c321414207073b5ec6ffc16ab09cf0c9b870e4aee33b3e3d8c6ecd7e9",
+        "chars": 8060
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/nda-review/SKILL.md",
+        "hash": "729e596f75d62fa772116ef587b9b5e8379552e52e5a57ac1fe42be1bbecc49d",
+        "chars": 7637
+      },
+      "jaccard": 0.8444,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/nda-review/SKILL.md",
+        "hash": "557840bbeab32e58a06f2d19486b1094c01e1daeb469190a5e93c07d39d730af",
+        "chars": 7703
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-commercial-legal/skills/commercial-nda-review/SKILL.md",
+        "hash": "6a4ad63c321414207073b5ec6ffc16ab09cf0c9b870e4aee33b3e3d8c6ecd7e9",
+        "chars": 8060
+      },
+      "jaccard": 0.8436,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/deductive-reasoning/SKILL.md",
+        "hash": "01d6602a98916d52d00ee4b03997f0b0bd18054d27911b74181d3a7722ae14b9",
+        "chars": 3800
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/deductive_reasoning/SKILL.md",
+        "hash": "d757f17da082f37b97f11fbae838316992ccd962802c280ab85b649ed0079c10",
+        "chars": 4124
+      },
+      "jaccard": 0.8389,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/dispute-issue-identification/SKILL.md",
+        "hash": "b2cc6cdb8f7e2dc94d01edb1f451f22765270243caf0735d6dc433668976edab",
+        "chars": 2492
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/dispute_issue_identification/SKILL.md",
+        "hash": "594e044603d948454342a5df9854756debaa39f5899bb4ee828a09b0d851cc69",
+        "chars": 2981
+      },
+      "jaccard": 0.8362,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "THUYRan/Legal-Skills-Chinese",
+        "path": "skills/legal-risk-assessment/SKILL.md",
+        "hash": "bed88029c0a9fad73fee9a9eae12066d34e4ee12d4ea396a6acf55cdbe55055b",
+        "chars": 3392
+      },
+      "right": {
+        "repo": "sunyifeisb-art/legalwork",
+        "path": "skills/legal_risk_assessment/SKILL.md",
+        "hash": "7e185acd07b18a566229bd8ab084ca9deb6f37ee26841c4b09000d8d6a3916d4",
+        "chars": 3937
+      },
+      "jaccard": 0.8321,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-diligence-issue-extraction/SKILL.md",
+        "hash": "e4696de8387cd0244485a417f9303cf16a937bb379f74b43a6de3e1c42b098f2",
+        "chars": 5261
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/diligence-issue-extraction/SKILL.md",
+        "hash": "b4b3bc1e8e6eb65b6fe12670ca06b6b79df5a6d36c4ab0b274545aa3b30b2bda",
+        "chars": 5262
+      },
+      "jaccard": 0.782,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/diligence-issue-extraction/SKILL.md",
+        "hash": "dfc922592df311dd4019c0c9cc31e2a9c39c55db7988a199ad613efba2e20da8",
+        "chars": 5295
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-diligence-issue-extraction/SKILL.md",
+        "hash": "e4696de8387cd0244485a417f9303cf16a937bb379f74b43a6de3e1c42b098f2",
+        "chars": 5261
+      },
+      "jaccard": 0.7811,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-matter-workspace/SKILL.md",
+        "hash": "b33c62a770cec7b739bd8677612b8be9727b04ac19572edbd1d3e47514fb75d1",
+        "chars": 4561
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/matter-workspace/SKILL.md",
+        "hash": "d1e3732dda895c175105740f7876a7a226959b1e523b375d5f52d6442eb75b33",
+        "chars": 4643
+      },
+      "jaccard": 0.7809,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/matter-workspace/SKILL.md",
+        "hash": "13a99dcd45ca57410cbbb7c15f6038fb4366a4cecf7eadbe76b1fe4f37374ed6",
+        "chars": 4664
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-matter-workspace/SKILL.md",
+        "hash": "b33c62a770cec7b739bd8677612b8be9727b04ac19572edbd1d3e47514fb75d1",
+        "chars": 4561
+      },
+      "jaccard": 0.7796,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-commercial-legal/skills/commercial-cold-start-interview/SKILL.md",
+        "hash": "bedd411b736dead49b9da1bc7f743b5cbecd4940c98f22bcbda4f38158553f9f",
+        "chars": 4869
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "03bc14079af79b01b4c87b65b359c82525222405cec6b35af3fce0d18594b9f4",
+        "chars": 4051
+      },
+      "jaccard": 0.7689,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/cold-start-interview/SKILL.md",
+        "hash": "b15e3d55169dabda2b4c7e29fb88dfc0e41b6f25c0d951b9c03ca1a9ba224a75",
+        "chars": 4060
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-commercial-legal/skills/commercial-cold-start-interview/SKILL.md",
+        "hash": "bedd411b736dead49b9da1bc7f743b5cbecd4940c98f22bcbda4f38158553f9f",
+        "chars": 4869
+      },
+      "jaccard": 0.7682,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-integration-management/SKILL.md",
+        "hash": "75534cba3a06de45e03cd99004887cff1dad692d76ff321af23e990359022f32",
+        "chars": 10546
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/integration-management/SKILL.md",
+        "hash": "2148cc43a7221f29eeae406db7addc686063da7ab2cae08892b04d12bb25faa4",
+        "chars": 10563
+      },
+      "jaccard": 0.6749,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "corporate-legal/skills/integration-management/SKILL.md",
+        "hash": "d594b620f7b86f7089a6a80abc07b7412c7f38035cc43a7a0caa4e9acf8a891f",
+        "chars": 10581
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-corporate-legal/skills/corporate-integration-management/SKILL.md",
+        "hash": "75534cba3a06de45e03cd99004887cff1dad692d76ff321af23e990359022f32",
+        "chars": 10546
+      },
+      "jaccard": 0.6745,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-commercial-legal/skills/commercial-vendor-agreement-review/SKILL.md",
+        "hash": "7a6b6283c9dddfae6d0b1cacda2537a2e9f1a7811bff63b99d1c5bb799474507",
+        "chars": 6209
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/vendor-agreement-review/SKILL.md",
+        "hash": "2be102cac78e2d72118a38c1f671e36026bf5a2aa9bcb5d89eb8d42e76828d2d",
+        "chars": 4568
+      },
+      "jaccard": 0.6728,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/vendor-agreement-review/SKILL.md",
+        "hash": "bd837e70e93588ca1fa844db8112ba6c95132c8d601edc60a1eb62bfdd306922",
+        "chars": 4574
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-commercial-legal/skills/commercial-vendor-agreement-review/SKILL.md",
+        "hash": "7a6b6283c9dddfae6d0b1cacda2537a2e9f1a7811bff63b99d1c5bb799474507",
+        "chars": 6209
+      },
+      "jaccard": 0.6722,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-commercial-legal/skills/commercial-review-proposals/SKILL.md",
+        "hash": "198b251e7582e59b59557c1c01f22227828227d41fffc5b5ebbcc2d34ffbd583",
+        "chars": 470
+      },
+      "right": {
+        "repo": "zhou210712/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/review-proposals/SKILL.md",
+        "hash": "45afff021e7404f0524942e8f210f12caf33c268ecf385f3bcd55c9fb17cb7d2",
+        "chars": 424
+      },
+      "jaccard": 0.6713,
+      "review_band": "overlap_review"
+    },
+    {
+      "capability": "starter-suites",
+      "left": {
+        "repo": "CSlawyer1985/claude-for-legal-ZH",
+        "path": "commercial-legal/skills/review-proposals/SKILL.md",
+        "hash": "2c12a450a3e65299d18a3675b71ed0ae22d14ef880fd3b6e05bba3bb2527ea21",
+        "chars": 427
+      },
+      "right": {
+        "repo": "yuandian-ailaw/Agent-for-legal-cn",
+        "path": "legal-skillpack-commercial-legal/skills/commercial-review-proposals/SKILL.md",
+        "hash": "198b251e7582e59b59557c1c01f22227828227d41fffc5b5ebbcc2d34ffbd583",
+        "chars": 470
+      },
+      "jaccard": 0.6636,
+      "review_band": "overlap_review"
+    }
+  ]
+}

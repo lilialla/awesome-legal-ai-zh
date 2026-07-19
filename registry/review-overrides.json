@@ -1,0 +1,220 @@
+{
+  "schema_version": 2,
+  "projects": {
+    "ZongziForu/cn-law-hub": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-17",
+      "evidence": [
+        "Local substantive review: 33 unittest cases passed."
+      ]
+    },
+    "zgbrenner/agentcounsel": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-17",
+      "evidence": [
+        "Repository validation script passed.",
+        "Local substantive review: 16 core unittest cases passed."
+      ]
+    },
+    "GaaZeon-Hui/legal-text-splitter-mcp": {
+      "depth": "smoke",
+      "reviewed_at": "2026-07-17",
+      "evidence": [
+        "Python package compile smoke passed; repository contains eight pytest cases."
+      ]
+    },
+    "NEU-ZHA/legal-ai-skills": {
+      "depth": "smoke",
+      "reviewed_at": "2026-07-18",
+      "evidence": [
+        "Python compile smoke passed and the evidence-index script generated a DOCX fixture."
+      ]
+    },
+    "nwwfewx/contract-review": {
+      "depth": "smoke",
+      "reviewed_at": "2026-07-18",
+      "evidence": [
+        "Python compile smoke and minimal contract-structure extraction smoke passed."
+      ]
+    },
+    "lilialla/legal-document-format-skill": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local substantive review: 67 pytest cases passed."
+      ],
+      "summary": "DOCX 模板执行、内容锁定、渲染校验与格式门禁 Skill。",
+      "remove_cautions": [
+        "Documented editable install failed on Python 3.14 because package discovery found multiple top-level directories; direct pytest passed after installing test dependencies."
+      ],
+      "cautions": [
+        "Python 3.14 下按文档执行 editable install 会因多个顶层目录导致包发现失败；单独安装测试依赖后 67 项 pytest 通过"
+      ]
+    },
+    "handsomestWei/patent-disclosure-skill": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local offline regression run: eight pytest cases passed; the live CNIPA browser chain was not executed."
+      ]
+    },
+    "yuc16/PatentRadar": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-18",
+      "evidence": [
+        "Local regression subset: 52 pytest cases passed; CLI startup passed."
+      ]
+    },
+    "nh59yytyd5-dev/chinalaw-cli": {
+      "depth": "tested",
+      "reviewed_at": "2026-06-30",
+      "evidence": [
+        "Local unittest discovery: 678 passed and 33 skipped.",
+        "Public fixture check, local installer and official-source verification smoke passed."
+      ]
+    },
+    "jerry046918/labor_rights_skills": {
+      "depth": "smoke",
+      "reviewed_at": "2026-06-28",
+      "evidence": [
+        "Python script compile smoke passed; full pytest was not run in that review."
+      ]
+    },
+    "yangyc03/yangyc-legalai-skills": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local redaction and legal-network verification suites: 22 unittest cases passed."
+      ],
+      "data_path": "local"
+    },
+    "f12336414-ship-it/labor-arbitration-skill": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local substantive review: 416 unittest cases passed."
+      ]
+    },
+    "245678000000/caselaw-mcp-server": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local ADAPTER_TYPE=mock run: 57 pytest cases passed."
+      ]
+    },
+    "bangchuiLee/yuandian-current-law-verifier": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local substantive review: seven unittest cases passed."
+      ],
+      "setup": {
+        "mode": "install",
+        "difficulty": "account_required",
+        "services": [
+          "元典"
+        ]
+      },
+      "data_path": "external_api"
+    },
+    "duhu2000/qcc-agent-cli": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local substantive review: 98 Jest tests passed."
+      ],
+      "setup": {
+        "mode": "cli",
+        "difficulty": "account_required",
+        "services": [
+          "企查查"
+        ]
+      },
+      "data_path": "external_api",
+      "remove_cautions": [
+        "Do not repeat the repository's official-product claim as an endorsement."
+      ],
+      "cautions": [
+        "仓库的“官方产品”表述未独立核验，本索引不对该身份背书"
+      ]
+    },
+    "cat-xierluo/contract-copilot.skill": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local substantive review: six DOCX comment, revision and runtime regression tests passed."
+      ]
+    },
+    "cat-xierluo/legal-skills": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local targeted review: six contract-copilot tests and four SVG production tests passed.",
+        "Four Tingwu transcription tests errored because the tested check_once signature no longer matches the implementation."
+      ],
+      "cautions": [
+        "定向实测中同库合同和可视化 10 项通过，听悟转写 4 项因测试与实现签名漂移而报错"
+      ],
+      "summary": "杨卫薪律师维护的法律人 Skill 套件：50 个 Skill，覆盖合同、诉讼、检索、知产、文书和个人工作流。"
+    },
+    "TracyWang95/DataInfra-RedactionEverything": {
+      "depth": "tested",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local Python 3.12 substantive review: 548 backend pytest cases passed and two skipped after adding scipy to the documented CI dependency set."
+      ],
+      "data_path": "self_hosted",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": []
+      },
+      "remove_cautions": [
+        "涉及登录态或访问令牌，使用前核验获取方式与平台条款"
+      ],
+      "cautions": [
+        "默认本地/内网处理，但完整模型链对 GPU、WSL 和部署能力要求较高",
+        "仓库 CI 连续失败；实测时 requirements-ci.txt 缺少代码实际导入的 scipy，补充后 548 项测试通过"
+      ],
+      "summary": "Tracy 的多格式本地脱敏工作台：语义 NER、OCR、视觉定位、人工复核、批处理和导出。"
+    },
+    "Youchu-lawhub/cn-litigation-toolkit": {
+      "depth": "smoke",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Repository contains 23 litigation skills; local Python compile smoke passed for all scripts."
+      ],
+      "cautions": [
+        "CC BY-NC-ND 4.0 及附加条款；个人学习可用，执业交付、企业使用和公开改编前需核对授权边界",
+        "Python 脚本编译通过；仓库未提供自动化功能测试"
+      ]
+    },
+    "Youchu-lawhub/legal-kb-builder": {
+      "depth": "smoke",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local Python compile smoke passed for 34 scripts and evaluation entry points."
+      ],
+      "data_path": "self_hosted",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": []
+      },
+      "cautions": [
+        "CC BY-NC-ND 4.0 并附加禁止 AI 训练、企业/政府使用等限制，使用前需阅读完整 LICENSE",
+        "34 个 Python 入口编译通过；未使用真实解析后端和法律材料进行功能测试"
+      ]
+    },
+    "Youchu-lawhub/app-compliance-review": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-07-19",
+      "evidence": [
+        "Local compile review found a SyntaxError in scripts/material_validator.py at the shared_info_list mapping."
+      ],
+      "cautions": [
+        "scripts/material_validator.py 当前存在括号不匹配的 SyntaxError，修复前不建议作为可运行首选"
+      ]
+    }
+  }
+}

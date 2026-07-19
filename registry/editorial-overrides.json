@@ -1,0 +1,378 @@
+{
+  "schema_version": 2,
+  "projects": {
+    "cat-xierluo/legal-skills": {
+      "capabilities": [
+        "starter-suites",
+        "contracts",
+        "legal-documents",
+        "legal-research",
+        "litigation",
+        "ip-competition",
+        "law-firm-operations"
+      ],
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready"
+      }
+    },
+    "GaaZeon-Hui/legal-text-splitter-mcp": {
+      "capabilities": [
+        "legal-research",
+        "legal-documents"
+      ]
+    },
+    "leo123-tto/legal-ai": {
+      "capabilities": [
+        "starter-suites",
+        "legal-research",
+        "legal-documents"
+      ]
+    },
+    "zhou210712/claude-for-legal-ZH": {
+      "recommendation": "watch",
+      "cautions": [
+        "与 CSlawyer1985/claude-for-legal-ZH 及 anthropics/claude-for-legal 的大量 Skill 高度相似，来源和差异化需进一步核验"
+      ],
+      "relationships": [
+        {
+          "type": "near_duplicate_of",
+          "target": "CSlawyer1985/claude-for-legal-ZH",
+          "evidence": "Multiple normalized SKILL.md pairs reached approximately 0.99 Jaccard similarity."
+        },
+        {
+          "type": "near_duplicate_of",
+          "target": "anthropics/claude-for-legal",
+          "evidence": "Exact and near-identical normalized SKILL.md files also match the upstream Anthropic repository."
+        }
+      ]
+    },
+    "yuandian-ailaw/Agent-for-legal-cn": {
+      "recommendation": "watch",
+      "cautions": [
+        "与 CSlawyer1985/claude-for-legal-ZH 的公司法和诉讼 Skill 存在多个 0.90 以上近重复匹配，来源与差异化待复核"
+      ],
+      "relationships": [
+        {
+          "type": "near_duplicate_of",
+          "target": "CSlawyer1985/claude-for-legal-ZH",
+          "evidence": "Multiple corporate and litigation SKILL.md pairs reached 0.90-0.97 Jaccard similarity."
+        }
+      ]
+    },
+    "cat-xierluo/code2patent.skill": {
+      "primary_capability": "ip-competition",
+      "capabilities": [
+        "ip-competition"
+      ],
+      "cautions": [
+        "已被 cat-xierluo/legal-skills 套件收录，独立仓适合单独安装"
+      ],
+      "relationships": [
+        {
+          "type": "contained_in",
+          "target": "cat-xierluo/legal-skills",
+          "evidence": "Normalized SKILL.md content is identical."
+        }
+      ]
+    },
+    "cat-xierluo/opc-legal-counsel.skill": {
+      "cautions": [
+        "已被 cat-xierluo/legal-skills 套件收录，独立仓保留为单独安装入口"
+      ],
+      "relationships": [
+        {
+          "type": "contained_in",
+          "target": "cat-xierluo/legal-skills",
+          "evidence": "The standalone SKILL.md has a near-identical counterpart in the suite."
+        }
+      ]
+    },
+    "cat-xierluo/trademark-assistant.skill": {
+      "primary_capability": "ip-competition",
+      "capabilities": [
+        "ip-competition"
+      ],
+      "cautions": [
+        "已被 cat-xierluo/legal-skills 套件收录，独立仓适合单独安装"
+      ],
+      "relationships": [
+        {
+          "type": "contained_in",
+          "target": "cat-xierluo/legal-skills",
+          "evidence": "Normalized SKILL.md content is identical."
+        }
+      ]
+    },
+    "cat-xierluo/contract-copilot.skill": {
+      "cautions": [
+        "已被 cat-xierluo/legal-skills 套件收录，独立仓适合单独安装"
+      ],
+      "relationships": [
+        {
+          "type": "contained_in",
+          "target": "cat-xierluo/legal-skills",
+          "evidence": "Normalized SKILL.md content is identical."
+        }
+      ]
+    },
+    "cat-xierluo/SuitAgent": {
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation",
+        "starter-suites"
+      ],
+      "data_path": "unknown",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "cautions": [
+        "同版本 Skill 也在 cat-xierluo/legal-skills 套件中；独立仓保留为诉讼任务入口"
+      ],
+      "relationships": [
+        {
+          "type": "contained_in",
+          "target": "cat-xierluo/legal-skills",
+          "evidence": "Six normalized SKILL.md files have identical counterparts in the suite."
+        }
+      ]
+    },
+    "malnlda/yd-law-search": {
+      "cautions": [
+        "同版本 Skill 已被 malnlda/legal-research 组合工作流收录"
+      ],
+      "relationships": [
+        {
+          "type": "contained_in",
+          "target": "malnlda/legal-research",
+          "evidence": "Normalized SKILL.md content is identical."
+        }
+      ]
+    },
+    "sunyifeisb-art/legalwork": {
+      "recommendation": "watch",
+      "cautions": [
+        "与 THUYRan/Legal-Skills-Chinese 存在多个完全相同 Skill，需人工核验内容来源和授权边界"
+      ],
+      "relationships": [
+        {
+          "type": "near_duplicate_of",
+          "target": "THUYRan/Legal-Skills-Chinese",
+          "evidence": "Sixteen normalized SKILL.md files share exact hashes across the repositories."
+        }
+      ]
+    },
+    "cat-xierluo/patent-analysis.skill": {
+      "primary_capability": "ip-competition",
+      "capabilities": [
+        "ip-competition"
+      ]
+    },
+    "Fokkyp/SoftwareCopyright-Skill": {
+      "primary_capability": "ip-competition",
+      "capabilities": [
+        "ip-competition"
+      ],
+      "data_path": "unknown",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      }
+    },
+    "handsomestWei/patent-disclosure-skill": {
+      "primary_capability": "ip-competition",
+      "capabilities": [
+        "ip-competition"
+      ],
+      "data_path": "mixed",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "国知局公开网站"
+        ]
+      },
+      "cautions": [
+        "8 项离线测试通过；未运行需访问国知局网站的 Playwright 联调链路"
+      ]
+    },
+    "yuc16/PatentRadar": {
+      "primary_capability": "ip-competition",
+      "capabilities": [
+        "ip-competition"
+      ]
+    },
+    "CSlawyer1985/excellent-judgment-doc-skill": {
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents",
+        "litigation"
+      ]
+    },
+    "CSlawyer1985/mineru-converter-skill": {
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents"
+      ]
+    },
+    "fayayy888/legal-document-assistant": {
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents",
+        "contracts",
+        "litigation"
+      ]
+    },
+    "katejianglaw/refine-legal-chinese": {
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents"
+      ]
+    },
+    "lilialla/legal-document-format-skill": {
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents"
+      ]
+    },
+    "lilialla/request-right-skill-reference": {
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation"
+      ],
+      "summary": "中国民事请求权基础分析 Skill 参考实现。"
+    },
+    "MarvinLann/contract-cleaner": {
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents",
+        "contracts"
+      ]
+    },
+    "SenryLee/rule-harness": {
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "contracts"
+      ]
+    },
+    "opendatalab/MinerU": {
+      "capabilities": [
+        "adjacent-resources",
+        "legal-documents"
+      ],
+      "data_path": "local",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": []
+      },
+      "remove_cautions": [
+        "涉及登录态或访问令牌，使用前核验获取方式与平台条款"
+      ]
+    },
+    "245678000000/caselaw-mcp-server": {
+      "data_path": "self_hosted",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": []
+      },
+      "cautions": [
+        "57 项 pytest 在 mock 适配器下通过；真实案例数据源仍需用户自行配置和验证"
+      ]
+    },
+    "moyupeng0422/legal-doc-redactor": {
+      "capabilities": [
+        "data-compliance",
+        "legal-documents"
+      ]
+    },
+    "yangyc03/yangyc-legalai-skills": {
+      "capabilities": [
+        "starter-suites",
+        "data-compliance"
+      ],
+      "data_path": "local",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      }
+    },
+    "zgbrenner/agentcounsel": {
+      "data_path": "unknown",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      }
+    },
+    "Xigua9xi/ai-legal-review-skillkit": {
+      "data_path": "unknown",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      }
+    },
+    "lilialla/equity-transfer-review-skill": {
+      "data_path": "unknown",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      }
+    },
+    "f12336414-ship-it/labor-arbitration-skill": {
+      "data_path": "unknown",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      }
+    },
+    "imchongliu/foreign-law-research": {
+      "data_path": "mixed",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "公开网络法源"
+        ]
+      }
+    },
+    "data-privacy-stack/presidio": {
+      "data_path": "self_hosted",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": []
+      },
+      "remove_cautions": [
+        "发现自动上传或遥测描述，处理客户材料前需复核数据流"
+      ]
+    },
+    "geekjourneyx/md2wechat-skill": {
+      "summary": "Markdown 到微信公众号的排版与发布 CLI。"
+    },
+    "iconoir-icons/iconoir": {
+      "summary": "支持多个前端框架和设计工具的开源图标库。"
+    },
+    "notofonts/noto-cjk": {
+      "summary": "Google Noto 中日韩开源字体资源。"
+    },
+    "openlegaldata/awesome-legal-data": {
+      "summary": "法律文本处理数据集与相关资源导航。"
+    },
+    "TheCraigHewitt/seomachine": {
+      "summary": "长文 SEO 内容研究、写作和优化工作区。"
+    },
+    "Vaquill-AI/awesome-legaltech": {
+      "summary": "全球 LegalTech 开源平台、模型、MCP、数据集与工具导航。"
+    }
+  }
+}

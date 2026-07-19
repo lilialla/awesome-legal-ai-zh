@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "resources": [
+    {
+      "id": "yuanli-vault",
+      "title": "法律元力 Yuanli Vault",
+      "url": "https://yuanli.ailaw.cn",
+      "source_grade": "platform_found",
+      "summary": "法律 Skill 与工具包聚合平台；平台独占内容未纳入 GitHub 仓库数。"
+    },
+    {
+      "id": "ettalaw-skills",
+      "title": "EttaLaw Skill 库",
+      "url": "https://ettalawailab.com/skills",
+      "source_grade": "platform_found",
+      "summary": "法律 Skill 登录下载平台；只记录公开页面信息和既有包级核验结论。"
+    }
+  ]
+}
