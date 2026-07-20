@@ -151,6 +151,26 @@
       "order": 3
     },
     {
+      "id": "contract-review-starter",
+      "capability": "contracts",
+      "title": "合同审查 Starter / 可 fork 基座",
+      "homepage": false,
+      "decision_basis": "比较是否适合二次开发、方法结构是否完整、样例和评测是否可复核；不与成熟 DOCX 红线工具直接竞争。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "The-Data-Galaxy/contract-review-skill",
+          "reason": "轻量中文合同审查 Starter，模块、playbook、虚构 NDA 样本和 28/28 样例评估齐全。"
+        },
+        {
+          "project": "Xigua9xi/ai-legal-review-skillkit",
+          "reason": "更适合自行扩展审查规则、schema 和测试夹具。"
+        }
+      ],
+      "gap": "Starter 项尚无可执行回归框架，复杂合同交付仍需更成熟项目。",
+      "order": 3.5
+    },
+    {
       "id": "contract-redline",
       "capability": "contracts",
       "title": "Word 红线与审查交付",
@@ -340,6 +360,26 @@
       "order": 12
     },
     {
+      "id": "regulations-contract-rag",
+      "capability": "legal-research",
+      "title": "法规 / 合同 RAG 应用平台",
+      "homepage": false,
+      "decision_basis": "比较文档解析、索引、混合检索、问答 API、前端工作台、外部依赖和本地测试证据。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "abluedata/regulations_doc_platform",
+          "reason": "FastAPI + Vue + MinerU + ES/RRF 检索路径完整，后端 53/53 单测和前端构建通过。"
+        },
+        {
+          "project": "Youchu-lawhub/legal-kb-builder",
+          "reason": "更偏法律知识库/MCP/API 工厂化方法，但尚未用真实材料做功能实测。"
+        }
+      ],
+      "gap": "仍缺以真实合同/法规材料跑通入库、召回质量和法律回答质量评测的公开基准。",
+      "order": 12.5
+    },
+    {
       "id": "litigation-full-cycle",
       "capability": "litigation",
       "title": "民商事诉讼全流程",
@@ -503,6 +543,25 @@
       ],
       "gap": "法律评价候选的核心脚本有语法错误；技术检测项目只能补充 APK/SDK/权限事实。",
       "order": 20
+    },
+    {
+      "id": "data-processing-agreement",
+      "capability": "data-compliance",
+      "title": "DPA 数据处理协议审查",
+      "homepage": false,
+      "decision_basis": "比较 DPA 专项角色判断、PIPL/GDPR/跨境隐私条款、材料完整性、签署门禁、输出边界和 benchmark 证据。",
+      "primary": {
+        "project": "The-Data-Galaxy/dpa-review-skill",
+        "reason": "DPA 专项边界清楚，含 PIPL/GDPR/US playbook、签署门禁、开放边界和 7-task benchmark artifacts。"
+      },
+      "alternatives": [
+        {
+          "project": "LianXU-321/china-outbound-service-dpa-bilingual",
+          "reason": "更偏出海服务 DPA 中英双语模板和多法域规则参考。"
+        }
+      ],
+      "gap": "尚未重新跑独立模型评测；当前以仓库自带 benchmark artifact 与发布包校验作为 smoke 证据。",
+      "order": 20.5
     },
     {
       "id": "labor-dispute",

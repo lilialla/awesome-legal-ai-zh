@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "refreshed_at": "2026-07-19T09:45:33Z",
+  "refreshed_at": "2026-07-20T02:38:00Z",
   "repositories": {
     "245678000000/caselaw-mcp-server": {
       "accessible": true,
@@ -5310,6 +5310,60 @@
       "homepage": "https://www.skool.com/aiworkshop",
       "primary_language": "Python",
       "disk_kb": 126,
+      "template": false
+    },
+    "The-Data-Galaxy/dpa-review-skill": {
+      "accessible": true,
+      "canonical_id": "The-Data-Galaxy/dpa-review-skill",
+      "stars": 4,
+      "pushed_at": "2026-06-22T16:00:01Z",
+      "updated_at": "2026-07-02T08:25:05Z",
+      "license_spdx": "Apache-2.0",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "DPA review Skill for structured data processing agreement review",
+      "homepage": null,
+      "primary_language": null,
+      "disk_kb": null,
+      "template": false
+    },
+    "The-Data-Galaxy/contract-review-skill": {
+      "accessible": true,
+      "canonical_id": "The-Data-Galaxy/contract-review-skill",
+      "stars": 0,
+      "pushed_at": "2026-06-11T08:33:20Z",
+      "updated_at": "2026-06-11T08:33:24Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "Contract Review Skill Starter - Claude Code skill for contract review workflows",
+      "homepage": null,
+      "primary_language": null,
+      "disk_kb": null,
+      "template": false
+    },
+    "abluedata/regulations_doc_platform": {
+      "accessible": true,
+      "canonical_id": "abluedata/regulations_doc_platform",
+      "stars": 0,
+      "pushed_at": "2026-07-19T23:13:21Z",
+      "updated_at": "2026-07-19T23:13:24Z",
+      "license_spdx": "Apache-2.0",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "覆盖规则类的完整智能体，覆盖各类合同从rag知识问答、dag编排、审核、审查、纠正全流程",
+      "homepage": null,
+      "primary_language": "Python",
+      "disk_kb": null,
       "template": false
     }
   }

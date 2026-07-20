@@ -6,6 +6,7 @@
 aa0101181514/tw-legal-rag	retrieval-mcp
 aaron-he-zhu/seo-geo-claude-skills	media-ip
 abaiar/-LexAI	skill-suite
+abluedata/regulations_doc_platform	retrieval-mcp
 Ace-Kelly/qcc-mcp-batch	enterprise-check
 adobe-fonts/source-han-sans	ppt-assets
 adobe-fonts/source-han-serif	ppt-assets
@@ -238,6 +239,8 @@ stella/stella	law-firm-mgmt
 sunyifeisb-art/legalwork	skill-suite
 tabler/tabler-icons	ppt-assets
 tailwindlabs/heroicons	ppt-assets
+The-Data-Galaxy/contract-review-skill	contract-doc-ip
+The-Data-Galaxy/dpa-review-skill	data-compliance
 TheCraigHewitt/seomachine	media-ip
 ThomasLiu/contract-review-zh	contract-doc-ip
 THUIR/LeCaRDv2	dataset-infra

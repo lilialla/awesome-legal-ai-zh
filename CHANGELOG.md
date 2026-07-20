@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-07-20
+
+### 新增
+- **法律 AI / Skill 非玩具项目实质审核后补录**（+3 仓 → **298**）：经 GitHub API、仓库文件、浅克隆结构审阅、发布包/测试/构建核验后，新增 3 个非玩具项目：
+  - `The-Data-Galaxy/dpa-review-skill`（★4，Apache-2.0）：DPA / 数据处理协议审查 Skill，覆盖 PIPL、GDPR、美国州隐私、controller/customer 与 processor/provider 路径；仓库含完整模块、playbook、工作流、开放边界、7-task benchmark artifacts，发布包 checksum 校验通过。新增为“DPA 数据处理协议审查”当前推荐；本轮未重新跑独立模型评测，仍明确标注 benchmark 为仓库自带证据。
+  - `abluedata/regulations_doc_platform`（★0，Apache-2.0）：合同 / 法规 RAG + Agent 平台，FastAPI 后端、Vue/Vite 前端、MinerU 适配、ES/BM25/向量/RRF 检索、文档解析、索引和问答流程；Codex Python 3.12 临时 venv 下后端 53/53 单测通过，前端 `npm ci --ignore-scripts && npm run build` 通过。列为“法规 / 合同 RAG 应用平台”关键备选；注意代码样例仍偏保险/工伤问答，运行依赖 ES、外部 LLM/Embedding 和可选 MinerU。
+  - `The-Data-Galaxy/contract-review-skill`（★0，MIT）：中文合同审查 Skill Starter，含路由、scope check、deal-breaker 推理、QA、3 类 playbook、sample profile、虚构 NDA 样本和 28/28 样例评估。列为“合同审查 Starter / 可 fork 基座”关键备选；因无可执行测试框架，不替代成熟合同审查主推荐。
+
 ## 2026-07-19
 
 ### 目录 V2 改版

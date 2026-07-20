@@ -6408,7 +6408,7 @@
         ]
       },
       "data_path": "external_api",
-      "recommendation": "indexed",
+      "recommendation": "alternative",
       "selection_reason": "",
       "cautions": [],
       "relationships": [],
@@ -13082,6 +13082,156 @@
         }
       },
       "legacy_category": "skill-suite"
+    },
+    {
+      "id": "The-Data-Galaxy/dpa-review-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/The-Data-Galaxy/dpa-review-skill",
+      "name": "dpa-review-skill",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "data-compliance",
+      "capabilities": [
+        "data-compliance",
+        "contracts",
+        "cross-border-arbitration"
+      ],
+      "jurisdictions": [
+        "prc",
+        "cross_border"
+      ],
+      "summary": "DPA / 数据处理协议审查 Skill：覆盖 PIPL、GDPR、美国州隐私、controller/customer 与 processor/provider 路径，带 7-task benchmark 和发布包校验。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "primary",
+      "selection_reason": "DPA 专项边界清楚，含完整 playbook、工作流、开放边界和可复核 benchmark artifacts。",
+      "cautions": [
+        "benchmark 为仓库自带证据，本轮核验文件和发布包校验，未重新跑模型评测",
+        "不是完整隐私合规套件，不替代实时法规监控、供应商情报或最终法律意见"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-07-20",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository SKILL.md, modules, PIPL/GDPR/US playbooks, workflows, release materials and benchmark artifacts reviewed.",
+          "Local package integrity smoke: shasum -a 256 -c CHECKSUMS.txt passed; tarball contains full skill and benchmark files."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 69,
+          "code_files": 19,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "data-compliance"
+    },
+    {
+      "id": "The-Data-Galaxy/contract-review-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/The-Data-Galaxy/contract-review-skill",
+      "name": "contract-review-skill",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中文合同审查 Skill Starter：含路由、scope check、deal-breaker 推理、QA、3 类 playbook、虚构 NDA 样本和 28/28 样例评估。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "alternative",
+      "selection_reason": "轻量合同审查 Starter，有完整方法结构和样例评估，适合 fork 或学习，不替代成熟合同审查主推荐。",
+      "cautions": [
+        "无可执行测试框架和代码路径；本轮只核验仓库结构、虚构样本和自带样例评估",
+        "属于 Starter，复杂合同审查仍应优先选择经 DOCX 回归测试的成熟项目"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-07-20",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository SKILL.md, modules, playbooks, sample profile, examples and eval records reviewed.",
+          "Repository includes OS-NDA-02 sample evaluation with 28/28 criteria passed."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 3,
+          "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "contract-doc-ip"
+    },
+    {
+      "id": "abluedata/regulations_doc_platform",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/abluedata/regulations_doc_platform",
+      "name": "regulations_doc_platform",
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "合同 / 法规 RAG + Agent 平台：FastAPI 后端、Vue 前端、MinerU 适配、ES/BM25/向量/RRF 检索、文档解析、索引和问答流程。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Elasticsearch",
+          "外部 LLM/Embedding",
+          "MinerU 可选"
+        ]
+      },
+      "data_path": "self_hosted",
+      "recommendation": "alternative",
+      "selection_reason": "工程路径完整，后端单测和前端构建通过，适合作为法规/合同 RAG 应用平台候选。",
+      "cautions": [
+        "代码与样例仍偏保险/工伤问答，FastAPI 标题为“保险智答 API”，与合同/法规平台定位存在领域漂移",
+        "运行依赖 Elasticsearch、外部 LLM/Embedding 和可选 MinerU；脚本中的示例 ES 默认密码不应作为生产配置"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-07-20",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository backend, frontend, MinerU adapter, search, document pipeline and tests reviewed.",
+          "Local Codex Python 3.12 venv run: backend unittest discover passed 53/53.",
+          "Local frontend run: npm ci --ignore-scripts && npm run build passed."
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 4,
+          "code_files": 64,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "retrieval-mcp"
     }
   ]
 }

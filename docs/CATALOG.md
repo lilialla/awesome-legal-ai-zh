@@ -1,6 +1,6 @@
 # 完整项目索引
 
-> 295 个 GitHub 仓库；GitHub 元数据刷新于 2026-07-19T09:45:33Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
+> 298 个 GitHub 仓库；GitHub 元数据刷新于 2026-07-20T02:38:00Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
 
 状态：`当前推荐`、`关键备选`、`已索引`、`观察`、`退役`。License 只陈述仓库识别结果及人工提示，不构成授权意见。
 
@@ -77,9 +77,10 @@
 | 当前推荐 | Word 红线与审查交付（当前推荐） | [evolsb/legal-redline-tools](https://github.com/evolsb/legal-redline-tools) | Skill | 43 | 2026-03-10 | MIT | 仓库审阅 | 💎合同红线交付：生成 tracked-changes Word + 红线 PDF |
 | 当前推荐 | 标准合同自动填写（当前推荐） | [TracyWang95/DataInfra-Agentic-Contract-Filler-Skill](https://github.com/TracyWang95/DataInfra-Agentic-Contract-Filler-Skill) | Skill | 7 | 2026-02-25 | 未识别 | 仓库审阅 | 国家数据局合同自动填写（Tracy）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [Daknniel-0881/qulv-china-legal-counsel-skill](https://github.com/Daknniel-0881/qulv-china-legal-counsel-skill) | Skill | 6 | 2026-05-10 | MIT | 仓库审阅 | 💎内置 2189 条法规知识库的法律顾问 |
-| 关键备选 | 通用合同审查（关键备选） | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | Skill | 2 | 2026-06-02 | MIT | 仓库审阅 | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
+| 关键备选 | 通用合同审查（关键备选）<br>合同审查 Starter / 可 fork 基座（关键备选） | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | Skill | 2 | 2026-06-02 | MIT | 仓库审阅 | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
 | 已索引 | - | [malnlda/contract-review](https://github.com/malnlda/contract-review) | Skill | 1 | 2026-07-01 | 未识别 | 仓库审阅 | 💎专业合同审核 Claude Skill：7 步工作流、5 类门禁、终稿三件套、Track Changes + Comments；README 写 MIT 但 GitHub 未识别 license，需复核；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [brucecbi/nda-review-skill](https://github.com/brucecbi/nda-review-skill) | Skill | 0 | 2025-12-30 | Apache-2.0 | 仓库审阅 | NDA 保密协议审查；注意：Fork：上游为 jamietso/nda-review-skill |
+| 关键备选 | 合同审查 Starter / 可 fork 基座（关键备选） | [The-Data-Galaxy/contract-review-skill](https://github.com/The-Data-Galaxy/contract-review-skill) | Skill | 0 | 2026-06-11 | MIT | 仓库审阅 | 中文合同审查 Skill Starter：含路由、scope check、deal-breaker 推理、QA、3 类 playbook、虚构 NDA 样本和 28/28 样例评估。；注意：无可执行测试框架和代码路径；本轮只核验仓库结构、虚构样本和自带样例评估；属于 Starter，复杂合同审查仍应优先选择经 DOCX 回归测试的成熟项目 |
 | 已索引 | - | [ThomasLiu/contract-review-zh](https://github.com/ThomasLiu/contract-review-zh) | Skill | 0 | 2026-06-28 | Apache-2.0 | 仓库审阅 | 💎委托律师合同审查：面向委托代理/法律服务/风险代理合同，红黄蓝风险清单 + 可复用修改条款（Apache-2.0） |
 
 <a id="law-firm-operations"></a>
@@ -109,6 +110,7 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 关键备选 | 本地法律材料脱敏（关键备选） | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything) | 应用 | 1146 | 2026-07-17 | NOASSERTION | 测试通过 | Tracy 的多格式本地脱敏工作台：语义 NER、OCR、视觉定位、人工复核、批处理和导出。；注意：默认本地/内网处理，但完整模型链对 GPU、WSL 和部署能力要求较高；仓库 CI 连续失败；实测时 requirements-ci.txt 缺少代码实际导入的 scipy，补充后 548 项测试通过 |
+| 当前推荐 | DPA 数据处理协议审查（当前推荐） | [The-Data-Galaxy/dpa-review-skill](https://github.com/The-Data-Galaxy/dpa-review-skill) | Skill | 4 | 2026-06-22 | Apache-2.0 | Smoke 通过 | DPA / 数据处理协议审查 Skill：覆盖 PIPL、GDPR、美国州隐私、controller/customer 与 processor/provider 路径，带 7-task benchmark 和发布包校验。；注意：benchmark 为仓库自带证据，本轮核验文件和发布包校验，未重新跑模型评测；不是完整隐私合规套件，不替代实时法规监控、供应商情报或最终法律意见 |
 | 已索引 | - | [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio) | 工具 | 10067 | 2026-07-16 | MIT | 仓库审阅 | ⭐🔒PII 检测/脱敏/匿名化框架，行业标准 |
 | 关键备选 | APP 个人信息保护审查（关键备选） | [allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry) | 工具 | 2281 | 2025-12-30 | MIT | 仓库审阅 | Android 隐私合规整改检测 |
 | 已索引 | - | [TongchengOpenSource/AppScan](https://github.com/TongchengOpenSource/AppScan) | 工具 | 1120 | 2025-03-16 | Apache-2.0 | 仓库审阅 | 企业级 App 隐私合规检测；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
@@ -119,7 +121,7 @@
 | 已索引 | - | [youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp](https://github.com/youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp) | Skill | 13 | 2026-06-02 | NOASSERTION | 仓库审阅 | 💎隐私协议 MVP 生成器（面向 OPC/founder，事实采集→合规校验→生成复查；于泽辉律师·有点智能事务所，已预告 v2/v3）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 关键备选 | APP 个人信息保护审查（关键备选） | [Youchu-lawhub/app-compliance-review](https://github.com/Youchu-lawhub/app-compliance-review) | Skill | 3 | 2026-07-06 | NOASSERTION | 仓库审阅 | 💎游初·APP 个人信息保护合规检查：APK 静态分析、隐私政策、权限、SDK、敏感个人信息与数据出境检查（CC BY-NC-ND）；注意：scripts/material_validator.py 当前存在括号不匹配的 SyntaxError，修复前不建议作为可运行首选；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [cyontheway/word-replacer](https://github.com/cyontheway/word-replacer) | 模型 | 0 | 2026-03-08 | MIT | 仓库审阅 | Word 号码/字段批量脱敏替换 |
-| 已索引 | - | [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | Skill | 0 | 2026-06-06 | Apache-2.0 | 仓库审阅 | 💎艾塔法律AI实验室·徐莲（LianXU）·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则（包内 LICENSE 与 metadata 许可口径需复核） |
+| 关键备选 | DPA 数据处理协议审查（关键备选） | [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | Skill | 0 | 2026-06-06 | Apache-2.0 | 仓库审阅 | 💎艾塔法律AI实验室·徐莲（LianXU）·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则（包内 LICENSE 与 metadata 许可口径需复核） |
 | 已索引 | - | [yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus](https://github.com/yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus) | Skill | 0 | 2026-06-16 | 未识别 | 仓库审阅 | 龚家勇律师·电商信息 AI 校对 Plus：营业执照/商标/产品资料与网店/网页逐项差异比对，辅助法务/合规核查（无 license）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 
 <a id="legal-documents"></a>
@@ -144,8 +146,9 @@
 | 关键备选 | 中国法规检索（关键备选） | [ZongziForu/cn-law-hub](https://github.com/ZongziForu/cn-law-hub) | Skill | 34 | 2026-06-30 | 未识别 | 测试通过 | 💎中国国家法律法规数据库 Skill：检索、下载、分类与条文查询，浅克隆实测 33 个 unittest 通过（无 license）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 当前推荐 | 中国法规检索（当前推荐） | [nh59yytyd5-dev/chinalaw-cli](https://github.com/nh59yytyd5-dev/chinalaw-cli) | 套件 | 4 | 2026-06-29 | Apache-2.0 | 测试通过 | 💎中国法律法规本地检索 CLI + MCP：实测内置 49 部基础规范/7516 条条文，支持官方源按需补全、来源元数据和 7 个 Agent Skill |
 | 当前推荐 | 中国案例库检索（当前推荐） | [245678000000/caselaw-mcp-server](https://github.com/245678000000/caselaw-mcp-server) | MCP | 2 | 2026-07-15 | MIT | 测试通过 | 💎中国裁判案例库 MCP + FastAPI：对接 cncases/cases，支持案例检索与结构化接口；本地实测 57 个 pytest 通过（MIT）；注意：57 项 pytest 在 mock 适配器下通过；真实案例数据源仍需用户自行配置和验证 |
+| 关键备选 | 法规 / 合同 RAG 应用平台（关键备选） | [abluedata/regulations_doc_platform](https://github.com/abluedata/regulations_doc_platform) | 应用 | 0 | 2026-07-19 | Apache-2.0 | 测试通过 | 合同 / 法规 RAG + Agent 平台：FastAPI 后端、Vue 前端、MinerU 适配、ES/BM25/向量/RRF 检索、文档解析、索引和问答流程。；注意：代码与样例仍偏保险/工伤问答，FastAPI 标题为“保险智答 API”，与合同/法规平台定位存在领域漂移；运行依赖 Elasticsearch、外部 LLM/Embedding 和可选 MinerU；脚本中的示例 ES 默认密码不应作为生产配置 |
 | 当前推荐 | 法规现行性核验（当前推荐） | [bangchuiLee/yuandian-current-law-verifier](https://github.com/bangchuiLee/yuandian-current-law-verifier) | Skill | 0 | 2026-07-15 | MIT | 测试通过 | 💎元典现行法规核验 Skill：引用具体中国大陆法规前先查版本、正文与时效，MCP 失败时 fail closed；本地实测 7 个 unittest 通过（MIT，需 yuandian-law MCP） |
-| 关键备选 | 本地法律知识库（关键备选） | [Youchu-lawhub/legal-kb-builder](https://github.com/Youchu-lawhub/legal-kb-builder) | Skill | 3 | 2026-07-11 | NOASSERTION | Smoke 通过 | 游初·本地法律知识库构建工厂：材料路由、解析、混合检索、质量检查、API 与 MCP 服务。；注意：CC BY-NC-ND 4.0 并附加禁止 AI 训练、企业/政府使用等限制，使用前需阅读完整 LICENSE；34 个 Python 入口编译通过；未使用真实解析后端和法律材料进行功能测试 |
+| 关键备选 | 本地法律知识库（关键备选）<br>法规 / 合同 RAG 应用平台（关键备选） | [Youchu-lawhub/legal-kb-builder](https://github.com/Youchu-lawhub/legal-kb-builder) | Skill | 3 | 2026-07-11 | NOASSERTION | Smoke 通过 | 游初·本地法律知识库构建工厂：材料路由、解析、混合检索、质量检查、API 与 MCP 服务。；注意：CC BY-NC-ND 4.0 并附加禁止 AI 训练、企业/政府使用等限制，使用前需阅读完整 LICENSE；34 个 Python 入口编译通过；未使用真实解析后端和法律材料进行功能测试 |
 | 当前推荐 | 法规文本条款切分（当前推荐） | [GaaZeon-Hui/legal-text-splitter-mcp](https://github.com/GaaZeon-Hui/legal-text-splitter-mcp) | 应用 | 1 | 2026-06-11 | MIT | Smoke 通过 | 💎中文法规条款切分 MCP：按条/款/项等层级拆分法规文本，含 8 个 pytest 用例；本地运行，MIT |
 | 关键备选 | 中国案例库检索（关键备选） | [cncases/cases](https://github.com/cncases/cases) | 工具 | 1056 | 2026-07-15 | MPL-2.0 | 仓库审阅 | 💎中国裁判文书本地离线检索 |
 | 已索引 | - | [billvsme/law_ai](https://github.com/billvsme/law_ai) | 应用 | 229 | 2024-01-22 | 未识别 | 仓库审阅 | ❄️LangChain 法律 RAG（200+ 手册+网搜，给出处）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
