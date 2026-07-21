@@ -268,6 +268,59 @@
       "legacy_category": "skill-suite"
     },
     {
+      "id": "abluedata/regulations_doc_platform",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/abluedata/regulations_doc_platform",
+      "name": "regulations_doc_platform",
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "合同 / 法规 RAG + Agent 平台：FastAPI 后端、Vue 前端、MinerU 适配、ES/BM25/向量/RRF 检索、文档解析、索引和问答流程。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Elasticsearch",
+          "外部 LLM/Embedding",
+          "MinerU 可选"
+        ]
+      },
+      "data_path": "self_hosted",
+      "recommendation": "alternative",
+      "selection_reason": "工程路径完整，后端单测和前端构建通过，适合作为法规/合同 RAG 应用平台候选。",
+      "cautions": [
+        "代码与样例仍偏保险/工伤问答，FastAPI 标题为“保险智答 API”，与合同/法规平台定位存在领域漂移",
+        "运行依赖 Elasticsearch、外部 LLM/Embedding 和可选 MinerU；脚本中的示例 ES 默认密码不应作为生产配置"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-07-20",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository backend, frontend, MinerU adapter, search, document pipeline and tests reviewed.",
+          "Local Codex Python 3.12 venv run: backend unittest discover passed 53/53.",
+          "Local frontend run: npm ci --ignore-scripts && npm run build passed."
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 4,
+          "code_files": 64,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "retrieval-mcp"
+    },
+    {
       "id": "Ace-Kelly/qcc-mcp-batch",
       "aliases": [],
       "source": "github",
@@ -1416,6 +1469,55 @@
           "skill_files": 1,
           "test_files": 0,
           "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "contract-doc-ip"
+    },
+    {
+      "id": "can4hou6joeng4/Trawl",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/can4hou6joeng4/Trawl",
+      "name": "Trawl",
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "法律文书结构化/OCR 桌面取证台：Wails + Go + Vue，将 Word/PDF/图片抽取为表格、JSON、XLSX；前端和 gateway-worker 测试通过。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "account_required",
+        "services": [
+          "OCR 网关/云端 OCR"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "primary",
+      "selection_reason": "法律文书结构化场景贴近律师取证台，工程完整并已有桌面 release、前端和网关测试证据。",
+      "cautions": [
+        "扫描 PDF/图片会上传至 OCR gateway/upstream，并发送机器 ID/可选 license；不可描述为本地私有 OCR",
+        "本机无 Go，后端 Go 测试未跑；仅前端、gateway-worker 和仓库文件完成实质核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-07-21",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, user guide, Wails/Go backend, OCR client, gateway implementations, release policy tests and workflows reviewed.",
+          "Local run: frontend 96/96 tests and build passed; gateway-worker 10/10 tests and npm audit --omit=dev passed; Go tests not run because go is unavailable locally."
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 32,
+          "code_files": 76,
           "tree_truncated": false
         }
       },
@@ -3414,6 +3516,54 @@
         }
       },
       "legacy_category": "enterprise-check"
+    },
+    {
+      "id": "dungnotnull/dmca-takedown-assistant-agent-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/dungnotnull/dmca-takedown-assistant-agent-skill",
+      "name": "dmca-takedown-assistant-agent-skill",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "ip-competition",
+      "capabilities": [
+        "ip-competition",
+        "cross-border-arbitration"
+      ],
+      "jurisdictions": [
+        "cross_border"
+      ],
+      "summary": "跨境版权/DMCA 证据包与通知生成 Skill：pHash/dHash 初筛、HMAC 证据封存、法域初筛，69/69 suite 与 123/123 scenarios 通过。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "mixed",
+      "recommendation": "primary",
+      "selection_reason": "DMCA 证据包、通知生成和法域初筛工具链完整，测试与项目校验覆盖充分。",
+      "cautions": [
+        "无 GitHub Release/CI，README、SKILL 与 config 版本口径不一致；不要承接 production-ready 宣传",
+        "通知发送、平台规则、法域判断和 DMCA/版权实体适用性需人工核验；正式证据应覆盖 DMCA_CUSTODY_SECRET"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-07-21",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, SKILL.md, CLI, notice generator, evidence collector, jurisdiction classifier and configuration reviewed.",
+          "Local run: test_dmca_suite.py 69/69, validate_project.py 87/87, run_test_scenarios.py 123/123 and compileall passed."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 6,
+          "code_files": 19,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "contract-doc-ip"
     },
     {
       "id": "ethyca/fides",
@@ -8956,6 +9106,54 @@
       "legacy_category": "cross-border-arbitration"
     },
     {
+      "id": "oydxxx/tenant-contract-review-cn",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/oydxxx/tenant-contract-review-cn",
+      "name": "tenant-contract-review-cn",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "labor-family",
+      "capabilities": [
+        "labor-family",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国大陆住宅租赁合同审查 Skill：覆盖预签约风险、押金/租金/违约/转租等条款核验，74 项 unittest、validators 与 forward eval 通过。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "primary",
+      "selection_reason": "住宅租赁专项边界清晰，材料门禁、来源治理、结论约束和自动化测试完整。",
+      "cautions": [
+        "README 发布状态有漂移；GitHub 已有 v0.1.0 release，仍需以仓库实际 release 为准",
+        "输出不是律师意见；官方法规和地方规范现行性未在本轮逐条独立复核"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-07-21",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, SKILL.md, host capability gates, source governance, decision policy and privacy rules reviewed.",
+          "Local run: 74/74 unittest passed; validate_sources.py, validate_decisions.py, validate_publication.py and 14/14 forward eval passed."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 44,
+          "code_files": 13,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "labor-family-personal"
+    },
+    {
       "id": "pa1nrui1/legal-skills",
       "aliases": [],
       "source": "github",
@@ -10494,6 +10692,103 @@
       "legacy_category": "ppt-assets"
     },
     {
+      "id": "The-Data-Galaxy/contract-review-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/The-Data-Galaxy/contract-review-skill",
+      "name": "contract-review-skill",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中文合同审查 Skill Starter：含路由、scope check、deal-breaker 推理、QA、3 类 playbook、虚构 NDA 样本和 28/28 样例评估。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "alternative",
+      "selection_reason": "轻量合同审查 Starter，有完整方法结构和样例评估，适合 fork 或学习，不替代成熟合同审查主推荐。",
+      "cautions": [
+        "无可执行测试框架和代码路径；本轮只核验仓库结构、虚构样本和自带样例评估",
+        "属于 Starter，复杂合同审查仍应优先选择经 DOCX 回归测试的成熟项目"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-07-20",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository SKILL.md, modules, playbooks, sample profile, examples and eval records reviewed.",
+          "Repository includes OS-NDA-02 sample evaluation with 28/28 criteria passed."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 3,
+          "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "contract-doc-ip"
+    },
+    {
+      "id": "The-Data-Galaxy/dpa-review-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/The-Data-Galaxy/dpa-review-skill",
+      "name": "dpa-review-skill",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "data-compliance",
+      "capabilities": [
+        "data-compliance",
+        "contracts",
+        "cross-border-arbitration"
+      ],
+      "jurisdictions": [
+        "prc",
+        "cross_border"
+      ],
+      "summary": "DPA / 数据处理协议审查 Skill：覆盖 PIPL、GDPR、美国州隐私、controller/customer 与 processor/provider 路径，带 7-task benchmark 和发布包校验。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "primary",
+      "selection_reason": "DPA 专项边界清楚，含完整 playbook、工作流、开放边界和可复核 benchmark artifacts。",
+      "cautions": [
+        "benchmark 为仓库自带证据，本轮核验文件和发布包校验，未重新跑模型评测",
+        "不是完整隐私合规套件，不替代实时法规监控、供应商情报或最终法律意见"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-07-20",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository SKILL.md, modules, PIPL/GDPR/US playbooks, workflows, release materials and benchmark artifacts reviewed.",
+          "Local package integrity smoke: shasum -a 256 -c CHECKSUMS.txt passed; tarball contains full skill and benchmark files."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 69,
+          "code_files": 19,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "data-compliance"
+    },
+    {
       "id": "TheCraigHewitt/seomachine",
       "aliases": [],
       "source": "github",
@@ -11916,104 +12211,6 @@
       "legacy_category": "skill-suite"
     },
     {
-      "id": "Youchu-lawhub/cn-litigation-toolkit",
-      "aliases": [],
-      "source": "github",
-      "url": "https://github.com/Youchu-lawhub/cn-litigation-toolkit",
-      "name": "cn-litigation-toolkit",
-      "scope": "core",
-      "kind": "suite",
-      "primary_capability": "litigation",
-      "capabilities": [
-        "litigation",
-        "starter-suites"
-      ],
-      "jurisdictions": [
-        "prc"
-      ],
-      "summary": "游初·中国民商事诉讼全流程工具箱：23 个 Skill 覆盖案情、要件、证据、文书、庭审和质控。",
-      "setup": {
-        "mode": "cli",
-        "difficulty": "technical",
-        "services": []
-      },
-      "data_path": "local",
-      "recommendation": "primary",
-      "selection_reason": "",
-      "cautions": [
-        "CC BY-NC-ND 4.0 及附加条款；个人学习可用，执业交付、企业使用和公开改编前需核对授权边界",
-        "Python 脚本编译通过；仓库未提供自动化功能测试",
-        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
-      ],
-      "relationships": [],
-      "source_grade": "verified",
-      "review": {
-        "depth": "smoke",
-        "reviewed_at": "2026-07-19",
-        "evidence": [
-          "GitHub API metadata verified.",
-          "Repository README and recursive file tree reviewed.",
-          "Repository contains 23 litigation skills; local Python compile smoke passed for all scripts."
-        ],
-        "signals": {
-          "skill_files": 23,
-          "test_files": 0,
-          "code_files": 5,
-          "tree_truncated": false
-        }
-      },
-      "legacy_category": "criminal-admin-exec"
-    },
-    {
-      "id": "Youchu-lawhub/legal-kb-builder",
-      "aliases": [],
-      "source": "github",
-      "url": "https://github.com/Youchu-lawhub/legal-kb-builder",
-      "name": "legal-kb-builder",
-      "scope": "core",
-      "kind": "skill",
-      "primary_capability": "legal-research",
-      "capabilities": [
-        "legal-research",
-        "legal-documents"
-      ],
-      "jurisdictions": [
-        "prc"
-      ],
-      "summary": "游初·本地法律知识库构建工厂：材料路由、解析、混合检索、质量检查、API 与 MCP 服务。",
-      "setup": {
-        "mode": "self_host",
-        "difficulty": "technical",
-        "services": []
-      },
-      "data_path": "self_hosted",
-      "recommendation": "alternative",
-      "selection_reason": "",
-      "cautions": [
-        "CC BY-NC-ND 4.0 并附加禁止 AI 训练、企业/政府使用等限制，使用前需阅读完整 LICENSE",
-        "34 个 Python 入口编译通过；未使用真实解析后端和法律材料进行功能测试",
-        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
-      ],
-      "relationships": [],
-      "source_grade": "verified",
-      "review": {
-        "depth": "smoke",
-        "reviewed_at": "2026-07-19",
-        "evidence": [
-          "GitHub API metadata verified.",
-          "Repository README and recursive file tree reviewed.",
-          "Local Python compile smoke passed for 34 scripts and evaluation entry points."
-        ],
-        "signals": {
-          "skill_files": 1,
-          "test_files": 0,
-          "code_files": 32,
-          "tree_truncated": false
-        }
-      },
-      "legacy_category": "retrieval-mcp"
-    },
-    {
       "id": "Youchu-lawhub/app-compliance-review",
       "aliases": [],
       "source": "github",
@@ -12062,6 +12259,55 @@
         }
       },
       "legacy_category": "data-compliance"
+    },
+    {
+      "id": "Youchu-lawhub/cn-litigation-toolkit",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/Youchu-lawhub/cn-litigation-toolkit",
+      "name": "cn-litigation-toolkit",
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation",
+        "starter-suites"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "游初·中国民商事诉讼全流程工具箱：23 个 Skill 覆盖案情、要件、证据、文书、庭审和质控。",
+      "setup": {
+        "mode": "cli",
+        "difficulty": "technical",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "primary",
+      "selection_reason": "",
+      "cautions": [
+        "CC BY-NC-ND 4.0 及附加条款；个人学习可用，执业交付、企业使用和公开改编前需核对授权边界",
+        "Python 脚本编译通过；仓库未提供自动化功能测试",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-07-19",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README and recursive file tree reviewed.",
+          "Repository contains 23 litigation skills; local Python compile smoke passed for all scripts."
+        ],
+        "signals": {
+          "skill_files": 23,
+          "test_files": 0,
+          "code_files": 5,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "criminal-admin-exec"
     },
     {
       "id": "Youchu-lawhub/gutachten-admin-case",
@@ -12197,6 +12443,55 @@
         }
       },
       "legacy_category": "criminal-admin-exec"
+    },
+    {
+      "id": "Youchu-lawhub/legal-kb-builder",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/Youchu-lawhub/legal-kb-builder",
+      "name": "legal-kb-builder",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "游初·本地法律知识库构建工厂：材料路由、解析、混合检索、质量检查、API 与 MCP 服务。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": []
+      },
+      "data_path": "self_hosted",
+      "recommendation": "alternative",
+      "selection_reason": "",
+      "cautions": [
+        "CC BY-NC-ND 4.0 并附加禁止 AI 训练、企业/政府使用等限制，使用前需阅读完整 LICENSE",
+        "34 个 Python 入口编译通过；未使用真实解析后端和法律材料进行功能测试",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-07-19",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README and recursive file tree reviewed.",
+          "Local Python compile smoke passed for 34 scripts and evaluation entry points."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 32,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "retrieval-mcp"
     },
     {
       "id": "youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp",
@@ -13082,156 +13377,6 @@
         }
       },
       "legacy_category": "skill-suite"
-    },
-    {
-      "id": "The-Data-Galaxy/dpa-review-skill",
-      "aliases": [],
-      "source": "github",
-      "url": "https://github.com/The-Data-Galaxy/dpa-review-skill",
-      "name": "dpa-review-skill",
-      "scope": "core",
-      "kind": "skill",
-      "primary_capability": "data-compliance",
-      "capabilities": [
-        "data-compliance",
-        "contracts",
-        "cross-border-arbitration"
-      ],
-      "jurisdictions": [
-        "prc",
-        "cross_border"
-      ],
-      "summary": "DPA / 数据处理协议审查 Skill：覆盖 PIPL、GDPR、美国州隐私、controller/customer 与 processor/provider 路径，带 7-task benchmark 和发布包校验。",
-      "setup": {
-        "mode": "install",
-        "difficulty": "ready",
-        "services": []
-      },
-      "data_path": "local",
-      "recommendation": "primary",
-      "selection_reason": "DPA 专项边界清楚，含完整 playbook、工作流、开放边界和可复核 benchmark artifacts。",
-      "cautions": [
-        "benchmark 为仓库自带证据，本轮核验文件和发布包校验，未重新跑模型评测",
-        "不是完整隐私合规套件，不替代实时法规监控、供应商情报或最终法律意见"
-      ],
-      "relationships": [],
-      "source_grade": "verified",
-      "review": {
-        "depth": "smoke",
-        "reviewed_at": "2026-07-20",
-        "evidence": [
-          "GitHub API metadata verified.",
-          "Repository SKILL.md, modules, PIPL/GDPR/US playbooks, workflows, release materials and benchmark artifacts reviewed.",
-          "Local package integrity smoke: shasum -a 256 -c CHECKSUMS.txt passed; tarball contains full skill and benchmark files."
-        ],
-        "signals": {
-          "skill_files": 1,
-          "test_files": 69,
-          "code_files": 19,
-          "tree_truncated": false
-        }
-      },
-      "legacy_category": "data-compliance"
-    },
-    {
-      "id": "The-Data-Galaxy/contract-review-skill",
-      "aliases": [],
-      "source": "github",
-      "url": "https://github.com/The-Data-Galaxy/contract-review-skill",
-      "name": "contract-review-skill",
-      "scope": "core",
-      "kind": "skill",
-      "primary_capability": "contracts",
-      "capabilities": [
-        "contracts"
-      ],
-      "jurisdictions": [
-        "prc"
-      ],
-      "summary": "中文合同审查 Skill Starter：含路由、scope check、deal-breaker 推理、QA、3 类 playbook、虚构 NDA 样本和 28/28 样例评估。",
-      "setup": {
-        "mode": "install",
-        "difficulty": "ready",
-        "services": []
-      },
-      "data_path": "local",
-      "recommendation": "alternative",
-      "selection_reason": "轻量合同审查 Starter，有完整方法结构和样例评估，适合 fork 或学习，不替代成熟合同审查主推荐。",
-      "cautions": [
-        "无可执行测试框架和代码路径；本轮只核验仓库结构、虚构样本和自带样例评估",
-        "属于 Starter，复杂合同审查仍应优先选择经 DOCX 回归测试的成熟项目"
-      ],
-      "relationships": [],
-      "source_grade": "verified",
-      "review": {
-        "depth": "repo_read",
-        "reviewed_at": "2026-07-20",
-        "evidence": [
-          "GitHub API metadata verified.",
-          "Repository SKILL.md, modules, playbooks, sample profile, examples and eval records reviewed.",
-          "Repository includes OS-NDA-02 sample evaluation with 28/28 criteria passed."
-        ],
-        "signals": {
-          "skill_files": 1,
-          "test_files": 3,
-          "code_files": 0,
-          "tree_truncated": false
-        }
-      },
-      "legacy_category": "contract-doc-ip"
-    },
-    {
-      "id": "abluedata/regulations_doc_platform",
-      "aliases": [],
-      "source": "github",
-      "url": "https://github.com/abluedata/regulations_doc_platform",
-      "name": "regulations_doc_platform",
-      "scope": "core",
-      "kind": "app",
-      "primary_capability": "legal-research",
-      "capabilities": [
-        "legal-research",
-        "contracts"
-      ],
-      "jurisdictions": [
-        "prc"
-      ],
-      "summary": "合同 / 法规 RAG + Agent 平台：FastAPI 后端、Vue 前端、MinerU 适配、ES/BM25/向量/RRF 检索、文档解析、索引和问答流程。",
-      "setup": {
-        "mode": "self_host",
-        "difficulty": "technical",
-        "services": [
-          "Elasticsearch",
-          "外部 LLM/Embedding",
-          "MinerU 可选"
-        ]
-      },
-      "data_path": "self_hosted",
-      "recommendation": "alternative",
-      "selection_reason": "工程路径完整，后端单测和前端构建通过，适合作为法规/合同 RAG 应用平台候选。",
-      "cautions": [
-        "代码与样例仍偏保险/工伤问答，FastAPI 标题为“保险智答 API”，与合同/法规平台定位存在领域漂移",
-        "运行依赖 Elasticsearch、外部 LLM/Embedding 和可选 MinerU；脚本中的示例 ES 默认密码不应作为生产配置"
-      ],
-      "relationships": [],
-      "source_grade": "verified",
-      "review": {
-        "depth": "tested",
-        "reviewed_at": "2026-07-20",
-        "evidence": [
-          "GitHub API metadata verified.",
-          "Repository backend, frontend, MinerU adapter, search, document pipeline and tests reviewed.",
-          "Local Codex Python 3.12 venv run: backend unittest discover passed 53/53.",
-          "Local frontend run: npm ci --ignore-scripts && npm run build passed."
-        ],
-        "signals": {
-          "skill_files": 0,
-          "test_files": 4,
-          "code_files": 64,
-          "tree_truncated": false
-        }
-      },
-      "legacy_category": "retrieval-mcp"
     }
   ]
 }

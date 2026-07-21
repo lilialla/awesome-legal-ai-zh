@@ -246,6 +246,25 @@
       "order": 7
     },
     {
+      "id": "legal-document-extraction",
+      "capability": "legal-documents",
+      "title": "法律文书结构化 / OCR 取证台",
+      "homepage": false,
+      "decision_basis": "比较是否面向法律文书批量抽取、表格/字段结构化、桌面交付、OCR 数据路径和工程测试证据。",
+      "primary": {
+        "project": "can4hou6joeng4/Trawl",
+        "reason": "法律文书结构化桌面取证台，Word/text-layer PDF 本地抽取，扫描件走云端 OCR 并有明确网关边界。"
+      },
+      "alternatives": [
+        {
+          "project": "opendatalab/MinerU",
+          "reason": "更适合作为通用 PDF/OCR 解析底座，不是法律文书工作台。"
+        }
+      ],
+      "gap": "扫描件和图片 OCR 仍依赖外部网关或云端 OCR，不应作为本地私有 OCR 方案宣传。",
+      "order": 7.2
+    },
+    {
       "id": "legal-text-segmentation",
       "capability": "legal-documents",
       "title": "法规文本条款切分",
@@ -598,6 +617,20 @@
       "order": 22
     },
     {
+      "id": "residential-lease-review",
+      "capability": "labor-family",
+      "title": "住宅租赁合同审查",
+      "homepage": false,
+      "decision_basis": "比较中国大陆住宅租赁预签约审查、材料隐私门禁、地方规范覆盖、结论约束和测试证据。",
+      "primary": {
+        "project": "oydxxx/tenant-contract-review-cn",
+        "reason": "住宅租赁专项 Skill，来源治理、host 能力门禁、隐私边界和 74 项单测/eval 证据较完整。"
+      },
+      "alternatives": [],
+      "gap": "地方规范和最新法律现行性仍需律师在具体案件中复核。",
+      "order": 22.5
+    },
+    {
       "id": "patent-drafting",
       "capability": "ip-competition",
       "title": "专利交底与起草",
@@ -676,6 +709,20 @@
       "alternatives": [],
       "gap": "当前仅有仓库审阅，无案例夹具或自动化门槛测试。",
       "order": 25.6
+    },
+    {
+      "id": "dmca-copyright-takedown",
+      "capability": "ip-competition",
+      "title": "跨境版权 / DMCA 维权辅助",
+      "homepage": false,
+      "decision_basis": "比较 DMCA 证据留存、侵权初筛、法域识别、通知生成、链路封存和真实发送边界。",
+      "primary": {
+        "project": "dungnotnull/dmca-takedown-assistant-agent-skill",
+        "reason": "证据包、通知生成、法域初筛和测试校验完整，适合跨境版权维权前置材料准备。"
+      },
+      "alternatives": [],
+      "gap": "平台规则、法域适用、发送主体和正式通知仍需律师或权利人逐项确认。",
+      "order": 25.7
     },
     {
       "id": "foreign-law",

@@ -5,6 +5,17 @@
 
 ---
 
+## 2026-07-21
+
+### 新增
+- **法律 AI / Skill 每日增量实质审查补录**（+3 仓 → **301**）：按 GitHub API、仓库文件、浅克隆实质审查和本地测试/构建证据，新增 3 个非玩具项目；README 首页仍保持 20 个任务，新增项进入能力地图和完整索引：
+  - `oydxxx/tenant-contract-review-cn`（★0，MIT）：中国大陆住宅租赁合同审查 Skill，覆盖预签约风险、押金/租金/违约/转租等条款核验；本地 74/74 unittest、source/decision/publication validators 与 14/14 forward eval 通过。新增为“住宅租赁合同审查”当前推荐；注意 README 发布状态有漂移，GitHub 已有 v0.1.0 release，且输出不替代律师意见。
+  - `dungnotnull/dmca-takedown-assistant-agent-skill`（★1，MIT）：跨境版权/DMCA 证据包与通知生成 Skill，含 pHash/dHash 初筛、HMAC 证据封存、法域初筛和通知生成工具链；本地 `test_dmca_suite.py` 69/69、`validate_project.py` 87/87、`run_test_scenarios.py` 123/123 与 `compileall` 通过。新增为“跨境版权 / DMCA 维权辅助”当前推荐；不宣传为自动发送或生产就绪，真实使用需人工核验法域、平台规则和 custody secret。
+  - `can4hou6joeng4/Trawl`（★0，MIT）：法律文书结构化/OCR 桌面取证台，Wails + Go + Vue，将 Word/PDF/图片抽取为表格、JSON、XLSX；前端 96/96 tests 与 build 通过，gateway-worker 10/10 tests 与 `npm audit --omit=dev` 通过。新增为“法律文书结构化 / OCR 取证台”当前推荐；本机无 Go 未跑后端测试，且扫描 PDF/图片会上传至 OCR gateway/upstream、发送机器 ID/可选 license，不应描述为本地私有 OCR。
+
+### 修正
+- 全量刷新 GitHub 动态元数据至 2026-07-21，并重新生成 README、能力地图、完整索引和 seed 列表；License/Star/更新时间以本次 GitHub API 返回为准。
+
 ## 2026-07-20
 
 ### 新增

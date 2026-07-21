@@ -33,6 +33,7 @@ black-forest-labs/flux	ppt-assets
 Breakend/PileOfLaw	dataset-infra
 brucecbi/directory-index	law-firm-mgmt
 brucecbi/nda-review-skill	contract-doc-ip
+can4hou6joeng4/Trawl	contract-doc-ip
 captableinc/captable	corp-finance-ma-dd
 cat-xierluo/code2patent.skill	contract-doc-ip
 cat-xierluo/contract-copilot.skill	contract-doc-ip
@@ -77,6 +78,7 @@ doocs/md	media-ip
 dreammis/social-auto-upload	media-ip
 duhu2000/qcc-agent-cli	enterprise-check
 duhu2000/vibe-lawyering-qcc	enterprise-check
+dungnotnull/dmca-takedown-assistant-agent-skill	contract-doc-ip
 ethyca/fides	data-compliance
 ettajingruyang/PRC-merger-control-assessment	antitrust-competition
 evolsb/claude-legal-skill	skill-suite
@@ -204,6 +206,7 @@ opendatalab/MinerU	tech-foundation
 openlegaldata/awesome-legal-data	awesome
 OpenPipe/pii-redaction	data-compliance
 opensanctions/opensanctions	cross-border-arbitration
+oydxxx/tenant-contract-review-cn	labor-family-personal
 pa1nrui1/legal-skills	skill-suite
 PaddlePaddle/PaddleOCR	tech-foundation
 papermark/papermark	corp-finance-ma-dd
