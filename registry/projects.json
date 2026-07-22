@@ -89,6 +89,57 @@
       "legacy_category": "media-ip"
     },
     {
+      "id": "5tnb6xgsm5-ops/contract-guardian",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/5tnb6xgsm5-ops/contract-guardian",
+      "name": "contract-guardian",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国合同审查 Skill：内置合同审查规则库、红线清单、分类型 playbook、quality gate、示例输入、Verifier 核验报告和审查意见书；需留意“坑自动入库”的客户材料隐私边界，企查查/北大法宝 MCP 仅作授权增强。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "CC BY-SA 4.0 允许商用但要求署名原作者并以相同协议共享衍生作品",
+        "无自动化测试；本轮仅完成仓库审阅，不能标为测试通过",
+        "README、SKILL frontmatter 与最新提交之间存在 v2.6/v2.7/v2.8 版本标注漂移",
+        "“坑自动入库”默认沉淀审查发现，处理客户合同材料前需确认本地隐私和保密边界",
+        "企查查、北大法宝等外部 MCP 仅为授权增强；缺失时应降级并标注待核",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-07-22",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, SKILL.md, LICENSE, references and examples reviewed.",
+          "Local shallow clone review: 14 tracked content files, one SKILL.md, seven references/examples, no code tests; README example links resolve locally."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "contract-doc-ip"
+    },
+    {
       "id": "996icu/996.ICU",
       "aliases": [],
       "source": "github",

@@ -2,6 +2,7 @@
 # owner/repo<TAB>legacy-category
 245678000000/caselaw-mcp-server	retrieval-mcp
 2noise/ChatTTS	media-ip
+5tnb6xgsm5-ops/contract-guardian	contract-doc-ip
 996icu/996.ICU	labor-family-personal
 aa0101181514/tw-legal-rag	retrieval-mcp
 aaron-he-zhu/seo-geo-claude-skills	media-ip

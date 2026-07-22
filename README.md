@@ -4,7 +4,7 @@
 
 # awesome-legal-ai-zh · 法律 AI 选型指南
 
-![Indexed](https://img.shields.io/badge/完整索引-301_仓-3a5a8c) ![Reviewed](https://img.shields.io/badge/仓库审阅-169-2e8b57) ![Tasks](https://img.shields.io/badge/首页任务-20-b5462f) ![Updated](https://img.shields.io/badge/快照-2026--07--21-6b7280)
+![Indexed](https://img.shields.io/badge/完整索引-302_仓-3a5a8c) ![Reviewed](https://img.shields.io/badge/仓库审阅-170-2e8b57) ![Tasks](https://img.shields.io/badge/首页任务-20-b5462f) ![Updated](https://img.shields.io/badge/快照-2026--07--22-6b7280)
 
 **给个人律师和法务的开源法律 AI 选型入口：先看任务，再看上手门槛、数据路径、外部依赖和核验深度。**
 
@@ -26,7 +26,7 @@
 | 具体任务 | 当前推荐 | 关键备选 | 上手 | 数据路径 | 外部依赖 | 能力池 | 核验 | 选择理由 |
 |---|---|---|---|---|---|---:|---|---|
 | 中国律师日常套件 | [cat-xierluo/legal-skills](https://github.com/cat-xierluo/legal-skills) | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills)：中国法律任务结构完整，已有脚本级 Smoke 证据。<br>[pa1nrui1/legal-skills](https://github.com/pa1nrui1/legal-skills)：59 个中文法律 Skill，覆盖破产、刑辩、劳动和文书交付。 | 直接安装 | 本地+联网 | 元典、外部 LLM | 28 项 | 仓库审阅 | 杨卫薪律师持续维护，50 个 Skill 覆盖合同、诉讼、检索、知产和律师工作流，可单独下载。 |
-| 通用合同审查 | [cat-xierluo/contract-copilot.skill](https://github.com/cat-xierluo/contract-copilot.skill) | [nwwfewx/contract-review](https://github.com/nwwfewx/contract-review)：中国合同审查路线与结构化资料完整，Smoke 通过。<br>[Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit)：适合自行扩展审查规则和测试夹具。 | 直接安装 | 本地 | 无特定平台 | 21 项 | 测试通过 | 三层分析与四步审查流程直接交付 Word 批注/修订，6 项 DOCX 回归测试通过。 |
+| 通用合同审查 | [cat-xierluo/contract-copilot.skill](https://github.com/cat-xierluo/contract-copilot.skill) | [nwwfewx/contract-review](https://github.com/nwwfewx/contract-review)：中国合同审查路线与结构化资料完整，Smoke 通过。<br>[Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit)：适合自行扩展审查规则和测试夹具。 | 直接安装 | 本地 | 无特定平台 | 22 项 | 测试通过 | 三层分析与四步审查流程直接交付 Word 批注/修订，6 项 DOCX 回归测试通过。 |
 | Word 法律文书排版 | [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | - | 直接安装 | 本地 | 无特定平台 | 12 项 | 测试通过 | 面向法律 Word 模板执行、内容锁定和格式门禁，67 项测试通过。 |
 | 案卷 OCR 与 PDF 解析 | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | - | 需部署 | 本地 | 无特定平台 | 12 项 | 仓库审阅 | 复杂 PDF/OCR 生态成熟，适合作为案卷解析底座。 |
 | 本地法律材料脱敏 | [moyupeng0422/legal-doc-redactor](https://github.com/moyupeng0422/legal-doc-redactor) | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything)：多格式、OCR、视觉定位和人工复核更强，548 项后端测试通过，但部署门槛高。<br>[yangyc03/yangyc-legalai-skills](https://github.com/yangyc03/yangyc-legalai-skills)：轻量本地脱敏并有 22 项法律网络/脱敏测试。 | 直接安装 | 本地 | 无特定平台 | 15 项 | 仓库审阅 | 离线 DOCX 一致替换、还原和审阅痕迹处理，个人律师上手更轻。 |

@@ -5,6 +5,11 @@
 
 ---
 
+## 2026-07-22
+
+### 新增
+- **合同审查 Skill 实质审查补录**（+1 仓 → **302**）：经 GitHub API、仓库文件与浅克隆实质审阅，新增 `5tnb6xgsm5-ops/contract-guardian`（★0，仓库 LICENSE 为 CC BY-SA 4.0；GitHub API 未识别标准 license）：中国合同审查 Skill，包含 `SKILL.md`、规则库、红线库、分类型 playbook、quality gate、示例输入、Verifier 核验报告和审查意见书。注意本轮仅为仓库审阅，无自动化测试；README、SKILL frontmatter 与最新提交存在 v2.6/v2.7/v2.8 版本标注漂移；“坑自动入库”处理客户合同材料前需确认本地隐私和保密边界；企查查、北大法宝等外部 MCP 仅作为授权增强能力。
+
 ## 2026-07-21
 
 ### 新增
