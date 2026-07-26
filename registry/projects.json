@@ -89,6 +89,59 @@
       "legacy_category": "media-ip"
     },
     {
+      "id": "384363367-dot/legal-os",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/384363367-dot/legal-os",
+      "name": "legal-os",
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "starter-suites",
+      "capabilities": [
+        "starter-suites",
+        "contracts",
+        "legal-documents",
+        "litigation",
+        "data-compliance",
+        "law-firm-operations"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国法务 Legal OS：12 个可安装 Skill + 24 个模板，覆盖事项分流、合同、诉讼、证据、函件、数据核验、文件交付、质量闸门和版本治理；43 项测试通过（Apache-2.0）。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "仓库 LICENSE/README 标注 Apache-2.0，商用前仍应以仓库 LICENSE 原文为准",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-07-25",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, LICENSE, release assets, recursive file tree and Skill layout reviewed.",
+          "Local shallow clone review found 12 SKILL.md files and 24 templates.",
+          "Local validation passed: validate_repo.py, validate_routing_scenarios.py and 43 unittest cases."
+        ],
+        "signals": {
+          "skill_files": 12,
+          "test_files": 11,
+          "code_files": 17,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "skill-suite"
+    },
+    {
       "id": "5tnb6xgsm5-ops/contract-guardian",
       "aliases": [],
       "source": "github",
@@ -9769,6 +9822,55 @@
       "legacy_category": "labor-family-personal"
     },
     {
+      "id": "reng599-sys/court-case-digest-generation",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/reng599-sys/court-case-digest-generation",
+      "name": "court-case-digest-generation",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "裁判文书转人民法院案例库风格案例编写稿 Skill：民事、刑事、行政三版，强调脱敏、案例价值识别、裁判规则提炼、法条案号核验和质量审查。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "仓库未提供标准 LICENSE；当前仅低位索引，不标商用",
+        "纯 Markdown 指令型 Skill，无自动化测试；法条、案号和案例库引用需人工或 MCP 核验",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-07-26",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README and recursive file tree reviewed.",
+          "Local shallow clone review found three SKILL.md files for civil, criminal and administrative case digest generation."
+        ],
+        "signals": {
+          "skill_files": 3,
+          "test_files": 0,
+          "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "criminal-admin-exec"
+    },
+    {
       "id": "Ro5s/Startup-Starter-Pack",
       "aliases": [],
       "source": "github",
@@ -10462,6 +10564,53 @@
         }
       },
       "legacy_category": "cross-border-arbitration"
+    },
+    {
+      "id": "sublatesublate-design/opc-legal-cn",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/sublatesublate-design/opc-legal-cn",
+      "name": "opc-legal-cn",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "corporate-ma",
+      "capabilities": [
+        "corporate-ma",
+        "starter-suites"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国大陆 OPC/互联网创业法律指引与 Agent Skill：覆盖主体选择、设立、税务、产品上线、合同、用工、融资和退出，含 procedures、data、references 和校验脚本（MIT）。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "与既有一人公司法律顾问类 Skill 主题重叠，定位为创业法/OPC 细分补充"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-07-25",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, release assets, recursive file tree and Skill layout reviewed.",
+          "Local validation passed: compileall, validate_data, check_completeness and validate_schemas."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 11,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "corp-finance-ma-dd"
     },
     {
       "id": "spartypkp/open-source-legislation",

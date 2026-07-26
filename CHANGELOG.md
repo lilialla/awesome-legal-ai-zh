@@ -5,6 +5,17 @@
 
 ---
 
+## 2026-07-26
+
+### 新增
+- **法律 AI / Skill 每日增量实质审查补录**（+3 仓 → **305**）：按 GitHub API、仓库文件、浅克隆审阅和本地验证证据，新增 3 个中国法律实务向项目；README 首页仍保持 20 个任务，新增项进入能力地图和完整索引：
+  - `384363367-dot/legal-os`（★3，仓库 LICENSE/README 标注 Apache-2.0；GitHub API 未识别标准 license）：中国法务 Legal OS，12 个可安装 Skill + 24 个模板，覆盖事项分流、合同、诉讼、证据、函件、数据核验、文档交付、质量闸门与版本治理；本地 `validate_repo.py`、`validate_routing_scenarios.py` 与 43 个 unittest 通过。注意：商用前仍以仓库 LICENSE 原文为准。
+  - `sublatesublate-design/opc-legal-cn`（★0，MIT）：中国大陆 OPC / 互联网创业法律指引与 Agent Skill，覆盖主体选择、设立、税务、产品上线、合同、用工、融资和退出；本地 `compileall`、`validate_data`、`check_completeness` 和 `validate_schemas` 通过。定位为创业法 / OPC 细分补充，不替代既有一人公司法律顾问类 Skill。
+  - `reng599-sys/court-case-digest-generation`（★1，无标准 license → 商用❌）：裁判文书转人民法院案例库风格案例编写稿 Skill，覆盖民事、刑事、行政三类，强调脱敏、裁判规则提炼、法条案号核验与质量审查；纯 Markdown 指令型 Skill，无自动化测试，正式使用仍需人工或 MCP 核验法条、案号和案例库引用。
+
+### 修正
+- 全量刷新 GitHub 动态元数据至 2026-07-26，并重新生成 README、能力地图、完整索引和 seed 列表。
+
 ## 2026-07-22
 
 ### 新增
