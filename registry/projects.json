@@ -6079,18 +6079,13 @@
         "services": []
       },
       "data_path": "unknown",
-      "recommendation": "indexed",
+      "recommendation": "retired",
       "selection_reason": "",
       "cautions": [
-        "Fork：上游为 wechat-article/wechat-article-exporter"
+        "仓库当前不可访问",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
       ],
-      "relationships": [
-        {
-          "type": "fork_of",
-          "target": "wechat-article/wechat-article-exporter",
-          "evidence": "GitHub repository metadata."
-        }
-      ],
+      "relationships": [],
       "source_grade": "verified",
       "review": {
         "depth": "metadata",
@@ -10983,6 +10978,55 @@
           "skill_files": 1,
           "test_files": 69,
           "code_files": 19,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "data-compliance"
+    },
+    {
+      "id": "The-Data-Galaxy/edpb-anonymisation-guidelines-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/The-Data-Galaxy/edpb-anonymisation-guidelines-skill",
+      "name": "edpb-anonymisation-guidelines-skill",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "data-compliance",
+      "capabilities": [
+        "data-compliance"
+      ],
+      "jurisdictions": [
+        "eu",
+        "cross_border"
+      ],
+      "summary": "EDPB Guidelines 02/2026 匿名化判断中文 Codex Skill：围绕记录孤立、关联和推断三项标准组织事实采集、结论分级和 benchmark 自检。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "primary",
+      "selection_reason": "匿名化判断边界清楚，基于 EDPB Guidelines 02/2026 公开征求意见稿组织固定输出和自检 validator。",
+      "cautions": [
+        "依据为 EDPB Guidelines 02/2026 Version 1.0 公开征求意见稿，尚非最终指南",
+        "中文内容不是官方译文，也不构成最终匿名化认证或技术匿名化测试"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-07-27",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, LICENSE, SKILL.md, TESTS.md, EVAL.md, official-source reference and benchmark files reviewed.",
+          "Local archive review found 38 files, one SKILL.md and one Python validator.",
+          "Local validation passed: python3 -m compileall -q edpb-anonymisation-guidelines and python3 edpb-anonymisation-guidelines/benchmark/scripts/validate_contract.py."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 1,
+          "code_files": 1,
           "tree_truncated": false
         }
       },

@@ -248,6 +248,7 @@ tabler/tabler-icons	ppt-assets
 tailwindlabs/heroicons	ppt-assets
 The-Data-Galaxy/contract-review-skill	contract-doc-ip
 The-Data-Galaxy/dpa-review-skill	data-compliance
+The-Data-Galaxy/edpb-anonymisation-guidelines-skill	data-compliance
 TheCraigHewitt/seomachine	media-ip
 ThomasLiu/contract-review-zh	contract-doc-ip
 THUIR/LeCaRDv2	dataset-infra

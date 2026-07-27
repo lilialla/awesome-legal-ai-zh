@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-07-27
+
+### 新增
+- **数据合规 Skill 实质审查补录**（+1 仓 → **306**）：按 GitHub API、仓库文件、本地 archive 审阅和 validator 证据，新增 `The-Data-Galaxy/edpb-anonymisation-guidelines-skill`（★0，MIT）：EDPB Guidelines 02/2026 匿名化判断中文 Codex Skill，围绕记录孤立、关联和推断三项标准组织事实采集、结论分级、固定输出和 benchmark 自检。本地 `python3 -m compileall -q edpb-anonymisation-guidelines` 与 `python3 edpb-anonymisation-guidelines/benchmark/scripts/validate_contract.py` 通过。注意：依据为 EDPB Guidelines 02/2026 Version 1.0 公开征求意见稿，尚非最终指南；中文内容不是官方译文，也不构成最终匿名化认证或技术匿名化测试。
+
+### 修正
+- 全量刷新 GitHub 动态元数据至 2026-07-27，并重新生成 README、能力地图、完整索引和 seed 列表。
+
 ## 2026-07-26
 
 ### 新增

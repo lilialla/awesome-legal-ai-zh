@@ -1193,14 +1193,51 @@ def _run_gh(arguments: list[str], *, timeout: int = 30, attempts: int = 3) -> di
 def refresh(root: Path) -> None:
     registry = root / "registry"
     projects_doc = load_json(registry / "projects.json")
+    previous_metadata = load_json(registry / "github-metadata.json").get("repositories", {})
     repositories = [project["id"] for project in projects_doc["projects"]]
     _require(
         all(isinstance(repo, str) and REPO_ID_PATTERN.fullmatch(repo) for repo in repositories),
         "invalid project id",
     )
-    result: dict[str, dict] = {}
-    for base in range(0, len(repositories), 40):
-        batch = repositories[base : base + 40]
+
+    def unavailable(repo: str) -> dict:
+        return {
+            "accessible": False,
+            "canonical_id": repo,
+            "stars": 0,
+            "pushed_at": None,
+            "updated_at": None,
+            "license_spdx": None,
+            "archived": False,
+            "disabled": False,
+            "fork": False,
+            "parent": None,
+            "default_branch": None,
+        }
+
+    def normalized_metadata(repo: str, item: dict | None) -> dict:
+        if item is None:
+            return unavailable(repo)
+        return {
+            "accessible": True,
+            "canonical_id": item["nameWithOwner"],
+            "stars": item["stargazerCount"],
+            "pushed_at": item["pushedAt"],
+            "updated_at": item["updatedAt"],
+            "license_spdx": (item.get("licenseInfo") or {}).get("spdxId"),
+            "archived": item["isArchived"],
+            "disabled": item["isDisabled"],
+            "fork": item["isFork"],
+            "parent": (item.get("parent") or {}).get("nameWithOwner"),
+            "default_branch": (item.get("defaultBranchRef") or {}).get("name"),
+            "description": item.get("description"),
+            "homepage": item.get("homepageUrl"),
+            "primary_language": (item.get("primaryLanguage") or {}).get("name"),
+            "disk_kb": item.get("diskUsage"),
+            "template": item.get("isTemplate", False),
+        }
+
+    def query_batch(batch: list[str]) -> dict[str, dict]:
         fields = []
         for index, repo in enumerate(batch):
             owner, name = repo.split("/", 1)
@@ -1215,41 +1252,56 @@ def refresh(root: Path) -> None:
         query = "query {" + " ".join(fields) + "}"
         payload = _run_gh(["api", "graphql", "-f", f"query={query}"])
         data = payload.get("data", {})
-        for index, repo in enumerate(batch):
-            item = data.get(f"r{index}")
-            if item is None:
-                result[repo] = {
-                    "accessible": False,
-                    "canonical_id": repo,
-                    "stars": 0,
-                    "pushed_at": None,
-                    "updated_at": None,
-                    "license_spdx": None,
-                    "archived": False,
-                    "disabled": False,
-                    "fork": False,
-                    "parent": None,
-                    "default_branch": None,
-                }
-                continue
-            result[repo] = {
-                "accessible": True,
-                "canonical_id": item["nameWithOwner"],
-                "stars": item["stargazerCount"],
-                "pushed_at": item["pushedAt"],
-                "updated_at": item["updatedAt"],
-                "license_spdx": (item.get("licenseInfo") or {}).get("spdxId"),
-                "archived": item["isArchived"],
-                "disabled": item["isDisabled"],
-                "fork": item["isFork"],
-                "parent": (item.get("parent") or {}).get("nameWithOwner"),
-                "default_branch": (item.get("defaultBranchRef") or {}).get("name"),
-                "description": item.get("description"),
-                "homepage": item.get("homepageUrl"),
-                "primary_language": (item.get("primaryLanguage") or {}).get("name"),
-                "disk_kb": item.get("diskUsage"),
-                "template": item.get("isTemplate", False),
-            }
+        return {
+            repo: normalized_metadata(repo, data.get(f"r{index}"))
+            for index, repo in enumerate(batch)
+        }
+
+    result: dict[str, dict] = {}
+    for base in range(0, len(repositories), 40):
+        batch = repositories[base : base + 40]
+        try:
+            result.update(query_batch(batch))
+        except CatalogError as exc:
+            print(f"metadata batch fallback {base + 1}-{base + len(batch)}: {exc}", flush=True)
+            unresolved_repos = set(re.findall(r"name '([^']+)'", str(exc)))
+            for repo in sorted(unresolved_repos):
+                print(f"metadata unavailable {repo}: repository not found", flush=True)
+                result[repo] = unavailable(repo)
+            remaining = [repo for repo in batch if repo not in unresolved_repos]
+            try:
+                if remaining:
+                    result.update(query_batch(remaining))
+            except CatalogError as retry_exc:
+                retry_unresolved = set(re.findall(r"name '([^']+)'", str(retry_exc)))
+                for repo in sorted(retry_unresolved):
+                    print(f"metadata unavailable {repo}: repository not found", flush=True)
+                    result[repo] = unavailable(repo)
+                remaining = [repo for repo in remaining if repo not in retry_unresolved]
+                if retry_unresolved:
+                    try:
+                        if remaining:
+                            result.update(query_batch(remaining))
+                            remaining = []
+                    except CatalogError as second_retry_exc:
+                        retry_exc = second_retry_exc
+                if remaining:
+                    print(f"metadata single fallback {base + 1}-{base + len(batch)}: {retry_exc}", flush=True)
+                for repo in remaining:
+                    try:
+                        result.update(query_batch([repo]))
+                    except CatalogError as repo_exc:
+                        if "Could not resolve to a Repository" in str(repo_exc):
+                            print(f"metadata unavailable {repo}: repository not found", flush=True)
+                            result[repo] = unavailable(repo)
+                            continue
+                        previous = previous_metadata.get(repo)
+                        if previous is not None:
+                            print(f"metadata preserved {repo}: {repo_exc}", flush=True)
+                            result[repo] = previous
+                        else:
+                            print(f"metadata unavailable {repo}: {repo_exc}", flush=True)
+                            result[repo] = unavailable(repo)
         print(f"metadata {min(base + len(batch), len(repositories))}/{len(repositories)}", flush=True)
     metadata_doc = {"schema_version": SCHEMA_VERSION, "refreshed_at": utc_now(), "repositories": result}
     dump_json(registry / "github-metadata.json", metadata_doc)

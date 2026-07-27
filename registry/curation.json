@@ -583,6 +583,20 @@
       "order": 20.5
     },
     {
+      "id": "anonymisation-assessment",
+      "capability": "data-compliance",
+      "title": "匿名化判断",
+      "homepage": false,
+      "decision_basis": "比较匿名化事实采集、可识别性判断标准、结论分级、公开来源锚定和可复核自检证据。",
+      "primary": {
+        "project": "The-Data-Galaxy/edpb-anonymisation-guidelines-skill",
+        "reason": "基于 EDPB Guidelines 02/2026 公开征求意见稿，围绕记录孤立、关联和推断三项标准组织固定输出，并有本地 validator 通过。"
+      },
+      "alternatives": [],
+      "gap": "依据仍是公开征求意见稿，中文内容不是官方译文；不能替代正式法律意见、技术匿名化测试或最终匿名化认证。",
+      "order": 20.6
+    },
+    {
       "id": "labor-dispute",
       "capability": "labor-family",
       "title": "劳动仲裁",

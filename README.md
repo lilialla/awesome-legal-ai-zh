@@ -4,7 +4,7 @@
 
 # awesome-legal-ai-zh · 法律 AI 选型指南
 
-![Indexed](https://img.shields.io/badge/完整索引-305_仓-3a5a8c) ![Reviewed](https://img.shields.io/badge/仓库审阅-173-2e8b57) ![Tasks](https://img.shields.io/badge/首页任务-20-b5462f) ![Updated](https://img.shields.io/badge/快照-2026--07--26-6b7280)
+![Indexed](https://img.shields.io/badge/完整索引-306_仓-3a5a8c) ![Reviewed](https://img.shields.io/badge/仓库审阅-174-2e8b57) ![Tasks](https://img.shields.io/badge/首页任务-20-b5462f) ![Updated](https://img.shields.io/badge/快照-2026--07--27-6b7280)
 
 **给个人律师和法务的开源法律 AI 选型入口：先看任务，再看上手门槛、数据路径、外部依赖和核验深度。**
 
@@ -29,7 +29,7 @@
 | 通用合同审查 | [cat-xierluo/contract-copilot.skill](https://github.com/cat-xierluo/contract-copilot.skill) | [nwwfewx/contract-review](https://github.com/nwwfewx/contract-review)：中国合同审查路线与结构化资料完整，Smoke 通过。<br>[Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit)：适合自行扩展审查规则和测试夹具。 | 直接安装 | 本地 | 无特定平台 | 23 项 | 测试通过 | 三层分析与四步审查流程直接交付 Word 批注/修订，6 项 DOCX 回归测试通过。 |
 | Word 法律文书排版 | [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | - | 直接安装 | 本地 | 无特定平台 | 14 项 | 测试通过 | 面向法律 Word 模板执行、内容锁定和格式门禁，67 项测试通过。 |
 | 案卷 OCR 与 PDF 解析 | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | - | 需部署 | 本地 | 无特定平台 | 14 项 | 仓库审阅 | 复杂 PDF/OCR 生态成熟，适合作为案卷解析底座。 |
-| 本地法律材料脱敏 | [moyupeng0422/legal-doc-redactor](https://github.com/moyupeng0422/legal-doc-redactor) | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything)：多格式、OCR、视觉定位和人工复核更强，548 项后端测试通过，但部署门槛高。<br>[yangyc03/yangyc-legalai-skills](https://github.com/yangyc03/yangyc-legalai-skills)：轻量本地脱敏并有 22 项法律网络/脱敏测试。 | 直接安装 | 本地 | 无特定平台 | 16 项 | 仓库审阅 | 离线 DOCX 一致替换、还原和审阅痕迹处理，个人律师上手更轻。 |
+| 本地法律材料脱敏 | [moyupeng0422/legal-doc-redactor](https://github.com/moyupeng0422/legal-doc-redactor) | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything)：多格式、OCR、视觉定位和人工复核更强，548 项后端测试通过，但部署门槛高。<br>[yangyc03/yangyc-legalai-skills](https://github.com/yangyc03/yangyc-legalai-skills)：轻量本地脱敏并有 22 项法律网络/脱敏测试。 | 直接安装 | 本地 | 无特定平台 | 17 项 | 仓库审阅 | 离线 DOCX 一致替换、还原和审阅痕迹处理，个人律师上手更轻。 |
 | 中国法规检索 | [nh59yytyd5-dev/chinalaw-cli](https://github.com/nh59yytyd5-dev/chinalaw-cli) | [ZongziForu/cn-law-hub](https://github.com/ZongziForu/cn-law-hub)：法规检索与 MCP 路径轻量，33 项单元测试通过。 | 需部署 | 本地+联网 | 无特定平台 | 25 项 | 测试通过 | 本地法规 CLI/MCP、来源元数据和安装路径完整，678 项测试通过。 |
 | 中国案例库检索 | [245678000000/caselaw-mcp-server](https://github.com/245678000000/caselaw-mcp-server) | [cncases/cases](https://github.com/cncases/cases)：适合作为本地离线案例数据底座。 | 需部署 | 自托管 | 无特定平台 | 25 项 | 测试通过 | 标准 MCP 与 FastAPI 接口，mock 适配器下 57 项测试通过。 |
 | 本地法律知识库 | 暂无 | [Youchu-lawhub/legal-kb-builder](https://github.com/Youchu-lawhub/legal-kb-builder)：工厂化流程覆盖解析、混合检索、API 与 MCP，脚本编译通过，但尚未功能实测。<br>[leo123-tto/legal-ai](https://github.com/leo123-tto/legal-ai)：集成 MinerU、元典检索和知识库导入导出。 | - | - | - | 25 项 | - | 尚无同时完成真实法律材料入库、检索质量实测且权利边界适合个人律师/法务的当前推荐。 |
@@ -38,7 +38,7 @@
 | 诉讼、仲裁与执行期限 | [SimbaCD/legal-period-manager-skills](https://github.com/SimbaCD/legal-period-manager-skills) | [Youchu-lawhub/cn-litigation-toolkit](https://github.com/Youchu-lawhub/cn-litigation-toolkit)：需要期限管理与全流程案件工作结合时使用。 | 需部署 | 本地 | 无特定平台 | 20 项 | 仓库审阅 | 专门处理诉讼、仲裁、执行和待办期限，与诉讼分析套件互补。 |
 | 企查查企业核查 | [duhu2000/qcc-agent-cli](https://github.com/duhu2000/qcc-agent-cli) | [zhanglunet/qcc](https://github.com/zhanglunet/qcc)：同时提供 MCP、Python/TypeScript 客户端和法律工作流 Skill。 | 需账号/API | 外部 API | 企查查 | 7 项 | 测试通过 | CLI 工具自省和配置诊断完整，98 项 Jest 测试通过。 |
 | 股权转让与公司交易 | [lilialla/equity-transfer-review-skill](https://github.com/lilialla/equity-transfer-review-skill) | - | 直接安装 | 未明确 | 无特定平台 | 20 项 | 仓库审阅 | 聚焦中国股权转让、出资责任、监管闸门和交割条件。 |
-| APP 个人信息保护审查 | 暂无 | [Youchu-lawhub/app-compliance-review](https://github.com/Youchu-lawhub/app-compliance-review)：方法论和 50+ 检查项有价值，但当前 material_validator.py 存在 SyntaxError，修复前不列当前推荐。<br>[allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry)：可作为 Android SDK、权限和隐私行为的技术事实提取工具，但不替代法律评价与整改意见。 | - | - | - | 16 项 | - | 法律评价候选的核心脚本有语法错误；技术检测项目只能补充 APK/SDK/权限事实。 |
+| APP 个人信息保护审查 | 暂无 | [Youchu-lawhub/app-compliance-review](https://github.com/Youchu-lawhub/app-compliance-review)：方法论和 50+ 检查项有价值，但当前 material_validator.py 存在 SyntaxError，修复前不列当前推荐。<br>[allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry)：可作为 Android SDK、权限和隐私行为的技术事实提取工具，但不替代法律评价与整改意见。 | - | - | - | 17 项 | - | 法律评价候选的核心脚本有语法错误；技术检测项目只能补充 APK/SDK/权限事实。 |
 | 劳动仲裁 | [f12336414-ship-it/labor-arbitration-skill](https://github.com/f12336414-ship-it/labor-arbitration-skill) | [worker-aid-ai/worker-aid-agent](https://github.com/worker-aid-ai/worker-aid-agent)：更偏劳动者自助整理材料和申请草稿。<br>[wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill)：更轻量的劳动仲裁实务 Skill。 | 直接安装 | 未明确 | 无特定平台 | 10 项 | 测试通过 | 法条、时效、金额和证据引用都有核验内核，416 项测试通过。 |
 | 专利交底与起草 | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | [cat-xierluo/legal-skills](https://github.com/cat-xierluo/legal-skills)：套件内含 code2patent，适合从代码库提取技术证据并生成中国发明专利材料。 | 直接安装 | 本地+联网 | 国知局公开网站 | 9 项 | 测试通过 | 专利交底材料路径清晰，强调本地脱敏和查新，8 项离线测试通过。 |
 | 域外法律研究 | [imchongliu/foreign-law-research](https://github.com/imchongliu/foreign-law-research) | - | 直接安装 | 本地+联网 | 公开网络法源 | 10 项 | 仓库审阅 | 面向中国律师的域外法研究路径，强调公开一手法源。 |
