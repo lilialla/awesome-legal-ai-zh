@@ -2162,19 +2162,6 @@
       "disk_kb": 1104,
       "template": false
     },
-    "KKKKhazix/wechat-article-exporter": {
-      "accessible": false,
-      "canonical_id": "KKKKhazix/wechat-article-exporter",
-      "stars": 0,
-      "pushed_at": null,
-      "updated_at": null,
-      "license_spdx": null,
-      "archived": false,
-      "disabled": false,
-      "fork": false,
-      "parent": null,
-      "default_branch": null
-    },
     "imchongliu/foreign-law-research": {
       "accessible": true,
       "canonical_id": "imchongliu/foreign-law-research",
@@ -2463,6 +2450,19 @@
       "disk_kb": 276,
       "template": false
     },
+    "KKKKhazix/wechat-article-exporter": {
+      "accessible": false,
+      "canonical_id": "KKKKhazix/wechat-article-exporter",
+      "stars": 0,
+      "pushed_at": null,
+      "updated_at": null,
+      "license_spdx": null,
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": null
+    },
     "langgptai/wonderful-prompts": {
       "accessible": true,
       "canonical_id": "langgptai/wonderful-prompts",
@@ -2607,6 +2607,24 @@
       "disk_kb": 34212,
       "template": false
     },
+    "lawyerllsx-dotcom/Legal-Workflow-Chain": {
+      "accessible": true,
+      "canonical_id": "lawyerllsx-dotcom/Legal-Workflow-Chain",
+      "stars": 4,
+      "pushed_at": "2026-08-10T10:27:16Z",
+      "updated_at": "2026-08-10T10:27:35Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "给法律 AI 上纪律：五层 skill 接力链 + 接案评估 + 对抗幻觉，让复杂案件分析可追溯、可复核、不编造。纯方法论，无案件数据。",
+      "homepage": "",
+      "primary_language": "Python",
+      "disk_kb": 516,
+      "template": false
+    },
     "LegalQuants/lq-ai": {
       "accessible": true,
       "canonical_id": "LegalQuants/lq-ai",
@@ -2677,6 +2695,24 @@
       "homepage": null,
       "primary_language": "Python",
       "disk_kb": 216,
+      "template": false
+    },
+    "lexchang53/Legal-Pleading-Suite": {
+      "accessible": true,
+      "canonical_id": "lexchang53/Legal-Pleading-Suite",
+      "stars": 9,
+      "pushed_at": "2026-08-11T02:18:45Z",
+      "updated_at": "2026-08-11T21:43:27Z",
+      "license_spdx": "NOASSERTION",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "為台灣法律實務設計的 AI 訴訟書狀自動化套件（目前以民事訴訟為主）",
+      "homepage": "",
+      "primary_language": "Python",
+      "disk_kb": 887,
       "template": false
     },
     "LianXU-321/china-outbound-service-dpa-bilingual": {
@@ -4173,6 +4209,24 @@
       "disk_kb": 1692,
       "template": false
     },
+    "shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills": {
+      "accessible": true,
+      "canonical_id": "shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills",
+      "stars": 3,
+      "pushed_at": "2026-08-10T18:13:14Z",
+      "updated_at": "2026-08-10T18:16:00Z",
+      "license_spdx": null,
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "Hermes Agent Obisidian 法学CSSCI学术研究技能包：建库+维护+写作",
+      "homepage": null,
+      "primary_language": "Python",
+      "disk_kb": 2860,
+      "template": false
+    },
     "siat-nlp/HanFei": {
       "accessible": true,
       "canonical_id": "siat-nlp/HanFei",
@@ -4299,24 +4353,6 @@
       "disk_kb": 250,
       "template": false
     },
-    "sublatesublate-design/opc-legal-cn": {
-      "accessible": true,
-      "canonical_id": "sublatesublate-design/opc-legal-cn",
-      "stars": 0,
-      "pushed_at": "2026-07-24T15:09:55Z",
-      "updated_at": "2026-07-24T15:11:04Z",
-      "license_spdx": "MIT",
-      "archived": false,
-      "disabled": false,
-      "fork": false,
-      "parent": null,
-      "default_branch": "main",
-      "description": "中国大陆OPC互联网创业法律指北与Agent Skill",
-      "homepage": null,
-      "primary_language": "Python",
-      "disk_kb": 338,
-      "template": false
-    },
     "spartypkp/open-source-legislation": {
       "accessible": true,
       "canonical_id": "spartypkp/open-source-legislation",
@@ -4369,6 +4405,24 @@
       "homepage": "https://stll.app",
       "primary_language": "TypeScript",
       "disk_kb": 257643,
+      "template": false
+    },
+    "sublatesublate-design/opc-legal-cn": {
+      "accessible": true,
+      "canonical_id": "sublatesublate-design/opc-legal-cn",
+      "stars": 0,
+      "pushed_at": "2026-07-24T15:09:55Z",
+      "updated_at": "2026-07-24T15:11:04Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "中国大陆OPC互联网创业法律指北与Agent Skill",
+      "homepage": null,
+      "primary_language": "Python",
+      "disk_kb": 338,
       "template": false
     },
     "sunyifeisb-art/legalwork": {
@@ -4747,6 +4801,24 @@
       "homepage": null,
       "primary_language": null,
       "disk_kb": 94,
+      "template": false
+    },
+    "Tsinglaw/AnyDocsMarked": {
+      "accessible": true,
+      "canonical_id": "Tsinglaw/AnyDocsMarked",
+      "stars": 0,
+      "pushed_at": "2026-08-11T07:41:13Z",
+      "updated_at": "2026-08-11T07:41:07Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "混合式文档处理工具，旨在一次性处理大量文档，一键将文档转化为md格式并编辑为Wiki知识库，并让你的AI Agent轻松调用资料、为你服务。",
+      "homepage": null,
+      "primary_language": "Python",
+      "disk_kb": 2336,
       "template": false
     },
     "tyc-tech/mcp-skills": {

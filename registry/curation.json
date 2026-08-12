@@ -364,18 +364,17 @@
       "title": "本地法律知识库",
       "homepage": true,
       "decision_basis": "比较材料解析、切分、检索、质量门禁、MCP/API 服务和本地数据路径。",
-      "primary": null,
+      "primary": {
+        "project": "Tsinglaw/AnyDocsMarked",
+        "reason": "案卷材料转 Markdown、本地 wiki/RAG 与闭世界问答形成完整链路，浅克隆语法 smoke 通过，并公开云 OCR/embedding 显式同意边界。"
+      },
       "alternatives": [
         {
           "project": "Youchu-lawhub/legal-kb-builder",
           "reason": "工厂化流程覆盖解析、混合检索、API 与 MCP，脚本编译通过，但尚未功能实测。"
-        },
-        {
-          "project": "leo123-tto/legal-ai",
-          "reason": "集成 MinerU、元典检索和知识库导入导出。"
         }
       ],
-      "gap": "尚无同时完成真实法律材料入库、检索质量实测且权利边界适合个人律师/法务的当前推荐。",
+      "gap": "仍缺公开的真实案卷入库、召回质量和法律问答质量基准；当前推荐不等于法律结论自动正确。",
       "order": 12
     },
     {

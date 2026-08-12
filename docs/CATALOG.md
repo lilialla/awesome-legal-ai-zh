@@ -1,6 +1,6 @@
 # 完整项目索引
 
-> 306 个 GitHub 仓库；GitHub 元数据刷新于 2026-07-27T15:45:28Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
+> 310 个 GitHub 仓库；GitHub 元数据刷新于 2026-07-27T15:45:28Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
 
 状态：`当前推荐`、`关键备选`、`已索引`、`观察`、`退役`。License 只陈述仓库识别结果及人工提示，不构成授权意见。
 
@@ -155,6 +155,7 @@
 | 当前推荐 | 法规现行性核验（当前推荐） | [bangchuiLee/yuandian-current-law-verifier](https://github.com/bangchuiLee/yuandian-current-law-verifier) | Skill | 0 | 2026-07-15 | MIT | 测试通过 | 💎元典现行法规核验 Skill：引用具体中国大陆法规前先查版本、正文与时效，MCP 失败时 fail closed；本地实测 7 个 unittest 通过（MIT，需 yuandian-law MCP） |
 | 关键备选 | 本地法律知识库（关键备选）<br>法规 / 合同 RAG 应用平台（关键备选） | [Youchu-lawhub/legal-kb-builder](https://github.com/Youchu-lawhub/legal-kb-builder) | Skill | 4 | 2026-07-11 | NOASSERTION | Smoke 通过 | 游初·本地法律知识库构建工厂：材料路由、解析、混合检索、质量检查、API 与 MCP 服务。；注意：CC BY-NC-ND 4.0 并附加禁止 AI 训练、企业/政府使用等限制，使用前需阅读完整 LICENSE；34 个 Python 入口编译通过；未使用真实解析后端和法律材料进行功能测试 |
 | 当前推荐 | 法规文本条款切分（当前推荐） | [GaaZeon-Hui/legal-text-splitter-mcp](https://github.com/GaaZeon-Hui/legal-text-splitter-mcp) | 应用 | 1 | 2026-06-11 | MIT | Smoke 通过 | 💎中文法规条款切分 MCP：按条/款/项等层级拆分法规文本，含 8 个 pytest 用例；本地运行，MIT |
+| 当前推荐 | 本地法律知识库（当前推荐） | [Tsinglaw/AnyDocsMarked](https://github.com/Tsinglaw/AnyDocsMarked) | 套件 | 0 | 2026-08-11 | MIT | Smoke 通过 | 法律案卷材料转 Markdown、本地 wiki/RAG 检索与闭世界问答套件，覆盖 makeitdown、rag-retriever 和 lawiki，强调逐字锚点、覆盖账本、默认本地和云 OCR/embedding 显式同意。；注意：本轮为浅克隆与语法级 smoke，未安装 anydoc 等可选依赖跑完整功能测试；项目仍处 Beta/快速迭代阶段，正式案卷入库、检索质量和法律结论必须人工复核 |
 | 关键备选 | 中国案例库检索（关键备选） | [cncases/cases](https://github.com/cncases/cases) | 工具 | 1063 | 2026-07-27 | MPL-2.0 | 仓库审阅 | 💎中国裁判文书本地离线检索 |
 | 已索引 | - | [billvsme/law_ai](https://github.com/billvsme/law_ai) | 应用 | 230 | 2024-01-22 | 未识别 | 仓库审阅 | ❄️LangChain 法律 RAG（200+ 手册+网搜，给出处）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [aa0101181514/tw-legal-rag](https://github.com/aa0101181514/tw-legal-rag) | Skill | 229 | 2026-07-26 | MIT | 仓库审阅 | 台湾法律 RAG |
@@ -223,6 +224,7 @@
 | 已索引 | - | [384363367-dot/legal-os](https://github.com/384363367-dot/legal-os) | 套件 | 3 | 2026-07-24 | NOASSERTION | 测试通过 | 中国法务 Legal OS：12 个可安装 Skill + 24 个模板，覆盖事项分流、合同、诉讼、证据、函件、数据核验、文件交付、质量闸门和版本治理；43 项测试通过（Apache-2.0）。；注意：仓库 LICENSE/README 标注 Apache-2.0，商用前仍应以仓库 LICENSE 原文为准；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 关键备选 | 本地法律材料脱敏（关键备选） | [yangyc03/yangyc-legalai-skills](https://github.com/yangyc03/yangyc-legalai-skills) | 套件 | 1 | 2026-07-26 | Apache-2.0 | 测试通过 | 💎法律 AI 插件套件：本地脱敏、法律关系网络核验、法律事项归档；本地实测 22 个 unittest 通过（Apache-2.0） |
 | 关键备选 | 中国律师日常套件（关键备选） | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills) | 套件 | 50 | 2026-07-24 | MIT | Smoke 通过 | 💎法律 AI Skills 集：北大法宝 MCP、法律事实核查、引注核验、DOCX/证据目录工作流；公开包不附第三方手册索引，严格引注全量核验需用户自备合法来源；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
+| 已索引 | - | [lawyerllsx-dotcom/Legal-Workflow-Chain](https://github.com/lawyerllsx-dotcom/Legal-Workflow-Chain) | 套件 | 4 | 2026-08-10 | MIT | Smoke 通过 | 中国大陆法律 AI 五层工作流与 15 个 Skill/WorkBuddy 编排包，围绕接案评估、检索、事实核查、引注、证据目录、OCR 和文书编辑组织可追溯工作流。；注意：推理层 3 个 Skill 因 CC BY-NC-ND 未随仓分发，需用户自行取得并本地接线；回归测试主要是手动 checklist，本轮未发现自动化测试目录 |
 | 已索引 | - | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 套件 | 23083 | 2026-07-27 | Apache-2.0 | 仓库审阅 | ⭐官方知识工作插件集（含 legal 工作流）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 关键备选 | 大型法律 Skill 库（关键备选） | [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal) | 套件 | 8906 | 2026-07-23 | Apache-2.0 | 仓库审阅 | ⭐Anthropic 官方法律套件，80+ agent / 12 plugin / ~20 MCP |
 | 已索引 | - | [zubair-trabzada/ai-legal-claude](https://github.com/zubair-trabzada/ai-legal-claude) | 套件 | 1591 | 2026-03-27 | 未识别 | 仓库审阅 | 14 skill + 5 agent：合同/NDA/合规/谈判/PDF；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -244,7 +246,7 @@
 | 已索引 | - | [choosemoon/legal-skills](https://github.com/choosemoon/legal-skills) | 套件 | 5 | 2026-05-05 | MIT | 仓库审阅 | 💎四大法学名家 832 篇论文蒸馏的法学 AI 技能库 |
 | 已索引 | - | [gcheng001/legal-skills](https://github.com/gcheng001/legal-skills) | 套件 | 1 | 2026-07-18 | MIT | 仓库审阅 | 💎27 个 skill：民诉九步法 + 刑辩 + 文书自动化 |
 | 已索引 | - | [Hill-1024/Lawyance](https://github.com/Hill-1024/Lawyance) | MCP | 1 | 2026-07-21 | AGPL-3.0 | 仓库审阅 | 中文法律 AI 助手原型：法条/案例检索、企业信息、PDF/Word 处理、对话记忆、模拟法庭与 React/FastAPI 工作区（AGPLv3）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
-| 关键备选 | 本地法律知识库（关键备选） | [leo123-tto/legal-ai](https://github.com/leo123-tto/legal-ai) | 套件 | 1 | 2026-05-23 | MIT | 仓库审阅 | 💎刘成律师·本地法律知识库增强包：legal-kb + 元典检索 + MinerU OCR + ZIP 导入导出，共享给法律人使用（MIT，法律元力工具包） |
+| 已索引 | - | [leo123-tto/legal-ai](https://github.com/leo123-tto/legal-ai) | 套件 | 1 | 2026-05-23 | MIT | 仓库审阅 | 💎刘成律师·本地法律知识库增强包：legal-kb + 元典检索 + MinerU OCR + ZIP 导入导出，共享给法律人使用（MIT，法律元力工具包） |
 | 已索引 | - | [sealawyer2026/ai-legal-standard-v2](https://github.com/sealawyer2026/ai-legal-standard-v2) | 套件 | 0 | 2026-03-30 | MIT | 仓库审阅 | 综合套件相关开源项目；旧版 README 未单独展示，待能力页说明。 |
 
 <a id="litigation"></a>
@@ -311,6 +313,8 @@
 
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
+| 已索引 | - | [shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills](https://github.com/shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills) | 套件 | 3 | 2026-08-10 | 未识别 | 测试通过 | Hermes/Codex 中国法学研究 Skill 包，覆盖 legal-research-wiki、legal-wiki-audit-repair 和 chinese-law-paper-writing，并含更新器、脚本安全测试和 DOCX 脚注工具。；注意：偏法学研究/论文写作和 Obsidian Wiki，不适用于直接生成客户法律意见或诉讼策略；GitHub API 未识别 root license；子技能目录含 MIT LICENSE，但整体复制、修改或分发前仍需按仓库原文核验 |
+| 已索引 | - | [lexchang53/Legal-Pleading-Suite](https://github.com/lexchang53/Legal-Pleading-Suite) | 套件 | 9 | 2026-08-11 | NOASSERTION | Smoke 通过 | 台湾法律实务诉讼书状、法律意见、表格、DOCX/ODT、NotebookLM 和 twlegalrag 引用校验 Skill 套件，含真实 Python 排版与校验脚本。；注意：台湾法域，不适合作为中国大陆法主线工具；根许可证为 CC BY-NC-SA 4.0，禁止按可商用工具宣传或嵌入收费产品/SaaS 前直接复用 |
 | 已索引 | - | [Open-Source-Legal/OpenContracts](https://github.com/Open-Source-Legal/OpenContracts) | 资源 | 1410 | 2026-07-26 | MIT | 元数据核验 | 法律资源导航相关开源项目；旧版 README 未单独展示，待能力页说明。 |
 | 已索引 | - | [pengxiao-song/awesome-chinese-legal-resources](https://github.com/pengxiao-song/awesome-chinese-legal-resources) | Skill | 992 | 2023-06-20 | 未识别 | 元数据核验 | 中文法律资源总集；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [lawve-ai/awesome-legal-skills](https://github.com/lawve-ai/awesome-legal-skills) | Skill | 599 | 2026-06-22 | NOASSERTION | 元数据核验 | 法律 Skill 索引；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |

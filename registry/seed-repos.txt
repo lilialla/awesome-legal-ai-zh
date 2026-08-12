@@ -145,10 +145,12 @@ lawglance/lawglance	intl-tools
 LawRefBook/Laws	labor-family-personal
 lawve-ai/awesome-legal-skills	awesome
 Lawyer-ray/FachuanHybridSystem	law-firm-mgmt
+lawyerllsx-dotcom/Legal-Workflow-Chain	skill-suite
 LegalQuants/lq-ai	intl-tools
 legalskill/legalskill	skill-suite
 leo123-tto/case-board	law-firm-mgmt
 leo123-tto/legal-ai	skill-suite
+lexchang53/Legal-Pleading-Suite	intl-tools
 LianXU-321/china-outbound-service-dpa-bilingual	data-compliance
 lilialla/equity-transfer-review-skill	corp-finance-ma-dd
 lilialla/legal-document-format-skill	contract-doc-ip
@@ -232,6 +234,7 @@ SciPhi-AI/R2R	tech-foundation
 sealawyer2026/ai-legal-standard-v2	skill-suite
 SEC-API-io/sec-api-python	corp-finance-ma-dd
 SenryLee/rule-harness	contract-doc-ip
+shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills	dataset-infra
 siat-nlp/HanFei	llm
 SimbaCD/html-slides-studio	ppt-assets
 SimbaCD/legal-period-manager-skills	criminal-admin-exec
@@ -264,6 +267,7 @@ TracyWang95/DataInfra-Agentic-Contract-Filler-Skill	contract-doc-ip
 TracyWang95/DataInfra-RedactionEverything	data-compliance
 TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening	cross-border-arbitration
 TracyWang95/legal-prompts-for-gpt	skill-suite
+Tsinglaw/AnyDocsMarked	retrieval-mcp
 tyc-tech/mcp-skills	enterprise-check
 Vaquill-AI/awesome-legaltech	awesome
 VectifyAI/PageIndex	tech-foundation

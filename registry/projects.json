@@ -6453,6 +6453,61 @@
       "legacy_category": "law-firm-mgmt"
     },
     {
+      "id": "lawyerllsx-dotcom/Legal-Workflow-Chain",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/lawyerllsx-dotcom/Legal-Workflow-Chain",
+      "name": "Legal-Workflow-Chain",
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "starter-suites",
+      "capabilities": [
+        "starter-suites",
+        "legal-research",
+        "litigation",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国大陆法律 AI 五层工作流与 15 个 Skill/WorkBuddy 编排包，围绕接案评估、检索、事实核查、引注、证据目录、OCR 和文书编辑组织可追溯工作流。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "可选威科 API",
+          "可选 Obsidian"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "作为法律工作流链和 Skill 编排方法论有实际参考价值，能帮助把复杂案件分析拆成可复核步骤；但不是开箱即用的完整法律 Agent。",
+      "cautions": [
+        "推理层 3 个 Skill 因 CC BY-NC-ND 未随仓分发，需用户自行取得并本地接线",
+        "回归测试主要是手动 checklist，本轮未发现自动化测试目录",
+        "含可选商业数据库/API 和本地知识库配置，使用前需核验授权、路径和数据流"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-08-12",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, LICENSE, CLAUDE.md, workflow docs and representative SKILL.md files reviewed.",
+          "Local shallow clone reviewed 111 files, 15 SKILL.md files, 0 test files and 27 code files.",
+          "Local syntax smoke passed: python3 -m compileall -q Legal-Workflow-Chain."
+        ],
+        "signals": {
+          "skill_files": 15,
+          "test_files": 0,
+          "code_files": 27,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "skill-suite"
+    },
+    {
       "id": "LegalQuants/lq-ai",
       "aliases": [],
       "source": "github",
@@ -6612,7 +6667,7 @@
         ]
       },
       "data_path": "mixed",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [],
       "relationships": [],
@@ -6632,6 +6687,63 @@
         }
       },
       "legacy_category": "skill-suite"
+    },
+    {
+      "id": "lexchang53/Legal-Pleading-Suite",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/lexchang53/Legal-Pleading-Suite",
+      "name": "Legal-Pleading-Suite",
+      "scope": "support",
+      "kind": "suite",
+      "primary_capability": "supporting-resources",
+      "capabilities": [
+        "supporting-resources",
+        "legal-documents",
+        "cross-border-arbitration"
+      ],
+      "jurisdictions": [
+        "taiwan"
+      ],
+      "summary": "台湾法律实务诉讼书状、法律意见、表格、DOCX/ODT、NotebookLM 和 twlegalrag 引用校验 Skill 套件，含真实 Python 排版与校验脚本。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "NotebookLM",
+          "LibreOffice/Word",
+          "twlegalrag"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "台湾诉讼文书和法律意见场景下有实用脚本与模板，不是玩具项目；作为涉台/域外低位资源收录，不进入大陆法首页主线。",
+      "cautions": [
+        "台湾法域，不适合作为中国大陆法主线工具",
+        "根许可证为 CC BY-NC-SA 4.0，禁止按可商用工具宣传或嵌入收费产品/SaaS 前直接复用",
+        "依赖 NotebookLM、LibreOffice/Word、twlegalrag 等外部环境，使用前需核验账号、授权和数据流",
+        "套件含 PDF 去水印工具，处理第三方材料前需核验版权、使用权限和法院/平台文件限制，不得用于绕过访问、下载或权利管理限制",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-08-12",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, LICENSE.md, representative SKILL.md files and Python scripts reviewed.",
+          "Local shallow clone reviewed 87 files, 10 SKILL.md files, 0 test files and 31 code files.",
+          "Local syntax smoke passed: python3 -m compileall -q Legal-Pleading-Suite."
+        ],
+        "signals": {
+          "skill_files": 10,
+          "test_files": 0,
+          "code_files": 31,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "intl-tools"
     },
     {
       "id": "LianXU-321/china-outbound-service-dpa-bilingual",
@@ -10264,6 +10376,61 @@
       "legacy_category": "contract-doc-ip"
     },
     {
+      "id": "shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills",
+      "name": "hermes-obsidian-legal-cssci-wiki-writing-skills",
+      "scope": "support",
+      "kind": "suite",
+      "primary_capability": "supporting-resources",
+      "capabilities": [
+        "supporting-resources",
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "Hermes/Codex 中国法学研究 Skill 包，覆盖 legal-research-wiki、legal-wiki-audit-repair 和 chinese-law-paper-writing，并含更新器、脚本安全测试和 DOCX 脚注工具。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Obsidian",
+          "Hermes Agent"
+        ]
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "适合法学研究资料库维护、CSSCI 论文写作和 Obsidian Wiki 治理，工程测试扎实；定位为研究写作低位资源，不替代律师日常合同、诉讼或法律意见工具。",
+      "cautions": [
+        "偏法学研究/论文写作和 Obsidian Wiki，不适用于直接生成客户法律意见或诉讼策略",
+        "GitHub API 未识别 root license；子技能目录含 MIT LICENSE，但整体复制、修改或分发前仍需按仓库原文核验",
+        "使用 Obsidian/Hermes 自动更新或本地 wiki 脚本前需备份并核验写入范围",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-08-12",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, bundle release metadata, three SKILL.md packages, updater, safety scripts and tests reviewed.",
+          "Local shallow clone reviewed 107 files, 3 SKILL.md files, 4 test files and 17 code files.",
+          "Local syntax smoke passed: python3 -m compileall -q hermes-obsidian-legal-cssci-wiki-writing-skills.",
+          "Local tests passed: python3 -m unittest discover -s tests -v (86 tests)."
+        ],
+        "signals": {
+          "skill_files": 3,
+          "test_files": 4,
+          "code_files": 17,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "dataset-infra"
+    },
+    {
       "id": "siat-nlp/HanFei",
       "aliases": [],
       "source": "github",
@@ -10561,53 +10728,6 @@
       "legacy_category": "cross-border-arbitration"
     },
     {
-      "id": "sublatesublate-design/opc-legal-cn",
-      "aliases": [],
-      "source": "github",
-      "url": "https://github.com/sublatesublate-design/opc-legal-cn",
-      "name": "opc-legal-cn",
-      "scope": "core",
-      "kind": "skill",
-      "primary_capability": "corporate-ma",
-      "capabilities": [
-        "corporate-ma",
-        "starter-suites"
-      ],
-      "jurisdictions": [
-        "prc"
-      ],
-      "summary": "中国大陆 OPC/互联网创业法律指引与 Agent Skill：覆盖主体选择、设立、税务、产品上线、合同、用工、融资和退出，含 procedures、data、references 和校验脚本（MIT）。",
-      "setup": {
-        "mode": "install",
-        "difficulty": "ready",
-        "services": []
-      },
-      "data_path": "local",
-      "recommendation": "indexed",
-      "selection_reason": "",
-      "cautions": [
-        "与既有一人公司法律顾问类 Skill 主题重叠，定位为创业法/OPC 细分补充"
-      ],
-      "relationships": [],
-      "source_grade": "verified",
-      "review": {
-        "depth": "tested",
-        "reviewed_at": "2026-07-25",
-        "evidence": [
-          "GitHub API metadata verified.",
-          "Repository README, release assets, recursive file tree and Skill layout reviewed.",
-          "Local validation passed: compileall, validate_data, check_completeness and validate_schemas."
-        ],
-        "signals": {
-          "skill_files": 1,
-          "test_files": 0,
-          "code_files": 11,
-          "tree_truncated": false
-        }
-      },
-      "legacy_category": "corp-finance-ma-dd"
-    },
-    {
       "id": "spartypkp/open-source-legislation",
       "aliases": [],
       "source": "github",
@@ -10746,6 +10866,53 @@
         }
       },
       "legacy_category": "law-firm-mgmt"
+    },
+    {
+      "id": "sublatesublate-design/opc-legal-cn",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/sublatesublate-design/opc-legal-cn",
+      "name": "opc-legal-cn",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "corporate-ma",
+      "capabilities": [
+        "corporate-ma",
+        "starter-suites"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国大陆 OPC/互联网创业法律指引与 Agent Skill：覆盖主体选择、设立、税务、产品上线、合同、用工、融资和退出，含 procedures、data、references 和校验脚本（MIT）。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "与既有一人公司法律顾问类 Skill 主题重叠，定位为创业法/OPC 细分补充"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-07-25",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, release assets, recursive file tree and Skill layout reviewed.",
+          "Local validation passed: compileall, validate_data, check_completeness and validate_schemas."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 11,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "corp-finance-ma-dd"
     },
     {
       "id": "sunyifeisb-art/legalwork",
@@ -11703,6 +11870,59 @@
         }
       },
       "legacy_category": "skill-suite"
+    },
+    {
+      "id": "Tsinglaw/AnyDocsMarked",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/Tsinglaw/AnyDocsMarked",
+      "name": "AnyDocsMarked",
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "法律案卷材料转 Markdown、本地 wiki/RAG 检索与闭世界问答套件，覆盖 makeitdown、rag-retriever 和 lawiki，强调逐字锚点、覆盖账本、默认本地和云 OCR/embedding 显式同意。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "可选云 OCR",
+          "可选云 Embedding"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "primary",
+      "selection_reason": "当前本地法律知识库槽缺少主推项；该仓把批量材料转换、索引、RAG、MCP/CLI 和带锚点问答组合成可落地工具链，工程边界和 release/CI 证据较完整。",
+      "cautions": [
+        "本轮为浅克隆与语法级 smoke，未安装 anydoc 等可选依赖跑完整功能测试",
+        "项目仍处 Beta/快速迭代阶段，正式案卷入库、检索质量和法律结论必须人工复核",
+        "云 OCR、云 embedding 或外部 LLM 只应在显式同意、配置 token 并核验服务条款后使用"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-08-12",
+        "evidence": [
+          "GitHub API metadata verified.",
+          "Repository README, LICENSE, SECURITY, CI/release workflows, pyproject files and key SKILL.md files reviewed.",
+          "Local shallow clone reviewed 166 files, 2 SKILL.md files, 37 test files and 88 code files.",
+          "Local syntax smoke passed: python3 -m compileall -q AnyDocsMarked."
+        ],
+        "signals": {
+          "skill_files": 2,
+          "test_files": 37,
+          "code_files": 88,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "retrieval-mcp"
     },
     {
       "id": "tyc-tech/mcp-skills",
