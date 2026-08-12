@@ -8,10 +8,11 @@
 ## 2026-08-12
 
 ### 新增
+- **LegalAISkill 公开目录线索实质补录**（+3 仓 → **313**）：按 LegalAISkill 公开索引线索、GitHub API、仓库文件和本地结构/编译/测试证据，新增 `hoangkiann-debug/PE_VC_transaction_docs_review`（★10，Apache-2.0）、`kennethkhoocy/legal-scholarship-skills`（★17，MIT）和 `shaw07x/ad-compliance-review-skill`（★0，MIT）。`PE_VC_transaction_docs_review` 作为 PE/VC 私募交易文件审查 Skill 低位收录，本地 compileall 与 10 个 unittest 通过；`legal-scholarship-skills` 作为法学研究写作 Skill 套件收录，本地 compileall 通过但未跑 pytest；`ad-compliance-review-skill` 作为中国广告合规审查 Skill 收录，无自动化测试，使用时需复核现行监管口径和特殊品类资质材料。
 - **法律案卷知识库与法律 Skill 实质审查补录**（+4 仓 → **310**）：按 GitHub API、仓库文件、浅克隆结构审阅和本地 smoke/test 证据，新增 `Tsinglaw/AnyDocsMarked`（★0，MIT）、`lawyerllsx-dotcom/Legal-Workflow-Chain`（★4，MIT）、`lexchang53/Legal-Pleading-Suite`（★9，GitHub 许可证识别 NOASSERTION，根许可证为 CC BY-NC-SA 4.0）和 `shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills`（★3，GitHub 未识别 root license）。`AnyDocsMarked` 设为“本地法律知识库”当前推荐；`Legal-Workflow-Chain` 作为法律工作流链低位补录；`Legal-Pleading-Suite` 仅作台湾法/涉台文书低位资源；`hermes-obsidian-legal-cssci-wiki-writing-skills` 作为法学研究写作与 Obsidian Wiki 治理资源。
 
 ### 修正
-- 重新生成 README、能力地图、完整索引和 seed 列表。本轮未执行全量 `refresh`：旧仓 GitHub 动态元数据仍沿用 2026-07-27 快照，新增 4 仓使用本轮 GitHub API 增量核验值。
+- 重新生成 README、能力地图、完整索引和 seed 列表。本轮未执行全量 `refresh`：旧仓 GitHub 动态元数据仍沿用 2026-07-27 快照，8 月 12 日新增仓使用本轮 GitHub API 增量核验值。
 
 ## 2026-07-27
 

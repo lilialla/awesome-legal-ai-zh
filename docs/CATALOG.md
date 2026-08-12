@@ -1,6 +1,6 @@
 # 完整项目索引
 
-> 310 个 GitHub 仓库；GitHub 元数据刷新于 2026-07-27T15:45:28Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
+> 313 个 GitHub 仓库；GitHub 元数据刷新于 2026-07-27T15:45:28Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
 
 状态：`当前推荐`、`关键备选`、`已索引`、`观察`、`退役`。License 只陈述仓库识别结果及人工提示，不构成授权意见。
 
@@ -26,6 +26,7 @@
 
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
+| 已索引 | - | [hoangkiann-debug/PE_VC_transaction_docs_review](https://github.com/hoangkiann-debug/PE_VC_transaction_docs_review) | Skill | 10 | 2026-08-10 | Apache-2.0 | 测试通过 | PE/VC 私募交易文件审查 Skill：覆盖人民币境内结构、红筹/VIE 美元结构、跨文件冲突、红线跟踪、市场条款参考和审查完成门禁。；注意：市场条款比例和 benchmark 数据为历史参考，不是法律强制标准，本轮未独立复算样本库；真实交易文件通常含高敏商业信息，使用前需确认保密边界、平台上传策略和人工律师复核 |
 | 已索引 | - | [sublatesublate-design/opc-legal-cn](https://github.com/sublatesublate-design/opc-legal-cn) | Skill | 0 | 2026-07-24 | MIT | 测试通过 | 中国大陆 OPC/互联网创业法律指引与 Agent Skill：覆盖主体选择、设立、税务、产品上线、合同、用工、融资和退出，含 procedures、data、references 和校验脚本（MIT）。；注意：与既有一人公司法律顾问类 Skill 主题重叠，定位为创业法/OPC 细分补充 |
 | 已索引 | - | [anthropics/financial-services](https://github.com/anthropics/financial-services) | 套件 | 33838 | 2026-07-22 | Apache-2.0 | 仓库审阅 | ⭐官方金融插件，PE 含 dd-checklist / dd-meeting-prep |
 | 已索引 | - | [papermark/papermark](https://github.com/papermark/papermark) | 套件 | 8835 | 2026-07-26 | NOASSERTION | 仓库审阅 | 💎开源数据室（DocSend 替代，水印/密码/逐页分析）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -126,6 +127,7 @@
 | 关键备选 | APP 个人信息保护审查（关键备选） | [Youchu-lawhub/app-compliance-review](https://github.com/Youchu-lawhub/app-compliance-review) | Skill | 3 | 2026-07-06 | NOASSERTION | 仓库审阅 | 💎游初·APP 个人信息保护合规检查：APK 静态分析、隐私政策、权限、SDK、敏感个人信息与数据出境检查（CC BY-NC-ND）；注意：scripts/material_validator.py 当前存在括号不匹配的 SyntaxError，修复前不建议作为可运行首选；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [cyontheway/word-replacer](https://github.com/cyontheway/word-replacer) | 模型 | 0 | 2026-03-08 | MIT | 仓库审阅 | Word 号码/字段批量脱敏替换 |
 | 关键备选 | DPA 数据处理协议审查（关键备选） | [LianXU-321/china-outbound-service-dpa-bilingual](https://github.com/LianXU-321/china-outbound-service-dpa-bilingual) | Skill | 0 | 2026-06-06 | Apache-2.0 | 仓库审阅 | 💎艾塔法律AI实验室·徐莲（LianXU）·出海数据处理协议：中英双语 DPA，覆盖 GDPR/UK/CCPA/PIPL 四套规则（包内 LICENSE 与 metadata 许可口径需复核） |
+| 已索引 | - | [shaw07x/ad-compliance-review-skill](https://github.com/shaw07x/ad-compliance-review-skill) | Skill | 0 | 2026-07-29 | MIT | 仓库审阅 | 中国广告合规审查 Skill：面向广告文案、落地页、直播/短视频脚本、海报和公众号内容，输出禁限项、资质证明缺口、风险分级和替代表述。；注意：纯 Markdown 指令型 Skill，无自动化测试或 CI；正式结论需复核现行广告监管规则和地方执法口径；医疗、药品、金融、教育、未成年人等特殊品类需要用户补充资质、审批和证明材料 |
 | 已索引 | - | [yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus](https://github.com/yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus) | Skill | 0 | 2026-06-16 | 未识别 | 仓库审阅 | 龚家勇律师·电商信息 AI 校对 Plus：营业执照/商标/产品资料与网店/网页逐项差异比对，辅助法务/合规核查（无 license）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 
 <a id="legal-documents"></a>
@@ -314,6 +316,7 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 已索引 | - | [shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills](https://github.com/shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills) | 套件 | 3 | 2026-08-10 | 未识别 | 测试通过 | Hermes/Codex 中国法学研究 Skill 包，覆盖 legal-research-wiki、legal-wiki-audit-repair 和 chinese-law-paper-writing，并含更新器、脚本安全测试和 DOCX 脚注工具。；注意：偏法学研究/论文写作和 Obsidian Wiki，不适用于直接生成客户法律意见或诉讼策略；GitHub API 未识别 root license；子技能目录含 MIT LICENSE，但整体复制、修改或分发前仍需按仓库原文核验 |
+| 已索引 | - | [kennethkhoocy/legal-scholarship-skills](https://github.com/kennethkhoocy/legal-scholarship-skills) | 套件 | 17 | 2026-07-22 | MIT | Smoke 通过 | 法学研究写作 Skill 套件：覆盖论文规划、文献综述、引用放置、Word/LaTeX 修订、PDF 处理和格式校对，强调预筛文献和外部文献库核验。；注意：定位是法学研究与论文写作工作流，不是律师出具客户法律意见的审查 Skill；引用放置能力依赖用户预筛文献和外部索引核验，不能直接替代人工学术核查 |
 | 已索引 | - | [lexchang53/Legal-Pleading-Suite](https://github.com/lexchang53/Legal-Pleading-Suite) | 套件 | 9 | 2026-08-11 | NOASSERTION | Smoke 通过 | 台湾法律实务诉讼书状、法律意见、表格、DOCX/ODT、NotebookLM 和 twlegalrag 引用校验 Skill 套件，含真实 Python 排版与校验脚本。；注意：台湾法域，不适合作为中国大陆法主线工具；根许可证为 CC BY-NC-SA 4.0，禁止按可商用工具宣传或嵌入收费产品/SaaS 前直接复用 |
 | 已索引 | - | [Open-Source-Legal/OpenContracts](https://github.com/Open-Source-Legal/OpenContracts) | 资源 | 1410 | 2026-07-26 | MIT | 元数据核验 | 法律资源导航相关开源项目；旧版 README 未单独展示，待能力页说明。 |
 | 已索引 | - | [pengxiao-song/awesome-chinese-legal-resources](https://github.com/pengxiao-song/awesome-chinese-legal-resources) | Skill | 992 | 2023-06-20 | 未识别 | 元数据核验 | 中文法律资源总集；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |

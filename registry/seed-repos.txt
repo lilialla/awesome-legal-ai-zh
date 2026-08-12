@@ -117,6 +117,7 @@ Hill-1024/Lawyance	skill-suite
 hisnontright/jiandawang-jicui-consultation	retrieval-mcp
 HKUDS/LightRAG	tech-foundation
 HKUDS/RAG-Anything	tech-foundation
+hoangkiann-debug/PE_VC_transaction_docs_review	corp-finance-ma-dd
 icip-cas/PPTAgent	ppt-assets
 iconoir-icons/iconoir	ppt-assets
 ikaijua/Awesome-AITools	tech-foundation
@@ -133,6 +134,7 @@ jianchang512/pyvideotrans	media-ip
 jlawyerorg/j-lawyer-org	law-firm-mgmt
 jnMetaCode/agency-agents-zh	tech-foundation
 katejianglaw/refine-legal-chinese	contract-doc-ip
+kennethkhoocy/legal-scholarship-skills	skill-suite
 kevchentw/awesome-chinese-fonts	ppt-assets
 khoj-ai/khoj	tech-foundation
 KKKKhazix/khazix-skills	media-ip
@@ -234,6 +236,7 @@ SciPhi-AI/R2R	tech-foundation
 sealawyer2026/ai-legal-standard-v2	skill-suite
 SEC-API-io/sec-api-python	corp-finance-ma-dd
 SenryLee/rule-harness	contract-doc-ip
+shaw07x/ad-compliance-review-skill	data-compliance
 shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills	dataset-infra
 siat-nlp/HanFei	llm
 SimbaCD/html-slides-studio	ppt-assets

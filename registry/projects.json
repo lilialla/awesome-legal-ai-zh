@@ -5243,6 +5243,57 @@
       "legacy_category": "tech-foundation"
     },
     {
+      "id": "hoangkiann-debug/PE_VC_transaction_docs_review",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/hoangkiann-debug/PE_VC_transaction_docs_review",
+      "name": "PE_VC_transaction_docs_review",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "corporate-ma",
+      "capabilities": [
+        "corporate-ma",
+        "contracts",
+        "cross-border-arbitration"
+      ],
+      "jurisdictions": [
+        "prc",
+        "cross_border"
+      ],
+      "summary": "PE/VC 私募交易文件审查 Skill：覆盖人民币境内结构、红筹/VIE 美元结构、跨文件冲突、红线跟踪、市场条款参考和审查完成门禁。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "市场条款比例和 benchmark 数据为历史参考，不是法律强制标准，本轮未独立复算样本库",
+        "真实交易文件通常含高敏商业信息，使用前需确认保密边界、平台上传策略和人工律师复核"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-08-12",
+        "evidence": [
+          "LegalAISkill public index found the project as a legal Skill lead; repository source then verified on GitHub.",
+          "GitHub API metadata verified: public, Apache-2.0, 10 stars, pushed 2026-08-10T20:28:37Z.",
+          "Repository README, Skill package structure, release manifest/checksum materials and GitHub Actions quality gate reviewed.",
+          "Local verification passed: python3 -m compileall -q and python3 -m unittest discover -s tests -v; 10 tests OK, 1 skipped."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 2,
+          "code_files": 27,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "corp-finance-ma-dd"
+    },
+    {
       "id": "icip-cas/PPTAgent",
       "aliases": [],
       "source": "github",
@@ -5931,6 +5982,61 @@
         }
       },
       "legacy_category": "contract-doc-ip"
+    },
+    {
+      "id": "kennethkhoocy/legal-scholarship-skills",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/kennethkhoocy/legal-scholarship-skills",
+      "name": "legal-scholarship-skills",
+      "scope": "support",
+      "kind": "suite",
+      "primary_capability": "supporting-resources",
+      "capabilities": [
+        "supporting-resources",
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "general"
+      ],
+      "summary": "法学研究写作 Skill 套件：覆盖论文规划、文献综述、引用放置、Word/LaTeX 修订、PDF 处理和格式校对，强调预筛文献和外部文献库核验。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "OpenAlex",
+          "CrossRef",
+          "optional Google Scholar",
+          "optional LaTeX/LibreOffice"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "定位是法学研究与论文写作工作流，不是律师出具客户法律意见的审查 Skill",
+        "引用放置能力依赖用户预筛文献和外部索引核验，不能直接替代人工学术核查",
+        "本机缺 pytest，未运行仓库测试套件；仅完成结构审阅和 Python 编译 smoke"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-08-12",
+        "evidence": [
+          "LegalAISkill public index found the suite as a legal scholarship lead; repository source then verified on GitHub.",
+          "GitHub API metadata verified: public, MIT, 17 stars, pushed 2026-07-22T14:10:09Z.",
+          "Repository README, 16 SKILL.md files, Word/LaTeX/PDF workflow layout and launcher/plugin structure reviewed.",
+          "Local python3 -m compileall -q passed; pytest was not available in the local Python environment, so repository tests were not run."
+        ],
+        "signals": {
+          "skill_files": 16,
+          "test_files": 96,
+          "code_files": 133,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "skill-suite"
     },
     {
       "id": "kevchentw/awesome-chinese-fonts",
@@ -10374,6 +10480,56 @@
         }
       },
       "legacy_category": "contract-doc-ip"
+    },
+    {
+      "id": "shaw07x/ad-compliance-review-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/shaw07x/ad-compliance-review-skill",
+      "name": "ad-compliance-review-skill",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "data-compliance",
+      "capabilities": [
+        "data-compliance",
+        "ip-competition",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国广告合规审查 Skill：面向广告文案、落地页、直播/短视频脚本、海报和公众号内容，输出禁限项、资质证明缺口、风险分级和替代表述。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "纯 Markdown 指令型 Skill，无自动化测试或 CI；正式结论需复核现行广告监管规则和地方执法口径",
+        "医疗、药品、金融、教育、未成年人等特殊品类需要用户补充资质、审批和证明材料"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-08-12",
+        "evidence": [
+          "LegalAISkill public index found the project as a PRC advertising compliance Skill lead; repository source then verified on GitHub.",
+          "GitHub API metadata verified: public, MIT, 0 stars, pushed 2026-07-29T03:05:34Z.",
+          "Repository README and SKILL.md reviewed, including covered material types, P-F-C framework, risk tiers and disclaimer boundaries.",
+          "Repository is instruction-only: 32 files, 1 skill file, no code files, tests or workflows found."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "data-compliance"
     },
     {
       "id": "shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills",
