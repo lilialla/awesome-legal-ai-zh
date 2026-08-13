@@ -118,6 +118,7 @@ hisnontright/jiandawang-jicui-consultation	retrieval-mcp
 HKUDS/LightRAG	tech-foundation
 HKUDS/RAG-Anything	tech-foundation
 hoangkiann-debug/PE_VC_transaction_docs_review	corp-finance-ma-dd
+hugohe3/ppt-master	ppt-assets
 icip-cas/PPTAgent	ppt-assets
 iconoir-icons/iconoir	ppt-assets
 ikaijua/Awesome-AITools	tech-foundation
@@ -271,6 +272,7 @@ TracyWang95/DataInfra-RedactionEverything	data-compliance
 TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening	cross-border-arbitration
 TracyWang95/legal-prompts-for-gpt	skill-suite
 Tsinglaw/AnyDocsMarked	retrieval-mcp
+Tsinglaw/Legal-Agent-Skills	skill-suite
 tyc-tech/mcp-skills	enterprise-check
 Vaquill-AI/awesome-legaltech	awesome
 VectifyAI/PageIndex	tech-foundation

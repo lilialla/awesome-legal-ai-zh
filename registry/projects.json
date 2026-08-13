@@ -5294,6 +5294,57 @@
       "legacy_category": "corp-finance-ma-dd"
     },
     {
+      "id": "hugohe3/ppt-master",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "name": "ppt-master",
+      "scope": "adjacent",
+      "kind": "skill",
+      "primary_capability": "adjacent-resources",
+      "capabilities": [
+        "adjacent-resources"
+      ],
+      "jurisdictions": [
+        "general"
+      ],
+      "summary": "PPT Master：面向 AI agent 的原生 PowerPoint 生成、模板填充和增强 workflow Skill，支持可编辑 PPTX、图表表格、动画和旁白，适合作为律师汇报材料制作辅助。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "account_required",
+        "services": [
+          "外部 LLM"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "非法律专用工具，不做事实、法条或案例核验；律师汇报内容仍需独立审稿",
+        "处理客户材料前需核验模型/API、图片生成、TTS、网页抓取和可选依赖的数据流与服务条款",
+        "仓库体积较大，本轮未本地 clone/test；以 GitHub API、README、LICENSE、SKILL.md 和依赖文件核验为准"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-08-13",
+        "evidence": [
+          "GitHub API metadata verified: public, MIT, 46185 stars, pushed 2026-08-13T07:23:41Z.",
+          "Repository README, LICENSE, skills/ppt-master/SKILL.md and requirements.txt reviewed.",
+          "GitHub file tree verified: 14515 paths, 1 SKILL.md file, 0 test files detected by catalog pattern, 227 code files, tree not truncated.",
+          "No local clone/test run this cycle because repository size is about 785031 KB; added as adjacent presentation Skill rather than legal reasoning tool."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 227,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "ppt-assets"
+    },
+    {
       "id": "icip-cas/PPTAgent",
       "aliases": [],
       "source": "github",
@@ -12079,6 +12130,60 @@
         }
       },
       "legacy_category": "retrieval-mcp"
+    },
+    {
+      "id": "Tsinglaw/Legal-Agent-Skills",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/Tsinglaw/Legal-Agent-Skills",
+      "name": "Legal-Agent-Skills",
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "starter-suites",
+      "capabilities": [
+        "starter-suites",
+        "contracts",
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "prc",
+        "cross_border"
+      ],
+      "summary": "清律律师事务所 Legal Agent Skills：合同审查与法律研究双 Skill，强调来源标签、防幻觉、MCP 法律库接入、真实 Word 红线和结构校验。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "account_required",
+        "services": [
+          "元典"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "",
+      "cautions": [
+        "legal-research 以可靠法律库 MCP 为硬前置；未接入时只能显式降级为带水印草稿",
+        "contract-review 可离线运行核心方法，但真实 Word 红线依赖 python-docx；正式交付仍需律师复核",
+        "第三方法律库 Token 只应写入本机 agent 配置，不应进入 skill 文件、仓库或报告正文"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-08-13",
+        "evidence": [
+          "GitHub API metadata verified: public, MIT, 1 star, pushed 2026-08-12T09:34:27Z.",
+          "Repository README, LICENSE, CI/release workflows, two SKILL.md packages, references and test files reviewed.",
+          "GitHub file tree verified: 87 paths, 2 SKILL.md files, 3 test files, 5 code files, tree not truncated.",
+          "Local verification in the 2026-08-13 scan passed both validate scripts and the pytest suite: 22 tests passed."
+        ],
+        "signals": {
+          "skill_files": 2,
+          "test_files": 3,
+          "code_files": 5,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "skill-suite"
     },
     {
       "id": "tyc-tech/mcp-skills",

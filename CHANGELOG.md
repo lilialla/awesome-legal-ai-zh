@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-08-13
+
+### 新增
+- **法律 Skill 与律师汇报辅助资源增量补录**（+2 仓 → **315**）：按 GitHub API、仓库 README、LICENSE、文件树、Skill 入口和本地/既有测试证据，新增 `Tsinglaw/Legal-Agent-Skills`（★1，MIT）和 `hugohe3/ppt-master`（★46185，MIT）。`Legal-Agent-Skills` 作为清律律师事务所发布的合同审查与法律研究双 Skill 套件收录，本地验证记录显示 2 个 validate 脚本与 22 个 pytest 通过；`ppt-master` 作为律师汇报材料制作的相邻 PPT Skill 收录，定位为原生可编辑 PowerPoint 生成、模板填充与增强工具，不作为法律分析或法条/案例核验工具。
+
+### 修正
+- 重新生成 README、能力地图、完整索引和 seed 列表。本轮未执行全量 `refresh`：旧仓 GitHub 动态元数据仍沿用 2026-07-27 快照，8 月 13 日新增仓使用本轮 GitHub API / 仓库文件增量核验值。
+
 ## 2026-08-12
 
 ### 新增

@@ -2126,6 +2126,24 @@
       "disk_kb": 432,
       "template": false
     },
+    "hugohe3/ppt-master": {
+      "accessible": true,
+      "canonical_id": "hugohe3/ppt-master",
+      "stars": 46185,
+      "pushed_at": "2026-08-13T07:23:41Z",
+      "updated_at": "2026-08-13T08:59:15Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "homepage": "https://hugohe3.github.io/ppt-master/",
+      "primary_language": "Python",
+      "disk_kb": 785031,
+      "template": false
+    },
     "icip-cas/PPTAgent": {
       "accessible": true,
       "canonical_id": "icip-cas/PPTAgent",
@@ -4873,6 +4891,24 @@
       "homepage": null,
       "primary_language": "Python",
       "disk_kb": 2336,
+      "template": false
+    },
+    "Tsinglaw/Legal-Agent-Skills": {
+      "accessible": true,
+      "canonical_id": "Tsinglaw/Legal-Agent-Skills",
+      "stars": 1,
+      "pushed_at": "2026-08-12T09:34:27Z",
+      "updated_at": "2026-08-12T09:35:21Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "disabled": false,
+      "fork": false,
+      "parent": null,
+      "default_branch": "main",
+      "description": "法律智能体通用skills，清律律师事务所官方出品。",
+      "homepage": null,
+      "primary_language": "Python",
+      "disk_kb": 385,
       "template": false
     },
     "tyc-tech/mcp-skills": {

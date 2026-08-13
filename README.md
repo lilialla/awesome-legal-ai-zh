@@ -4,7 +4,7 @@
 
 # awesome-legal-ai-zh · 法律 AI 选型指南
 
-![Indexed](https://img.shields.io/badge/完整索引-313_仓-3a5a8c) ![Reviewed](https://img.shields.io/badge/仓库审阅-181-2e8b57) ![Tasks](https://img.shields.io/badge/首页任务-20-b5462f) ![Updated](https://img.shields.io/badge/快照-2026--07--27-6b7280)
+![Indexed](https://img.shields.io/badge/完整索引-315_仓-3a5a8c) ![Reviewed](https://img.shields.io/badge/仓库审阅-183-2e8b57) ![Tasks](https://img.shields.io/badge/首页任务-20-b5462f) ![Updated](https://img.shields.io/badge/快照-2026--07--27-6b7280)
 
 **给个人律师和法务的开源法律 AI 选型入口：先看任务，再看上手门槛、数据路径、外部依赖和核验深度。**
 
@@ -25,14 +25,14 @@
 
 | 具体任务 | 当前推荐 | 关键备选 | 上手 | 数据路径 | 外部依赖 | 能力池 | 核验 | 选择理由 |
 |---|---|---|---|---|---|---:|---|---|
-| 中国律师日常套件 | [cat-xierluo/legal-skills](https://github.com/cat-xierluo/legal-skills) | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills)：中国法律任务结构完整，已有脚本级 Smoke 证据。<br>[pa1nrui1/legal-skills](https://github.com/pa1nrui1/legal-skills)：59 个中文法律 Skill，覆盖破产、刑辩、劳动和文书交付。 | 直接安装 | 本地+联网 | 元典、外部 LLM | 31 项 | 仓库审阅 | 杨卫薪律师持续维护，50 个 Skill 覆盖合同、诉讼、检索、知产和律师工作流，可单独下载。 |
-| 通用合同审查 | [cat-xierluo/contract-copilot.skill](https://github.com/cat-xierluo/contract-copilot.skill) | [nwwfewx/contract-review](https://github.com/nwwfewx/contract-review)：中国合同审查路线与结构化资料完整，Smoke 通过。<br>[Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit)：适合自行扩展审查规则和测试夹具。 | 直接安装 | 本地 | 无特定平台 | 25 项 | 测试通过 | 三层分析与四步审查流程直接交付 Word 批注/修订，6 项 DOCX 回归测试通过。 |
+| 中国律师日常套件 | [cat-xierluo/legal-skills](https://github.com/cat-xierluo/legal-skills) | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills)：中国法律任务结构完整，已有脚本级 Smoke 证据。<br>[pa1nrui1/legal-skills](https://github.com/pa1nrui1/legal-skills)：59 个中文法律 Skill，覆盖破产、刑辩、劳动和文书交付。 | 直接安装 | 本地+联网 | 元典、外部 LLM | 32 项 | 仓库审阅 | 杨卫薪律师持续维护，50 个 Skill 覆盖合同、诉讼、检索、知产和律师工作流，可单独下载。 |
+| 通用合同审查 | [cat-xierluo/contract-copilot.skill](https://github.com/cat-xierluo/contract-copilot.skill) | [nwwfewx/contract-review](https://github.com/nwwfewx/contract-review)：中国合同审查路线与结构化资料完整，Smoke 通过。<br>[Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit)：适合自行扩展审查规则和测试夹具。 | 直接安装 | 本地 | 无特定平台 | 26 项 | 测试通过 | 三层分析与四步审查流程直接交付 Word 批注/修订，6 项 DOCX 回归测试通过。 |
 | Word 法律文书排版 | [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | - | 直接安装 | 本地 | 无特定平台 | 16 项 | 测试通过 | 面向法律 Word 模板执行、内容锁定和格式门禁，67 项测试通过。 |
 | 案卷 OCR 与 PDF 解析 | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | - | 需部署 | 本地 | 无特定平台 | 16 项 | 仓库审阅 | 复杂 PDF/OCR 生态成熟，适合作为案卷解析底座。 |
 | 本地法律材料脱敏 | [moyupeng0422/legal-doc-redactor](https://github.com/moyupeng0422/legal-doc-redactor) | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything)：多格式、OCR、视觉定位和人工复核更强，548 项后端测试通过，但部署门槛高。<br>[yangyc03/yangyc-legalai-skills](https://github.com/yangyc03/yangyc-legalai-skills)：轻量本地脱敏并有 22 项法律网络/脱敏测试。 | 直接安装 | 本地 | 无特定平台 | 18 项 | 仓库审阅 | 离线 DOCX 一致替换、还原和审阅痕迹处理，个人律师上手更轻。 |
-| 中国法规检索 | [nh59yytyd5-dev/chinalaw-cli](https://github.com/nh59yytyd5-dev/chinalaw-cli) | [ZongziForu/cn-law-hub](https://github.com/ZongziForu/cn-law-hub)：法规检索与 MCP 路径轻量，33 项单元测试通过。 | 需部署 | 本地+联网 | 无特定平台 | 27 项 | 测试通过 | 本地法规 CLI/MCP、来源元数据和安装路径完整，678 项测试通过。 |
-| 中国案例库检索 | [245678000000/caselaw-mcp-server](https://github.com/245678000000/caselaw-mcp-server) | [cncases/cases](https://github.com/cncases/cases)：适合作为本地离线案例数据底座。 | 需部署 | 自托管 | 无特定平台 | 27 项 | 测试通过 | 标准 MCP 与 FastAPI 接口，mock 适配器下 57 项测试通过。 |
-| 本地法律知识库 | [Tsinglaw/AnyDocsMarked](https://github.com/Tsinglaw/AnyDocsMarked) | [Youchu-lawhub/legal-kb-builder](https://github.com/Youchu-lawhub/legal-kb-builder)：工厂化流程覆盖解析、混合检索、API 与 MCP，脚本编译通过，但尚未功能实测。 | 需部署 | 本地+联网 | 可选云 OCR、可选云 Embedding | 27 项 | Smoke 通过 | 案卷材料转 Markdown、本地 wiki/RAG 与闭世界问答形成完整链路，浅克隆语法 smoke 通过，并公开云 OCR/embedding 显式同意边界。 |
+| 中国法规检索 | [nh59yytyd5-dev/chinalaw-cli](https://github.com/nh59yytyd5-dev/chinalaw-cli) | [ZongziForu/cn-law-hub](https://github.com/ZongziForu/cn-law-hub)：法规检索与 MCP 路径轻量，33 项单元测试通过。 | 需部署 | 本地+联网 | 无特定平台 | 28 项 | 测试通过 | 本地法规 CLI/MCP、来源元数据和安装路径完整，678 项测试通过。 |
+| 中国案例库检索 | [245678000000/caselaw-mcp-server](https://github.com/245678000000/caselaw-mcp-server) | [cncases/cases](https://github.com/cncases/cases)：适合作为本地离线案例数据底座。 | 需部署 | 自托管 | 无特定平台 | 28 项 | 测试通过 | 标准 MCP 与 FastAPI 接口，mock 适配器下 57 项测试通过。 |
+| 本地法律知识库 | [Tsinglaw/AnyDocsMarked](https://github.com/Tsinglaw/AnyDocsMarked) | [Youchu-lawhub/legal-kb-builder](https://github.com/Youchu-lawhub/legal-kb-builder)：工厂化流程覆盖解析、混合检索、API 与 MCP，脚本编译通过，但尚未功能实测。 | 需部署 | 本地+联网 | 可选云 OCR、可选云 Embedding | 28 项 | Smoke 通过 | 案卷材料转 Markdown、本地 wiki/RAG 与闭世界问答形成完整链路，浅克隆语法 smoke 通过，并公开云 OCR/embedding 显式同意边界。 |
 | 民商事诉讼全流程 | [Youchu-lawhub/cn-litigation-toolkit](https://github.com/Youchu-lawhub/cn-litigation-toolkit) | [cat-xierluo/SuitAgent](https://github.com/cat-xierluo/SuitAgent)：适合需要多角色 Agent 并行分析争点、证据和攻防的用户。<br>[yxk-lawyer/litigation-prep-skill-cn](https://github.com/yxk-lawyer/litigation-prep-skill-cn)：适合公司民商事案件的请求权基础和证据清单。 | 需部署 | 本地 | 无特定平台 | 21 项 | Smoke 通过 | 23 个 Skill 覆盖从立案访谈到证据、庭审和复盘，MCP 为可选增强，脚本编译通过。 |
 | 民事请求权与鉴定式分析 | [Youchu-lawhub/gutachten-civil-case](https://github.com/Youchu-lawhub/gutachten-civil-case) | [lilialla/request-right-skill-reference](https://github.com/lilialla/request-right-skill-reference)：适合需要更轻量中国民事请求权分析参考实现的用户。 | 直接安装 | 未明确 | 无特定平台 | 21 项 | 仓库审阅 | 把德国鉴定式与中国民法典请求权基础检视结合，方法边界清晰。 |
 | 诉讼、仲裁与执行期限 | [SimbaCD/legal-period-manager-skills](https://github.com/SimbaCD/legal-period-manager-skills) | [Youchu-lawhub/cn-litigation-toolkit](https://github.com/Youchu-lawhub/cn-litigation-toolkit)：需要期限管理与全流程案件工作结合时使用。 | 需部署 | 本地 | 无特定平台 | 21 项 | 仓库审阅 | 专门处理诉讼、仲裁、执行和待办期限，与诉讼分析套件互补。 |

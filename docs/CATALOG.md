@@ -1,6 +1,6 @@
 # 完整项目索引
 
-> 313 个 GitHub 仓库；GitHub 元数据刷新于 2026-07-27T15:45:28Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
+> 315 个 GitHub 仓库；GitHub 元数据刷新于 2026-07-27T15:45:28Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
 
 状态：`当前推荐`、`关键备选`、`已索引`、`观察`、`退役`。License 只陈述仓库识别结果及人工提示，不构成授权意见。
 
@@ -224,6 +224,7 @@
 |---|---|---|---|---:|---|---|---|---|
 | 当前推荐 | 大型法律 Skill 库（当前推荐） | [zgbrenner/agentcounsel](https://github.com/zgbrenner/agentcounsel) | 套件 | 15 | 2026-07-24 | MIT | 测试通过 | 💎AI-agnostic 法律团队 skill 库：221 个 skills + matter packs / playbooks / review panels，含 CI、验证脚本与核心 unittest（MIT） |
 | 已索引 | - | [384363367-dot/legal-os](https://github.com/384363367-dot/legal-os) | 套件 | 3 | 2026-07-24 | NOASSERTION | 测试通过 | 中国法务 Legal OS：12 个可安装 Skill + 24 个模板，覆盖事项分流、合同、诉讼、证据、函件、数据核验、文件交付、质量闸门和版本治理；43 项测试通过（Apache-2.0）。；注意：仓库 LICENSE/README 标注 Apache-2.0，商用前仍应以仓库 LICENSE 原文为准；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [Tsinglaw/Legal-Agent-Skills](https://github.com/Tsinglaw/Legal-Agent-Skills) | 套件 | 1 | 2026-08-12 | MIT | 测试通过 | 清律律师事务所 Legal Agent Skills：合同审查与法律研究双 Skill，强调来源标签、防幻觉、MCP 法律库接入、真实 Word 红线和结构校验。；注意：legal-research 以可靠法律库 MCP 为硬前置；未接入时只能显式降级为带水印草稿；contract-review 可离线运行核心方法，但真实 Word 红线依赖 python-docx；正式交付仍需律师复核 |
 | 关键备选 | 本地法律材料脱敏（关键备选） | [yangyc03/yangyc-legalai-skills](https://github.com/yangyc03/yangyc-legalai-skills) | 套件 | 1 | 2026-07-26 | Apache-2.0 | 测试通过 | 💎法律 AI 插件套件：本地脱敏、法律关系网络核验、法律事项归档；本地实测 22 个 unittest 通过（Apache-2.0） |
 | 关键备选 | 中国律师日常套件（关键备选） | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills) | 套件 | 50 | 2026-07-24 | MIT | Smoke 通过 | 💎法律 AI Skills 集：北大法宝 MCP、法律事实核查、引注核验、DOCX/证据目录工作流；公开包不附第三方手册索引，严格引注全量核验需用户自备合法来源；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 已索引 | - | [lawyerllsx-dotcom/Legal-Workflow-Chain](https://github.com/lawyerllsx-dotcom/Legal-Workflow-Chain) | 套件 | 4 | 2026-08-10 | MIT | Smoke 通过 | 中国大陆法律 AI 五层工作流与 15 个 Skill/WorkBuddy 编排包，围绕接案评估、检索、事实核查、引注、证据目录、OCR 和文书编辑组织可追溯工作流。；注意：推理层 3 个 Skill 因 CC BY-NC-ND 未随仓分发，需用户自行取得并本地接线；回归测试主要是手动 checklist，本轮未发现自动化测试目录 |
@@ -340,6 +341,7 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 当前推荐 | 案卷 OCR 与 PDF 解析（当前推荐）<br>法律文书结构化 / OCR 取证台（关键备选） | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | 应用 | 75874 | 2026-07-27 | NOASSERTION | 仓库审阅 | PDF→Markdown/OCR，中文案卷首选；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Skill | 46185 | 2026-08-13 | MIT | 仓库审阅 | PPT Master：面向 AI agent 的原生 PowerPoint 生成、模板填充和增强 workflow Skill，支持可编辑 PPTX、图表表格、动画和旁白，适合作为律师汇报材料制作辅助。；注意：非法律专用工具，不做事实、法条或案例核验；律师汇报内容仍需独立审稿；处理客户材料前需核验模型/API、图片生成、TTS、网页抓取和可选依赖的数据流与服务条款 |
 | 已索引 | - | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 模型 | 169401 | 2026-07-23 | MIT | 元数据核验 | 各类文档→Markdown |
 | 已索引 | - | [f/prompts.chat](https://github.com/f/prompts.chat) | Skill | 166429 | 2026-07-27 | NOASSERTION | 元数据核验 | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [anthropics/skills](https://github.com/anthropics/skills) | Skill | 164532 | 2026-07-24 | 未识别 | 元数据核验 | 官方 Agent Skills：docx/pdf/pptx/xlsx/skill-creator；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
