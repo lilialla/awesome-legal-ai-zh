@@ -39,6 +39,7 @@ can4hou6joeng4/Trawl	contract-doc-ip
 captableinc/captable	corp-finance-ma-dd
 cat-xierluo/code2patent.skill	contract-doc-ip
 cat-xierluo/contract-copilot.skill	contract-doc-ip
+cat-xierluo/Folia	tech-foundation
 cat-xierluo/legal-skills	skill-suite
 cat-xierluo/opc-legal-counsel.skill	skill-suite
 cat-xierluo/patent-analysis.skill	contract-doc-ip
@@ -50,6 +51,8 @@ choosemoon/legal-skills	skill-suite
 chouenchieh/china-law	retrieval-mcp
 cncases/cases	retrieval-mcp
 CNIPA/PatentDatabases	awesome
+code-lawyer/AnyDocsMarked	retrieval-mcp
+code-lawyer/Legal-Agent-Skills	skill-suite
 Comfy-Org/ComfyUI	ppt-assets
 ComposioHQ/awesome-claude-skills	tech-foundation
 createrivabu/Iuris-Soft	law-firm-mgmt
@@ -62,6 +65,7 @@ CSlawyer1985/contract-review-pro	contract-doc-ip
 CSlawyer1985/excellent-judgment-doc-skill	contract-doc-ip
 CSlawyer1985/mineru-converter-skill	contract-doc-ip
 CSOAI-ORG/tax-calculator-ai-mcp	tax-bankruptcy-realestate
+cuplgjln-afk/government-procurement-skills	corp-finance-ma-dd
 cyontheway/mac-clipboard-to-md	tech-foundation
 cyontheway/pdf-watermark-tool	tech-foundation
 cyontheway/word-replacer	data-compliance
@@ -81,11 +85,14 @@ dreammis/social-auto-upload	media-ip
 duhu2000/qcc-agent-cli	enterprise-check
 duhu2000/vibe-lawyering-qcc	enterprise-check
 dungnotnull/dmca-takedown-assistant-agent-skill	contract-doc-ip
+elephantyoung/legal-morning-brief	retrieval-mcp
+Emnllawlab/legal-translation-workflow	cross-border-arbitration
 ethyca/fides	data-compliance
 ettajingruyang/PRC-merger-control-assessment	antitrust-competition
 evolsb/claude-legal-skill	skill-suite
 evolsb/legal-redline-tools	contract-doc-ip
 excalidraw/excalidraw	ppt-assets
+Eysn0130/DeepLaw	tech-foundation
 f/prompts.chat	tech-foundation
 f12336414-ship-it/labor-arbitration-skill	labor-family-personal
 fapiaoapi/invoice	tax-bankruptcy-realestate
@@ -119,6 +126,7 @@ HKUDS/LightRAG	tech-foundation
 HKUDS/RAG-Anything	tech-foundation
 hoangkiann-debug/PE_VC_transaction_docs_review	corp-finance-ma-dd
 hugohe3/ppt-master	ppt-assets
+Hylouis233/mcodeforlegal	skill-suite
 icip-cas/PPTAgent	ppt-assets
 iconoir-icons/iconoir	ppt-assets
 ikaijua/Awesome-AITools	tech-foundation
@@ -147,6 +155,7 @@ lawflow-boop/LawLink	law-firm-mgmt
 lawglance/lawglance	intl-tools
 LawRefBook/Laws	labor-family-personal
 lawve-ai/awesome-legal-skills	awesome
+Lawyeah-Tech/lawyeah	skill-suite
 Lawyer-ray/FachuanHybridSystem	law-firm-mgmt
 lawyerllsx-dotcom/Legal-Workflow-Chain	skill-suite
 LegalQuants/lq-ai	intl-tools
@@ -180,6 +189,7 @@ MAXXXXXLI/workbuddy-cn-legal-skills	skill-suite
 mem0ai/mem0	tech-foundation
 mermaid-js/mermaid	ppt-assets
 MetaGLM/LawGLM	llm
+MiaoQichuan/new-litigation-visualization	criminal-admin-exec
 microsoft/graphrag	tech-foundation
 microsoft/markitdown	tech-foundation
 Mintplex-Labs/anything-llm	tech-foundation
@@ -226,6 +236,7 @@ PKU-YuanGroup/ChatLaw	llm
 PlexPt/awesome-chatgpt-prompts-zh	tech-foundation
 PolarisRisingWar/LJP_Collection	criminal-admin-exec
 presenton/presenton	ppt-assets
+qwertyzhu/openlawkit	skill-suite
 RanKKI/LawRefBook	labor-family-personal
 reng599-sys/court-case-digest-generation	criminal-admin-exec
 Ro5s/Startup-Starter-Pack	corp-finance-ma-dd
@@ -271,8 +282,6 @@ TracyWang95/DataInfra-Agentic-Contract-Filler-Skill	contract-doc-ip
 TracyWang95/DataInfra-RedactionEverything	data-compliance
 TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening	cross-border-arbitration
 TracyWang95/legal-prompts-for-gpt	skill-suite
-Tsinglaw/AnyDocsMarked	retrieval-mcp
-Tsinglaw/Legal-Agent-Skills	skill-suite
 tyc-tech/mcp-skills	enterprise-check
 Vaquill-AI/awesome-legaltech	awesome
 VectifyAI/PageIndex	tech-foundation
@@ -289,6 +298,7 @@ xcollantes/free-stock-images-mcp	ppt-assets
 xiaodingfeng/contract-review	contract-doc-ip
 Xigua9xi/ai-legal-review-skillkit	contract-doc-ip
 xtgmf/minfadian	criminal-admin-exec
+xyl0729/weiquan-agent	labor-family-personal
 yangyc03/yangyc-legalai-skills	skill-suite
 Youchu-lawhub/app-compliance-review	data-compliance
 Youchu-lawhub/cn-litigation-toolkit	criminal-admin-exec
@@ -311,6 +321,8 @@ zh-xx/legal-assistant-skills	contract-doc-ip
 zhanglunet/qcc	enterprise-check
 zhihaiLLM/wisdomInterrogatory	llm
 zhou210712/claude-for-legal-ZH	skill-suite
+zj-ai-lab/anqi	law-firm-mgmt
+zj-ai-lab/shuanglv-legal-skills	skill-suite
 Zleap-AI/SAG	tech-foundation
 zoharbabin/due-diligence-agents	corp-finance-ma-dd
 ZongziForu/cn-law-hub	retrieval-mcp

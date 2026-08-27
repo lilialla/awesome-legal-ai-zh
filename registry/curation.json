@@ -365,7 +365,7 @@
       "homepage": true,
       "decision_basis": "比较材料解析、切分、检索、质量门禁、MCP/API 服务和本地数据路径。",
       "primary": {
-        "project": "Tsinglaw/AnyDocsMarked",
+        "project": "code-lawyer/AnyDocsMarked",
         "reason": "案卷材料转 Markdown、本地 wiki/RAG 与闭世界问答形成完整链路，浅克隆语法 smoke 通过，并公开云 OCR/embedding 显式同意边界。"
       },
       "alternatives": [

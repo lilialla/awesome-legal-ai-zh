@@ -5,6 +5,18 @@
 
 ---
 
+## 2026-08-27
+
+### 新增
+- **近两周拟推荐项目实质审查补录**（+12 仓 → **327**）：以 Skill 新颖性、相对现有目录的独特性和内容可靠性为主门槛，工程成熟度仅作辅助，新增以下经仓库文件、核心 Skill、来源边界及本地/上游验证证据复核的项目：
+  - 优先实务增量：`qwertyzhu/openlawkit`、`MiaoQichuan/new-litigation-visualization`、`cuplgjln-afk/government-procurement-skills`、`xyl0729/weiquan-agent`；分别补充原文不变 Word 批注与证据式期限、可追溯多格式诉讼可视化、政府采购全生命周期六 Skill、有限场景确定性维权应用。
+  - 低位方法与综合套件：`zj-ai-lab/shuanglv-legal-skills`、`elephantyoung/legal-morning-brief`、`Emnllawlab/legal-translation-workflow`、`Hylouis233/mcodeforlegal`、`Lawyeah-Tech/lawyeah`；其中爽律为非 OSI 专业使用许可，法律翻译为 CC BY-NC 4.0 非商用，Lawyeah 仅按 `repo_read` 低位索引，不把 1998 个原子 Skill 表述为均已完成实体法律核验。
+  - 相邻应用与技术基础：`zj-ai-lab/anqi`、`cat-xierluo/Folia`、`Eysn0130/DeepLaw`；分别定位为单律师案件工作台、Markdown/Word 交付工具和来源原生知识治理基础设施，不扩张为实体法律 Skill 或法律正确性背书。
+
+### 修正
+- 将已失效的 `Tsinglaw/AnyDocsMarked`、`Tsinglaw/Legal-Agent-Skills` canonical 地址分别迁移为 `code-lawyer/AnyDocsMarked`、`code-lawyer/Legal-Agent-Skills`，旧地址保留为 alias；`Legal-Agent-Skills` 补充当前 `document-fill` 能力和 `legal-documents` 分类。上游 README 仍出现旧 clone 地址，目录警示中明确使用新地址。
+- 重新刷新 GitHub 动态元数据并生成 README、能力地图、完整索引和 seed 列表；不纳入本轮实质审查后被列为暂缓或不建议单列的项目。
+
 ## 2026-08-13
 
 ### 新增
