@@ -189,6 +189,7 @@ MAXXXXXLI/workbuddy-cn-legal-skills	skill-suite
 mem0ai/mem0	tech-foundation
 mermaid-js/mermaid	ppt-assets
 MetaGLM/LawGLM	llm
+MiaoQichuan/mqc-female-lawyer-brandcast	media-ip
 MiaoQichuan/new-litigation-visualization	criminal-admin-exec
 microsoft/graphrag	tech-foundation
 microsoft/markitdown	tech-foundation

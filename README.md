@@ -4,7 +4,7 @@
 
 # awesome-legal-ai-zh · 法律 AI 选型指南
 
-![Indexed](https://img.shields.io/badge/完整索引-327_仓-3a5a8c) ![Reviewed](https://img.shields.io/badge/仓库审阅-195-2e8b57) ![Tasks](https://img.shields.io/badge/首页任务-25-b5462f) ![Updated](https://img.shields.io/badge/快照-2026--08--27-6b7280)
+![Indexed](https://img.shields.io/badge/完整索引-328_仓-3a5a8c) ![Reviewed](https://img.shields.io/badge/仓库审阅-196-2e8b57) ![Tasks](https://img.shields.io/badge/首页任务-25-b5462f) ![Updated](https://img.shields.io/badge/快照-2026--08--27-6b7280)
 
 **给个人律师和法务的开源法律 AI 选型入口：先看任务，再看上手门槛、数据路径、外部依赖和核验深度。**
 

@@ -8569,6 +8569,59 @@
       "legacy_category": "llm"
     },
     {
+      "id": "MiaoQichuan/mqc-female-lawyer-brandcast",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/MiaoQichuan/mqc-female-lawyer-brandcast",
+      "name": "mqc-female-lawyer-brandcast",
+      "scope": "adjacent",
+      "kind": "skill",
+      "primary_capability": "adjacent-resources",
+      "capabilities": [
+        "adjacent-resources",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "女律师 IP 法律内容工作台：内置 53 张 MIT 形象素材，将同一法律内容确定性编排为朋友圈九宫格、小红书、公众号封面与插图、方图和长图，并生成法条核实清单。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "可选法律 MCP"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "固定 IP 素材、多平台同源计划、语义选材、像素级排版守卫和法条效力/PII 检查构成律师内容传播工具的独立增量；仅按 media-ip 相邻资源低位收录。",
+      "cautions": [
+        "本项目用于律师内容传播与个人品牌图文，不提供个案法律分析，也不替代发布前的法条和执业规范复核",
+        "法律 MCP 为可选增强；未核验引用必须标 verified=false 并在交付时列入核实清单",
+        "本地当前 runner 报告 195 项检查，184 项通过、11 项因本机缺黑体而无法完成渲染；README 徽章仍写 216 checks，数量口径不一致",
+        "MIT 覆盖代码、规范、配置及 assets/characters-f 的 53 张女律师素材；assets/characters 与 assets/logo.png 仅为未开源个人 IP 的占位扩展位",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-08-27",
+        "evidence": [
+          "Repository README, SKILL.md, MIT LICENSE with split asset terms, 53-image manifest, legal verification registry, deterministic layout scripts and local test runner reviewed at commit fb5eff7c1205.",
+          "Local tests/run_checks.py reported 184/195 checks passed; all 11 failures followed the explicit missing-black-font render dependency reported by doctor.py.",
+          "Repository tree verified 149 files, one SKILL.md, one regression runner and eleven Python source files; no GitHub Actions workflow exists."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 1,
+          "code_files": 11,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "media-ip"
+    },
+    {
       "id": "MiaoQichuan/new-litigation-visualization",
       "aliases": [],
       "source": "github",

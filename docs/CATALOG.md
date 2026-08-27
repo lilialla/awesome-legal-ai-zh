@@ -1,6 +1,6 @@
 # 完整项目索引
 
-> 327 个 GitHub 仓库；GitHub 元数据刷新于 2026-08-27T03:48:16Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
+> 328 个 GitHub 仓库；GitHub 元数据刷新于 2026-08-27T04:35:18Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
 
 状态：`当前推荐`、`关键备选`、`已索引`、`观察`、`退役`。License 只陈述仓库识别结果及人工提示，不构成授权意见。
 
@@ -59,7 +59,7 @@
 | 当前推荐 | 个人维权与小额纠纷（当前推荐） | [xyl0729/weiquan-agent](https://github.com/xyl0729/weiquan-agent) | 应用 | 1 | 2026-08-19 | MIT | 测试通过 | 面向消费者与小额纠纷的九场景维权应用：法条、verdict、辖区和时效由本地规则生成，模型仅做结构化事实抽取与润色，并受白名单和引用校验约束。；注意：只覆盖租房押金、预付卡、加班工资、退换货、假货、培训退费、自动续费、装修违约和小额诉讼九类场景，不是通用法律助手；生产部署依赖 DeepSeek、邮件验证码、PostgreSQL 和可选 OSS；真实材料外发与保留边界须另行确认 |
 | 当前推荐 | 住宅租赁合同审查（当前推荐） | [oydxxx/tenant-contract-review-cn](https://github.com/oydxxx/tenant-contract-review-cn) | Skill | 0 | 2026-07-20 | MIT | 测试通过 | 中国大陆住宅租赁合同审查 Skill：覆盖预签约风险、押金/租金/违约/转租等条款核验，74 项 unittest、validators 与 forward eval 通过。；注意：README 发布状态有漂移；GitHub 已有 v0.1.0 release，仍需以仓库实际 release 为准；输出不是律师意见；官方法规和地方规范现行性未在本轮逐条独立复核 |
 | 已索引 | - | [jerry046918/labor_rights_skills](https://github.com/jerry046918/labor_rights_skills) | Skill | 2 | 2026-08-14 | NOASSERTION | Smoke 通过 | 💎劳动权益法律顾问 Skill：大陆劳动争议结构化调查、证据采集、法条/类案检索与法律意见书生成，含录音本地 FunASR 处理（Anti-996 条件许可）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [996icu/996.ICU](https://github.com/996icu/996.ICU) | 资源 | 276784 | 2025-08-22 | NOASSERTION | 仓库审阅 | 劳动维权标志项目（加班违法论证/法条引用）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [996icu/996.ICU](https://github.com/996icu/996.ICU) | 资源 | 276785 | 2025-08-22 | NOASSERTION | 仓库审阅 | 劳动维权标志项目（加班违法论证/法条引用）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) | 应用 | 2449 | 2025-08-14 | NOASSERTION | 仓库审阅 | 法律快查 App（含婚姻/继承编）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [hellodigua/code996](https://github.com/hellodigua/code996) | 套件 | 2087 | 2026-07-31 | MIT | 仓库审阅 | 💎量化加班证据（commit 时间反推工时）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 已索引 | - | [LawRefBook/Laws](https://github.com/LawRefBook/Laws) | 数据/评测 | 1845 | 2026-06-26 | 未识别 | 仓库审阅 | 💎法律法规 MD 数据库（民法典婚姻/继承编），计算器底座；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -140,7 +140,7 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 当前推荐 | Word 法律文书排版（当前推荐） | [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | Skill | 15 | 2026-05-29 | MIT | 测试通过 | DOCX 模板执行、内容锁定、渲染校验与格式门禁 Skill。；注意：Python 3.14 下按文档执行 editable install 会因多个顶层目录导致包发现失败；单独安装测试依赖后 67 项 pytest 通过 |
-| 关键备选 | 通用合同审查（关键备选）<br>诉讼、仲裁与执行期限（关键备选） | [qwertyzhu/openlawkit](https://github.com/qwertyzhu/openlawkit) | 套件 | 1 | 2026-08-21 | Apache-2.0 | 测试通过 | 本地优先的中国法律实务双 Skill：在不改变合同正文的前提下写入 Word 原生批注，并仅依据已核实触发事实和窄规则包计算劳动仲裁、民事执行期限。；注意：v0.1 只支持普通正文段落批注锚点，表格、页眉页脚、文本框、域、修订容器和重叠锚点会主动拒绝；期限规则仅覆盖公开规则包列明的劳动仲裁和民事执行事件，其他程序不得类推 |
+| 关键备选 | 通用合同审查（关键备选）<br>诉讼、仲裁与执行期限（关键备选） | [qwertyzhu/openlawkit](https://github.com/qwertyzhu/openlawkit) | 套件 | 1 | 2026-08-27 | Apache-2.0 | 测试通过 | 本地优先的中国法律实务双 Skill：在不改变合同正文的前提下写入 Word 原生批注，并仅依据已核实触发事实和窄规则包计算劳动仲裁、民事执行期限。；注意：v0.1 只支持普通正文段落批注锚点，表格、页眉页脚、文本框、域、修订容器和重叠锚点会主动拒绝；期限规则仅覆盖公开规则包列明的劳动仲裁和民事执行事件，其他程序不得类推 |
 | 当前推荐 | 法律文书结构化 / OCR 取证台（当前推荐） | [can4hou6joeng4/Trawl](https://github.com/can4hou6joeng4/Trawl) | 应用 | 1 | 2026-07-21 | MIT | Smoke 通过 | 法律文书结构化/OCR 桌面取证台：Wails + Go + Vue，将 Word/PDF/图片抽取为表格、JSON、XLSX；前端和 gateway-worker 测试通过。；注意：扫描 PDF/图片会上传至 OCR gateway/upstream，并发送机器 ID/可选 license；不可描述为本地私有 OCR；本机无 Go，后端 Go 测试未跑；仅前端、gateway-worker 和仓库文件完成实质核验 |
 | 已索引 | - | [CSlawyer1985/excellent-judgment-doc-skill](https://github.com/CSlawyer1985/excellent-judgment-doc-skill) | Skill | 38 | 2026-02-08 | 未识别 | 仓库审阅 | 裁判文书生成 / 质量评判；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [CSlawyer1985/mineru-converter-skill](https://github.com/CSlawyer1985/mineru-converter-skill) | Skill | 36 | 2026-02-02 | 未识别 | 仓库审阅 | 合同审查与红线相关开源项目；旧版 README 未单独展示，待能力页说明。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -202,7 +202,7 @@
 
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
-| 当前推荐 | 专利交底与起草（当前推荐） | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | Skill | 5326 | 2026-08-27 | MIT | 测试通过 | 💎专利技术交底书（含🔒脱敏 + 国知局查新）；注意：8 项离线测试通过；未运行需访问国知局网站的 Playwright 联调链路 |
+| 当前推荐 | 专利交底与起草（当前推荐） | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | Skill | 5327 | 2026-08-27 | MIT | 测试通过 | 💎专利技术交底书（含🔒脱敏 + 国知局查新）；注意：8 项离线测试通过；未运行需访问国知局网站的 Playwright 联调链路 |
 | 当前推荐 | 专利侵权、无效与 FTO（当前推荐） | [yuc16/PatentRadar](https://github.com/yuc16/PatentRadar) | Skill | 57 | 2026-08-09 | 未识别 | 测试通过 | 💎专利侵权竞品分析系统：专利 claim 拆解、竞品搜索、逐特征 claim chart、证据 URL 与 PDF 报告；README 写 MIT 但缺标准 LICENSE，需自备 LLM/Search API；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 当前推荐 | 跨境版权 / DMCA 维权辅助（当前推荐） | [dungnotnull/dmca-takedown-assistant-agent-skill](https://github.com/dungnotnull/dmca-takedown-assistant-agent-skill) | Skill | 3 | 2026-07-21 | MIT | 测试通过 | 跨境版权/DMCA 证据包与通知生成 Skill：pHash/dHash 初筛、HMAC 证据封存、法域初筛，69/69 suite 与 123/123 scenarios 通过。；注意：无 GitHub Release/CI，README、SKILL 与 config 版本口径不一致；不要承接 production-ready 宣传；通知发送、平台规则、法域判断和 DMCA/版权实体适用性需人工核验；正式证据应覆盖 DMCA_CUSTODY_SECRET |
 | 当前推荐 | 软件著作权申请材料（当前推荐） | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 套件 | 5073 | 2026-07-18 | MIT | 仓库审阅 | 💎软件著作权申请材料生成 |
@@ -246,7 +246,7 @@
 | 观察 | - | [zhou210712/claude-for-legal-ZH](https://github.com/zhou210712/claude-for-legal-ZH) | 套件 | 200 | 2026-05-15 | Apache-2.0 | 仓库审阅 | 另一作者的中国法 Claude 工作层（公司/商事/IP/劳动/AI治理多域插件）；注意：与 CSlawyer1985/claude-for-legal-ZH 的大量 Skill 高度相似，来源和差异化需进一步核验；与 CSlawyer1985/claude-for-legal-ZH 及 anthropics/claude-for-legal 的大量 Skill 高度相似，来源和差异化需进一步核验 |
 | 已索引 | - | [zeweihan/aiworkdeck](https://github.com/zeweihan/aiworkdeck) | MCP | 79 | 2026-08-27 | AGPL-3.0 | 仓库审阅 | 💎AI 原生「律师版 VS Code」工作台：案件/文件树 + Agent + 插件 + WPS 在线编辑 + OCR + 证据链（AGPLv3 可私有化）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；发现自动上传或遥测描述，处理客户材料前需复核数据流 |
 | 已索引 | - | [pa1nrui1/legal-skills](https://github.com/pa1nrui1/legal-skills) | 套件 | 74 | 2026-07-03 | MIT | 仓库审阅 | 💎潘睿律师·中文法律工作 Skill 集合：59 个 SKILL.md，覆盖咨询/诉讼/刑辩/劳动/破产/合同/合规/检索/文书交付 |
-| 观察 | - | [sunyifeisb-art/legalwork](https://github.com/sunyifeisb-art/legalwork) | 套件 | 50 | 2026-08-26 | NOASSERTION | 仓库审阅 | LegalWork 本地优先法律 AI 工作台：70+ 法律技能 + 智能 OCR + 文件脱敏 + 案件管理（bytelegal.cn）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；发现自动上传或遥测描述，处理客户材料前需复核数据流 |
+| 观察 | - | [sunyifeisb-art/legalwork](https://github.com/sunyifeisb-art/legalwork) | 套件 | 50 | 2026-08-27 | NOASSERTION | 仓库审阅 | LegalWork 本地优先法律 AI 工作台：70+ 法律技能 + 智能 OCR + 文件脱敏 + 案件管理（bytelegal.cn）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；发现自动上传或遥测描述，处理客户材料前需复核数据流 |
 | 已索引 | - | [TracyWang95/AnythingButLaw](https://github.com/TracyWang95/AnythingButLaw) | Skill | 42 | 2026-04-09 | MIT | 仓库审阅 | 给律师的非法律商业分析（博弈/估值/财报） |
 | 已索引 | - | [abaiar/-LexAI](https://github.com/abaiar/-LexAI) | 套件 | 30 | 2026-06-09 | 未识别 | 仓库审阅 | 小理智法 AI 法律咨询平台：咨询/合同审查/起草/对比/文书解读，LangChain Agent + 得理法律数据库检索；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [cat-xierluo/opc-legal-counsel.skill](https://github.com/cat-xierluo/opc-legal-counsel.skill) | Skill | 14 | 2026-04-23 | NOASSERTION | 仓库审阅 | 一人公司/小微企业开源法律顾问；注意：已被 cat-xierluo/legal-skills 套件收录，独立仓保留为单独安装入口；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -351,75 +351,76 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 已索引 | - | [cat-xierluo/Folia](https://github.com/cat-xierluo/Folia) | 应用 | 8 | 2026-08-16 | Apache-2.0 | 测试通过 | 本地 Markdown/HTML 表格阅读、Word 纸张预览和 DOCX/HTML 导出桌面工具，适合作为 AI 生成法律文档的交付相邻工具，不承担法律分析。；注意：它是知识工作者桌面工具，不提供法律分析、法条核验或案件判断能力；macOS 安装包尚未 Apple Developer 公证，移除 quarantine 前应确认下载来源和校验值 |
-| 已索引 | - | [Eysn0130/DeepLaw](https://github.com/Eysn0130/DeepLaw) | 套件 | 3 | 2026-08-26 | Apache-2.0 | Smoke 通过 | 本地优先的 Agent Knowledge OS：保留 Source Revision、Fragment 与 Locator，把原始资料编译为受治理 Living Wiki，并向 Agent 返回有界、可验证的 Knowledge Capsule。；注意：DeepLaw 不是法律裁判、法律意见或现行法结论系统，不能把知识治理能力扩张为法律正确性背书；当前公开稳定口径为 0.12.0 Beta；0.13 qualification 仍是 machine_evaluation_pending 且 release_ready=false |
-| 当前推荐 | 案卷 OCR 与 PDF 解析（当前推荐）<br>法律文书结构化 / OCR 取证台（关键备选） | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | 应用 | 78567 | 2026-08-27 | NOASSERTION | 仓库审阅 | PDF→Markdown/OCR，中文案卷首选；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Skill | 49658 | 2026-08-27 | MIT | 仓库审阅 | PPT Master：面向 AI agent 的原生 PowerPoint 生成、模板填充和增强 workflow Skill，支持可编辑 PPTX、图表表格、动画和旁白，适合作为律师汇报材料制作辅助。；注意：非法律专用工具，不做事实、法条或案例核验；律师汇报内容仍需独立审稿；处理客户材料前需核验模型/API、图片生成、TTS、网页抓取和可选依赖的数据流与服务条款 |
-| 已索引 | - | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 模型 | 176513 | 2026-08-19 | MIT | 元数据核验 | 各类文档→Markdown |
-| 已索引 | - | [anthropics/skills](https://github.com/anthropics/skills) | Skill | 171878 | 2026-08-21 | 未识别 | 元数据核验 | 官方 Agent Skills：docx/pdf/pptx/xlsx/skill-creator；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [f/prompts.chat](https://github.com/f/prompts.chat) | Skill | 168007 | 2026-08-26 | NOASSERTION | 元数据核验 | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 资源 | 130595 | 2026-08-27 | MIT | 元数据核验 | 手绘白板 |
-| 已索引 | - | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | MCP | 130177 | 2026-08-27 | GPL-3.0 | 元数据核验 | 节点式出图 |
+| 已索引 | - | [MiaoQichuan/mqc-female-lawyer-brandcast](https://github.com/MiaoQichuan/mqc-female-lawyer-brandcast) | Skill | 4 | 2026-08-10 | NOASSERTION | Smoke 通过 | 女律师 IP 法律内容工作台：内置 53 张 MIT 形象素材，将同一法律内容确定性编排为朋友圈九宫格、小红书、公众号封面与插图、方图和长图，并生成法条核实清单。；注意：本项目用于律师内容传播与个人品牌图文，不提供个案法律分析，也不替代发布前的法条和执业规范复核；法律 MCP 为可选增强；未核验引用必须标 verified=false 并在交付时列入核实清单 |
+| 已索引 | - | [Eysn0130/DeepLaw](https://github.com/Eysn0130/DeepLaw) | 套件 | 3 | 2026-08-27 | Apache-2.0 | Smoke 通过 | 本地优先的 Agent Knowledge OS：保留 Source Revision、Fragment 与 Locator，把原始资料编译为受治理 Living Wiki，并向 Agent 返回有界、可验证的 Knowledge Capsule。；注意：DeepLaw 不是法律裁判、法律意见或现行法结论系统，不能把知识治理能力扩张为法律正确性背书；当前公开稳定口径为 0.12.0 Beta；0.13 qualification 仍是 machine_evaluation_pending 且 release_ready=false |
+| 当前推荐 | 案卷 OCR 与 PDF 解析（当前推荐）<br>法律文书结构化 / OCR 取证台（关键备选） | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | 应用 | 78569 | 2026-08-27 | NOASSERTION | 仓库审阅 | PDF→Markdown/OCR，中文案卷首选；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Skill | 49660 | 2026-08-27 | MIT | 仓库审阅 | PPT Master：面向 AI agent 的原生 PowerPoint 生成、模板填充和增强 workflow Skill，支持可编辑 PPTX、图表表格、动画和旁白，适合作为律师汇报材料制作辅助。；注意：非法律专用工具，不做事实、法条或案例核验；律师汇报内容仍需独立审稿；处理客户材料前需核验模型/API、图片生成、TTS、网页抓取和可选依赖的数据流与服务条款 |
+| 已索引 | - | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 模型 | 176516 | 2026-08-19 | MIT | 元数据核验 | 各类文档→Markdown |
+| 已索引 | - | [anthropics/skills](https://github.com/anthropics/skills) | Skill | 171884 | 2026-08-21 | 未识别 | 元数据核验 | 官方 Agent Skills：docx/pdf/pptx/xlsx/skill-creator；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [f/prompts.chat](https://github.com/f/prompts.chat) | Skill | 168011 | 2026-08-26 | NOASSERTION | 元数据核验 | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 资源 | 130599 | 2026-08-27 | MIT | 元数据核验 | 手绘白板 |
+| 已索引 | - | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | MCP | 130182 | 2026-08-27 | GPL-3.0 | 元数据核验 | 节点式出图 |
 | 已索引 | - | [d3/d3](https://github.com/d3/d3) | 资源 | 113563 | 2026-05-28 | ISC | 元数据核验 | Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada: |
-| 已索引 | - | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 套件 | 91833 | 2026-08-27 | Apache-2.0 | 元数据核验 | Open Design ——本地优先的开源 Claude Design 替代 |
+| 已索引 | - | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 套件 | 91838 | 2026-08-27 | Apache-2.0 | 元数据核验 | Open Design ——本地优先的开源 Claude Design 替代 |
 | 已索引 | - | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | 资源 | 89959 | 2026-08-26 | MIT | 元数据核验 | 文本生成流程图/时序图 |
-| 已索引 | - | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Skill | 89338 | 2026-08-27 | Apache-2.0 | 元数据核验 | 深度文档理解 RAG |
+| 已索引 | - | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Skill | 89342 | 2026-08-27 | Apache-2.0 | 元数据核验 | 深度文档理解 RAG |
 | 已索引 | - | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 模型 | 88318 | 2026-07-22 | Apache-2.0 | 元数据核验 | PP-OCR/文档解析/表格与版面识别，100+ 语言 |
-| 已索引 | - | [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | Skill | 77809 | 2026-03-11 | MIT | 元数据核验 | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. |
-| 已索引 | - | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Skill | 73377 | 2026-08-10 | 未识别 | 元数据核验 | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | MCP | 72203 | 2026-08-24 | MIT | 元数据核验 | HTML 演示 |
+| 已索引 | - | [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | Skill | 77808 | 2026-03-11 | MIT | 元数据核验 | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. |
+| 已索引 | - | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Skill | 73379 | 2026-08-10 | 未识别 | 元数据核验 | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | MCP | 72204 | 2026-08-24 | MIT | 元数据核验 | HTML 演示 |
 | 已索引 | - | [chartjs/Chart.js](https://github.com/chartjs/Chart.js) | 资源 | 67666 | 2026-05-27 | MIT | 元数据核验 | Simple HTML5 Charts using the &lt;canvas&gt; tag |
 | 已索引 | - | [apache/echarts](https://github.com/apache/echarts) | 资源 | 67154 | 2026-08-04 | Apache-2.0 | 元数据核验 | Apache ECharts is a powerful, interactive charting and data visualization library for browser |
-| 已索引 | - | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | Skill | 65261 | 2026-08-27 | MIT | 元数据核验 | 开箱即用本地知识库 |
-| 已索引 | - | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Skill | 64142 | 2026-08-26 | Apache-2.0 | 元数据核验 | AI Agent 通用长期记忆层 |
-| 已索引 | - | [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) | Skill | 61834 | 2026-04-28 | MIT | 元数据核验 | ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 |
-| 已索引 | - | [penpot/penpot](https://github.com/penpot/penpot) | 套件 | 59225 | 2026-08-26 | MPL-2.0 | 元数据核验 | 开源 Figma，设计协作 |
+| 已索引 | - | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | Skill | 65262 | 2026-08-27 | MIT | 元数据核验 | 开箱即用本地知识库 |
+| 已索引 | - | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Skill | 64146 | 2026-08-26 | Apache-2.0 | 元数据核验 | AI Agent 通用长期记忆层 |
+| 已索引 | - | [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) | Skill | 61835 | 2026-04-28 | MIT | 元数据核验 | ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 |
+| 已索引 | - | [penpot/penpot](https://github.com/penpot/penpot) | 套件 | 59227 | 2026-08-26 | MPL-2.0 | 元数据核验 | 开源 Figma，设计协作 |
 | 已索引 | - | [slidevjs/slidev](https://github.com/slidevjs/slidev) | MCP | 48287 | 2026-08-25 | MIT | 元数据核验 | MD 演示 |
 | 已索引 | - | [2noise/ChatTTS](https://github.com/2noise/ChatTTS) | 资源 | 39796 | 2026-04-10 | AGPL-3.0 | 元数据核验 | 对话 TTS |
-| 已索引 | - | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | Skill | 39206 | 2026-08-26 | MIT | 元数据核验 | 轻量知识图谱 RAG |
-| 已索引 | - | [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | Skill | 37801 | 2026-03-01 | 未识别 | 元数据核验 | 官方互动教程；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Skill | 36731 | 2026-08-02 | AGPL-3.0 | 元数据核验 | 自托管 AI second brain / 本地文档问答，AGPLv3 |
+| 已索引 | - | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | Skill | 39207 | 2026-08-26 | MIT | 元数据核验 | 轻量知识图谱 RAG |
+| 已索引 | - | [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | Skill | 37800 | 2026-03-01 | 未识别 | 元数据核验 | 官方互动教程；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Skill | 36732 | 2026-08-02 | AGPL-3.0 | 元数据核验 | 自托管 AI second brain / 本地文档问答，AGPLv3 |
 | 已索引 | - | [microsoft/graphrag](https://github.com/microsoft/graphrag) | Skill | 35701 | 2026-08-24 | MIT | 元数据核验 | 微软模块化 GraphRAG |
 | 已索引 | - | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 数据/评测 | 35333 | 2026-08-26 | MIT | 元数据核验 | Vectorless reasoning-based RAG 文档索引 |
-| 已索引 | - | [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 应用 | 33284 | 2026-08-08 | NOASSERTION | 元数据核验 | 📚 从零开始构建大模型；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 应用 | 33285 | 2026-08-08 | NOASSERTION | 元数据核验 | 📚 从零开始构建大模型；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | 资源 | 32415 | 2026-08-22 | NOASSERTION | 元数据核验 | TTS 声音克隆；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [getzep/graphiti](https://github.com/getzep/graphiti) | Skill | 30328 | 2026-08-26 | Apache-2.0 | 元数据核验 | 实时知识图谱记忆，面向 AI Agent |
-| 已索引 | - | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | 套件 | 26564 | 2026-08-25 | Apache-2.0 | 元数据核验 | 「设计师版 Cursor」，AI 可视化设计转代码 |
-| 已索引 | - | [black-forest-labs/flux](https://github.com/black-forest-labs/flux) | MCP | 25913 | 2025-07-31 | Apache-2.0 | 元数据核验 | FLUX 文生图；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
+| 已索引 | - | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | 套件 | 26565 | 2026-08-25 | Apache-2.0 | 元数据核验 | 「设计师版 Cursor」，AI 可视化设计转代码 |
+| 已索引 | - | [black-forest-labs/flux](https://github.com/black-forest-labs/flux) | MCP | 25914 | 2025-07-31 | Apache-2.0 | 元数据核验 | FLUX 文生图；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
 | 已索引 | - | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | Skill | 25044 | 2026-08-26 | MIT | 元数据核验 | 330+ skills 含 compliance/finance |
-| 已索引 | - | [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | Skill | 24968 | 2026-08-07 | AGPL-3.0 | 元数据核验 | AI 生成 HTML 幻灯片 |
+| 已索引 | - | [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | Skill | 24970 | 2026-08-07 | AGPL-3.0 | 元数据核验 | AI 生成 HTML 幻灯片 |
 | 已索引 | - | [datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook) | 应用 | 24592 | 2025-06-12 | 未识别 | 元数据核验 | 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 模型 | 24573 | 2026-07-29 | MIT | 元数据核验 | 长文档 one-shot OCR，OmniDocBench SOTA，模型/代码已开源 |
-| 已索引 | - | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | 资源 | 24190 | 2026-08-26 | NOASSERTION | 元数据核验 | Beautiful &amp; consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 模型 | 24575 | 2026-07-29 | MIT | 元数据核验 | 长文档 one-shot OCR，OmniDocBench SOTA，模型/代码已开源 |
+| 已索引 | - | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | 资源 | 24192 | 2026-08-26 | NOASSERTION | 元数据核验 | Beautiful &amp; consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) | 模型 | 23855 | 2026-01-27 | MIT | 元数据核验 | 视觉文本压缩 OCR，长文档解析底座 |
 | 已索引 | - | [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) | 资源 | 23765 | 2026-05-12 | MIT | 元数据核验 | A set of free MIT-licensed high-quality SVG icons for UI development. |
-| 已索引 | - | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | 数据/评测 | 23081 | 2026-08-20 | MIT | 元数据核验 | 港大 all-in-one RAG 框架 |
-| 已索引 | - | [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | 资源 | 22927 | 2026-05-25 | Apache-2.0 | 元数据核验 | 阿里多语言 TTS |
+| 已索引 | - | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | 数据/评测 | 23080 | 2026-08-20 | MIT | 元数据核验 | 港大 all-in-one RAG 框架 |
+| 已索引 | - | [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | 资源 | 22928 | 2026-05-25 | Apache-2.0 | 元数据核验 | 阿里多语言 TTS |
 | 已索引 | - | [AiHubCN/Awesome-Chinese-LLM](https://github.com/AiHubCN/Awesome-Chinese-LLM) | 应用 | 22752 | 2026-05-10 | 未识别 | 元数据核验 | 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [anthropics/courses](https://github.com/anthropics/courses) | Skill | 22699 | 2025-11-13 | NOASSERTION | 元数据核验 | 官方课程；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [anthropics/courses](https://github.com/anthropics/courses) | Skill | 22698 | 2025-11-13 | NOASSERTION | 元数据核验 | 官方课程；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [tabler/tabler-icons](https://github.com/tabler/tabler-icons) | 资源 | 21511 | 2026-08-24 | MIT | 元数据核验 | A set of over 6000 free MIT-licensed high-quality SVG icons for you to use in your web projects. |
 | 已索引 | - | [google/fonts](https://github.com/google/fonts) | 资源 | 20411 | 2026-08-26 | 未识别 | 元数据核验 | Font files available from Google Fonts, and a public issue tracker for all things Google Fonts；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) | Skill | 20105 | 2026-08-16 | MIT | 元数据核验 | 卡兹克 AI Skills 合集 |
-| 已索引 | - | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Skill | 19964 | 2026-08-26 | MIT | 元数据核验 | 211 中文专家角色 |
-| 已索引 | - | [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 应用 | 19200 | 2026-08-21 | 未识别 | 元数据核验 | 鱼皮 AI 上手；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) | 资源 | 18812 | 2026-08-26 | GPL-3.0 | 元数据核验 | 视频翻译配音 |
+| 已索引 | - | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) | Skill | 20108 | 2026-08-16 | MIT | 元数据核验 | 卡兹克 AI Skills 合集 |
+| 已索引 | - | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Skill | 19965 | 2026-08-26 | MIT | 元数据核验 | 211 中文专家角色 |
+| 已索引 | - | [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 应用 | 19202 | 2026-08-21 | 未识别 | 元数据核验 | 鱼皮 AI 上手；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) | 资源 | 18813 | 2026-08-26 | GPL-3.0 | 元数据核验 | 视频翻译配音 |
 | 已索引 | - | [adobe-fonts/source-han-sans](https://github.com/adobe-fonts/source-han-sans) | 资源 | 17133 | 2025-06-25 | NOASSERTION | 元数据核验 | 思源黑体；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) | Skill | 16840 | 2026-08-25 | NOASSERTION | 元数据核验 | 本地文档自动维护互链 Wiki，GPLv3；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) | Skill | 16132 | 2026-01-19 | MIT | 元数据核验 | 去 AI 味（汉化版） |
-| 已索引 | - | [WEIFENG2333/VideoCaptioner](https://github.com/WEIFENG2333/VideoCaptioner) | 资源 | 15764 | 2026-07-19 | GPL-3.0 | 元数据核验 | 智能字幕 |
+| 已索引 | - | [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) | Skill | 16847 | 2026-08-25 | NOASSERTION | 元数据核验 | 本地文档自动维护互链 Wiki，GPLv3；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) | Skill | 16133 | 2026-01-19 | MIT | 元数据核验 | 去 AI 味（汉化版） |
+| 已索引 | - | [WEIFENG2333/VideoCaptioner](https://github.com/WEIFENG2333/VideoCaptioner) | 资源 | 15766 | 2026-07-19 | GPL-3.0 | 元数据核验 | 智能字幕 |
 | 已索引 | - | [dreammis/social-auto-upload](https://github.com/dreammis/social-auto-upload) | 套件 | 14595 | 2026-08-19 | MIT | 元数据核验 | 抖音/小红书/视频号自动发 |
-| 已索引 | - | [vercel/satori](https://github.com/vercel/satori) | MCP | 13858 | 2026-08-24 | MPL-2.0 | 元数据核验 | HTML→封面图 |
+| 已索引 | - | [vercel/satori](https://github.com/vercel/satori) | MCP | 13859 | 2026-08-24 | MPL-2.0 | 元数据核验 | HTML→封面图 |
 | 已索引 | - | [doocs/md](https://github.com/doocs/md) | 套件 | 13246 | 2026-08-25 | WTFPL | 元数据核验 | 公众号 MD 编辑器 |
-| 已索引 | - | [presenton/presenton](https://github.com/presenton/presenton) | MCP | 9868 | 2026-08-26 | Apache-2.0 | 元数据核验 | AI 生成演示 |
+| 已索引 | - | [presenton/presenton](https://github.com/presenton/presenton) | MCP | 9869 | 2026-08-26 | Apache-2.0 | 元数据核验 | AI 生成演示 |
 | 已索引 | - | [adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif) | 资源 | 9647 | 2024-07-30 | NOASSERTION | 元数据核验 | 思源宋体；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) | MCP | 9277 | 2026-08-16 | AGPL-3.0 | 元数据核验 | 在线 PPT 编辑 |
+| 已索引 | - | [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) | MCP | 9276 | 2026-08-16 | AGPL-3.0 | 元数据核验 | 在线 PPT 编辑 |
 | 已索引 | - | [lipku/LiveTalking](https://github.com/lipku/LiveTalking) | 资源 | 9242 | 2026-08-20 | Apache-2.0 | 元数据核验 | 实时数字人 |
 | 已索引 | - | [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) | 数据/评测 | 7978 | 2025-11-07 | MIT | 元数据核验 | 生产级 Agentic RAG / REST API |
-| 已索引 | - | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | Skill | 7381 | 2026-08-05 | MIT | 元数据核验 | 长文 SEO 内容研究、写作和优化工作区。 |
+| 已索引 | - | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | Skill | 7380 | 2026-08-05 | MIT | 元数据核验 | 长文 SEO 内容研究、写作和优化工作区。 |
 | 已索引 | - | [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) | Skill | 6640 | 2026-07-01 | AGPL-3.0 | 元数据核验 | 小红书 3:4 配图卡片 |
 | 已索引 | - | [op7418/CodePilot](https://github.com/op7418/CodePilot) | 应用 | 6421 | 2026-08-26 | NOASSERTION | 元数据核验 | 多模型 AI agent 桌面端；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [langgptai/wonderful-prompts](https://github.com/langgptai/wonderful-prompts) | Skill | 6270 | 2026-08-25 | MIT | 元数据核验 | 🔥中文 prompt 精选🔥，ChatGPT 使用指南，提升 ChatGPT 可玩性和可用性！🚀 |
-| 已索引 | - | [wechatsync/Wechatsync](https://github.com/wechatsync/Wechatsync) | 套件 | 6236 | 2026-05-27 | GPL-3.0 | 元数据核验 | 同步 29+ 平台 |
-| 已索引 | - | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | 应用 | 6153 | 2026-08-26 | 未识别 | 元数据核验 | AI 工具导航；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [wechatsync/Wechatsync](https://github.com/wechatsync/Wechatsync) | 套件 | 6237 | 2026-05-27 | GPL-3.0 | 元数据核验 | 同步 29+ 平台 |
+| 已索引 | - | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | 应用 | 6153 | 2026-08-27 | 未识别 | 元数据核验 | AI 工具导航；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [gitbrent/PptxGenJS](https://github.com/gitbrent/PptxGenJS) | MCP | 6075 | 2025-11-28 | MIT | 元数据核验 | JS 生成 PPTX |
 | 已索引 | - | [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor) | 资源 | 5080 | 2026-08-25 | Unlicense | 元数据核验 | 自动剪辑 |
 | 已索引 | - | [icip-cas/PPTAgent](https://github.com/icip-cas/PPTAgent) | MCP | 4955 | 2026-08-24 | MIT | 元数据核验 | Agent 化 PPT |
@@ -427,7 +428,7 @@
 | 已索引 | - | [iconoir-icons/iconoir](https://github.com/iconoir-icons/iconoir) | 资源 | 4530 | 2026-08-12 | MIT | 元数据核验 | 支持多个前端框架和设计工具的开源图标库。 |
 | 已索引 | - | [notofonts/noto-cjk](https://github.com/notofonts/noto-cjk) | 资源 | 4028 | 2025-12-16 | 未识别 | 元数据核验 | Google Noto 中日韩开源字体资源。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [marp-team/marp-cli](https://github.com/marp-team/marp-cli) | MCP | 3783 | 2026-07-20 | MIT | 元数据核验 | MD→PPTX |
-| 已索引 | - | [geekjourneyx/md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) | 套件 | 3595 | 2026-08-24 | NOASSERTION | 元数据核验 | Markdown 到微信公众号的排版与发布 CLI。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [geekjourneyx/md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) | 套件 | 3597 | 2026-08-24 | NOASSERTION | 元数据核验 | Markdown 到微信公众号的排版与发布 CLI。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [scanny/python-pptx](https://github.com/scanny/python-pptx) | MCP | 3502 | 2024-08-07 | MIT | 元数据核验 | Python 生成 PPTX；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
 | 已索引 | - | [SamurAIGPT/llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent) | Skill | 3460 | 2026-08-24 | MIT | 元数据核验 | Claude/Codex/Gemini 维护 Markdown Wiki 知识库 |
 | 已索引 | - | [op7418/NanoBanana-PPT-Skills](https://github.com/op7418/NanoBanana-PPT-Skills) | Skill | 3218 | 2026-01-19 | 未识别 | 元数据核验 | AI PPT 图片/视频；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -438,7 +439,7 @@
 | 已索引 | - | [op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) | Skill | 1983 | 2026-04-15 | 未识别 | 元数据核验 | Logo 生成；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 退役 | - | [GongRzhe/Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | MCP | 1853 | 2025-12-31 | MIT | 元数据核验 | MCP；已归档但可用；注意：仓库已归档，仅作历史索引 |
 | 已索引 | - | [jdecked/twemoji](https://github.com/jdecked/twemoji) | 资源 | 1784 | 2026-06-01 | MIT | 元数据核验 | emoji |
-| 已索引 | - | [neo4j/neo4j-graphrag-python](https://github.com/neo4j/neo4j-graphrag-python) | Skill | 1263 | 2026-08-26 | NOASSERTION | 元数据核验 | Neo4j Python GraphRAG SDK；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [neo4j/neo4j-graphrag-python](https://github.com/neo4j/neo4j-graphrag-python) | Skill | 1264 | 2026-08-26 | NOASSERTION | 元数据核验 | Neo4j Python GraphRAG SDK；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [laolaoshiren/claude-code-skills-zh](https://github.com/laolaoshiren/claude-code-skills-zh) | Skill | 797 | 2026-08-25 | MIT | 元数据核验 | 中文 Claude skills 100+ |
 | 已索引 | - | [op7418/Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) | Skill | 582 | 2026-01-21 | MIT | 元数据核验 | 文档自动配图（16:9/3:4） |
 | 已索引 | - | [aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | Skill | 170 | 2026-07-13 | Apache-2.0 | 元数据核验 | 20 个 SEO/GEO skill |

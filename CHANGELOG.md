@@ -12,6 +12,7 @@
   - 优先实务增量：`qwertyzhu/openlawkit`、`MiaoQichuan/new-litigation-visualization`、`cuplgjln-afk/government-procurement-skills`、`xyl0729/weiquan-agent`；分别补充原文不变 Word 批注与证据式期限、可追溯多格式诉讼可视化、政府采购全生命周期六 Skill、有限场景确定性维权应用。
   - 低位方法与综合套件：`zj-ai-lab/shuanglv-legal-skills`、`elephantyoung/legal-morning-brief`、`Emnllawlab/legal-translation-workflow`、`Hylouis233/mcodeforlegal`、`Lawyeah-Tech/lawyeah`；其中爽律为非 OSI 专业使用许可，法律翻译为 CC BY-NC 4.0 非商用，Lawyeah 仅按 `repo_read` 低位索引，不把 1998 个原子 Skill 表述为均已完成实体法律核验。
   - 相邻应用与技术基础：`zj-ai-lab/anqi`、`cat-xierluo/Folia`、`Eysn0130/DeepLaw`；分别定位为单律师案件工作台、Markdown/Word 交付工具和来源原生知识治理基础设施，不扩张为实体法律 Skill 或法律正确性背书。
+- **律师内容传播相邻资源补录**（+1 仓 → **328**）：新增 `MiaoQichuan/mqc-female-lawyer-brandcast`，作为女律师 IP 法律图文工作台低位收录；53 张女律师素材、代码和公开规范按 LICENSE 中列明范围采用 MIT，支持九宫格、小红书、公众号和长图同源输出，并带法条效力、PII、图文一致性及像素排版守卫。本地 runner 为 195 项检查，其中 184 项通过、11 项因本机缺黑体而未完成渲染；README 的 216 checks 徽章与当前 runner 数量不一致，不标全量测试通过，不升首页。
 
 ### 首页策展
 - 首页任务由 20 项调整为 25 项，新增“律师法律晨报与动态跟踪”“诉讼图与事实时间轴”“政府采购投标与争议救济”“个人维权与小额纠纷”“法律翻译与双语审阅”五个入口；个人律师工作台当前推荐更新为 `zj-ai-lab/anqi`。
