@@ -93,12 +93,12 @@
       },
       "alternatives": [
         {
-          "project": "NEU-ZHA/legal-ai-skills",
-          "reason": "中国法律任务结构完整，已有脚本级 Smoke 证据。"
+          "project": "zj-ai-lab/shuanglv-legal-skills",
+          "reason": "更强调执业律师方法、事实证据来源状态、最小能力加载、人工决定与正式交付控制。"
         },
         {
-          "project": "pa1nrui1/legal-skills",
-          "reason": "59 个中文法律 Skill，覆盖破产、刑辩、劳动和文书交付。"
+          "project": "Hylouis233/mcodeforlegal",
+          "reason": "适合需要法规现行性核验、引文占位与发送前 citation-audit 的插件式中国法套件。"
         }
       ],
       "gap": null,
@@ -143,8 +143,8 @@
           "reason": "中国合同审查路线与结构化资料完整，Smoke 通过。"
         },
         {
-          "project": "Xigua9xi/ai-legal-review-skillkit",
-          "reason": "适合自行扩展审查规则和测试夹具。"
+          "project": "qwertyzhu/openlawkit",
+          "reason": "适合只添加 Word 原生批注、不修改合同正文，并要求 OOXML 完整性校验的场景。"
         }
       ],
       "gap": null,
@@ -378,6 +378,20 @@
       "order": 12
     },
     {
+      "id": "legal-morning-brief",
+      "capability": "legal-research",
+      "title": "律师法律晨报与动态跟踪",
+      "homepage": true,
+      "decision_basis": "比较官方原文优先、日期与效力状态区分、回溯去重、律师实务提示和核验失败披露。",
+      "primary": {
+        "project": "elephantyoung/legal-morning-brief",
+        "reason": "区分发布、成文、裁判、公开和生效时间，执行 72 小时回溯与 30 天去重，并把未完成原文核验显式降级。"
+      },
+      "alternatives": [],
+      "gap": "当前无可复跑的真实晨报回归样本或内置持久去重数据库，去重依赖调用环境提供历史记录。",
+      "order": 12.2
+    },
+    {
       "id": "regulations-contract-rag",
       "capability": "legal-research",
       "title": "法规 / 合同 RAG 应用平台",
@@ -411,14 +425,24 @@
         {
           "project": "cat-xierluo/SuitAgent",
           "reason": "适合需要多角色 Agent 并行分析争点、证据和攻防的用户。"
-        },
-        {
-          "project": "yxk-lawyer/litigation-prep-skill-cn",
-          "reason": "适合公司民商事案件的请求权基础和证据清单。"
         }
       ],
       "gap": null,
       "order": 13
+    },
+    {
+      "id": "litigation-visualization",
+      "capability": "litigation",
+      "title": "诉讼图与事实时间轴",
+      "homepage": true,
+      "decision_basis": "比较事实来源忠实性、确定性排版、A4 交付、多格式可编辑性、溯源索引和图形降级边界。",
+      "primary": {
+        "project": "MiaoQichuan/new-litigation-visualization",
+        "reason": "把语义抽取与确定性几何分离，交付 SVG、PNG、PPTX、VSDX、drawio 和溯源索引，并用守卫禁止改写材料原句。"
+      },
+      "alternatives": [],
+      "gap": "扫描件没有文字层时仍需人工复核；完整格式导出依赖 Graphviz、LibreOffice、Poppler、Node 和字体工具。",
+      "order": 13.5
     },
     {
       "id": "civil-case-method",
@@ -430,12 +454,7 @@
         "project": "Youchu-lawhub/gutachten-civil-case",
         "reason": "把德国鉴定式与中国民法典请求权基础检视结合，方法边界清晰。"
       },
-      "alternatives": [
-        {
-          "project": "lilialla/request-right-skill-reference",
-          "reason": "适合需要更轻量中国民事请求权分析参考实现的用户。"
-        }
-      ],
+      "alternatives": [],
       "gap": null,
       "order": 14
     },
@@ -485,6 +504,10 @@
         {
           "project": "Youchu-lawhub/cn-litigation-toolkit",
           "reason": "需要期限管理与全流程案件工作结合时使用。"
+        },
+        {
+          "project": "qwertyzhu/openlawkit",
+          "reason": "适合只依据已核实触发事实和窄规则包计算劳动仲裁、民事执行期限，并保留原文与计算状态。"
         }
       ],
       "gap": null,
@@ -524,6 +547,20 @@
       "order": 19
     },
     {
+      "id": "government-procurement",
+      "capability": "corporate-ma",
+      "title": "政府采购投标与争议救济",
+      "homepage": true,
+      "decision_basis": "比较找标、评分拆解、标书、模拟评审、合规检查、质疑投诉、期限计算和法源时效边界。",
+      "primary": {
+        "project": "cuplgjln-afk/government-procurement-skills",
+        "reason": "六个 Skill 覆盖政府采购全生命周期，并以证据页码、诚信红线、期限拒绝估算和独立模拟评审控制关键风险。"
+      },
+      "alternatives": [],
+      "gap": "完整法条、地方限额和平台规则仍需按项目属地逐项核验；当前只有脚本 demo 和 py_compile 证据。",
+      "order": 19.2
+    },
+    {
       "id": "legal-due-diligence",
       "capability": "corporate-ma",
       "title": "中国法律尽职调查",
@@ -553,10 +590,6 @@
         {
           "project": "Youchu-lawhub/app-compliance-review",
           "reason": "方法论和 50+ 检查项有价值，但当前 material_validator.py 存在 SyntaxError，修复前不列当前推荐。"
-        },
-        {
-          "project": "allenymt/PrivacySentry",
-          "reason": "可作为 Android SDK、权限和隐私行为的技术事实提取工具，但不替代法律评价与整改意见。"
         }
       ],
       "gap": "法律评价候选的核心脚本有语法错误；技术检测项目只能补充 APK/SDK/权限事实。",
@@ -609,14 +642,24 @@
         {
           "project": "worker-aid-ai/worker-aid-agent",
           "reason": "更偏劳动者自助整理材料和申请草稿。"
-        },
-        {
-          "project": "wangchangwei/arb-skill",
-          "reason": "更轻量的劳动仲裁实务 Skill。"
         }
       ],
       "gap": null,
       "order": 21
+    },
+    {
+      "id": "consumer-small-disputes",
+      "capability": "labor-family",
+      "title": "个人维权与小额纠纷",
+      "homepage": true,
+      "decision_basis": "比较有限场景覆盖、法条来源、确定性结论、证据清单、时效提示、缺事实追问和模型输出隔离。",
+      "primary": {
+        "project": "xyl0729/weiquan-agent",
+        "reason": "九类消费者和小额纠纷使用人工核验法条、本地规则、引用门禁和 fail-closed 路径，模型不能生成或覆盖法条与 verdict。"
+      },
+      "alternatives": [],
+      "gap": "仅覆盖九个公开场景，生产部署的数据外发、邮件验证码、DeepSeek 和 OSS 边界仍须使用者确认。",
+      "order": 21.5
     },
     {
       "id": "family-law",
@@ -752,6 +795,20 @@
       "order": 26
     },
     {
+      "id": "legal-translation",
+      "capability": "cross-border-arbitration",
+      "title": "法律翻译与双语审阅",
+      "homepage": true,
+      "decision_basis": "比较法系识别、法律效果保真、文种控制、风险术语核对、官方译文边界和交付前放行检查。",
+      "primary": {
+        "project": "Emnllawlab/legal-translation-workflow",
+        "reason": "先处理主体、条件、例外、程序、救济和责任范围，再润色语言；按法系与文种渐进加载风险锚点，不提供脱离语境的固定译法。"
+      },
+      "alternatives": [],
+      "gap": "CC BY-NC 4.0 禁止商用，只能作为非商用方法参考；公开仓没有可复跑盲测结果。",
+      "order": 26.5
+    },
+    {
       "id": "sanctions-screening",
       "capability": "cross-border-arbitration",
       "title": "进出口制裁筛查",
@@ -762,10 +819,6 @@
         "reason": "337 个制裁、PEP 和监视名单源，更新与实体对齐底座完整，仓库含 104 个测试文件。"
       },
       "alternatives": [
-        {
-          "project": "moov-io/watchman",
-          "reason": "更轻量的本地 OFAC/全球制裁筛查引擎，适合自建匹配流程。"
-        },
         {
           "project": "TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening",
           "reason": "更偏跨境数据空间与律师工作流，但当前只完成仓库审阅。"
@@ -788,12 +841,12 @@
     {
       "id": "law-firm-ops",
       "capability": "law-firm-operations",
-      "title": "个人律师开庭提醒与卷宗看板",
+      "title": "个人律师案件、期限与卷宗工作台",
       "homepage": true,
-      "decision_basis": "只比较个人律师的开庭/期限提醒、传票解析、卷宗看板和本地数据路径。",
+      "decision_basis": "比较个人律师案件台账、确定性期限、待办日历、费用、案件文件、提醒和本地数据路径。",
       "primary": {
-        "project": "AzureTsui/GiGi",
-        "reason": "本地优先，聚焦个人律师开庭提醒、传票解析和卷宗看板。"
+        "project": "zj-ai-lab/anqi",
+        "reason": "自托管单律师工作台，确定性期限、待办日历、费用分成、案件文件和人工确认式 AI 候选形成完整日常闭环。"
       },
       "alternatives": [],
       "gap": null,

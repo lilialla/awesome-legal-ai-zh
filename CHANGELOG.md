@@ -13,6 +13,10 @@
   - 低位方法与综合套件：`zj-ai-lab/shuanglv-legal-skills`、`elephantyoung/legal-morning-brief`、`Emnllawlab/legal-translation-workflow`、`Hylouis233/mcodeforlegal`、`Lawyeah-Tech/lawyeah`；其中爽律为非 OSI 专业使用许可，法律翻译为 CC BY-NC 4.0 非商用，Lawyeah 仅按 `repo_read` 低位索引，不把 1998 个原子 Skill 表述为均已完成实体法律核验。
   - 相邻应用与技术基础：`zj-ai-lab/anqi`、`cat-xierluo/Folia`、`Eysn0130/DeepLaw`；分别定位为单律师案件工作台、Markdown/Word 交付工具和来源原生知识治理基础设施，不扩张为实体法律 Skill 或法律正确性背书。
 
+### 首页策展
+- 首页任务由 20 项调整为 25 项，新增“律师法律晨报与动态跟踪”“诉讼图与事实时间轴”“政府采购投标与争议救济”“个人维权与小额纠纷”“法律翻译与双语审阅”五个入口；个人律师工作台当前推荐更新为 `zj-ai-lab/anqi`。
+- 在“中国律师日常套件”关键备选中展示 `zj-ai-lab/shuanglv-legal-skills`、`Hylouis233/mcodeforlegal`；在“通用合同审查”和“诉讼、仲裁与执行期限”中展示 `qwertyzhu/openlawkit`。同步移出较弱或重复的首页备选，保持首页可见 GitHub 项目总数不超过 40，完整索引不删除任何已收录项目。
+
 ### 修正
 - 将已失效的 `Tsinglaw/AnyDocsMarked`、`Tsinglaw/Legal-Agent-Skills` canonical 地址分别迁移为 `code-lawyer/AnyDocsMarked`、`code-lawyer/Legal-Agent-Skills`，旧地址保留为 alias；`Legal-Agent-Skills` 补充当前 `document-fill` 能力和 `legal-documents` 分类。上游 README 仍出现旧 clone 地址，目录警示中明确使用新地址。
 - 重新刷新 GitHub 动态元数据并生成 README、能力地图、完整索引和 seed 列表；不纳入本轮实质审查后被列为暂缓或不建议单列的项目。

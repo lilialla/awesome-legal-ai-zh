@@ -28,7 +28,7 @@
 |---|---|---|---|---:|---|---|---|---|
 | 已索引 | - | [hoangkiann-debug/PE_VC_transaction_docs_review](https://github.com/hoangkiann-debug/PE_VC_transaction_docs_review) | Skill | 11 | 2026-08-10 | Apache-2.0 | 测试通过 | PE/VC 私募交易文件审查 Skill：覆盖人民币境内结构、红筹/VIE 美元结构、跨文件冲突、红线跟踪、市场条款参考和审查完成门禁。；注意：市场条款比例和 benchmark 数据为历史参考，不是法律强制标准，本轮未独立复算样本库；真实交易文件通常含高敏商业信息，使用前需确认保密边界、平台上传策略和人工律师复核 |
 | 已索引 | - | [sublatesublate-design/opc-legal-cn](https://github.com/sublatesublate-design/opc-legal-cn) | Skill | 1 | 2026-07-24 | MIT | 测试通过 | 中国大陆 OPC/互联网创业法律指引与 Agent Skill：覆盖主体选择、设立、税务、产品上线、合同、用工、融资和退出，含 procedures、data、references 和校验脚本（MIT）。；注意：与既有一人公司法律顾问类 Skill 主题重叠，定位为创业法/OPC 细分补充 |
-| 已索引 | - | [cuplgjln-afk/government-procurement-skills](https://github.com/cuplgjln-afk/government-procurement-skills) | 套件 | 0 | 2026-08-20 | MIT | Smoke 通过 | 律师政府采购全生命周期六 Skill：找标、评分拆解、标书、模拟评审、专项检查、质疑投诉，附报价模拟、评审聚合和工作日期限脚本。；注意：六个 Skill 的全部法条、地方限额和平台规则尚未逐项独立核验，正式使用前必须核对现行国家和项目属地规则；期限脚本只内置 2025、2026 年节假日，未收录年份会拒绝计算 |
+| 当前推荐 | 政府采购投标与争议救济（当前推荐） | [cuplgjln-afk/government-procurement-skills](https://github.com/cuplgjln-afk/government-procurement-skills) | 套件 | 0 | 2026-08-20 | MIT | Smoke 通过 | 律师政府采购全生命周期六 Skill：找标、评分拆解、标书、模拟评审、专项检查、质疑投诉，附报价模拟、评审聚合和工作日期限脚本。；注意：六个 Skill 的全部法条、地方限额和平台规则尚未逐项独立核验，正式使用前必须核对现行国家和项目属地规则；期限脚本只内置 2025、2026 年节假日，未收录年份会拒绝计算 |
 | 已索引 | - | [anthropics/financial-services](https://github.com/anthropics/financial-services) | 套件 | 34535 | 2026-08-25 | Apache-2.0 | 仓库审阅 | ⭐官方金融插件，PE 含 dd-checklist / dd-meeting-prep |
 | 已索引 | - | [papermark/papermark](https://github.com/papermark/papermark) | 套件 | 8976 | 2026-08-26 | NOASSERTION | 仓库审阅 | 💎开源数据室（DocSend 替代，水印/密码/逐页分析）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | Skill | 7869 | 2026-08-23 | Apache-2.0 | 仓库审阅 | 金融/财报分析多 agent 平台 |
@@ -56,14 +56,14 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 当前推荐 | 劳动仲裁（当前推荐） | [f12336414-ship-it/labor-arbitration-skill](https://github.com/f12336414-ship-it/labor-arbitration-skill) | Skill | 1 | 2026-07-21 | Apache-2.0 | 测试通过 | 💎劳动仲裁引用完整性内核：法条、时效、金额、证据引用核验流程；本地实测 416 个 unittest 通过（Apache-2.0） |
-| 已索引 | - | [xyl0729/weiquan-agent](https://github.com/xyl0729/weiquan-agent) | 应用 | 1 | 2026-08-19 | MIT | 测试通过 | 面向消费者与小额纠纷的九场景维权应用：法条、verdict、辖区和时效由本地规则生成，模型仅做结构化事实抽取与润色，并受白名单和引用校验约束。；注意：只覆盖租房押金、预付卡、加班工资、退换货、假货、培训退费、自动续费、装修违约和小额诉讼九类场景，不是通用法律助手；生产部署依赖 DeepSeek、邮件验证码、PostgreSQL 和可选 OSS；真实材料外发与保留边界须另行确认 |
+| 当前推荐 | 个人维权与小额纠纷（当前推荐） | [xyl0729/weiquan-agent](https://github.com/xyl0729/weiquan-agent) | 应用 | 1 | 2026-08-19 | MIT | 测试通过 | 面向消费者与小额纠纷的九场景维权应用：法条、verdict、辖区和时效由本地规则生成，模型仅做结构化事实抽取与润色，并受白名单和引用校验约束。；注意：只覆盖租房押金、预付卡、加班工资、退换货、假货、培训退费、自动续费、装修违约和小额诉讼九类场景，不是通用法律助手；生产部署依赖 DeepSeek、邮件验证码、PostgreSQL 和可选 OSS；真实材料外发与保留边界须另行确认 |
 | 当前推荐 | 住宅租赁合同审查（当前推荐） | [oydxxx/tenant-contract-review-cn](https://github.com/oydxxx/tenant-contract-review-cn) | Skill | 0 | 2026-07-20 | MIT | 测试通过 | 中国大陆住宅租赁合同审查 Skill：覆盖预签约风险、押金/租金/违约/转租等条款核验，74 项 unittest、validators 与 forward eval 通过。；注意：README 发布状态有漂移；GitHub 已有 v0.1.0 release，仍需以仓库实际 release 为准；输出不是律师意见；官方法规和地方规范现行性未在本轮逐条独立复核 |
 | 已索引 | - | [jerry046918/labor_rights_skills](https://github.com/jerry046918/labor_rights_skills) | Skill | 2 | 2026-08-14 | NOASSERTION | Smoke 通过 | 💎劳动权益法律顾问 Skill：大陆劳动争议结构化调查、证据采集、法条/类案检索与法律意见书生成，含录音本地 FunASR 处理（Anti-996 条件许可）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [996icu/996.ICU](https://github.com/996icu/996.ICU) | 资源 | 276784 | 2025-08-22 | NOASSERTION | 仓库审阅 | 劳动维权标志项目（加班违法论证/法条引用）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) | 应用 | 2449 | 2025-08-14 | NOASSERTION | 仓库审阅 | 法律快查 App（含婚姻/继承编）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [hellodigua/code996](https://github.com/hellodigua/code996) | 套件 | 2087 | 2026-07-31 | MIT | 仓库审阅 | 💎量化加班证据（commit 时间反推工时）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 已索引 | - | [LawRefBook/Laws](https://github.com/LawRefBook/Laws) | 数据/评测 | 1845 | 2026-06-26 | 未识别 | 仓库审阅 | 💎法律法规 MD 数据库（民法典婚姻/继承编），计算器底座；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 关键备选 | 劳动仲裁（关键备选） | [wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill) | Skill | 28 | 2026-06-22 | NOASSERTION | 仓库审阅 | 💎劳动仲裁 skill（劳动争议实务）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill) | Skill | 28 | 2026-06-22 | NOASSERTION | 仓库审阅 | 💎劳动仲裁 skill（劳动争议实务）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [workingclass-ai/workingclass](https://github.com/workingclass-ai/workingclass) | Skill | 8 | 2026-07-20 | NOASSERTION | 仓库审阅 | 💎劳动者 AI 助手：话术解码、PIP/裁员/加班/薪资谈判、OPSEC 提醒与 9 个法域劳动法地图（Apache-2.0）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 关键备选 | 劳动仲裁（关键备选） | [worker-aid-ai/worker-aid-agent](https://github.com/worker-aid-ai/worker-aid-agent) | 套件 | 2 | 2026-07-11 | NOASSERTION | 仓库审阅 | 💎劳动者权益自助 Agent/Skill：本地 Web + CLI，欠薪/未签合同/违法解除/加班费材料整理与仲裁申请草稿；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 
@@ -82,7 +82,7 @@
 | 当前推荐 | Word 红线与审查交付（当前推荐） | [evolsb/legal-redline-tools](https://github.com/evolsb/legal-redline-tools) | Skill | 51 | 2026-07-23 | MIT | 仓库审阅 | 💎合同红线交付：生成 tracked-changes Word + 红线 PDF |
 | 已索引 | - | [Daknniel-0881/qulv-china-legal-counsel-skill](https://github.com/Daknniel-0881/qulv-china-legal-counsel-skill) | Skill | 9 | 2026-05-10 | MIT | 仓库审阅 | 💎内置 2189 条法规知识库的法律顾问 |
 | 当前推荐 | 标准合同自动填写（当前推荐） | [TracyWang95/DataInfra-Agentic-Contract-Filler-Skill](https://github.com/TracyWang95/DataInfra-Agentic-Contract-Filler-Skill) | Skill | 7 | 2026-02-25 | 未识别 | 仓库审阅 | 国家数据局合同自动填写（Tracy）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 关键备选 | 通用合同审查（关键备选）<br>合同审查 Starter / 可 fork 基座（关键备选） | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | Skill | 2 | 2026-06-02 | MIT | 仓库审阅 | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
+| 关键备选 | 合同审查 Starter / 可 fork 基座（关键备选） | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | Skill | 2 | 2026-06-02 | MIT | 仓库审阅 | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
 | 已索引 | - | [5tnb6xgsm5-ops/contract-guardian](https://github.com/5tnb6xgsm5-ops/contract-guardian) | Skill | 1 | 2026-08-11 | NOASSERTION | 仓库审阅 | 中国合同审查 Skill：内置合同审查规则库、红线清单、分类型 playbook、quality gate、示例输入、Verifier 核验报告和审查意见书；需留意“坑自动入库”的客户材料隐私边界，企查查/北大法宝 MCP 仅作授权增强。；注意：CC BY-SA 4.0 允许商用但要求署名原作者并以相同协议共享衍生作品；无自动化测试；本轮仅完成仓库审阅，不能标为测试通过 |
 | 已索引 | - | [malnlda/contract-review](https://github.com/malnlda/contract-review) | Skill | 1 | 2026-07-01 | 未识别 | 仓库审阅 | 💎专业合同审核 Claude Skill：7 步工作流、5 类门禁、终稿三件套、Track Changes + Comments；README 写 MIT 但 GitHub 未识别 license，需复核；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [brucecbi/nda-review-skill](https://github.com/brucecbi/nda-review-skill) | Skill | 0 | 2025-12-30 | Apache-2.0 | 仓库审阅 | NDA 保密协议审查；注意：Fork：上游为 jamietso/nda-review-skill |
@@ -104,8 +104,8 @@
 | 已索引 | - | [createrivabu/Iuris-Soft](https://github.com/createrivabu/Iuris-Soft) | 套件 | 21 | 2025-12-03 | 未识别 | 仓库审阅 | 案件全生命周期 + 开庭管理 + 文档库；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [TracyWang95/awesome-law-firm-design-md](https://github.com/TracyWang95/awesome-law-firm-design-md) | 资源 | 4 | 2026-04-20 | NOASSERTION | 仓库审阅 | 律所 DESIGN.md 合集（律所设计规范）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [imchongliu/law-firm-worklog](https://github.com/imchongliu/law-firm-worklog) | Skill | 2 | 2026-05-28 | MIT | 仓库审阅 | 💎律所工时月报生成（任务→Excel/CSV，刘冲律师） |
-| 已索引 | - | [zj-ai-lab/anqi](https://github.com/zj-ai-lab/anqi) | 应用 | 2 | 2026-08-26 | AGPL-3.0 | 仓库审阅 | 面向独立执业律师的自托管案件工作台，覆盖案件台账、确定性期限、待办日历、律师费与合作分成、文件桥，以及只生成候选并由人工确认写入的 LLM/LegalRAG。；注意：内置期限规则仅覆盖中国民事诉讼常见程序和有限辖区，作者核准不等于独立法律核验，正式依赖前仍须对照现行法和法院通知；macOS 包尚未 Apple Developer 签名公证；Android 客户端必须连接用户自建服务器 |
-| 当前推荐 | 个人律师开庭提醒与卷宗看板（当前推荐） | [AzureTsui/GiGi](https://github.com/AzureTsui/GiGi) | 应用 | 1 | 2026-07-19 | MIT | 仓库审阅 | 💎法务雪鸮：面向律师的本地优先开庭提醒桌面助手，传票 PDF/OCR 解析、开庭强提醒、卷宗看板，Tauri/Rust/React + SQLite |
+| 当前推荐 | 个人律师案件、期限与卷宗工作台（当前推荐） | [zj-ai-lab/anqi](https://github.com/zj-ai-lab/anqi) | 应用 | 2 | 2026-08-26 | AGPL-3.0 | 仓库审阅 | 面向独立执业律师的自托管案件工作台，覆盖案件台账、确定性期限、待办日历、律师费与合作分成、文件桥，以及只生成候选并由人工确认写入的 LLM/LegalRAG。；注意：内置期限规则仅覆盖中国民事诉讼常见程序和有限辖区，作者核准不等于独立法律核验，正式依赖前仍须对照现行法和法院通知；macOS 包尚未 Apple Developer 签名公证；Android 客户端必须连接用户自建服务器 |
+| 已索引 | - | [AzureTsui/GiGi](https://github.com/AzureTsui/GiGi) | 应用 | 1 | 2026-07-19 | MIT | 仓库审阅 | 💎法务雪鸮：面向律师的本地优先开庭提醒桌面助手，传票 PDF/OCR 解析、开庭强提醒、卷宗看板，Tauri/Rust/React + SQLite |
 | 已索引 | - | [brucecbi/directory-index](https://github.com/brucecbi/directory-index) | Skill | 1 | 2026-04-28 | MIT | 仓库审阅 | 本地目录索引器（案卷目录→Markdown） |
 | 已索引 | - | [yuhudie598-dev/workbuddy-calendar](https://github.com/yuhudie598-dev/workbuddy-calendar) | Skill | 1 | 2026-06-15 | 未识别 | 仓库审阅 | 龚家勇律师·WorkBuddy 侧边栏日历：开庭/会议/截止日期等日程增删改查，支持从对话同步事件（无 license）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [imchongliu/lpm-skills-zh](https://github.com/imchongliu/lpm-skills-zh) | 套件 | 0 | 2026-03-25 | Apache-2.0 | 仓库审阅 | LPM 法律项目管理 14 skill 中文版 |
@@ -120,7 +120,7 @@
 | 当前推荐 | 匿名化判断（当前推荐） | [The-Data-Galaxy/edpb-anonymisation-guidelines-skill](https://github.com/The-Data-Galaxy/edpb-anonymisation-guidelines-skill) | Skill | 0 | 2026-07-20 | MIT | 测试通过 | EDPB Guidelines 02/2026 匿名化判断中文 Codex Skill：围绕记录孤立、关联和推断三项标准组织事实采集、结论分级和 benchmark 自检。；注意：依据为 EDPB Guidelines 02/2026 Version 1.0 公开征求意见稿，尚非最终指南；中文内容不是官方译文，也不构成最终匿名化认证或技术匿名化测试 |
 | 当前推荐 | DPA 数据处理协议审查（当前推荐） | [The-Data-Galaxy/dpa-review-skill](https://github.com/The-Data-Galaxy/dpa-review-skill) | Skill | 5 | 2026-06-22 | Apache-2.0 | Smoke 通过 | DPA / 数据处理协议审查 Skill：覆盖 PIPL、GDPR、美国州隐私、controller/customer 与 processor/provider 路径，带 7-task benchmark 和发布包校验。；注意：benchmark 为仓库自带证据，本轮核验文件和发布包校验，未重新跑模型评测；不是完整隐私合规套件，不替代实时法规监控、供应商情报或最终法律意见 |
 | 已索引 | - | [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio) | 工具 | 10647 | 2026-08-26 | MIT | 仓库审阅 | ⭐🔒PII 检测/脱敏/匿名化框架，行业标准 |
-| 关键备选 | APP 个人信息保护审查（关键备选） | [allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry) | 工具 | 2283 | 2025-12-30 | MIT | 仓库审阅 | Android 隐私合规整改检测 |
+| 已索引 | - | [allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry) | 工具 | 2283 | 2025-12-30 | MIT | 仓库审阅 | Android 隐私合规整改检测 |
 | 已索引 | - | [TongchengOpenSource/AppScan](https://github.com/TongchengOpenSource/AppScan) | 工具 | 1128 | 2025-03-16 | Apache-2.0 | 仓库审阅 | 企业级 App 隐私合规检测；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
 | 已索引 | - | [ethyca/fides](https://github.com/ethyca/fides) | MCP | 481 | 2026-08-06 | Apache-2.0 | 仓库审阅 | GDPR/CCPA/LGPD 数据主体请求(DSAR)编排；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 当前推荐 | 本地法律材料脱敏（当前推荐） | [moyupeng0422/legal-doc-redactor](https://github.com/moyupeng0422/legal-doc-redactor) | Skill | 114 | 2026-03-29 | MIT | 仓库审阅 | 💎🔒彭雨诗律师·离线法律文档脱敏/还原：docx 批量一致替换、白黑名单、自定义类型、保留外部审阅痕迹 |
@@ -140,7 +140,7 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 当前推荐 | Word 法律文书排版（当前推荐） | [lilialla/legal-document-format-skill](https://github.com/lilialla/legal-document-format-skill) | Skill | 15 | 2026-05-29 | MIT | 测试通过 | DOCX 模板执行、内容锁定、渲染校验与格式门禁 Skill。；注意：Python 3.14 下按文档执行 editable install 会因多个顶层目录导致包发现失败；单独安装测试依赖后 67 项 pytest 通过 |
-| 已索引 | - | [qwertyzhu/openlawkit](https://github.com/qwertyzhu/openlawkit) | 套件 | 1 | 2026-08-21 | Apache-2.0 | 测试通过 | 本地优先的中国法律实务双 Skill：在不改变合同正文的前提下写入 Word 原生批注，并仅依据已核实触发事实和窄规则包计算劳动仲裁、民事执行期限。；注意：v0.1 只支持普通正文段落批注锚点，表格、页眉页脚、文本框、域、修订容器和重叠锚点会主动拒绝；期限规则仅覆盖公开规则包列明的劳动仲裁和民事执行事件，其他程序不得类推 |
+| 关键备选 | 通用合同审查（关键备选）<br>诉讼、仲裁与执行期限（关键备选） | [qwertyzhu/openlawkit](https://github.com/qwertyzhu/openlawkit) | 套件 | 1 | 2026-08-21 | Apache-2.0 | 测试通过 | 本地优先的中国法律实务双 Skill：在不改变合同正文的前提下写入 Word 原生批注，并仅依据已核实触发事实和窄规则包计算劳动仲裁、民事执行期限。；注意：v0.1 只支持普通正文段落批注锚点，表格、页眉页脚、文本框、域、修订容器和重叠锚点会主动拒绝；期限规则仅覆盖公开规则包列明的劳动仲裁和民事执行事件，其他程序不得类推 |
 | 当前推荐 | 法律文书结构化 / OCR 取证台（当前推荐） | [can4hou6joeng4/Trawl](https://github.com/can4hou6joeng4/Trawl) | 应用 | 1 | 2026-07-21 | MIT | Smoke 通过 | 法律文书结构化/OCR 桌面取证台：Wails + Go + Vue，将 Word/PDF/图片抽取为表格、JSON、XLSX；前端和 gateway-worker 测试通过。；注意：扫描 PDF/图片会上传至 OCR gateway/upstream，并发送机器 ID/可选 license；不可描述为本地私有 OCR；本机无 Go，后端 Go 测试未跑；仅前端、gateway-worker 和仓库文件完成实质核验 |
 | 已索引 | - | [CSlawyer1985/excellent-judgment-doc-skill](https://github.com/CSlawyer1985/excellent-judgment-doc-skill) | Skill | 38 | 2026-02-08 | 未识别 | 仓库审阅 | 裁判文书生成 / 质量评判；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [CSlawyer1985/mineru-converter-skill](https://github.com/CSlawyer1985/mineru-converter-skill) | Skill | 36 | 2026-02-02 | 未识别 | 仓库审阅 | 合同审查与红线相关开源项目；旧版 README 未单独展示，待能力页说明。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -176,7 +176,7 @@
 | 已索引 | - | [Liu8Can/pkulaw-mcp-router](https://github.com/Liu8Can/pkulaw-mcp-router) | 工具 | 2 | 2026-04-16 | MIT | 仓库审阅 | 北大法宝 MCP 多子服务路由 |
 | 已索引 | - | [malnlda/legal-research](https://github.com/malnlda/legal-research) | 套件 | 2 | 2026-04-26 | MIT | 仓库审阅 | 元典法规+案例+分析师组合研究序列 |
 | 已索引 | - | [malnlda/yd-law-search](https://github.com/malnlda/yd-law-search) | Skill | 1 | 2026-05-20 | 未识别 | 仓库审阅 | 元典法规检索 Copilot Skill（调元典 API）；注意：同版本 Skill 已被 malnlda/legal-research 组合工作流收录；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 已索引 | - | [elephantyoung/legal-morning-brief](https://github.com/elephantyoung/legal-morning-brief) | Skill | 0 | 2026-08-15 | 未识别 | 仓库审阅 | 面向律师的官方原文优先法律晨报 Skill，区分发布、成文、裁判、公开和生效时间，提供 72 小时回溯、30 天去重、案例效力分层及 AI 与法律雷达。；注意：仓库根目录没有直接展开 Skill，需从 ZIP 安装；根 GitHub 许可证未识别，ZIP 内为 MIT LICENSE；没有可复跑的真实晨报回归样本、持久化去重数据库或自动化测试 |
+| 当前推荐 | 律师法律晨报与动态跟踪（当前推荐） | [elephantyoung/legal-morning-brief](https://github.com/elephantyoung/legal-morning-brief) | Skill | 0 | 2026-08-15 | 未识别 | 仓库审阅 | 面向律师的官方原文优先法律晨报 Skill，区分发布、成文、裁判、公开和生效时间，提供 72 小时回溯、30 天去重、案例效力分层及 AI 与法律雷达。；注意：仓库根目录没有直接展开 Skill，需从 ZIP 安装；根 GitHub 许可证未识别，ZIP 内为 MIT LICENSE；没有可复跑的真实晨报回归样本、持久化去重数据库或自动化测试 |
 | 已索引 | - | [hisnontright/jiandawang-jicui-consultation](https://github.com/hisnontright/jiandawang-jicui-consultation) | Skill | 0 | 2026-08-08 | MIT | 仓库审阅 | 💎检答网集萃第 1–140 批本地检索技能：检察业务/最高检答疑 Markdown 内置，强调可溯源检索与免责声明（MIT） |
 | 退役 | - | [SenryLee/rule-harness](https://github.com/SenryLee/rule-harness) | 应用 | 0 | 未知 | 未识别 | 仓库审阅 | 💎法律规则抽取/核验/Skill 生成平台：从合同、法规、裁判文书、内规中抽取可溯源审查规则，README/pyproject 写 MIT 但 GitHub 未识别 license；注意：仓库当前不可访问；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 
@@ -187,14 +187,14 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 当前推荐 | 进出口制裁筛查（当前推荐） | [opensanctions/opensanctions](https://github.com/opensanctions/opensanctions) | 套件 | 788 | 2026-08-26 | MIT | 仓库审阅 | 跨境制裁/PEP/监视名单（337 源），涉外尽调底座 |
-| 关键备选 | 进出口制裁筛查（关键备选） | [moov-io/watchman](https://github.com/moov-io/watchman) | MCP | 503 | 2026-08-27 | Apache-2.0 | 仓库审阅 | OFAC/全球制裁筛查引擎（生产级） |
+| 已索引 | - | [moov-io/watchman](https://github.com/moov-io/watchman) | MCP | 503 | 2026-08-27 | Apache-2.0 | 仓库审阅 | OFAC/全球制裁筛查引擎（生产级） |
 | 已索引 | - | [worldwidelaw/legal-sources](https://github.com/worldwidelaw/legal-sources) | 工具 | 351 | 2026-08-03 | AGPL-3.0 | 仓库审阅 | 110+ 国政府法源抓取脚本；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 已索引 | - | [open-agreements/open-agreements](https://github.com/open-agreements/open-agreements) | 套件 | 53 | 2026-08-26 | Apache-2.0 | 仓库审阅 | 💎美国/跨境合同模板与法律实践库：NDA、SAFE/NVCA、隐私、雇佣等模板 + checklists + MCP/CLI 生成 DOCX |
 | 已索引 | - | [Sociovestix/lenu](https://github.com/Sociovestix/lenu) | 工具 | 24 | 2025-09-25 | CC0-1.0 | 仓库审阅 | ISO 20275 跨 200+ 法域实体法律形式识别 |
 | 已索引 | - | [spartypkp/open-source-legislation](https://github.com/spartypkp/open-source-legislation) | 数据/评测 | 17 | 2025-11-15 | 未识别 | 仓库审阅 | 50+ 法域立法统一成 SQL 知识图谱；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 关键备选 | 进出口制裁筛查（关键备选） | [TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening](https://github.com/TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening) | Skill | 17 | 2026-03-19 | MIT | 仓库审阅 | 💎律师做的跨境可信数据空间 + 进出口制裁筛查 |
 | 当前推荐 | 域外法律研究（当前推荐） | [imchongliu/foreign-law-research](https://github.com/imchongliu/foreign-law-research) | Skill | 9 | 2026-05-12 | MIT | 仓库审阅 | 💎域外法律研究 skill（刘冲律师·涉外） |
-| 已索引 | - | [Emnllawlab/legal-translation-workflow](https://github.com/Emnllawlab/legal-translation-workflow) | Skill | 1 | 2026-08-16 | NOASSERTION | 仓库审阅 | 英中法律翻译与双语审阅 Skill：先识别法系、用途和法律效果，再按合同、诉讼仲裁、法规或法律意见文种加载风险锚点并完成交付前核对。；注意：CC BY-NC 4.0 禁止商用，不能直接用于律师收费生产、认证翻译或商业交付；公开仓不提供完整双语词典、历史法数据库或可复跑盲测结果 |
+| 当前推荐 | 法律翻译与双语审阅（当前推荐） | [Emnllawlab/legal-translation-workflow](https://github.com/Emnllawlab/legal-translation-workflow) | Skill | 1 | 2026-08-16 | NOASSERTION | 仓库审阅 | 英中法律翻译与双语审阅 Skill：先识别法系、用途和法律效果，再按合同、诉讼仲裁、法规或法律意见文种加载风险锚点并完成交付前核对。；注意：CC BY-NC 4.0 禁止商用，不能直接用于律师收费生产、认证翻译或商业交付；公开仓不提供完整双语词典、历史法数据库或可复跑盲测结果 |
 
 <a id="ip-competition"></a>
 
@@ -232,9 +232,9 @@
 | 已索引 | - | [384363367-dot/legal-os](https://github.com/384363367-dot/legal-os) | 套件 | 3 | 2026-08-25 | Apache-2.0 | 测试通过 | 中国法务 Legal OS：12 个可安装 Skill + 24 个模板，覆盖事项分流、合同、诉讼、证据、函件、数据核验、文件交付、质量闸门和版本治理；43 项测试通过（Apache-2.0）。；注意：仓库 LICENSE/README 标注 Apache-2.0，商用前仍应以仓库 LICENSE 原文为准 |
 | 已索引 | - | [code-lawyer/Legal-Agent-Skills](https://github.com/code-lawyer/Legal-Agent-Skills) | 套件 | 2 | 2026-08-22 | MIT | 测试通过 | Legal Agent Skills 三件套：合同审查、法律研究与按案卷来源填充文书，强调来源/状态标签、防幻觉、可选法律库 MCP、真实 Word 红线和逐字取证闸门。；注意：legal-research 以可靠法律库 MCP 为硬前置；未接入时只能显式降级为带水印草稿；contract-review 可离线运行核心方法，但真实 Word 红线依赖 python-docx；正式交付仍需律师复核 |
 | 关键备选 | 本地法律材料脱敏（关键备选） | [yangyc03/yangyc-legalai-skills](https://github.com/yangyc03/yangyc-legalai-skills) | 套件 | 1 | 2026-08-16 | Apache-2.0 | 测试通过 | 💎法律 AI 插件套件：本地脱敏、法律关系网络核验、法律事项归档；本地实测 22 个 unittest 通过（Apache-2.0） |
-| 关键备选 | 中国律师日常套件（关键备选） | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills) | 套件 | 62 | 2026-08-20 | MIT | Smoke 通过 | 💎法律 AI Skills 集：北大法宝 MCP、法律事实核查、引注核验、DOCX/证据目录工作流；公开包不附第三方手册索引，严格引注全量核验需用户自备合法来源；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
+| 已索引 | - | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills) | 套件 | 62 | 2026-08-20 | MIT | Smoke 通过 | 💎法律 AI Skills 集：北大法宝 MCP、法律事实核查、引注核验、DOCX/证据目录工作流；公开包不附第三方手册索引，严格引注全量核验需用户自备合法来源；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 已索引 | - | [lawyerllsx-dotcom/Legal-Workflow-Chain](https://github.com/lawyerllsx-dotcom/Legal-Workflow-Chain) | 套件 | 5 | 2026-08-24 | MIT | Smoke 通过 | 中国大陆法律 AI 五层工作流与 15 个 Skill/WorkBuddy 编排包，围绕接案评估、检索、事实核查、引注、证据目录、OCR 和文书编辑组织可追溯工作流。；注意：推理层 3 个 Skill 因 CC BY-NC-ND 未随仓分发，需用户自行取得并本地接线；回归测试主要是手动 checklist，本轮未发现自动化测试目录 |
-| 已索引 | - | [Hylouis233/mcodeforlegal](https://github.com/Hylouis233/mcodeforlegal) | 套件 | 1 | 2026-08-19 | NOASSERTION | Smoke 通过 | 中国法优先的七插件、43 Skill 套件，内置国家法律法规数据库连接、法条状态核验、引文占位与发送前 citation-audit，并覆盖合同、诉讼、公司、劳动、数据和知产工作流。；注意：43 个 Skill 的结构与路由检查不能证明全部实体法律内容正确，正式结论仍须逐项核法和律师复核；国家法律法规数据库连接使用未公开网页接口，当前可用但可能漂移；not_found 不得解释为法规不存在 |
+| 关键备选 | 中国律师日常套件（关键备选） | [Hylouis233/mcodeforlegal](https://github.com/Hylouis233/mcodeforlegal) | 套件 | 1 | 2026-08-19 | NOASSERTION | Smoke 通过 | 中国法优先的七插件、43 Skill 套件，内置国家法律法规数据库连接、法条状态核验、引文占位与发送前 citation-audit，并覆盖合同、诉讼、公司、劳动、数据和知产工作流。；注意：43 个 Skill 的结构与路由检查不能证明全部实体法律内容正确，正式结论仍须逐项核法和律师复核；国家法律法规数据库连接使用未公开网页接口，当前可用但可能漂移；not_found 不得解释为法规不存在 |
 | 已索引 | - | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 套件 | 23697 | 2026-08-26 | Apache-2.0 | 仓库审阅 | ⭐官方知识工作插件集（含 legal 工作流）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 关键备选 | 大型法律 Skill 库（关键备选） | [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal) | 套件 | 9274 | 2026-08-21 | Apache-2.0 | 仓库审阅 | ⭐Anthropic 官方法律套件，80+ agent / 12 plugin / ~20 MCP |
 | 已索引 | - | [zubair-trabzada/ai-legal-claude](https://github.com/zubair-trabzada/ai-legal-claude) | 套件 | 1710 | 2026-03-27 | 未识别 | 仓库审阅 | 14 skill + 5 agent：合同/NDA/合规/谈判/PDF；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -245,7 +245,7 @@
 | 已索引 | - | [TracyWang95/legal-prompts-for-gpt](https://github.com/TracyWang95/legal-prompts-for-gpt) | 套件 | 386 | 2023-03-15 | MIT | 仓库审阅 | 💎律师开源的法律提示词集；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
 | 观察 | - | [zhou210712/claude-for-legal-ZH](https://github.com/zhou210712/claude-for-legal-ZH) | 套件 | 200 | 2026-05-15 | Apache-2.0 | 仓库审阅 | 另一作者的中国法 Claude 工作层（公司/商事/IP/劳动/AI治理多域插件）；注意：与 CSlawyer1985/claude-for-legal-ZH 的大量 Skill 高度相似，来源和差异化需进一步核验；与 CSlawyer1985/claude-for-legal-ZH 及 anthropics/claude-for-legal 的大量 Skill 高度相似，来源和差异化需进一步核验 |
 | 已索引 | - | [zeweihan/aiworkdeck](https://github.com/zeweihan/aiworkdeck) | MCP | 79 | 2026-08-27 | AGPL-3.0 | 仓库审阅 | 💎AI 原生「律师版 VS Code」工作台：案件/文件树 + Agent + 插件 + WPS 在线编辑 + OCR + 证据链（AGPLv3 可私有化）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；发现自动上传或遥测描述，处理客户材料前需复核数据流 |
-| 关键备选 | 中国律师日常套件（关键备选） | [pa1nrui1/legal-skills](https://github.com/pa1nrui1/legal-skills) | 套件 | 74 | 2026-07-03 | MIT | 仓库审阅 | 💎潘睿律师·中文法律工作 Skill 集合：59 个 SKILL.md，覆盖咨询/诉讼/刑辩/劳动/破产/合同/合规/检索/文书交付 |
+| 已索引 | - | [pa1nrui1/legal-skills](https://github.com/pa1nrui1/legal-skills) | 套件 | 74 | 2026-07-03 | MIT | 仓库审阅 | 💎潘睿律师·中文法律工作 Skill 集合：59 个 SKILL.md，覆盖咨询/诉讼/刑辩/劳动/破产/合同/合规/检索/文书交付 |
 | 观察 | - | [sunyifeisb-art/legalwork](https://github.com/sunyifeisb-art/legalwork) | 套件 | 50 | 2026-08-26 | NOASSERTION | 仓库审阅 | LegalWork 本地优先法律 AI 工作台：70+ 法律技能 + 智能 OCR + 文件脱敏 + 案件管理（bytelegal.cn）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；发现自动上传或遥测描述，处理客户材料前需复核数据流 |
 | 已索引 | - | [TracyWang95/AnythingButLaw](https://github.com/TracyWang95/AnythingButLaw) | Skill | 42 | 2026-04-09 | MIT | 仓库审阅 | 给律师的非法律商业分析（博弈/估值/财报） |
 | 已索引 | - | [abaiar/-LexAI](https://github.com/abaiar/-LexAI) | 套件 | 30 | 2026-06-09 | 未识别 | 仓库审阅 | 小理智法 AI 法律咨询平台：咨询/合同审查/起草/对比/文书解读，LangChain Agent + 得理法律数据库检索；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
@@ -253,7 +253,7 @@
 | 观察 | - | [yuandian-ailaw/Agent-for-legal-cn](https://github.com/yuandian-ailaw/Agent-for-legal-cn) | 套件 | 12 | 2026-06-04 | NOASSERTION | 仓库审阅 | ⭐ 元典官方 ：claude-for-legal 中国法本地化套件（Apache）；注意：与 CSlawyer1985/claude-for-legal-ZH 的公司法和诉讼 Skill 存在多个 0.90 以上近重复匹配，来源与差异化待复核；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [legalskill/legalskill](https://github.com/legalskill/legalskill) | 套件 | 10 | 2026-06-24 | Apache-2.0 | 仓库审阅 | 律锥·legalskill 社区组织 |
 | 已索引 | - | [MAXXXXXLI/workbuddy-cn-legal-skills](https://github.com/MAXXXXXLI/workbuddy-cn-legal-skills) | 套件 | 9 | 2026-05-14 | Apache-2.0 | 仓库审阅 | WorkBuddy 中国法适配（合同/数据/劳动/IP/争议） |
-| 已索引 | - | [zj-ai-lab/shuanglv-legal-skills](https://github.com/zj-ai-lab/shuanglv-legal-skills) | 套件 | 6 | 2026-08-20 | NOASSERTION | 仓库审阅 | 由执业律师署名终审的中国律师专业工作流系统，强调指令与材料分离、事实证据来源状态、最小能力加载、重大人工决定、对抗性复核和正式交付授权边界。；注意：ShuangLaw Professional Use License 1.0 允许律师和律所正常专业使用，但不是 OSI 开源许可，并限制公开修改版分发及 SaaS/收费 Agent 集成；仓库无自动化测试、CI 或 Release；现有结构检查不能证明全部实体法律内容正确 |
+| 关键备选 | 中国律师日常套件（关键备选） | [zj-ai-lab/shuanglv-legal-skills](https://github.com/zj-ai-lab/shuanglv-legal-skills) | 套件 | 6 | 2026-08-20 | NOASSERTION | 仓库审阅 | 由执业律师署名终审的中国律师专业工作流系统，强调指令与材料分离、事实证据来源状态、最小能力加载、重大人工决定、对抗性复核和正式交付授权边界。；注意：ShuangLaw Professional Use License 1.0 允许律师和律所正常专业使用，但不是 OSI 开源许可，并限制公开修改版分发及 SaaS/收费 Agent 集成；仓库无自动化测试、CI 或 Release；现有结构检查不能证明全部实体法律内容正确 |
 | 已索引 | - | [choosemoon/legal-skills](https://github.com/choosemoon/legal-skills) | 套件 | 5 | 2026-05-05 | MIT | 仓库审阅 | 💎四大法学名家 832 篇论文蒸馏的法学 AI 技能库 |
 | 已索引 | - | [leo123-tto/legal-ai](https://github.com/leo123-tto/legal-ai) | 套件 | 2 | 2026-05-23 | MIT | 仓库审阅 | 💎刘成律师·本地法律知识库增强包：legal-kb + 元典检索 + MinerU OCR + ZIP 导入导出，共享给法律人使用（MIT，法律元力工具包） |
 | 已索引 | - | [gcheng001/legal-skills](https://github.com/gcheng001/legal-skills) | 套件 | 1 | 2026-08-21 | MIT | 仓库审阅 | 💎27 个 skill：民诉九步法 + 刑辩 + 文书自动化 |
@@ -267,17 +267,17 @@
 
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
-| 已索引 | - | [MiaoQichuan/new-litigation-visualization](https://github.com/MiaoQichuan/new-litigation-visualization) | 套件 | 47 | 2026-08-23 | MIT | 测试通过 | 诉讼图与时间轴双 Skill：把语义抽取和确定性几何分离，交付 SVG、PNG、PPTX、VSDX、drawio 及逐项溯源索引，并以原句忠实性守卫阻止改写事实。；注意：完整图形与导出能力需要 Graphviz、LibreOffice、Poppler、Node 或相应字体工具；缺失时应按 doctor 结果降级；扫描件或图片没有文字层时不能做逐字自动比对，必须人工复核 |
+| 当前推荐 | 诉讼图与事实时间轴（当前推荐） | [MiaoQichuan/new-litigation-visualization](https://github.com/MiaoQichuan/new-litigation-visualization) | 套件 | 47 | 2026-08-23 | MIT | 测试通过 | 诉讼图与时间轴双 Skill：把语义抽取和确定性几何分离，交付 SVG、PNG、PPTX、VSDX、drawio 及逐项溯源索引，并以原句忠实性守卫阻止改写事实。；注意：完整图形与导出能力需要 Graphviz、LibreOffice、Poppler、Node 或相应字体工具；缺失时应按 doctor 结果降级；扫描件或图片没有文字层时不能做逐字自动比对，必须人工复核 |
 | 当前推荐 | 民商事诉讼全流程（当前推荐）<br>诉讼、仲裁与执行期限（关键备选） | [Youchu-lawhub/cn-litigation-toolkit](https://github.com/Youchu-lawhub/cn-litigation-toolkit) | 套件 | 21 | 2026-07-11 | NOASSERTION | Smoke 通过 | 游初·中国民商事诉讼全流程工具箱：23 个 Skill 覆盖案情、要件、证据、文书、庭审和质控。；注意：CC BY-NC-ND 4.0 及附加条款；个人学习可用，执业交付、企业使用和公开改编前需核对授权边界；Python 脚本编译通过；仓库未提供自动化功能测试 |
 | 已索引 | - | [thunlp/CAIL](https://github.com/thunlp/CAIL) | 数据/评测 | 514 | 2019-05-13 | MIT | 仓库审阅 | 法研杯·量刑预测数据集（268 万刑事文书）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
 | 关键备选 | 民商事诉讼全流程（关键备选） | [cat-xierluo/SuitAgent](https://github.com/cat-xierluo/SuitAgent) | 套件 | 202 | 2026-08-16 | AGPL-3.0 | 仓库审阅 | 诉讼分析 10-SubAgent 系统；注意：同版本 Skill 也在 cat-xierluo/legal-skills 套件中；独立仓保留为诉讼任务入口 |
 | 已索引 | - | [Dai-shen/LAiW](https://github.com/Dai-shen/LAiW) | 数据/评测 | 91 | 2024-07-03 | MIT | 仓库审阅 | 中文法律 LLM 14 任务基准 + 指令微调数据；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
 | 当前推荐 | 民事请求权与鉴定式分析（当前推荐） | [Youchu-lawhub/gutachten-civil-case](https://github.com/Youchu-lawhub/gutachten-civil-case) | Skill | 72 | 2026-08-01 | NOASSERTION | 仓库审阅 | 💎民法典请求权基础·德国鉴定式案例研习报告（留空白能力槽接自配 MCP/知识库，游初）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [PolarisRisingWar/LJP_Collection](https://github.com/PolarisRisingWar/LJP_Collection) | 数据/评测 | 65 | 2024-05-10 | 未识别 | 仓库审阅 | 判决/刑期预测模型可复现合集；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 关键备选 | 民商事诉讼全流程（关键备选） | [yxk-lawyer/litigation-prep-skill-cn](https://github.com/yxk-lawyer/litigation-prep-skill-cn) | Skill | 21 | 2026-06-13 | 未识别 | 仓库审阅 | 💎CorpClaim CN·公司民商事诉讼指导：案由→请求权基础→构成要件→证据清单→诉讼策略（执业律师，无 license）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [yxk-lawyer/litigation-prep-skill-cn](https://github.com/yxk-lawyer/litigation-prep-skill-cn) | Skill | 21 | 2026-06-13 | 未识别 | 仓库审阅 | 💎CorpClaim CN·公司民商事诉讼指导：案由→请求权基础→构成要件→证据清单→诉讼策略（执业律师，无 license）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 关键备选 | 刑事三阶层鉴定式分析（关键备选） | [Youchu-lawhub/gutachten-criminal-case](https://github.com/Youchu-lawhub/gutachten-criminal-case) | Skill | 18 | 2026-06-15 | NOASSERTION | 仓库审阅 | 💎鉴定式刑法案例研习：三阶层犯罪论、罪名发现、双闸确认、并行写作、法条校验与 Word 输出（Apache 文本，GitHub 未自动识别）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [CSlawyer1985/case-type-guide](https://github.com/CSlawyer1985/case-type-guide) | Skill | 17 | 2026-01-24 | 未识别 | 仓库审阅 | 💎类案办案要件指南（案件类型识别+要件式清单）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 关键备选 | 民事请求权与鉴定式分析（关键备选） | [lilialla/request-right-skill-reference](https://github.com/lilialla/request-right-skill-reference) | Skill | 12 | 2026-06-17 | NOASSERTION | 仓库审阅 | 中国民事请求权基础分析 Skill 参考实现。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [lilialla/request-right-skill-reference](https://github.com/lilialla/request-right-skill-reference) | Skill | 12 | 2026-06-17 | NOASSERTION | 仓库审阅 | 中国民事请求权基础分析 Skill 参考实现。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 当前推荐 | 诉讼、仲裁与执行期限（当前推荐） | [SimbaCD/legal-period-manager-skills](https://github.com/SimbaCD/legal-period-manager-skills) | 套件 | 10 | 2026-05-08 | MIT | 仓库审阅 | 💎杜思敏律师·诉讼/劳动仲裁/ 执行 /待办 期限管家 |
 | 关键备选 | 行政行为合法性与鉴定式分析（关键备选） | [Youchu-lawhub/gutachten-admin-case](https://github.com/Youchu-lawhub/gutachten-admin-case) | Skill | 9 | 2026-07-03 | NOASSERTION | 仓库审阅 | 💎鉴定式行政法案例研习：可受理性 8 闸门 + 行政行为类型路由 + 六要素合法性审查 + 比例原则/裁量审查（CC BY-NC-ND）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [lololo-xiao/MultiJustice-MPMCP](https://github.com/lololo-xiao/MultiJustice-MPMCP) | 数据/评测 | 5 | 2026-02-01 | MIT | 仓库审阅 | 💎多被告多罪名判决预测数据集 |

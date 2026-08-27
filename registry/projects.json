@@ -758,7 +758,7 @@
         "services": []
       },
       "data_path": "local",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [],
       "relationships": [],
@@ -1245,7 +1245,7 @@
         ]
       },
       "data_path": "mixed",
-      "recommendation": "primary",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [],
       "relationships": [],
@@ -3038,7 +3038,7 @@
         "services": []
       },
       "data_path": "local",
-      "recommendation": "indexed",
+      "recommendation": "primary",
       "selection_reason": "覆盖律师自身投标和对外政府采购法律服务，且把证据页码、诚信红线、期限拒绝估算和模拟评审偏差写入工作链，具有明确目录空缺价值。",
       "cautions": [
         "六个 Skill 的全部法条、地方限额和平台规则尚未逐项独立核验，正式使用前必须核对现行国家和项目属地规则",
@@ -3925,7 +3925,7 @@
         ]
       },
       "data_path": "external_api",
-      "recommendation": "indexed",
+      "recommendation": "primary",
       "selection_reason": "填补目录中律师实务型法律资讯筛选和日期/版本辨析空缺；方法小而完整，适合作为低位研究辅助 Skill。",
       "cautions": [
         "仓库根目录没有直接展开 Skill，需从 ZIP 安装；根 GitHub 许可证未识别，ZIP 内为 MIT LICENSE",
@@ -3976,7 +3976,7 @@
         "services": []
       },
       "data_path": "local",
-      "recommendation": "indexed",
+      "recommendation": "primary",
       "selection_reason": "以法律效果先于语言润色、按需加载法系风险锚点和高风险术语决策记录形成目录中稀缺的法律翻译方法；仅作非商用低位资源。",
       "cautions": [
         "CC BY-NC 4.0 禁止商用，不能直接用于律师收费生产、认证翻译或商业交付",
@@ -5763,7 +5763,7 @@
         ]
       },
       "data_path": "mixed",
-      "recommendation": "indexed",
+      "recommendation": "alternative",
       "selection_reason": "相对一般综合套件，独立增量是现行性核验、来源标签、引用放行门和门槛数字不写死；因综合套件赛道拥挤，仅低位收录。",
       "cautions": [
         "43 个 Skill 的结构与路由检查不能证明全部实体法律内容正确，正式结论仍须逐项核法和律师复核",
@@ -7569,7 +7569,7 @@
         ]
       },
       "data_path": "mixed",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [
         "GitHub 未识别许可证，复制、修改或分发前需另行核验"
@@ -8591,7 +8591,7 @@
         "services": []
       },
       "data_path": "local",
-      "recommendation": "indexed",
+      "recommendation": "primary",
       "selection_reason": "来源锚定、A4 物理尺寸计算、多格式可编辑交付和确定性守卫构成目录中稀缺的诉讼可视化完整方法。",
       "cautions": [
         "完整图形与导出能力需要 Graphviz、LibreOffice、Poppler、Node 或相应字体工具；缺失时应按 doctor 结果降级",
@@ -8762,7 +8762,7 @@
         "services": []
       },
       "data_path": "local",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [],
       "relationships": [],
@@ -8980,7 +8980,7 @@
         ]
       },
       "data_path": "mixed",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [
         "涉及登录态或访问令牌，使用前核验获取方式与平台条款"
@@ -10104,7 +10104,7 @@
         ]
       },
       "data_path": "mixed",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [],
       "relationships": [],
@@ -10622,7 +10622,7 @@
         "services": []
       },
       "data_path": "local",
-      "recommendation": "indexed",
+      "recommendation": "alternative",
       "selection_reason": "窄场景内形成事实提取、确定性计算、原文完整性校验、虚构样例和跨平台测试闭环，相对普通合同审查和期限提示具有独立增量。",
       "cautions": [
         "v0.1 只支持普通正文段落批注锚点，表格、页眉页脚、文本框、域、修订容器和重叠锚点会主动拒绝",
@@ -12883,7 +12883,7 @@
         "services": []
       },
       "data_path": "self_hosted",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [
         "GitHub 未识别许可证，复制、修改或分发前需另行核验"
@@ -13423,7 +13423,7 @@
         ]
       },
       "data_path": "mixed",
-      "recommendation": "indexed",
+      "recommendation": "primary",
       "selection_reason": "将有限场景、人工核验法条、确定性结论、缺事实追问和模型输出隔离做成可验证应用，相对通用法律咨询助手具有独立可靠性增量。",
       "cautions": [
         "只覆盖租房押金、预付卡、加班工资、退换货、假货、培训退费、自动续费、装修违约和小额诉讼九类场景，不是通用法律助手",
@@ -14171,7 +14171,7 @@
         "services": []
       },
       "data_path": "unknown",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [
         "GitHub 未识别许可证，复制、修改或分发前需另行核验"
@@ -14508,7 +14508,7 @@
         ]
       },
       "data_path": "mixed",
-      "recommendation": "indexed",
+      "recommendation": "primary",
       "selection_reason": "确定性期限引擎、人工日期保护、费用分成快照和 AI 候选确认边界对个人律师案件管理有真实增量；作为 law-firm-mgmt 应用低位收录，不与 Skill 混称。",
       "cautions": [
         "内置期限规则仅覆盖中国民事诉讼常见程序和有限辖区，作者核准不等于独立法律核验，正式依赖前仍须对照现行法和法院通知",
@@ -14567,7 +14567,7 @@
         "services": []
       },
       "data_path": "mixed",
-      "recommendation": "indexed",
+      "recommendation": "alternative",
       "selection_reason": "不是一般提示词合集，其专业完整性内核、能力按需加载和真实性/授权 Guard 对综合法律 Skill 有方法增量；因与现有套件重叠，仅低位收录。",
       "cautions": [
         "ShuangLaw Professional Use License 1.0 允许律师和律所正常专业使用，但不是 OSI 开源许可，并限制公开修改版分发及 SaaS/收费 Agent 集成",

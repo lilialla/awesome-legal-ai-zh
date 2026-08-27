@@ -9,14 +9,14 @@
 | [综合套件](#starter-suites) | 2 | 4 | 0 |
 | [合同审查与红线](#contracts) | 3 | 5 | 1 |
 | [法律文书与 OCR](#legal-documents) | 5 | 1 | 2 |
-| [法规与案例检索](#legal-research) | 4 | 6 | 2 |
-| [诉讼、证据与期限](#litigation) | 3 | 6 | 2 |
+| [法规与案例检索](#legal-research) | 5 | 6 | 3 |
+| [诉讼、证据与期限](#litigation) | 4 | 5 | 3 |
 | [企业核查与尽调](#enterprise-dd) | 1 | 1 | 0 |
-| [公司、投融资与并购](#corporate-ma) | 2 | 1 | 2 |
-| [数据合规与脱敏](#data-compliance) | 3 | 5 | 3 |
-| [劳动、家事与个人权益](#labor-family) | 2 | 2 | 2 |
+| [公司、投融资与并购](#corporate-ma) | 3 | 1 | 3 |
+| [数据合规与脱敏](#data-compliance) | 3 | 4 | 3 |
+| [劳动、家事与个人权益](#labor-family) | 3 | 1 | 3 |
 | [知识产权与竞争法](#ip-competition) | 6 | 2 | 3 |
-| [涉外与仲裁](#cross-border-arbitration) | 2 | 2 | 1 |
+| [涉外与仲裁](#cross-border-arbitration) | 3 | 1 | 2 |
 | [律所与案件运营](#law-firm-operations) | 2 | 1 | 0 |
 | [税务、破产与房地产](#tax-bankruptcy-realestate) | 0 | 2 | 3 |
 
@@ -33,8 +33,8 @@
 | 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
 |---|---|---|---|---|---|---|---|
 | 当前推荐 | [cat-xierluo/legal-skills](https://github.com/cat-xierluo/legal-skills) | 杨卫薪律师持续维护，50 个 Skill 覆盖合同、诉讼、检索、知产和律师工作流，可单独下载。 | 直接安装 | 本地+联网 | 元典、外部 LLM | 仓库审阅 | 定向实测中同库合同和可视化 10 项通过，听悟转写 4 项因测试与实现签名漂移而报错；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 关键备选 | [NEU-ZHA/legal-ai-skills](https://github.com/NEU-ZHA/legal-ai-skills) | 中国法律任务结构完整，已有脚本级 Smoke 证据。 | 需账号/API | 本地+联网 | 北大法宝 | Smoke 通过 | 涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
-| 关键备选 | [pa1nrui1/legal-skills](https://github.com/pa1nrui1/legal-skills) | 59 个中文法律 Skill，覆盖破产、刑辩、劳动和文书交付。 | 需账号/API | 本地+联网 | 北大法宝、外部 LLM | 仓库审阅 | 无特别提示 |
+| 关键备选 | [zj-ai-lab/shuanglv-legal-skills](https://github.com/zj-ai-lab/shuanglv-legal-skills) | 更强调执业律师方法、事实证据来源状态、最小能力加载、人工决定与正式交付控制。 | 直接安装 | 本地+联网 | 无特定平台 | 仓库审阅 | ShuangLaw Professional Use License 1.0 允许律师和律所正常专业使用，但不是 OSI 开源许可，并限制公开修改版分发及 SaaS/收费 Agent 集成；仓库无自动化测试、CI 或 Release；现有结构检查不能证明全部实体法律内容正确 |
+| 关键备选 | [Hylouis233/mcodeforlegal](https://github.com/Hylouis233/mcodeforlegal) | 适合需要法规现行性核验、引文占位与发送前 citation-audit 的插件式中国法套件。 | 需账号/API | 本地+联网 | 国家法律法规数据库、可选北大法宝、可选聚法 | Smoke 通过 | 43 个 Skill 的结构与路由检查不能证明全部实体法律内容正确，正式结论仍须逐项核法和律师复核；国家法律法规数据库连接使用未公开网页接口，当前可用但可能漂移；not_found 不得解释为法规不存在 |
 
 [查看该能力的完整索引](CATALOG.md#starter-suites)
 
@@ -65,7 +65,7 @@
 |---|---|---|---|---|---|---|---|
 | 当前推荐 | [cat-xierluo/contract-copilot.skill](https://github.com/cat-xierluo/contract-copilot.skill) | 三层分析与四步审查流程直接交付 Word 批注/修订，6 项 DOCX 回归测试通过。 | 直接安装 | 本地 | 无特定平台 | 测试通过 | 已被 cat-xierluo/legal-skills 套件收录，独立仓适合单独安装；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 关键备选 | [nwwfewx/contract-review](https://github.com/nwwfewx/contract-review) | 中国合同审查路线与结构化资料完整，Smoke 通过。 | 直接安装 | 本地 | 无特定平台 | Smoke 通过 | 无特别提示 |
-| 关键备选 | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | 适合自行扩展审查规则和测试夹具。 | 直接安装 | 未明确 | 无特定平台 | 仓库审阅 | 无特别提示 |
+| 关键备选 | [qwertyzhu/openlawkit](https://github.com/qwertyzhu/openlawkit) | 适合只添加 Word 原生批注、不修改合同正文，并要求 OOXML 完整性校验的场景。 | 直接安装 | 本地 | 无特定平台 | 测试通过 | v0.1 只支持普通正文段落批注锚点，表格、页眉页脚、文本框、域、修订容器和重叠锚点会主动拒绝；期限规则仅覆盖公开规则包列明的劳动仲裁和民事执行事件，其他程序不得类推 |
 
 [查看该能力的完整索引](CATALOG.md#contracts)
 
@@ -218,6 +218,18 @@
 
 [查看该能力的完整索引](CATALOG.md#legal-research)
 
+### 律师法律晨报与动态跟踪
+
+**比较口径**：比较官方原文优先、日期与效力状态区分、回溯去重、律师实务提示和核验失败披露。  ·  **大类能力池**：32 项
+
+> **缺口**：当前无可复跑的真实晨报回归样本或内置持久去重数据库，去重依赖调用环境提供历史记录。
+
+| 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
+|---|---|---|---|---|---|---|---|
+| 当前推荐 | [elephantyoung/legal-morning-brief](https://github.com/elephantyoung/legal-morning-brief) | 区分发布、成文、裁判、公开和生效时间，执行 72 小时回溯与 30 天去重，并把未完成原文核验显式降级。 | 直接安装 | 外部 API | 公开 Web 与官方来源 | 仓库审阅 | 仓库根目录没有直接展开 Skill，需从 ZIP 安装；根 GitHub 许可证未识别，ZIP 内为 MIT LICENSE；没有可复跑的真实晨报回归样本、持久化去重数据库或自动化测试 |
+
+[查看该能力的完整索引](CATALOG.md#legal-research)
+
 ### 法规 / 合同 RAG 应用平台
 
 **比较口径**：比较文档解析、索引、混合检索、问答 API、前端工作台、外部依赖和本地测试证据。  ·  **大类能力池**：32 项
@@ -246,7 +258,18 @@
 |---|---|---|---|---|---|---|---|
 | 当前推荐 | [Youchu-lawhub/cn-litigation-toolkit](https://github.com/Youchu-lawhub/cn-litigation-toolkit) | 23 个 Skill 覆盖从立案访谈到证据、庭审和复盘，MCP 为可选增强，脚本编译通过。 | 需部署 | 本地 | 无特定平台 | Smoke 通过 | CC BY-NC-ND 4.0 及附加条款；个人学习可用，执业交付、企业使用和公开改编前需核对授权边界；Python 脚本编译通过；仓库未提供自动化功能测试 |
 | 关键备选 | [cat-xierluo/SuitAgent](https://github.com/cat-xierluo/SuitAgent) | 适合需要多角色 Agent 并行分析争点、证据和攻防的用户。 | 直接安装 | 未明确 | 无特定平台 | 仓库审阅 | 同版本 Skill 也在 cat-xierluo/legal-skills 套件中；独立仓保留为诉讼任务入口 |
-| 关键备选 | [yxk-lawyer/litigation-prep-skill-cn](https://github.com/yxk-lawyer/litigation-prep-skill-cn) | 适合公司民商事案件的请求权基础和证据清单。 | 直接安装 | 未明确 | 无特定平台 | 仓库审阅 | GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+
+[查看该能力的完整索引](CATALOG.md#litigation)
+
+### 诉讼图与事实时间轴
+
+**比较口径**：比较事实来源忠实性、确定性排版、A4 交付、多格式可编辑性、溯源索引和图形降级边界。  ·  **大类能力池**：29 项
+
+> **缺口**：扫描件没有文字层时仍需人工复核；完整格式导出依赖 Graphviz、LibreOffice、Poppler、Node 和字体工具。
+
+| 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
+|---|---|---|---|---|---|---|---|
+| 当前推荐 | [MiaoQichuan/new-litigation-visualization](https://github.com/MiaoQichuan/new-litigation-visualization) | 把语义抽取与确定性几何分离，交付 SVG、PNG、PPTX、VSDX、drawio 和溯源索引，并用守卫禁止改写材料原句。 | 需部署 | 本地 | 无特定平台 | 测试通过 | 完整图形与导出能力需要 Graphviz、LibreOffice、Poppler、Node 或相应字体工具；缺失时应按 doctor 结果降级；扫描件或图片没有文字层时不能做逐字自动比对，必须人工复核 |
 
 [查看该能力的完整索引](CATALOG.md#litigation)
 
@@ -257,7 +280,6 @@
 | 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
 |---|---|---|---|---|---|---|---|
 | 当前推荐 | [Youchu-lawhub/gutachten-civil-case](https://github.com/Youchu-lawhub/gutachten-civil-case) | 把德国鉴定式与中国民法典请求权基础检视结合，方法边界清晰。 | 直接安装 | 未明确 | 无特定平台 | 仓库审阅 | GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 关键备选 | [lilialla/request-right-skill-reference](https://github.com/lilialla/request-right-skill-reference) | 适合需要更轻量中国民事请求权分析参考实现的用户。 | 需账号/API | 本地+联网 | 外部 LLM | 仓库审阅 | GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 
 [查看该能力的完整索引](CATALOG.md#litigation)
 
@@ -293,6 +315,7 @@
 |---|---|---|---|---|---|---|---|
 | 当前推荐 | [SimbaCD/legal-period-manager-skills](https://github.com/SimbaCD/legal-period-manager-skills) | 专门处理诉讼、仲裁、执行和待办期限，与诉讼分析套件互补。 | 需部署 | 本地 | 无特定平台 | 仓库审阅 | 无特别提示 |
 | 关键备选 | [Youchu-lawhub/cn-litigation-toolkit](https://github.com/Youchu-lawhub/cn-litigation-toolkit) | 需要期限管理与全流程案件工作结合时使用。 | 需部署 | 本地 | 无特定平台 | Smoke 通过 | CC BY-NC-ND 4.0 及附加条款；个人学习可用，执业交付、企业使用和公开改编前需核对授权边界；Python 脚本编译通过；仓库未提供自动化功能测试 |
+| 关键备选 | [qwertyzhu/openlawkit](https://github.com/qwertyzhu/openlawkit) | 适合只依据已核实触发事实和窄规则包计算劳动仲裁、民事执行期限，并保留原文与计算状态。 | 直接安装 | 本地 | 无特定平台 | 测试通过 | v0.1 只支持普通正文段落批注锚点，表格、页眉页脚、文本框、域、修订容器和重叠锚点会主动拒绝；期限规则仅覆盖公开规则包列明的劳动仲裁和民事执行事件，其他程序不得类推 |
 
 [查看该能力的完整索引](CATALOG.md#litigation)
 
@@ -330,6 +353,18 @@
 | 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
 |---|---|---|---|---|---|---|---|
 | 当前推荐 | [lilialla/equity-transfer-review-skill](https://github.com/lilialla/equity-transfer-review-skill) | 聚焦中国股权转让、出资责任、监管闸门和交割条件。 | 直接安装 | 未明确 | 无特定平台 | 仓库审阅 | 无特别提示 |
+
+[查看该能力的完整索引](CATALOG.md#corporate-ma)
+
+### 政府采购投标与争议救济
+
+**比较口径**：比较找标、评分拆解、标书、模拟评审、合规检查、质疑投诉、期限计算和法源时效边界。  ·  **大类能力池**：25 项
+
+> **缺口**：完整法条、地方限额和平台规则仍需按项目属地逐项核验；当前只有脚本 demo 和 py_compile 证据。
+
+| 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
+|---|---|---|---|---|---|---|---|
+| 当前推荐 | [cuplgjln-afk/government-procurement-skills](https://github.com/cuplgjln-afk/government-procurement-skills) | 六个 Skill 覆盖政府采购全生命周期，并以证据页码、诚信红线、期限拒绝估算和独立模拟评审控制关键风险。 | 直接安装 | 本地 | 无特定平台 | Smoke 通过 | 六个 Skill 的全部法条、地方限额和平台规则尚未逐项独立核验，正式使用前必须核对现行国家和项目属地规则；期限脚本只内置 2025、2026 年节假日，未收录年份会拒绝计算 |
 
 [查看该能力的完整索引](CATALOG.md#corporate-ma)
 
@@ -374,7 +409,6 @@
 | 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
 |---|---|---|---|---|---|---|---|
 | 关键备选 | [Youchu-lawhub/app-compliance-review](https://github.com/Youchu-lawhub/app-compliance-review) | 方法论和 50+ 检查项有价值，但当前 material_validator.py 存在 SyntaxError，修复前不列当前推荐。 | 需账号/API | 外部 API | 元典、外部 LLM | 仓库审阅 | scripts/material_validator.py 当前存在括号不匹配的 SyntaxError，修复前不建议作为可运行首选；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 关键备选 | [allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry) | 可作为 Android SDK、权限和隐私行为的技术事实提取工具，但不替代法律评价与整改意见。 | 需部署 | 本地 | 无特定平台 | 仓库审阅 | 无特别提示 |
 
 [查看该能力的完整索引](CATALOG.md#data-compliance)
 
@@ -418,7 +452,18 @@
 |---|---|---|---|---|---|---|---|
 | 当前推荐 | [f12336414-ship-it/labor-arbitration-skill](https://github.com/f12336414-ship-it/labor-arbitration-skill) | 法条、时效、金额和证据引用都有核验内核，416 项测试通过。 | 直接安装 | 未明确 | 无特定平台 | 测试通过 | 无特别提示 |
 | 关键备选 | [worker-aid-ai/worker-aid-agent](https://github.com/worker-aid-ai/worker-aid-agent) | 更偏劳动者自助整理材料和申请草稿。 | 需账号/API | 本地+联网 | 外部 LLM | 仓库审阅 | GitHub 未识别许可证，复制、修改或分发前需另行核验 |
-| 关键备选 | [wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill) | 更轻量的劳动仲裁实务 Skill。 | 直接安装 | 自托管 | 无特定平台 | 仓库审阅 | GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+
+[查看该能力的完整索引](CATALOG.md#labor-family)
+
+### 个人维权与小额纠纷
+
+**比较口径**：比较有限场景覆盖、法条来源、确定性结论、证据清单、时效提示、缺事实追问和模型输出隔离。  ·  **大类能力池**：14 项
+
+> **缺口**：仅覆盖九个公开场景，生产部署的数据外发、邮件验证码、DeepSeek 和 OSS 边界仍须使用者确认。
+
+| 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
+|---|---|---|---|---|---|---|---|
+| 当前推荐 | [xyl0729/weiquan-agent](https://github.com/xyl0729/weiquan-agent) | 九类消费者和小额纠纷使用人工核验法条、本地规则、引用门禁和 fail-closed 路径，模型不能生成或覆盖法条与 verdict。 | 需部署 | 本地+联网 | 可选 DeepSeek、可选阿里云邮件与 OSS | 测试通过 | 只覆盖租房押金、预付卡、加班工资、退换货、假货、培训退费、自动续费、装修违约和小额诉讼九类场景，不是通用法律助手；生产部署依赖 DeepSeek、邮件验证码、PostgreSQL 和可选 OSS；真实材料外发与保留边界须另行确认 |
 
 [查看该能力的完整索引](CATALOG.md#labor-family)
 
@@ -534,6 +579,18 @@
 
 [查看该能力的完整索引](CATALOG.md#cross-border-arbitration)
 
+### 法律翻译与双语审阅
+
+**比较口径**：比较法系识别、法律效果保真、文种控制、风险术语核对、官方译文边界和交付前放行检查。  ·  **大类能力池**：14 项
+
+> **缺口**：CC BY-NC 4.0 禁止商用，只能作为非商用方法参考；公开仓没有可复跑盲测结果。
+
+| 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
+|---|---|---|---|---|---|---|---|
+| 当前推荐 | [Emnllawlab/legal-translation-workflow](https://github.com/Emnllawlab/legal-translation-workflow) | 先处理主体、条件、例外、程序、救济和责任范围，再润色语言；按法系与文种渐进加载风险锚点，不提供脱离语境的固定译法。 | 直接安装 | 本地 | 无特定平台 | 仓库审阅 | CC BY-NC 4.0 禁止商用，不能直接用于律师收费生产、认证翻译或商业交付；公开仓不提供完整双语词典、历史法数据库或可复跑盲测结果 |
+
+[查看该能力的完整索引](CATALOG.md#cross-border-arbitration)
+
 ### 进出口制裁筛查
 
 **比较口径**：比较名单覆盖和更新、模糊匹配、误报复核、部署门槛与面向律师的工作流。  ·  **大类能力池**：14 项
@@ -541,7 +598,6 @@
 | 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
 |---|---|---|---|---|---|---|---|
 | 当前推荐 | [opensanctions/opensanctions](https://github.com/opensanctions/opensanctions) | 337 个制裁、PEP 和监视名单源，更新与实体对齐底座完整，仓库含 104 个测试文件。 | 需部署 | 自托管 | 无特定平台 | 仓库审阅 | 无特别提示 |
-| 关键备选 | [moov-io/watchman](https://github.com/moov-io/watchman) | 更轻量的本地 OFAC/全球制裁筛查引擎，适合自建匹配流程。 | 直接安装 | 本地 | 无特定平台 | 仓库审阅 | 无特别提示 |
 | 关键备选 | [TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening](https://github.com/TracyWang95/DataInftra-CrossBoardTrustedDataPace-SanctionScreening) | 更偏跨境数据空间与律师工作流，但当前只完成仓库审阅。 | 直接安装 | 本地 | 无特定平台 | 仓库审阅 | 无特别提示 |
 
 [查看该能力的完整索引](CATALOG.md#cross-border-arbitration)
@@ -561,13 +617,13 @@
 
 个人案件提醒、案件管理和律所工作流。
 
-### 个人律师开庭提醒与卷宗看板
+### 个人律师案件、期限与卷宗工作台
 
-**比较口径**：只比较个人律师的开庭/期限提醒、传票解析、卷宗看板和本地数据路径。  ·  **大类能力池**：20 项
+**比较口径**：比较个人律师案件台账、确定性期限、待办日历、费用、案件文件、提醒和本地数据路径。  ·  **大类能力池**：20 项
 
 | 定位 | 项目 | 适用差异 | 上手 | 数据路径 | 依赖 | 核验 | 注意事项 |
 |---|---|---|---|---|---|---|---|
-| 当前推荐 | [AzureTsui/GiGi](https://github.com/AzureTsui/GiGi) | 本地优先，聚焦个人律师开庭提醒、传票解析和卷宗看板。 | 需账号/API | 本地+联网 | 外部 LLM | 仓库审阅 | 无特别提示 |
+| 当前推荐 | [zj-ai-lab/anqi](https://github.com/zj-ai-lab/anqi) | 自托管单律师工作台，确定性期限、待办日历、费用分成、案件文件和人工确认式 AI 候选形成完整日常闭环。 | 需部署 | 本地+联网 | 可选 DeepSeek、可选 Discord、可选 LegalRAG | 仓库审阅 | 内置期限规则仅覆盖中国民事诉讼常见程序和有限辖区，作者核准不等于独立法律核验，正式依赖前仍须对照现行法和法院通知；macOS 包尚未 Apple Developer 签名公证；Android 客户端必须连接用户自建服务器 |
 
 [查看该能力的完整索引](CATALOG.md#law-firm-operations)
 
