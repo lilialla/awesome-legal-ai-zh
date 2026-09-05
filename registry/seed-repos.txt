@@ -95,6 +95,7 @@ excalidraw/excalidraw	ppt-assets
 Eysn0130/DeepLaw	tech-foundation
 f/prompts.chat	tech-foundation
 f12336414-ship-it/labor-arbitration-skill	labor-family-personal
+FangkeJiang/B2B-AI-FDE-Contract-counsel	contract-doc-ip
 fapiaoapi/invoice	tax-bankruptcy-realestate
 fayayy888/legal-document-assistant	contract-doc-ip
 fishaudio/fish-speech	media-ip
@@ -120,6 +121,7 @@ harveyai/biglaw-bench	dataset-infra
 HazyResearch/legalbench	dataset-infra
 he-yufeng/ContractGuard	corp-finance-ma-dd
 hellodigua/code996	labor-family-personal
+Hellyai/investment-legal-dd-skill	corp-finance-ma-dd
 Hill-1024/Lawyance	skill-suite
 hisnontright/jiandawang-jicui-consultation	retrieval-mcp
 HKUDS/LightRAG	tech-foundation
@@ -150,6 +152,7 @@ KKKKhazix/khazix-skills	media-ip
 KKKKhazix/wechat-article-exporter	media-ip
 langgptai/wonderful-prompts	tech-foundation
 laolaoshiren/claude-code-skills-zh	tech-foundation
+larashero3-dotcom/writing-dna-skill	media-ip
 lawchat-oss/mcp-taiwan-legal-db	retrieval-mcp
 lawflow-boop/LawLink	law-firm-mgmt
 lawglance/lawglance	intl-tools
@@ -291,6 +294,7 @@ wangchangwei/arb-skill	labor-family-personal
 wechatsync/Wechatsync	media-ip
 WEIFENG2333/VideoCaptioner	media-ip
 wgpsec/ENScan_GO	enterprise-check
+whthomas/china-laws	retrieval-mcp
 worker-aid-ai/worker-aid-agent	labor-family-personal
 workingclass-ai/workingclass	labor-family-personal
 worldwidelaw/legal-sources	cross-border-arbitration
@@ -300,6 +304,7 @@ xiaodingfeng/contract-review	contract-doc-ip
 Xigua9xi/ai-legal-review-skillkit	contract-doc-ip
 xtgmf/minfadian	criminal-admin-exec
 xyl0729/weiquan-agent	labor-family-personal
+yamazaki82/trade-doc-review	cross-border-arbitration
 yangyc03/yangyc-legalai-skills	skill-suite
 Youchu-lawhub/app-compliance-review	data-compliance
 Youchu-lawhub/cn-litigation-toolkit	criminal-admin-exec
@@ -311,6 +316,7 @@ youdianzhineng-ailaw/privacy-policy-self-service-generator-mvp	data-compliance
 YouGram-001/legal-empirical-research-skills	dataset-infra
 yuandian-ailaw/Agent-for-legal-cn	skill-suite
 yuandian-ailaw/yuandian-mcp-server	retrieval-mcp
+yuandian-ailaw/yuandian_dsh_plugin	retrieval-mcp
 yuc16/PatentRadar	contract-doc-ip
 yuhudie598-dev/legal-case-analysis-plus	criminal-admin-exec
 yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus	data-compliance
@@ -321,6 +327,7 @@ zgbrenner/agentcounsel	skill-suite
 zh-xx/legal-assistant-skills	contract-doc-ip
 zhanglunet/qcc	enterprise-check
 zhihaiLLM/wisdomInterrogatory	llm
+Zhlawyer/ma-due-diligence-cn	corp-finance-ma-dd
 zhou210712/claude-for-legal-ZH	skill-suite
 zj-ai-lab/anqi	law-firm-mgmt
 zj-ai-lab/shuanglv-legal-skills	skill-suite
@@ -328,3 +335,4 @@ Zleap-AI/SAG	tech-foundation
 zoharbabin/due-diligence-agents	corp-finance-ma-dd
 ZongziForu/cn-law-hub	retrieval-mcp
 zubair-trabzada/ai-legal-claude	skill-suite
+zzqzzqzzq99/legal-dd-file-organizer	corp-finance-ma-dd

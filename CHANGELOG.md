@@ -5,6 +5,24 @@
 
 ---
 
+## 2026-09-06
+
+### 新增
+- **本周法律实务与相邻资源综合补录**（+7 仓 → **336**）：按“大陆律师日常价值、方法独创性、内容可靠性优先；许可证、测试和 CI 作为使用边界而非自动排除条件”的口径，新增以下项目：
+  - 跨境与检索：`yamazaki82/trade-doc-review`、`yuandian-ailaw/yuandian_dsh_plugin`、`whthomas/china-laws`；分别补充进出口贸易单据/GACC 六维核验、元典官方 DSH 聚合入口和带官方 URL 的大规模法规 Markdown 数据底座。
+  - 公司与尽调：`Zhlawyer/ma-due-diligence-cn`、`Hellyai/investment-legal-dd-skill`、`zzqzzqzzq99/legal-dd-file-organizer`；分别补充中国并购尽调的证据与交付门禁、投资机构分阶段/行业化尽调、Excel 资料清单驱动的上游文件预整理。
+  - 律师内容相邻资源：`larashero3-dotcom/writing-dna-skill`；以至少 20 篇自有文章蒸馏语言、结构、选题、素材、认知和视觉六层 Writing DNA，仅作低位内容方法资源。
+- 收录不把工程绿灯等同于法律正确：无许可证、无测试或无 CI 的项目保留相应提示，但只要其方法具有明确独创性和实务价值，不据此单独排除；数据授权、客户材料外传、法源时效和正式交付仍须逐项核验。
+
+### 首页策展
+- 新增“进出口贸易单据审查”任务，以 `yamazaki82/trade-doc-review` 为当前推荐；首页任务 25→26。为维持首页最多展示 40 个项目的门槛，将较弱且重复度较高的 `nwwfewx/contract-review` 从“通用合同审查”首页备选移回完整索引，不删除目录记录；`qwertyzhu/openlawkit` 仍保留为合同审查备选。
+- “法规现行性核验”增加 `yuandian-ailaw/yuandian_dsh_plugin` 作为 DSH 专项备选；“中国法律尽职调查”增加 `Zhlawyer/ma-due-diligence-cn` 作为证据与交付门禁备选。两项均不改变既有当前推荐。
+
+## 2026-08-28
+
+### 新增
+- **AI/SaaS B2B 合同顾问低位补录**（+1 仓 → **329**）：新增 `FangkeJiang/B2B-AI-FDE-Contract-counsel`（★0，MIT），以法律、监管合规、财税和商务四视角审查或起草中英双语 AI/SaaS 合同，覆盖计费事件、对账、模型训练权、验收、责任限制和第三方渠道依赖。本地 `python3 -m py_compile scripts/docx_review.py` 及两份合成 DOCX 读取 Smoke 通过。当前仅 1 个提交，无 CI、自动化测试或 Release；中国大陆及跨境法域、数据出境和财税提示未逐项独立核验，仅进入完整索引，不列首页推荐。
+
 ## 2026-08-27
 
 ### 新增

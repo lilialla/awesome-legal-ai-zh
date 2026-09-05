@@ -4360,6 +4360,55 @@
       "legacy_category": "labor-family-personal"
     },
     {
+      "id": "FangkeJiang/B2B-AI-FDE-Contract-counsel",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/FangkeJiang/B2B-AI-FDE-Contract-counsel",
+      "name": "B2B-AI-FDE-Contract-counsel",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc",
+        "cross_border"
+      ],
+      "summary": "AI/SaaS B2B 合同顾问 Skill：以法律、监管合规、财税和商务四视角审查或起草中英双语合同，覆盖计费事件、对账、模型训练权、验收、责任限制和第三方渠道依赖。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "AI/SaaS 效果付费、模型训练权、客户系统计费数据和第三方渠道依赖构成相对通用合同审查的细分增量；仅低位索引。",
+      "cautions": [
+        "当前仅 1 个提交，无 CI、自动化测试或 Release；本轮 Smoke 只验证标准库 DOCX 读取脚本可运行，不证明完整审查流程或法律内容正确",
+        "中国大陆及跨境法域、数据出境和财税提示属于方向性说明，未逐项以现行官方来源独立核验，正式使用前需由相应法域律师复核",
+        "README 安装示例中的仓库地址仍为 <you> 占位符，安装时应使用实际 GitHub 地址"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-08-28",
+        "evidence": [
+          "Repository README, SKILL.md, seven reference files, MIT LICENSE and stdlib DOCX reader reviewed at commit f0a0d198cd87.",
+          "The repository contains one Skill covering 17 clause families and seven AI/SaaS B2B contract archetypes in Chinese, English or bilingual form.",
+          "Local verification passed python3 -m py_compile scripts/docx_review.py and extracted two synthetic DOCX fixtures without network access."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 1,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "contract-doc-ip"
+    },
+    {
       "id": "fapiaoapi/invoice",
       "aliases": [],
       "source": "github",
@@ -9208,7 +9257,7 @@
         "services": []
       },
       "data_path": "local",
-      "recommendation": "alternative",
+      "recommendation": "indexed",
       "selection_reason": "",
       "cautions": [],
       "relationships": [],
@@ -14827,6 +14876,362 @@
         }
       },
       "legacy_category": "skill-suite"
+    },
+    {
+      "id": "Zhlawyer/ma-due-diligence-cn",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/Zhlawyer/ma-due-diligence-cn",
+      "name": "ma-due-diligence-cn",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "corporate-ma",
+      "capabilities": [
+        "corporate-ma"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国并购法律尽调 Skill：覆盖环境验收、材料摄入、事实证据台账、外部核验路由、法律风险分析和正式交付门禁。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "可选 MinerU",
+          "可选外部核验平台"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "相较一般尽调清单，增加原件只读、本地摄入、事实证据台账、外部核验状态、法源有效性和正式交付门禁，适合作为中国并购尽调的低位关键备选。",
+      "cautions": [
+        "当前仓库提交历史较短且无 CI；自动化门禁用于约束流程，不能替代律师对法律、行业和项目事实的实质复核",
+        "完整 OCR 路径依赖 MinerU 3.0.9；缺失时会停在 action-required，不应把受阻运行表述为正式交付通过",
+        "reviewed-draft 示例保持 formal_delivery_allowed=false，只有完成材料、法源和人工确认门禁后才能进入正式交付"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-08-30",
+        "evidence": [
+          "Repository README, SKILL.md, supporting references, scripts and Apache-2.0 LICENSE reviewed at commit 63e75ac786f9.",
+          "Local compileall and environment, filesystem and preflight checks passed; the missing MinerU path stopped visibly at action-required.",
+          "The v0.5.7 release ZIP SHA-256 matched the GitHub asset digest; reviewed-draft remained non-final and the blocked-law scenario emitted explicit blockers."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 11,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "corp-finance-ma-dd"
+    },
+    {
+      "id": "Hellyai/investment-legal-dd-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/Hellyai/investment-legal-dd-skill",
+      "name": "investment-legal-dd-skill",
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "corporate-ma",
+      "capabilities": [
+        "corporate-ma"
+      ],
+      "jurisdictions": [
+        "prc",
+        "cross_border"
+      ],
+      "summary": "投资机构分阶段法律尽调 Skill：区分 BP/立项早筛、资料回传后的补充尽调和完整报告，并提供 AI、半导体、先进制造、核聚变及出海行业包。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "把投资机构尽调按决策阶段拆分，并用行业包调整重点、资料缺口和报告结构，形成相对通用并购尽调的独创方法增量；按低位索引收录。",
+      "cautions": [
+        "仓库未提供明确开源许可证；阅读和链接不等于取得复制、修改、再分发或商用授权",
+        "当前无自动化测试、CI 或 Release；工程完整度不否定方法价值，但运行与交付表现尚未独立验证",
+        "行业风险、出海规则和法律结论属于工作框架，正式使用前仍须回到当前官方来源、项目材料和专业人员复核",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-09-02",
+        "evidence": [
+          "Repository README, two Skill entrypoints, industry packs and workflow references reviewed at commit 06fcbda6cec7.",
+          "The public tree contains 33 files and two Skill entrypoints, with distinct early-screening, supplemental-review and full-report stages.",
+          "No root LICENSE, automated tests, CI workflow or Release was present at the reviewed commit; these are recorded as limitations rather than automatic exclusion."
+        ],
+        "signals": {
+          "skill_files": 2,
+          "test_files": 0,
+          "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "corp-finance-ma-dd"
+    },
+    {
+      "id": "yamazaki82/trade-doc-review",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/yamazaki82/trade-doc-review",
+      "name": "trade-doc-review",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "cross-border-arbitration",
+      "capabilities": [
+        "cross-border-arbitration",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc",
+        "cross_border"
+      ],
+      "summary": "进出口贸易单据审查 Skill：逐字段核对合同、发票、箱单、提单和产地证，检查中英文标签、串单抄错及 GACC 在华注册号六维一致性。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "GACC 公开查询接口",
+          "可选外部 OCR 或模型"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "primary",
+      "selection_reason": "填补进出口单据跨文件对账、标签核对、串单识别和境外生产企业在华注册号校验空白，且能输出可复核的字段级 HTML 风险报告。",
+      "cautions": [
+        "扫描件是否发送到外部 OCR 或模型取决于宿主环境，处理客户材料前须确认逐次授权、保留和删除规则",
+        "GACC 查询会向公开接口发送注册号及相关企业、商品、日期或国家字段；真实项目应先确认可接受的数据边界",
+        "部分风险阈值属于启发式规则，当前无 CI、Release 或独立自动化测试，不能替代报关、食品合规或当地律师判断"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-09-04",
+        "evidence": [
+          "Repository README, SKILL.md, four Python scripts and MIT LICENSE reviewed at commit 777066ea9ff2.",
+          "Local compile and dependency checks passed; invalid specifications failed closed and a synthetic specification produced the expected HTML report.",
+          "A real public GACC endpoint query returned a record and the six-axis registration checks completed successfully; this does not independently validate every legal threshold."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 4,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "cross-border-arbitration"
+    },
+    {
+      "id": "zzqzzqzzq99/legal-dd-file-organizer",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/zzqzzqzzq99/legal-dd-file-organizer",
+      "name": "legal-dd-file-organizer",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "corporate-ma",
+      "capabilities": [
+        "corporate-ma"
+      ],
+      "jurisdictions": [
+        "general",
+        "prc"
+      ],
+      "summary": "法律尽调资料预整理 Skill：把 Excel 资料清单编译为目录树，对受限文本摘录做语义分类，仅复制高置信文件，并保留待人工分类、断点续跑和台账。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "可选外部 LLM"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "补充实体尽调前的材料工程：以原件不动、高置信复制、人工待分类和可恢复台账降低资料室整理成本，与法律结论型尽调 Skill 不重复。",
+      "cautions": [
+        "当前仓库规模小、提交历史短；测试证明样例链路可跑，不代表已覆盖复杂资料室、重名文件和所有恢复场景",
+        "恢复路径对同尺寸既存输出的判断较弱，重要项目应复核哈希、目标文件完整性和台账一致性",
+        "是否把摘录发送给外部模型取决于宿主配置，处理客户资料前须确认保密、跨境、留存和删除边界"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-09-04",
+        "evidence": [
+          "Repository README, SKILL.md, Python implementation, two test paths and MIT LICENSE reviewed at commit f0643b36cabf.",
+          "Local unittest end-to-end sample passed and confirmed the request-list-to-tree, classification, copy and ledger path.",
+          "The v0.2.0 release ZIP SHA-256 matched the GitHub release digest."
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 2,
+          "code_files": 2,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "corp-finance-ma-dd"
+    },
+    {
+      "id": "whthomas/china-laws",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/whthomas/china-laws",
+      "name": "china-laws",
+      "scope": "core",
+      "kind": "dataset",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国法律法规 Markdown 数据仓：同步国家法律法规数据库，三万余件法规带 frontmatter、唯一 ID 和官方来源 URL，适合作为本地检索数据底座。",
+      "setup": {
+        "mode": "reference",
+        "difficulty": "reference",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "以三万余件带官方 URL 的结构化法规补充本地数据底座；按完整索引低位收录，不替换具备 CLI/MCP 与回归测试的现有法规检索主推荐。",
+      "cautions": [
+        "MIT 只覆盖仓库脚本和文档，不覆盖法规数据；仓库要求法规数据仅用于学习研究，不应据此宣传可商用或可再分发",
+        "本地验证发现 70 个标题漂移告警，正式引用仍应回到国家法律法规数据库或主管机关页面核对正文、效力和沿革",
+        "这是数据仓而非完整检索应用，不包含现成律师工作流、MCP 服务或法律结论门禁"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-09-04",
+        "evidence": [
+          "Repository README, data layout, verification scripts, MIT code license and separate data notice reviewed at commit 5eed43885162.",
+          "Local verify_all.py ran twice over 30,146 records: unique IDs were preserved and no parse, format, status or ID decode errors were reported.",
+          "The validation also reported 70 title-drift warnings; these remain visible limitations rather than being normalized away."
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 0,
+          "code_files": 6,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "retrieval-mcp"
+    },
+    {
+      "id": "yuandian-ailaw/yuandian_dsh_plugin",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/yuandian-ailaw/yuandian_dsh_plugin",
+      "name": "yuandian_dsh_plugin",
+      "scope": "core",
+      "kind": "mcp",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "enterprise-dd",
+        "corporate-ma"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "华宇元典 DeepSeek Harness 官方插件：以 OAuth PKCE 或 API Key 接入聚合 MCP，并附法规、案例、企业和证券合规四项官方 Skill。",
+      "setup": {
+        "mode": "config",
+        "difficulty": "account_required",
+        "services": [
+          "元典",
+          "DeepSeek Harness"
+        ]
+      },
+      "data_path": "external_api",
+      "recommendation": "alternative",
+      "selection_reason": "为 DeepSeek Harness 提供元典官方聚合入口、四项官方 Skill 和完整的 OAuth/凭证/重连边界，作为现有元典 MCP Server 的 DSH 专项低位补充。",
+      "cautions": [
+        "当前公开仓库提交历史短且无正式 tag 或 Release；安装时应固定可信 commit，并核验自行构建的制品",
+        "原创代码采用 MIT，四份官方 Skill 和品牌素材仅按 LICENSES.md 所列范围授权随包分发，不应推定可独立修改或再许可",
+        "检索参数会发送至元典开放平台，账号、订阅、额度、计费、服务端处理和法律数据使用仍受平台条款约束"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-09-05",
+        "evidence": [
+          "Repository README, LICENSES.md, source, tests and CI configuration reviewed at commit 6dac1cc46962.",
+          "Local pnpm check passed 15 test files and 57 tests twice; build, artifact verification and package dry-run completed successfully.",
+          "Unauthenticated access to the configured MCP endpoint returned 401; OAuth/API-key, HTTPS-only remote endpoint and bounded retry behavior were confirmed from source and tests."
+        ],
+        "signals": {
+          "skill_files": 4,
+          "test_files": 15,
+          "code_files": 39,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "retrieval-mcp"
+    },
+    {
+      "id": "larashero3-dotcom/writing-dna-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/larashero3-dotcom/writing-dna-skill",
+      "name": "writing-dna-skill",
+      "scope": "adjacent",
+      "kind": "suite",
+      "primary_capability": "adjacent-resources",
+      "capabilities": [
+        "adjacent-resources"
+      ],
+      "jurisdictions": [
+        "general"
+      ],
+      "summary": "写作 DNA 蒸馏 Skill：从至少 20 篇完整文章提炼语言、结构、选题、素材、认知和视觉六层风格资产，再据相关原文约束新稿。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "可选 Moxt"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "相较通用去 AI 味工具，增加个人写作样本蒸馏、六层风格资产、相关原文回读和白名单式表达控制，适合作为律师内容生产的相邻低位资源。",
+      "cautions": [
+        "至少需要 20 篇有权使用的完整文章；采集、存储和生成时须处理版权、隐私、署名及模仿特定在世作者的边界",
+        "主仓无代码、自动化测试、CI、tag 或 Release；关联研究语料未公开，效果数字和优于其他工具的宣传未获独立复核",
+        "关联检查脚本对零中文字分组存在除零缺陷；正式发布前仍需人工核对事实、引文、法律依据和账号风格一致性"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-08-28",
+        "evidence": [
+          "Repository README, two Skill entrypoints and MIT LICENSE reviewed at commit ee3d97ee2726.",
+          "The method requires at least 20 source articles, produces six layers of Writing DNA and asks the drafting stage to reread five relevant originals.",
+          "Associated research scripts compiled and two comparison scripts completed smoke checks, but the private research corpus and claimed effect size could not be independently reproduced."
+        ],
+        "signals": {
+          "skill_files": 2,
+          "test_files": 0,
+          "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "media-ip"
     }
   ]
 }

@@ -139,10 +139,6 @@
       },
       "alternatives": [
         {
-          "project": "nwwfewx/contract-review",
-          "reason": "中国合同审查路线与结构化资料完整，Smoke 通过。"
-        },
-        {
           "project": "qwertyzhu/openlawkit",
           "reason": "适合只添加 Word 原生批注、不修改合同正文，并要求 OOXML 完整性校验的场景。"
         }
@@ -353,6 +349,10 @@
         {
           "project": "yuandian-ailaw/yuandian-mcp-server",
           "reason": "适合同时需要法规、案例和企业数据 API 的用户。"
+        },
+        {
+          "project": "yuandian-ailaw/yuandian_dsh_plugin",
+          "reason": "适合 DeepSeek Harness 用户通过官方 OAuth/API Key 入口调用法规、案例、企业和证券合规能力。"
         }
       ],
       "gap": null,
@@ -574,6 +574,10 @@
         {
           "project": "zoharbabin/due-diligence-agents",
           "reason": "更适合复杂 M&A 数据室的多 Agent 交叉引证，但需复核外部模型的材料上传路径。"
+        },
+        {
+          "project": "Zhlawyer/ma-due-diligence-cn",
+          "reason": "更强调中国并购尽调的本地材料摄入、事实证据台账、外部核验状态和正式交付门禁。"
         }
       ],
       "gap": "中国法候选尚无自动化功能测试。",
@@ -807,6 +811,20 @@
       "alternatives": [],
       "gap": "CC BY-NC 4.0 禁止商用，只能作为非商用方法参考；公开仓没有可复跑盲测结果。",
       "order": 26.5
+    },
+    {
+      "id": "trade-document-review",
+      "capability": "cross-border-arbitration",
+      "title": "进出口贸易单据审查",
+      "homepage": true,
+      "decision_basis": "比较合同、发票、箱单、提单、产地证和中英文标签的跨文件字段核对、串单识别、境外生产企业注册校验及可复核报告。",
+      "primary": {
+        "project": "yamazaki82/trade-doc-review",
+        "reason": "把贸易单据逐字段对账、标签核对、串单检查和 GACC 在华注册号六维校验组合成可复核的专项工作流。"
+      },
+      "alternatives": [],
+      "gap": "扫描件 OCR、启发式阈值和 GACC 字段解释仍需结合真实单据、海关要求及专业人员复核。",
+      "order": 26.8
     },
     {
       "id": "sanctions-screening",
