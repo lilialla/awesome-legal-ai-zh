@@ -907,8 +907,13 @@
       "homepage": false,
       "decision_basis": "比较债权申报、审查、重整计划、管理人工作和清算流程。",
       "primary": null,
-      "alternatives": [],
-      "gap": "完整索引中尚无达到推荐门槛的中国破产实务项目。",
+      "alternatives": [
+        {
+          "project": "f4de01/lawyer-workbench-v3",
+          "reason": "12 模块、72 节点衔接破产材料、官方模板、DOCX 和办理状态；本机出件测试有失败及渲染跳过，仅作方法备选。"
+        }
+      ],
+      "gap": "已有破产业务方法备选，尚未完成真实案件连续验收和跨环境出件验证。",
       "order": 30.1
     },
     {
@@ -941,6 +946,70 @@
       ],
       "gap": null,
       "order": 31
+    },
+    {
+      "id": "case-material-organization",
+      "capability": "litigation",
+      "title": "案件材料整理与双向复核",
+      "homepage": false,
+      "decision_basis": "比较材料清点、来源定位、事实与陈述区分、双向复检和变更失效。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "yel66026-stack/case-material-organizer",
+          "reason": "聚焦材料索引、时间轴、主体与金额核对，以来源绑定和双向复检连接全流程诉讼工具。"
+        }
+      ],
+      "gap": null,
+      "order": 13.1
+    },
+    {
+      "id": "ai-content-transparency",
+      "capability": "data-compliance",
+      "title": "AI 内容透明度与标识合规",
+      "homepage": false,
+      "decision_basis": "比较法域与角色识别、官方来源、效力监控和义务清单。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "Phoeny-Xu/ai-transparency-compliance-skill",
+          "reason": "中国大陆、欧盟、加州三地产品角色映射与义务清单有专题价值；许可未明确，须另行核验使用权限和法源时效。"
+        }
+      ],
+      "gap": null,
+      "order": 21.5
+    },
+    {
+      "id": "offer-review",
+      "capability": "labor-family",
+      "title": "录用条件与 Offer 比较",
+      "homepage": false,
+      "decision_basis": "比较劳动争议发生前的录用条件、薪酬口径、退出成本和材料边界。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "hwu59741-dot/offer-review-cn",
+          "reason": "将固定薪酬与浮动奖金分开，并绑定条款位置、适用条件与 HR 追问，适合劳动咨询细分场景。"
+        }
+      ],
+      "gap": null,
+      "order": 22.1
+    },
+    {
+      "id": "law-firm-bid",
+      "capability": "law-firm-operations",
+      "title": "律师服务投标与采购响应",
+      "homepage": false,
+      "decision_basis": "比较拆标、资格与业绩证据、服务方案、固定表式和递交准备，不以 CI 状态单独否定方法价值。",
+      "primary": null,
+      "alternatives": [
+        {
+          "project": "kwf18423059038-pixel/sigma-legal-bid-workflow",
+          "reason": "采购文件驱动的律师投标工作流，有人员业绩配置和签章密封准备；依赖与运行环境存在已披露问题，仅作备选。"
+        }
+      ],
+      "gap": null,
+      "order": 29.5
     }
   ],
   "featured_creators": [

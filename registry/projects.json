@@ -15232,6 +15232,507 @@
         }
       },
       "legacy_category": "media-ip"
+    },
+    {
+      "id": "a1531307144-cell/LexBench",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/a1531307144-cell/LexBench",
+      "name": "LexBench 法研台",
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "Windows 个人法研台：导入法律文档、按条切分、BM25 检索、阅读批注与报告导出；v0.8.5 增加预置法规和可选 AI 助手。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Windows",
+          "可选外部模型 API"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "watch",
+      "selection_reason": "个人桌面阅读、条文定位和研究笔记有独立用途；当前密钥备份与语料来源边界需改进，列为观察。",
+      "cautions": [
+        "API key 以明文存入本机 SQLite；整库备份 ZIP 会包含该配置及原件，应按敏感资料保护，不能将备份直接分享。",
+        "AI 功能按用户配置向模型端点发送问题及上下文；不能沿用 README 的笼统“不上传任何服务器”表述。",
+        "预置法规的逐份来源、现行性和完整性未在本次独立核验；仅 Windows 安装包，当前 checks SUCCESS / v0.8.5 不代表本机功能验收。"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit d342facec5c52dda27cae19e2d6be0ca057256c9.",
+          "2026-09-24 固定 d342face 源码审阅；当前 GitHub checks SUCCESS，Release v0.8.5；本轮未运行桌面程序或复跑单测。",
+          "Source: https://github.com/a1531307144-cell/LexBench/blob/d342facec5c52dda27cae19e2d6be0ca057256c9/src/main/ai.ts",
+          "Source: https://github.com/a1531307144-cell/LexBench/blob/d342facec5c52dda27cae19e2d6be0ca057256c9/src/main/backup.ts",
+          "Source: https://github.com/a1531307144-cell/LexBench/blob/d342facec5c52dda27cae19e2d6be0ca057256c9/src/main/seed.ts",
+          "Source: https://github.com/a1531307144-cell/LexBench/blob/d342facec5c52dda27cae19e2d6be0ca057256c9/README.md"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 12,
+          "code_files": 63,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "retrieval-mcp"
+    },
+    {
+      "id": "ARTHUR-BBU/Agent-T",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/ARTHUR-BBU/Agent-T",
+      "name": "Agent-T 签前合同审查",
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "采购、租赁与 NDA 签前审查：确定性规则与 AI 观察分离，保留条款原文、证据位置、追问与候选修改建议，支持 Word 报告。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Python / FastAPI",
+          "可选 DeepSeek / 智谱 / xAI 或兼容网关"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "规则裁决与 AI 异议分层、证据约束和人工确认有独立方法价值，作为合同应用低位索引。",
+      "cautions": [
+        "无根 LICENSE / 正式 Release；仅收录公开项目线索，复制、修改、再分发与商用权限需另行确认。",
+        "无模型 Key 时运行规则层；启用 AI 后合同文本与问题外传至所选供应商，默认记录 TTL 为 24 小时。认证凭据可同时留空而关闭认证，公网部署须另行配置访问保护。",
+        "认证凭据可同时留空而关闭认证；公网部署必须另行配置认证与访问保护，不直接暴露默认服务。",
+        "当前 GitHub checks SUCCESS；本次审阅规则/模型调用与认证实现，未复跑完整测试、真实模型或合同法律金标。",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit 98a0a95b18c2e03b6e40763d2b1e34192842d202.",
+          "2026-09-24 固定 98a0a95 主干审阅；当前 GitHub checks SUCCESS，未复跑全套测试。",
+          "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/README.md",
+          "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/app/auth.py",
+          "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/app/services/llm_client.py",
+          "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/.github/workflows/tests.yml"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 63,
+          "code_files": 107,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "contract-doc-ip"
+    },
+    {
+      "id": "christyxk-ship-it/chinese-lawyer-case-ocr-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/christyxk-ship-it/chinese-lawyer-case-ocr-skill",
+      "name": "中文律师案卷 OCR",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "macOS 中文案卷本地 OCR：扫描 PDF 转可搜索 PDF、逐页 Markdown 和质检报告；按需对疑难页使用 PaddleOCR，保护原件。",
+      "setup": {
+        "mode": "cli",
+        "difficulty": "technical",
+        "services": [
+          "OCRmyPDF / Tesseract / Ghostscript",
+          "可选 PaddleOCR"
+        ]
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "补充中文案卷的本地非生成式 OCR 路线；因当前本机基线回归失败，仅作完整索引参考。",
+      "cautions": [
+        "2026-09-24 本机 16 项测试中 15 项通过、1 项真实 OCR 基线失败：提取文本夹杂空字符导致关键词匹配失败；原因未完全定位，不标全量通过、不升首页。",
+        "完整路线限 macOS Apple Silicon；Intel Mac 仅基础 OCR 路线，首次安装及下载模型需要联网。",
+        "当前提交 checks SUCCESS、发布版本 v0.4.1，均不能替代本机识别验收；姓名、日期、金额、否定词须人工回看。"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit 88d68551e8f249d4ae6d36db755c09afcd45fbb8.",
+          "2026-09-24 本机 unittest：16 项，15 passed / 1 failed；未改上游代码。",
+          "Source: https://github.com/christyxk-ship-it/chinese-lawyer-case-ocr-skill/blob/88d68551e8f249d4ae6d36db755c09afcd45fbb8/chinese-lawyer-case-ocr-skill/SKILL.md",
+          "Source: https://github.com/christyxk-ship-it/chinese-lawyer-case-ocr-skill/blob/88d68551e8f249d4ae6d36db755c09afcd45fbb8/chinese-lawyer-case-ocr-skill/scripts/ocr_case_pdfs.py",
+          "Source: https://github.com/christyxk-ship-it/chinese-lawyer-case-ocr-skill/blob/88d68551e8f249d4ae6d36db755c09afcd45fbb8/tests/test_ocr_regression.py"
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 2,
+          "code_files": 8,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "tech-foundation"
+    },
+    {
+      "id": "f4de01/lawyer-workbench-v3",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/f4de01/lawyer-workbench-v3",
+      "name": "律师工作台 3.0（破产业务）",
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "tax-bankruptcy-realestate",
+      "capabilities": [
+        "tax-bankruptcy-realestate",
+        "legal-documents",
+        "law-firm-operations"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "破产管理人工作台：以 12 模块、72 节点组织材料、指引、模板与办理状态，7 个 Skill 衔接案件建档、DOCX 出件及律师确认。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Claude Code / Codex 宿主",
+          "python-docx",
+          "Word 渲染可选"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "提供破产业务节点与模板交付的一体化方法，补充通用案件工作台缺少的垂直流程。",
+      "cautions": [
+        "代码与文档 LICENSE 为 MIT，GitHub 识别 NOASSERTION；随仓第三方官方模板和指引不在 MIT 覆盖范围。",
+        "2026-09-24 出件模块 75 项测试：59 passed / 1 failed / 15 skipped；失败为隔离测试进程缺 docx，跳过项涉及本机缺渲染通道，未做全套或真实破产案件验收。",
+        "已有 v0.2.0 Release；发布流程不等于功能测试通过。材料在工作目录处理，但宿主云模型可能接触材料。",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit f3b52bddb370ce5175597660d9d159d397a65ace.",
+          "2026-09-24 本机 unittest discover -s tests/loo0ng-to-docx：75 项，59 passed / 1 failed / 15 skipped；当前主干无 checks。",
+          "Source: https://github.com/f4de01/lawyer-workbench-v3/blob/f3b52bddb370ce5175597660d9d159d397a65ace/README.md",
+          "Source: https://github.com/f4de01/lawyer-workbench-v3/blob/f3b52bddb370ce5175597660d9d159d397a65ace/LICENSE",
+          "Source: https://github.com/f4de01/lawyer-workbench-v3/blob/f3b52bddb370ce5175597660d9d159d397a65ace/skills/loo0ng-to-docx/SKILL.md",
+          "Source: https://github.com/f4de01/lawyer-workbench-v3/blob/f3b52bddb370ce5175597660d9d159d397a65ace/tests/loo0ng-to-docx/test_requirements.py"
+        ],
+        "signals": {
+          "skill_files": 7,
+          "test_files": 33,
+          "code_files": 103,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "tax-bankruptcy-realestate"
+    },
+    {
+      "id": "hwu59741-dot/offer-review-cn",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/hwu59741-dot/offer-review-cn",
+      "name": "中国大陆 Offer 审阅助手",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "labor-family",
+      "capabilities": [
+        "labor-family",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "录用通知、劳动合同与附件审阅：检查录用前提、隐藏条件和退出成本，分开比较固定薪酬、浮动奖金、补贴与股权，形成 HR 追问清单。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "具备文件阅读及联网检索能力的 Agent 宿主"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "补充劳动争议发生前的录用条件与待遇比较，适合劳动咨询窄场景。",
+      "cautions": [
+        "指令型 Skill，不是独立法律数据库；依赖宿主文件读取、OCR 与联网法源核验，云端宿主可能处理材料。",
+        "公开案例和模拟示例属于方法走查，不是盲测或自动化准确率证明；无当前 checks / Release。",
+        "区分不利、违法、效力争议与材料缺失；不自动接受 Offer、签约或发送 HR 沟通。"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit c4034ea21bebf5a34a331ceb4bd60a613de6fc36.",
+          "2026-09-24 固定 c4034ea 源码及方法审阅；MIT，未运行模型实案评测。",
+          "Source: https://github.com/hwu59741-dot/offer-review-cn/blob/c4034ea21bebf5a34a331ceb4bd60a613de6fc36/offer-review-cn/SKILL.md",
+          "Source: https://github.com/hwu59741-dot/offer-review-cn/blob/c4034ea21bebf5a34a331ceb4bd60a613de6fc36/offer-review-cn/references/legal-verification.md",
+          "Source: https://github.com/hwu59741-dot/offer-review-cn/blob/c4034ea21bebf5a34a331ceb4bd60a613de6fc36/THIRD_PARTY_NOTICES.md"
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 0,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "labor-family-personal"
+    },
+    {
+      "id": "kwf18423059038-pixel/sigma-legal-bid-workflow",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow",
+      "name": "西格玛小鬼律师投标工作流",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "law-firm-operations",
+      "capabilities": [
+        "law-firm-operations",
+        "legal-documents",
+        "enterprise-dd"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "律师投标与采购响应：采购文件拆解、资格和业绩证据配置、服务方案、响应文件组装、Word 批注、签章密封清单及私有经验库。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Agent 宿主",
+          "python-docx / PyMuPDF / PyYAML / Pillow",
+          "OCR 与法律数据库按需配置"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "以采购文件和业绩证据驱动律师服务投标交付，区别于政府采购争议救济或通用文书生成。",
+      "cautions": [
+        "Apache-2.0，v1.1.1；当前 GitHub checks FAILURE，requirements-dev.txt 未列出 Pillow，不能描述为开箱即用。",
+        "2026-09-24 本机 153 项测试中 152 passed / 1 failed；清洁导入测试的 pdf-redaction 入口未找到提供 pymupdf 的解释器。",
+        "OCR、数据库和云模型可能外传材料，须按宿主与供应商配置；PyMuPDF 另有 AGPL/商业许可边界。",
+        "只协助签章、密封和递交准备，不自动签署或提交；保留实务方法价值，完整索引收录、不升首页。"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit b1e715d0cefe6faa9190a02794a00b136cd8d205.",
+          "2026-09-24 本机 unittest：153 项，152 passed / 1 failed；当前 GitHub checks FAILURE。",
+          "Source: https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow/blob/b1e715d0cefe6faa9190a02794a00b136cd8d205/skills/sigma-legal-bid-workflow/SKILL.md",
+          "Source: https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow/blob/b1e715d0cefe6faa9190a02794a00b136cd8d205/skills/sigma-legal-bid-workflow/references/privacy-and-configuration.md",
+          "Source: https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow/blob/b1e715d0cefe6faa9190a02794a00b136cd8d205/requirements-dev.txt",
+          "Source: https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow/blob/b1e715d0cefe6faa9190a02794a00b136cd8d205/tests/test_release_package.py"
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 17,
+          "code_files": 53,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "law-firm-mgmt"
+    },
+    {
+      "id": "Phoeny-Xu/ai-transparency-compliance-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/Phoeny-Xu/ai-transparency-compliance-skill",
+      "name": "AI 透明度与内容标识合规",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "data-compliance",
+      "capabilities": [
+        "data-compliance",
+        "cross-border-arbitration"
+      ],
+      "jurisdictions": [
+        "prc",
+        "eu",
+        "us"
+      ],
+      "summary": "中国大陆、欧盟、加州 AI 内容透明度与标识合规：产品事实问卷、法定角色映射、义务清单、跨法域研究和官方来源复核。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "具备联网法源核验能力的 Agent 宿主",
+          "DOCX 输出依赖 Python 文档工具"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "补充 AI 内容标识这一细分合规任务，区分产品角色、法定义务与实施建议，具有独立方法价值。",
+      "cautions": [
+        "未附统一开源许可证；仅收录公开方法线索，复制、修改、再分发及商用权限需另行确认。",
+        "规则库有 90 天复核与高波动监控点；内置文本不等于已核实现行法，实际使用仍须逐项检查适用时点。",
+        "本次只验证 CoP digest 源指纹和锚点检查，未独立核验全部法律规则或真实产品合规效果；宿主联网或云模型有外传边界。",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit f230ba49d20607be1cab42033d999b6360de157f.",
+          "2026-09-24 本机 python3 scripts/cop_digest_verify.py：退出码 0，E=0 / W=0；无当前 checks / Release。",
+          "Source: https://github.com/Phoeny-Xu/ai-transparency-compliance-skill/blob/f230ba49d20607be1cab42033d999b6360de157f/SKILL.md",
+          "Source: https://github.com/Phoeny-Xu/ai-transparency-compliance-skill/blob/f230ba49d20607be1cab42033d999b6360de157f/scripts/cop_digest_verify.py",
+          "Source: https://github.com/Phoeny-Xu/ai-transparency-compliance-skill/blob/f230ba49d20607be1cab42033d999b6360de157f/references/validity-checklist.md"
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 0,
+          "code_files": 10,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "data-compliance"
+    },
+    {
+      "id": "Rethymus/LegalHigh",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/Rethymus/LegalHigh",
+      "name": "LegalHigh 可追溯法律工作台",
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "starter-suites",
+      "capabilities": [
+        "starter-suites",
+        "legal-research",
+        "litigation",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "本地优先法律工作台原型：法条与案例检索、引用绑定、事实证据梳理、合同规则审查、文书辅助与只读检索 MCP。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Python 3.12 / Node.js 22",
+          "可选外部 AI API"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "检索、引用绑定与审计留痕的组合具有方法参考价值，作为综合工作台低位索引。",
+      "cautions": [
+        "仓库明确未附开源许可证、保留全部权利；公开可读不等于允许复制、修改、分发或商业使用。",
+        "AI 默认关闭，启用后会连接配置的模型端点；源码原型仅供本机审阅，不应将开发服务直接暴露公网。",
+        "v1.1.0-rc.1 为预发布且早于本次主干；当前 checks SUCCESS，本轮未复跑测试或独立核验全部法条案例，不将作者公布指标当作法律正确率。",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "repo_read",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit a1d7b11eac15fddf74fab699ceeb6644f14a22be.",
+          "2026-09-24 固定 a1d7b11 主干审阅；GitHub checks SUCCESS；Release v1.1.0-rc.1 为预发布。",
+          "Source: https://github.com/Rethymus/LegalHigh/blob/a1d7b11eac15fddf74fab699ceeb6644f14a22be/README.md",
+          "Source: https://github.com/Rethymus/LegalHigh/blob/a1d7b11eac15fddf74fab699ceeb6644f14a22be/THIRD_PARTY_NOTICES.md",
+          "Source: https://github.com/Rethymus/LegalHigh/blob/a1d7b11eac15fddf74fab699ceeb6644f14a22be/server/app/main.py"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 46,
+          "code_files": 168,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "skill-suite"
+    },
+    {
+      "id": "yel66026-stack/case-material-organizer",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/yel66026-stack/case-material-organizer",
+      "name": "小夜案件材料整理",
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "案件材料只读清点、来源定位、时间轴、主体与金额核对；材料到输出及输出回材料双向复检，成果改动后复检失效。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "具备文件阅读能力的 Agent 宿主",
+          "OCR 按材料另行配置"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "补充全流程诉讼套件之前的通用材料整理环节，以来源绑定和双向复检形成独立价值。",
+      "cautions": [
+        "确定性脚本本地运行；语义整理依赖宿主模型，云端宿主的数据传输政策仍适用。",
+        "不内置完整 OCR；图片未识别时须保持待视觉复核，不把材料陈述直接认定为事实。",
+        "40 项工程测试通过不等于真实案件内容已完整、准确整理。"
+      ],
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-09-24",
+        "evidence": [
+          "2026-09-24 GitHub API verified public repository and default-branch commit c5e8443bca1ee404aa6fedaf25029f3acd607df5.",
+          "2026-09-24 本机 python3 -m unittest discover -s tests：40/40 通过；当前提交 GitHub checks SUCCESS。",
+          "Source: https://github.com/yel66026-stack/case-material-organizer/blob/c5e8443bca1ee404aa6fedaf25029f3acd607df5/SKILL.md",
+          "Source: https://github.com/yel66026-stack/case-material-organizer/blob/c5e8443bca1ee404aa6fedaf25029f3acd607df5/scripts/quality_gate.py",
+          "Source: https://github.com/yel66026-stack/case-material-organizer/blob/c5e8443bca1ee404aa6fedaf25029f3acd607df5/tests/test_quality_gate.py"
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 7,
+          "code_files": 14,
+          "tree_truncated": false
+        }
+      },
+      "legacy_category": "criminal-admin-exec"
     }
   ]
 }

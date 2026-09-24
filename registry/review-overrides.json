@@ -215,6 +215,109 @@
       "cautions": [
         "scripts/material_validator.py 当前存在括号不匹配的 SyntaxError，修复前不建议作为可运行首选"
       ]
+    },
+    "yel66026-stack/case-material-organizer": {
+      "depth": "tested",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit c5e8443bca1ee404aa6fedaf25029f3acd607df5.",
+        "2026-09-24 本机 python3 -m unittest discover -s tests：40/40 通过；当前提交 GitHub checks SUCCESS。",
+        "Source: https://github.com/yel66026-stack/case-material-organizer/blob/c5e8443bca1ee404aa6fedaf25029f3acd607df5/SKILL.md",
+        "Source: https://github.com/yel66026-stack/case-material-organizer/blob/c5e8443bca1ee404aa6fedaf25029f3acd607df5/scripts/quality_gate.py",
+        "Source: https://github.com/yel66026-stack/case-material-organizer/blob/c5e8443bca1ee404aa6fedaf25029f3acd607df5/tests/test_quality_gate.py"
+      ]
+    },
+    "christyxk-ship-it/chinese-lawyer-case-ocr-skill": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit 88d68551e8f249d4ae6d36db755c09afcd45fbb8.",
+        "2026-09-24 本机 unittest：16 项，15 passed / 1 failed；未改上游代码。",
+        "Source: https://github.com/christyxk-ship-it/chinese-lawyer-case-ocr-skill/blob/88d68551e8f249d4ae6d36db755c09afcd45fbb8/chinese-lawyer-case-ocr-skill/SKILL.md",
+        "Source: https://github.com/christyxk-ship-it/chinese-lawyer-case-ocr-skill/blob/88d68551e8f249d4ae6d36db755c09afcd45fbb8/chinese-lawyer-case-ocr-skill/scripts/ocr_case_pdfs.py",
+        "Source: https://github.com/christyxk-ship-it/chinese-lawyer-case-ocr-skill/blob/88d68551e8f249d4ae6d36db755c09afcd45fbb8/tests/test_ocr_regression.py"
+      ]
+    },
+    "Phoeny-Xu/ai-transparency-compliance-skill": {
+      "depth": "smoke",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit f230ba49d20607be1cab42033d999b6360de157f.",
+        "2026-09-24 本机 python3 scripts/cop_digest_verify.py：退出码 0，E=0 / W=0；无当前 checks / Release。",
+        "Source: https://github.com/Phoeny-Xu/ai-transparency-compliance-skill/blob/f230ba49d20607be1cab42033d999b6360de157f/SKILL.md",
+        "Source: https://github.com/Phoeny-Xu/ai-transparency-compliance-skill/blob/f230ba49d20607be1cab42033d999b6360de157f/scripts/cop_digest_verify.py",
+        "Source: https://github.com/Phoeny-Xu/ai-transparency-compliance-skill/blob/f230ba49d20607be1cab42033d999b6360de157f/references/validity-checklist.md"
+      ]
+    },
+    "f4de01/lawyer-workbench-v3": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit f3b52bddb370ce5175597660d9d159d397a65ace.",
+        "2026-09-24 本机 unittest discover -s tests/loo0ng-to-docx：75 项，59 passed / 1 failed / 15 skipped；当前主干无 checks。",
+        "Source: https://github.com/f4de01/lawyer-workbench-v3/blob/f3b52bddb370ce5175597660d9d159d397a65ace/README.md",
+        "Source: https://github.com/f4de01/lawyer-workbench-v3/blob/f3b52bddb370ce5175597660d9d159d397a65ace/LICENSE",
+        "Source: https://github.com/f4de01/lawyer-workbench-v3/blob/f3b52bddb370ce5175597660d9d159d397a65ace/skills/loo0ng-to-docx/SKILL.md",
+        "Source: https://github.com/f4de01/lawyer-workbench-v3/blob/f3b52bddb370ce5175597660d9d159d397a65ace/tests/loo0ng-to-docx/test_requirements.py"
+      ]
+    },
+    "a1531307144-cell/LexBench": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit d342facec5c52dda27cae19e2d6be0ca057256c9.",
+        "2026-09-24 固定 d342face 源码审阅；当前 GitHub checks SUCCESS，Release v0.8.5；本轮未运行桌面程序或复跑单测。",
+        "Source: https://github.com/a1531307144-cell/LexBench/blob/d342facec5c52dda27cae19e2d6be0ca057256c9/src/main/ai.ts",
+        "Source: https://github.com/a1531307144-cell/LexBench/blob/d342facec5c52dda27cae19e2d6be0ca057256c9/src/main/backup.ts",
+        "Source: https://github.com/a1531307144-cell/LexBench/blob/d342facec5c52dda27cae19e2d6be0ca057256c9/src/main/seed.ts",
+        "Source: https://github.com/a1531307144-cell/LexBench/blob/d342facec5c52dda27cae19e2d6be0ca057256c9/README.md"
+      ]
+    },
+    "hwu59741-dot/offer-review-cn": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit c4034ea21bebf5a34a331ceb4bd60a613de6fc36.",
+        "2026-09-24 固定 c4034ea 源码及方法审阅；MIT，未运行模型实案评测。",
+        "Source: https://github.com/hwu59741-dot/offer-review-cn/blob/c4034ea21bebf5a34a331ceb4bd60a613de6fc36/offer-review-cn/SKILL.md",
+        "Source: https://github.com/hwu59741-dot/offer-review-cn/blob/c4034ea21bebf5a34a331ceb4bd60a613de6fc36/offer-review-cn/references/legal-verification.md",
+        "Source: https://github.com/hwu59741-dot/offer-review-cn/blob/c4034ea21bebf5a34a331ceb4bd60a613de6fc36/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    "Rethymus/LegalHigh": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit a1d7b11eac15fddf74fab699ceeb6644f14a22be.",
+        "2026-09-24 固定 a1d7b11 主干审阅；GitHub checks SUCCESS；Release v1.1.0-rc.1 为预发布。",
+        "Source: https://github.com/Rethymus/LegalHigh/blob/a1d7b11eac15fddf74fab699ceeb6644f14a22be/README.md",
+        "Source: https://github.com/Rethymus/LegalHigh/blob/a1d7b11eac15fddf74fab699ceeb6644f14a22be/THIRD_PARTY_NOTICES.md",
+        "Source: https://github.com/Rethymus/LegalHigh/blob/a1d7b11eac15fddf74fab699ceeb6644f14a22be/server/app/main.py"
+      ]
+    },
+    "kwf18423059038-pixel/sigma-legal-bid-workflow": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit b1e715d0cefe6faa9190a02794a00b136cd8d205.",
+        "2026-09-24 本机 unittest：153 项，152 passed / 1 failed；当前 GitHub checks FAILURE。",
+        "Source: https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow/blob/b1e715d0cefe6faa9190a02794a00b136cd8d205/skills/sigma-legal-bid-workflow/SKILL.md",
+        "Source: https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow/blob/b1e715d0cefe6faa9190a02794a00b136cd8d205/skills/sigma-legal-bid-workflow/references/privacy-and-configuration.md",
+        "Source: https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow/blob/b1e715d0cefe6faa9190a02794a00b136cd8d205/requirements-dev.txt",
+        "Source: https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow/blob/b1e715d0cefe6faa9190a02794a00b136cd8d205/tests/test_release_package.py"
+      ]
+    },
+    "ARTHUR-BBU/Agent-T": {
+      "depth": "repo_read",
+      "reviewed_at": "2026-09-24",
+      "evidence": [
+        "2026-09-24 GitHub API verified public repository and default-branch commit 98a0a95b18c2e03b6e40763d2b1e34192842d202.",
+        "2026-09-24 固定 98a0a95 主干审阅；当前 GitHub checks SUCCESS，未复跑全套测试。",
+        "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/README.md",
+        "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/app/auth.py",
+        "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/app/services/llm_client.py",
+        "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/.github/workflows/tests.yml"
+      ]
     }
   }
 }

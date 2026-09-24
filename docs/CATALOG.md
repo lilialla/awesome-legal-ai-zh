@@ -1,6 +1,6 @@
 # 完整项目索引
 
-> 336 个 GitHub 仓库；GitHub 元数据刷新于 2026-08-27T04:35:18Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
+> 345 个 GitHub 仓库；GitHub 元数据刷新于 2026-08-27T04:35:18Z。完整索引保留同质、轻量、观察和退役项目，不等于推荐清单。
 
 状态：`当前推荐`、`关键备选`、`已索引`、`观察`、`退役`。License 只陈述仓库识别结果及人工提示，不构成授权意见。
 
@@ -69,6 +69,7 @@
 | 已索引 | - | [wangchangwei/arb-skill](https://github.com/wangchangwei/arb-skill) | Skill | 28 | 2026-06-22 | NOASSERTION | 仓库审阅 | 💎劳动仲裁 skill（劳动争议实务）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [workingclass-ai/workingclass](https://github.com/workingclass-ai/workingclass) | Skill | 8 | 2026-07-20 | NOASSERTION | 仓库审阅 | 💎劳动者 AI 助手：话术解码、PIP/裁员/加班/薪资谈判、OPSEC 提醒与 9 个法域劳动法地图（Apache-2.0）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 关键备选 | 劳动仲裁（关键备选） | [worker-aid-ai/worker-aid-agent](https://github.com/worker-aid-ai/worker-aid-agent) | 套件 | 2 | 2026-07-11 | NOASSERTION | 仓库审阅 | 💎劳动者权益自助 Agent/Skill：本地 Web + CLI，欠薪/未签合同/违法解除/加班费材料整理与仲裁申请草稿；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 关键备选 | 录用条件与 Offer 比较（关键备选） | [hwu59741-dot/offer-review-cn](https://github.com/hwu59741-dot/offer-review-cn) | Skill | 1 | 2026-09-14 | MIT | 仓库审阅 | 录用通知、劳动合同与附件审阅：检查录用前提、隐藏条件和退出成本，分开比较固定薪酬、浮动奖金、补贴与股权，形成 HR 追问清单。；注意：指令型 Skill，不是独立法律数据库；依赖宿主文件读取、OCR 与联网法源核验，云端宿主可能处理材料。；公开案例和模拟示例属于方法走查，不是盲测或自动化准确率证明；无当前 checks / Release。 |
 
 <a id="contracts"></a>
 
@@ -89,6 +90,7 @@
 | 关键备选 | 合同审查 Starter / 可 fork 基座（关键备选） | [Xigua9xi/ai-legal-review-skillkit](https://github.com/Xigua9xi/ai-legal-review-skillkit) | Skill | 2 | 2026-06-02 | MIT | 仓库审阅 | 中文合同审查 workflow 模板基座：SKILL.md + 公开规则/profiles/schema/fixtures/tests，适合私有 fork 二次开发 |
 | 已索引 | - | [5tnb6xgsm5-ops/contract-guardian](https://github.com/5tnb6xgsm5-ops/contract-guardian) | Skill | 1 | 2026-08-11 | NOASSERTION | 仓库审阅 | 中国合同审查 Skill：内置合同审查规则库、红线清单、分类型 playbook、quality gate、示例输入、Verifier 核验报告和审查意见书；需留意“坑自动入库”的客户材料隐私边界，企查查/北大法宝 MCP 仅作授权增强。；注意：CC BY-SA 4.0 允许商用但要求署名原作者并以相同协议共享衍生作品；无自动化测试；本轮仅完成仓库审阅，不能标为测试通过 |
 | 已索引 | - | [malnlda/contract-review](https://github.com/malnlda/contract-review) | Skill | 1 | 2026-07-01 | 未识别 | 仓库审阅 | 💎专业合同审核 Claude Skill：7 步工作流、5 类门禁、终稿三件套、Track Changes + Comments；README 写 MIT 但 GitHub 未识别 license，需复核；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [ARTHUR-BBU/Agent-T](https://github.com/ARTHUR-BBU/Agent-T) | 应用 | 0 | 2026-09-23 | 未识别 | 仓库审阅 | 采购、租赁与 NDA 签前审查：确定性规则与 AI 观察分离，保留条款原文、证据位置、追问与候选修改建议，支持 Word 报告。；注意：无根 LICENSE / 正式 Release；仅收录公开项目线索，复制、修改、再分发与商用权限需另行确认。；无模型 Key 时运行规则层；启用 AI 后合同文本与问题外传至所选供应商，默认记录 TTL 为 24 小时。认证凭据可同时留空而关闭认证，公网部署须另行配置访问保护。 |
 | 已索引 | - | [brucecbi/nda-review-skill](https://github.com/brucecbi/nda-review-skill) | Skill | 0 | 2025-12-30 | Apache-2.0 | 仓库审阅 | NDA 保密协议审查；注意：Fork：上游为 jamietso/nda-review-skill |
 | 关键备选 | 合同审查 Starter / 可 fork 基座（关键备选） | [The-Data-Galaxy/contract-review-skill](https://github.com/The-Data-Galaxy/contract-review-skill) | Skill | 0 | 2026-06-11 | MIT | 仓库审阅 | 中文合同审查 Skill Starter：含路由、scope check、deal-breaker 推理、QA、3 类 playbook、虚构 NDA 样本和 28/28 样例评估。；注意：无可执行测试框架和代码路径；本轮只核验仓库结构、虚构样本和自带样例评估；属于 Starter，复杂合同审查仍应优先选择经 DOCX 回归测试的成熟项目 |
 | 已索引 | - | [ThomasLiu/contract-review-zh](https://github.com/ThomasLiu/contract-review-zh) | Skill | 0 | 2026-06-28 | Apache-2.0 | 仓库审阅 | 💎委托律师合同审查：面向委托代理/法律服务/风险代理合同，红黄蓝风险清单 + 可复用修改条款（Apache-2.0） |
@@ -106,6 +108,7 @@
 | 当前推荐 | 中小律所案件与执业管理（当前推荐） | [lawflow-boop/LawLink](https://github.com/lawflow-boop/LawLink) | 工具 | 86 | 2026-08-17 | MIT | 仓库审阅 | 💎开源自部署中小律所案件与执业管理系统：收案登记、冲突检索、正式案件、持续跟进、财务记录、结案归档、数据导出 |
 | 已索引 | - | [leo123-tto/case-board](https://github.com/leo123-tto/case-board) | MCP | 42 | 2026-07-28 | NOASSERTION | 仓库审阅 | 💎律师个人案件可视化看板（macOS 桌面端，Tauri+React；已正式公开源码 v0.3.9，可丢给 AI 自行编译 Windows 版；PolyForm 非商业免费）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；发现自动上传或遥测描述，处理客户材料前需复核数据流 |
 | 已索引 | - | [createrivabu/Iuris-Soft](https://github.com/createrivabu/Iuris-Soft) | 套件 | 21 | 2025-12-03 | 未识别 | 仓库审阅 | 案件全生命周期 + 开庭管理 + 文档库；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 关键备选 | 律师服务投标与采购响应（关键备选） | [kwf18423059038-pixel/sigma-legal-bid-workflow](https://github.com/kwf18423059038-pixel/sigma-legal-bid-workflow) | Skill | 12 | 2026-09-14 | Apache-2.0 | 仓库审阅 | 律师投标与采购响应：采购文件拆解、资格和业绩证据配置、服务方案、响应文件组装、Word 批注、签章密封清单及私有经验库。；注意：Apache-2.0，v1.1.1；当前 GitHub checks FAILURE，requirements-dev.txt 未列出 Pillow，不能描述为开箱即用。；2026-09-24 本机 153 项测试中 152 passed / 1 failed；清洁导入测试的 pdf-redaction 入口未找到提供 pymupdf 的解释器。 |
 | 已索引 | - | [TracyWang95/awesome-law-firm-design-md](https://github.com/TracyWang95/awesome-law-firm-design-md) | 资源 | 4 | 2026-04-20 | NOASSERTION | 仓库审阅 | 律所 DESIGN.md 合集（律所设计规范）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [imchongliu/law-firm-worklog](https://github.com/imchongliu/law-firm-worklog) | Skill | 2 | 2026-05-28 | MIT | 仓库审阅 | 💎律所工时月报生成（任务→Excel/CSV，刘冲律师） |
 | 当前推荐 | 个人律师案件、期限与卷宗工作台（当前推荐） | [zj-ai-lab/anqi](https://github.com/zj-ai-lab/anqi) | 应用 | 2 | 2026-08-26 | AGPL-3.0 | 仓库审阅 | 面向独立执业律师的自托管案件工作台，覆盖案件台账、确定性期限、待办日历、律师费与合作分成、文件桥，以及只生成候选并由人工确认写入的 LLM/LegalRAG。；注意：内置期限规则仅覆盖中国民事诉讼常见程序和有限辖区，作者核准不等于独立法律核验，正式依赖前仍须对照现行法和法院通知；macOS 包尚未 Apple Developer 签名公证；Android 客户端必须连接用户自建服务器 |
@@ -123,6 +126,7 @@
 | 关键备选 | 本地法律材料脱敏（关键备选） | [TracyWang95/DataInfra-RedactionEverything](https://github.com/TracyWang95/DataInfra-RedactionEverything) | 应用 | 1146 | 2026-08-23 | NOASSERTION | 测试通过 | Tracy 的多格式本地脱敏工作台：语义 NER、OCR、视觉定位、人工复核、批处理和导出。；注意：默认本地/内网处理，但完整模型链对 GPU、WSL 和部署能力要求较高；仓库 CI 连续失败；实测时 requirements-ci.txt 缺少代码实际导入的 scipy，补充后 548 项测试通过 |
 | 当前推荐 | 匿名化判断（当前推荐） | [The-Data-Galaxy/edpb-anonymisation-guidelines-skill](https://github.com/The-Data-Galaxy/edpb-anonymisation-guidelines-skill) | Skill | 0 | 2026-07-20 | MIT | 测试通过 | EDPB Guidelines 02/2026 匿名化判断中文 Codex Skill：围绕记录孤立、关联和推断三项标准组织事实采集、结论分级和 benchmark 自检。；注意：依据为 EDPB Guidelines 02/2026 Version 1.0 公开征求意见稿，尚非最终指南；中文内容不是官方译文，也不构成最终匿名化认证或技术匿名化测试 |
 | 当前推荐 | DPA 数据处理协议审查（当前推荐） | [The-Data-Galaxy/dpa-review-skill](https://github.com/The-Data-Galaxy/dpa-review-skill) | Skill | 5 | 2026-06-22 | Apache-2.0 | Smoke 通过 | DPA / 数据处理协议审查 Skill：覆盖 PIPL、GDPR、美国州隐私、controller/customer 与 processor/provider 路径，带 7-task benchmark 和发布包校验。；注意：benchmark 为仓库自带证据，本轮核验文件和发布包校验，未重新跑模型评测；不是完整隐私合规套件，不替代实时法规监控、供应商情报或最终法律意见 |
+| 关键备选 | AI 内容透明度与标识合规（关键备选） | [Phoeny-Xu/ai-transparency-compliance-skill](https://github.com/Phoeny-Xu/ai-transparency-compliance-skill) | Skill | 2 | 2026-09-22 | 未识别 | Smoke 通过 | 中国大陆、欧盟、加州 AI 内容透明度与标识合规：产品事实问卷、法定角色映射、义务清单、跨法域研究和官方来源复核。；注意：未附统一开源许可证；仅收录公开方法线索，复制、修改、再分发及商用权限需另行确认。；规则库有 90 天复核与高波动监控点；内置文本不等于已核实现行法，实际使用仍须逐项检查适用时点。 |
 | 已索引 | - | [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio) | 工具 | 10647 | 2026-08-26 | MIT | 仓库审阅 | ⭐🔒PII 检测/脱敏/匿名化框架，行业标准 |
 | 已索引 | - | [allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry) | 工具 | 2283 | 2025-12-30 | MIT | 仓库审阅 | Android 隐私合规整改检测 |
 | 已索引 | - | [TongchengOpenSource/AppScan](https://github.com/TongchengOpenSource/AppScan) | 工具 | 1128 | 2025-03-16 | Apache-2.0 | 仓库审阅 | 企业级 App 隐私合规检测；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
@@ -150,6 +154,7 @@
 | 已索引 | - | [CSlawyer1985/mineru-converter-skill](https://github.com/CSlawyer1985/mineru-converter-skill) | Skill | 36 | 2026-02-02 | 未识别 | 仓库审阅 | 合同审查与红线相关开源项目；旧版 README 未单独展示，待能力页说明。；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 当前推荐 | 诉讼文书与法律意见书起草（当前推荐） | [fayayy888/legal-document-assistant](https://github.com/fayayy888/legal-document-assistant) | 套件 | 27 | 2026-06-24 | 未识别 | 仓库审阅 | 💎中国法律文书撰写 Skill 套件：答辩状、合同审查、法律意见书、代理前案件分析、案例检索、常法服务等（无 license）；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [katejianglaw/refine-legal-chinese](https://github.com/katejianglaw/refine-legal-chinese) | Skill | 15 | 2026-08-17 | NOASSERTION | 仓库审阅 | 💎「法言法语」法律中文改写/审校：保留事实、立场与法律效果，术语辨析 + 质量清单；注意：GitHub 未识别许可证，复制、修改或分发前需另行核验 |
+| 已索引 | - | [christyxk-ship-it/chinese-lawyer-case-ocr-skill](https://github.com/christyxk-ship-it/chinese-lawyer-case-ocr-skill) | Skill | 6 | 2026-09-22 | MIT | 仓库审阅 | macOS 中文案卷本地 OCR：扫描 PDF 转可搜索 PDF、逐页 Markdown 和质检报告；按需对疑难页使用 PaddleOCR，保护原件。；注意：2026-09-24 本机 16 项测试中 15 项通过、1 项真实 OCR 基线失败：提取文本夹杂空字符导致关键词匹配失败；原因未完全定位，不标全量通过、不升首页。；完整路线限 macOS Apple Silicon；Intel Mac 仅基础 OCR 路线，首次安装及下载模型需要联网。 |
 | 已索引 | - | [MarvinLann/contract-cleaner](https://github.com/MarvinLann/contract-cleaner) | Skill | 4 | 2026-04-26 | Apache-2.0 | 仓库审阅 | 中文合同文本清洗/格式化（术语·语法纠正） |
 
 <a id="legal-research"></a>
@@ -181,6 +186,7 @@
 | 关键备选 | 法规现行性核验（关键备选） | [yuandian-ailaw/yuandian-mcp-server](https://github.com/yuandian-ailaw/yuandian-mcp-server) | 工具 | 4 | 2026-05-22 | MIT | 仓库审阅 | 元典官方 MCP Server ：动态注册法规/案例/企业等开放平台 API，需自备 YUANDIAN API KEY |
 | 已索引 | - | [Liu8Can/pkulaw-mcp-router](https://github.com/Liu8Can/pkulaw-mcp-router) | 工具 | 2 | 2026-04-16 | MIT | 仓库审阅 | 北大法宝 MCP 多子服务路由 |
 | 已索引 | - | [malnlda/legal-research](https://github.com/malnlda/legal-research) | 套件 | 2 | 2026-04-26 | MIT | 仓库审阅 | 元典法规+案例+分析师组合研究序列 |
+| 观察 | - | [a1531307144-cell/LexBench](https://github.com/a1531307144-cell/LexBench) | 应用 | 1 | 2026-09-22 | MIT | 仓库审阅 | Windows 个人法研台：导入法律文档、按条切分、BM25 检索、阅读批注与报告导出；v0.8.5 增加预置法规和可选 AI 助手。；注意：API key 以明文存入本机 SQLite；整库备份 ZIP 会包含该配置及原件，应按敏感资料保护，不能将备份直接分享。；AI 功能按用户配置向模型端点发送问题及上下文；不能沿用 README 的笼统“不上传任何服务器”表述。 |
 | 已索引 | - | [malnlda/yd-law-search](https://github.com/malnlda/yd-law-search) | Skill | 1 | 2026-05-20 | 未识别 | 仓库审阅 | 元典法规检索 Copilot Skill（调元典 API）；注意：同版本 Skill 已被 malnlda/legal-research 组合工作流收录；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 当前推荐 | 律师法律晨报与动态跟踪（当前推荐） | [elephantyoung/legal-morning-brief](https://github.com/elephantyoung/legal-morning-brief) | Skill | 0 | 2026-08-15 | 未识别 | 仓库审阅 | 面向律师的官方原文优先法律晨报 Skill，区分发布、成文、裁判、公开和生效时间，提供 72 小时回溯、30 天去重、案例效力分层及 AI 与法律雷达。；注意：仓库根目录没有直接展开 Skill，需从 ZIP 安装；根 GitHub 许可证未识别，ZIP 内为 MIT LICENSE；没有可复跑的真实晨报回归样本、持久化去重数据库或自动化测试 |
 | 已索引 | - | [hisnontright/jiandawang-jicui-consultation](https://github.com/hisnontright/jiandawang-jicui-consultation) | Skill | 0 | 2026-08-08 | MIT | 仓库审阅 | 💎检答网集萃第 1–140 批本地检索技能：检察业务/最高检答疑 Markdown 内置，强调可溯源检索与免责声明（MIT） |
@@ -228,6 +234,7 @@
 | 关键备选 | 税务与发票技术参考（关键备选） | [fapiaoapi/invoice](https://github.com/fapiaoapi/invoice) | 工具 | 72 | 2026-07-15 | 未识别 | 仓库审阅 | 数电/全电发票 SDK（金税·开票接口）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款；GitHub 未识别许可证，复制、修改或分发前需另行核验 |
 | 已索引 | - | [openbankruptcyproject/bankruptcy-discharge-screener](https://github.com/openbankruptcyproject/bankruptcy-discharge-screener) | 资源 | 1 | 2026-08-23 | MIT | 仓库审阅 | 税务、破产与房地产相关开源项目；旧版 README 未单独展示，待能力页说明。 |
 | 已索引 | - | [CSOAI-ORG/tax-calculator-ai-mcp](https://github.com/CSOAI-ORG/tax-calculator-ai-mcp) | MCP | 0 | 2026-06-26 | MIT | 仓库审阅 | 税额计算 MCP（英/美/欧） |
+| 关键备选 | 破产申报、重整与清算（关键备选） | [f4de01/lawyer-workbench-v3](https://github.com/f4de01/lawyer-workbench-v3) | 套件 | 0 | 2026-09-13 | NOASSERTION | 仓库审阅 | 破产管理人工作台：以 12 模块、72 节点组织材料、指引、模板与办理状态，7 个 Skill 衔接案件建档、DOCX 出件及律师确认。；注意：代码与文档 LICENSE 为 MIT，GitHub 识别 NOASSERTION；随仓第三方官方模板和指引不在 MIT 覆盖范围。；2026-09-24 出件模块 75 项测试：59 passed / 1 failed / 15 skipped；失败为隔离测试进程缺 docx，跳过项涉及本机缺渲染通道，未做全套或真实破产案件验收。 |
 
 <a id="starter-suites"></a>
 
@@ -266,6 +273,7 @@
 | 已索引 | - | [gcheng001/legal-skills](https://github.com/gcheng001/legal-skills) | 套件 | 1 | 2026-08-21 | MIT | 仓库审阅 | 💎27 个 skill：民诉九步法 + 刑辩 + 文书自动化 |
 | 已索引 | - | [Hill-1024/Lawyance](https://github.com/Hill-1024/Lawyance) | MCP | 1 | 2026-07-21 | AGPL-3.0 | 仓库审阅 | 中文法律 AI 助手原型：法条/案例检索、企业信息、PDF/Word 处理、对话记忆、模拟法庭与 React/FastAPI 工作区（AGPLv3）；注意：涉及登录态或访问令牌，使用前核验获取方式与平台条款 |
 | 已索引 | - | [Lawyeah-Tech/lawyeah](https://github.com/Lawyeah-Tech/lawyeah) | 套件 | 1 | 2026-08-25 | Apache-2.0 | 仓库审阅 | 律页公开中国大陆法律技能库：32 个领域/合同包、1998 个原子 Skill，以正负触发、来源状态、字段停止、工作节点和交付合同组织细分律师任务。；注意：本轮只完成结构全检和公司、破产、国资、税务、涉外及合同原子的分层抽样，不能表述为 1998 个原子 Skill 均已验证法律正确；当前提交无公开 CI、自动化测试或 Release，公开仓说明完整评测位于私有边界 |
+| 已索引 | - | [Rethymus/LegalHigh](https://github.com/Rethymus/LegalHigh) | 应用 | 0 | 2026-09-24 | 未识别 | 仓库审阅 | 本地优先法律工作台原型：法条与案例检索、引用绑定、事实证据梳理、合同规则审查、文书辅助与只读检索 MCP。；注意：仓库明确未附开源许可证、保留全部权利；公开可读不等于允许复制、修改、分发或商业使用。；AI 默认关闭，启用后会连接配置的模型端点；源码原型仅供本机审阅，不应将开发服务直接暴露公网。 |
 | 已索引 | - | [sealawyer2026/ai-legal-standard-v2](https://github.com/sealawyer2026/ai-legal-standard-v2) | 套件 | 0 | 2026-03-30 | MIT | 仓库审阅 | 综合套件相关开源项目；旧版 README 未单独展示，待能力页说明。 |
 
 <a id="litigation"></a>
@@ -275,6 +283,7 @@
 | 状态 | 对应任务 | 项目 | 类型 | ★ | 最近更新 | License | 核验 | 一句话定位 / 注意事项 |
 |---|---|---|---|---:|---|---|---|---|
 | 当前推荐 | 诉讼图与事实时间轴（当前推荐） | [MiaoQichuan/new-litigation-visualization](https://github.com/MiaoQichuan/new-litigation-visualization) | 套件 | 47 | 2026-08-23 | MIT | 测试通过 | 诉讼图与时间轴双 Skill：把语义抽取和确定性几何分离，交付 SVG、PNG、PPTX、VSDX、drawio 及逐项溯源索引，并以原句忠实性守卫阻止改写事实。；注意：完整图形与导出能力需要 Graphviz、LibreOffice、Poppler、Node 或相应字体工具；缺失时应按 doctor 结果降级；扫描件或图片没有文字层时不能做逐字自动比对，必须人工复核 |
+| 关键备选 | 案件材料整理与双向复核（关键备选） | [yel66026-stack/case-material-organizer](https://github.com/yel66026-stack/case-material-organizer) | Skill | 2 | 2026-09-10 | MIT | 测试通过 | 案件材料只读清点、来源定位、时间轴、主体与金额核对；材料到输出及输出回材料双向复检，成果改动后复检失效。；注意：确定性脚本本地运行；语义整理依赖宿主模型，云端宿主的数据传输政策仍适用。；不内置完整 OCR；图片未识别时须保持待视觉复核，不把材料陈述直接认定为事实。 |
 | 当前推荐 | 民商事诉讼全流程（当前推荐）<br>诉讼、仲裁与执行期限（关键备选） | [Youchu-lawhub/cn-litigation-toolkit](https://github.com/Youchu-lawhub/cn-litigation-toolkit) | 套件 | 21 | 2026-07-11 | NOASSERTION | Smoke 通过 | 游初·中国民商事诉讼全流程工具箱：23 个 Skill 覆盖案情、要件、证据、文书、庭审和质控。；注意：CC BY-NC-ND 4.0 及附加条款；个人学习可用，执业交付、企业使用和公开改编前需核对授权边界；Python 脚本编译通过；仓库未提供自动化功能测试 |
 | 已索引 | - | [thunlp/CAIL](https://github.com/thunlp/CAIL) | 数据/评测 | 514 | 2019-05-13 | MIT | 仓库审阅 | 法研杯·量刑预测数据集（268 万刑事文书）；注意：截至元数据快照已超过一年未更新，保留为历史或基础资源 |
 | 关键备选 | 民商事诉讼全流程（关键备选） | [cat-xierluo/SuitAgent](https://github.com/cat-xierluo/SuitAgent) | 套件 | 202 | 2026-08-16 | AGPL-3.0 | 仓库审阅 | 诉讼分析 10-SubAgent 系统；注意：同版本 Skill 也在 cat-xierluo/legal-skills 套件中；独立仓保留为诉讼任务入口 |

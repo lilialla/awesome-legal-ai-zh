@@ -5,6 +5,7 @@
 384363367-dot/legal-os	skill-suite
 5tnb6xgsm5-ops/contract-guardian	contract-doc-ip
 996icu/996.ICU	labor-family-personal
+a1531307144-cell/LexBench	retrieval-mcp
 aa0101181514/tw-legal-rag	retrieval-mcp
 aaron-he-zhu/seo-geo-claude-skills	media-ip
 abaiar/-LexAI	skill-suite
@@ -26,6 +27,7 @@ anthropics/prompt-eng-interactive-tutorial	tech-foundation
 anthropics/skills	tech-foundation
 AnttiHero/lavern	law-firm-mgmt
 apache/echarts	ppt-assets
+ARTHUR-BBU/Agent-T	contract-doc-ip
 Azure-Samples/ally-legal-assistant	corp-finance-ma-dd
 AzureTsui/GiGi	law-firm-mgmt
 baidu/Unlimited-OCR	tech-foundation
@@ -49,6 +51,7 @@ chartjs/Chart.js	ppt-assets
 chaunsin/go-qcc-sdk	corp-finance-ma-dd
 choosemoon/legal-skills	skill-suite
 chouenchieh/china-law	retrieval-mcp
+christyxk-ship-it/chinese-lawyer-case-ocr-skill	tech-foundation
 cncases/cases	retrieval-mcp
 CNIPA/PatentDatabases	awesome
 code-lawyer/AnyDocsMarked	retrieval-mcp
@@ -95,6 +98,7 @@ excalidraw/excalidraw	ppt-assets
 Eysn0130/DeepLaw	tech-foundation
 f/prompts.chat	tech-foundation
 f12336414-ship-it/labor-arbitration-skill	labor-family-personal
+f4de01/lawyer-workbench-v3	tax-bankruptcy-realestate
 FangkeJiang/B2B-AI-FDE-Contract-counsel	contract-doc-ip
 fapiaoapi/invoice	tax-bankruptcy-realestate
 fayayy888/legal-document-assistant	contract-doc-ip
@@ -128,6 +132,7 @@ HKUDS/LightRAG	tech-foundation
 HKUDS/RAG-Anything	tech-foundation
 hoangkiann-debug/PE_VC_transaction_docs_review	corp-finance-ma-dd
 hugohe3/ppt-master	ppt-assets
+hwu59741-dot/offer-review-cn	labor-family-personal
 Hylouis233/mcodeforlegal	skill-suite
 icip-cas/PPTAgent	ppt-assets
 iconoir-icons/iconoir	ppt-assets
@@ -150,6 +155,7 @@ kevchentw/awesome-chinese-fonts	ppt-assets
 khoj-ai/khoj	tech-foundation
 KKKKhazix/khazix-skills	media-ip
 KKKKhazix/wechat-article-exporter	media-ip
+kwf18423059038-pixel/sigma-legal-bid-workflow	law-firm-mgmt
 langgptai/wonderful-prompts	tech-foundation
 laolaoshiren/claude-code-skills-zh	tech-foundation
 larashero3-dotcom/writing-dna-skill	media-ip
@@ -235,6 +241,7 @@ pengxiao-song/awesome-chinese-legal-resources	awesome
 pengxiao-song/LaWGPT	llm
 penpot/penpot	ppt-assets
 philterd/phileas	data-compliance
+Phoeny-Xu/ai-transparency-compliance-skill	data-compliance
 pipipi-pikachu/PPTist	ppt-assets
 PKU-YuanGroup/ChatLaw	llm
 PlexPt/awesome-chatgpt-prompts-zh	tech-foundation
@@ -243,6 +250,7 @@ presenton/presenton	ppt-assets
 qwertyzhu/openlawkit	skill-suite
 RanKKI/LawRefBook	labor-family-personal
 reng599-sys/court-case-digest-generation	criminal-admin-exec
+Rethymus/LegalHigh	skill-suite
 Ro5s/Startup-Starter-Pack	corp-finance-ma-dd
 SamurAIGPT/AI-Youtube-Shorts-Generator	media-ip
 SamurAIGPT/llm-wiki-agent	tech-foundation
@@ -306,6 +314,7 @@ xtgmf/minfadian	criminal-admin-exec
 xyl0729/weiquan-agent	labor-family-personal
 yamazaki82/trade-doc-review	cross-border-arbitration
 yangyc03/yangyc-legalai-skills	skill-suite
+yel66026-stack/case-material-organizer	criminal-admin-exec
 Youchu-lawhub/app-compliance-review	data-compliance
 Youchu-lawhub/cn-litigation-toolkit	criminal-admin-exec
 Youchu-lawhub/gutachten-admin-case	criminal-admin-exec

@@ -373,6 +373,292 @@
     },
     "Vaquill-AI/awesome-legaltech": {
       "summary": "全球 LegalTech 开源平台、模型、MCP、数据集与工具导航。"
+    },
+    "yel66026-stack/case-material-organizer": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "案件材料只读清点、来源定位、时间轴、主体与金额核对；材料到输出及输出回材料双向复检，成果改动后复检失效。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "具备文件阅读能力的 Agent 宿主",
+          "OCR 按材料另行配置"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "补充全流程诉讼套件之前的通用材料整理环节，以来源绑定和双向复检形成独立价值。",
+      "cautions": [
+        "确定性脚本本地运行；语义整理依赖宿主模型，云端宿主的数据传输政策仍适用。",
+        "不内置完整 OCR；图片未识别时须保持待视觉复核，不把材料陈述直接认定为事实。",
+        "40 项工程测试通过不等于真实案件内容已完整、准确整理。"
+      ],
+      "relationships": [],
+      "legacy_category": "criminal-admin-exec"
+    },
+    "christyxk-ship-it/chinese-lawyer-case-ocr-skill": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "macOS 中文案卷本地 OCR：扫描 PDF 转可搜索 PDF、逐页 Markdown 和质检报告；按需对疑难页使用 PaddleOCR，保护原件。",
+      "setup": {
+        "mode": "cli",
+        "difficulty": "technical",
+        "services": [
+          "OCRmyPDF / Tesseract / Ghostscript",
+          "可选 PaddleOCR"
+        ]
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "补充中文案卷的本地非生成式 OCR 路线；因当前本机基线回归失败，仅作完整索引参考。",
+      "cautions": [
+        "2026-09-24 本机 16 项测试中 15 项通过、1 项真实 OCR 基线失败：提取文本夹杂空字符导致关键词匹配失败；原因未完全定位，不标全量通过、不升首页。",
+        "完整路线限 macOS Apple Silicon；Intel Mac 仅基础 OCR 路线，首次安装及下载模型需要联网。",
+        "当前提交 checks SUCCESS、发布版本 v0.4.1，均不能替代本机识别验收；姓名、日期、金额、否定词须人工回看。"
+      ],
+      "relationships": [],
+      "legacy_category": "tech-foundation"
+    },
+    "Phoeny-Xu/ai-transparency-compliance-skill": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "data-compliance",
+      "capabilities": [
+        "data-compliance",
+        "cross-border-arbitration"
+      ],
+      "jurisdictions": [
+        "prc",
+        "eu",
+        "us"
+      ],
+      "summary": "中国大陆、欧盟、加州 AI 内容透明度与标识合规：产品事实问卷、法定角色映射、义务清单、跨法域研究和官方来源复核。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "具备联网法源核验能力的 Agent 宿主",
+          "DOCX 输出依赖 Python 文档工具"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "补充 AI 内容标识这一细分合规任务，区分产品角色、法定义务与实施建议，具有独立方法价值。",
+      "cautions": [
+        "未附统一开源许可证；仅收录公开方法线索，复制、修改、再分发及商用权限需另行确认。",
+        "规则库有 90 天复核与高波动监控点；内置文本不等于已核实现行法，实际使用仍须逐项检查适用时点。",
+        "本次只验证 CoP digest 源指纹和锚点检查，未独立核验全部法律规则或真实产品合规效果；宿主联网或云模型有外传边界。"
+      ],
+      "relationships": [],
+      "legacy_category": "data-compliance"
+    },
+    "f4de01/lawyer-workbench-v3": {
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "tax-bankruptcy-realestate",
+      "capabilities": [
+        "tax-bankruptcy-realestate",
+        "legal-documents",
+        "law-firm-operations"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "破产管理人工作台：以 12 模块、72 节点组织材料、指引、模板与办理状态，7 个 Skill 衔接案件建档、DOCX 出件及律师确认。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Claude Code / Codex 宿主",
+          "python-docx",
+          "Word 渲染可选"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "提供破产业务节点与模板交付的一体化方法，补充通用案件工作台缺少的垂直流程。",
+      "cautions": [
+        "代码与文档 LICENSE 为 MIT，GitHub 识别 NOASSERTION；随仓第三方官方模板和指引不在 MIT 覆盖范围。",
+        "2026-09-24 出件模块 75 项测试：59 passed / 1 failed / 15 skipped；失败为隔离测试进程缺 docx，跳过项涉及本机缺渲染通道，未做全套或真实破产案件验收。",
+        "已有 v0.2.0 Release；发布流程不等于功能测试通过。材料在工作目录处理，但宿主云模型可能接触材料。"
+      ],
+      "relationships": [],
+      "legacy_category": "tax-bankruptcy-realestate"
+    },
+    "a1531307144-cell/LexBench": {
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "Windows 个人法研台：导入法律文档、按条切分、BM25 检索、阅读批注与报告导出；v0.8.5 增加预置法规和可选 AI 助手。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Windows",
+          "可选外部模型 API"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "watch",
+      "selection_reason": "个人桌面阅读、条文定位和研究笔记有独立用途；当前密钥备份与语料来源边界需改进，列为观察。",
+      "cautions": [
+        "API key 以明文存入本机 SQLite；整库备份 ZIP 会包含该配置及原件，应按敏感资料保护，不能将备份直接分享。",
+        "AI 功能按用户配置向模型端点发送问题及上下文；不能沿用 README 的笼统“不上传任何服务器”表述。",
+        "预置法规的逐份来源、现行性和完整性未在本次独立核验；仅 Windows 安装包，当前 checks SUCCESS / v0.8.5 不代表本机功能验收。"
+      ],
+      "relationships": [],
+      "legacy_category": "retrieval-mcp"
+    },
+    "hwu59741-dot/offer-review-cn": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "labor-family",
+      "capabilities": [
+        "labor-family",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "录用通知、劳动合同与附件审阅：检查录用前提、隐藏条件和退出成本，分开比较固定薪酬、浮动奖金、补贴与股权，形成 HR 追问清单。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "具备文件阅读及联网检索能力的 Agent 宿主"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "补充劳动争议发生前的录用条件与待遇比较，适合劳动咨询窄场景。",
+      "cautions": [
+        "指令型 Skill，不是独立法律数据库；依赖宿主文件读取、OCR 与联网法源核验，云端宿主可能处理材料。",
+        "公开案例和模拟示例属于方法走查，不是盲测或自动化准确率证明；无当前 checks / Release。",
+        "区分不利、违法、效力争议与材料缺失；不自动接受 Offer、签约或发送 HR 沟通。"
+      ],
+      "relationships": [],
+      "legacy_category": "labor-family-personal"
+    },
+    "Rethymus/LegalHigh": {
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "starter-suites",
+      "capabilities": [
+        "starter-suites",
+        "legal-research",
+        "litigation",
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "本地优先法律工作台原型：法条与案例检索、引用绑定、事实证据梳理、合同规则审查、文书辅助与只读检索 MCP。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Python 3.12 / Node.js 22",
+          "可选外部 AI API"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "检索、引用绑定与审计留痕的组合具有方法参考价值，作为综合工作台低位索引。",
+      "cautions": [
+        "仓库明确未附开源许可证、保留全部权利；公开可读不等于允许复制、修改、分发或商业使用。",
+        "AI 默认关闭，启用后会连接配置的模型端点；源码原型仅供本机审阅，不应将开发服务直接暴露公网。",
+        "v1.1.0-rc.1 为预发布且早于本次主干；当前 checks SUCCESS，本轮未复跑测试或独立核验全部法条案例，不将作者公布指标当作法律正确率。"
+      ],
+      "relationships": [],
+      "legacy_category": "skill-suite"
+    },
+    "kwf18423059038-pixel/sigma-legal-bid-workflow": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "law-firm-operations",
+      "capabilities": [
+        "law-firm-operations",
+        "legal-documents",
+        "enterprise-dd"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "律师投标与采购响应：采购文件拆解、资格和业绩证据配置、服务方案、响应文件组装、Word 批注、签章密封清单及私有经验库。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Agent 宿主",
+          "python-docx / PyMuPDF / PyYAML / Pillow",
+          "OCR 与法律数据库按需配置"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "以采购文件和业绩证据驱动律师服务投标交付，区别于政府采购争议救济或通用文书生成。",
+      "cautions": [
+        "Apache-2.0，v1.1.1；当前 GitHub checks FAILURE，requirements-dev.txt 未列出 Pillow，不能描述为开箱即用。",
+        "2026-09-24 本机 153 项测试中 152 passed / 1 failed；清洁导入测试的 pdf-redaction 入口未找到提供 pymupdf 的解释器。",
+        "OCR、数据库和云模型可能外传材料，须按宿主与供应商配置；PyMuPDF 另有 AGPL/商业许可边界。",
+        "只协助签章、密封和递交准备，不自动签署或提交；保留实务方法价值，完整索引收录、不升首页。"
+      ],
+      "relationships": [],
+      "legacy_category": "law-firm-mgmt"
+    },
+    "ARTHUR-BBU/Agent-T": {
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "采购、租赁与 NDA 签前审查：确定性规则与 AI 观察分离，保留条款原文、证据位置、追问与候选修改建议，支持 Word 报告。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Python / FastAPI",
+          "可选 DeepSeek / 智谱 / xAI 或兼容网关"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "规则裁决与 AI 异议分层、证据约束和人工确认有独立方法价值，作为合同应用低位索引。",
+      "cautions": [
+        "无根 LICENSE / 正式 Release；仅收录公开项目线索，复制、修改、再分发与商用权限需另行确认。",
+        "无模型 Key 时运行规则层；启用 AI 后合同文本与问题外传至所选供应商，默认记录 TTL 为 24 小时。认证凭据可同时留空而关闭认证，公网部署须另行配置访问保护。",
+        "认证凭据可同时留空而关闭认证；公网部署必须另行配置认证与访问保护，不直接暴露默认服务。",
+        "当前 GitHub checks SUCCESS；本次审阅规则/模型调用与认证实现，未复跑完整测试、真实模型或合同法律金标。"
+      ],
+      "relationships": [],
+      "legacy_category": "contract-doc-ip"
     }
   }
 }
