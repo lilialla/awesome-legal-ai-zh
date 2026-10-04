@@ -318,6 +318,72 @@
         "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/app/services/llm_client.py",
         "Source: https://github.com/ARTHUR-BBU/Agent-T/blob/98a0a95b18c2e03b6e40763d2b1e34192842d202/.github/workflows/tests.yml"
       ]
+    },
+    "qwertyzhu/legal-redactor": {
+      "depth": "smoke",
+      "reviewed_at": "2026-10-04",
+      "evidence": [
+        "2026-10-04 GitHub API verified public repository and default-branch commit 7a2f925740a6369414ebd816782343c38d385381.",
+        "2026-10-04 local pytest: 61 tests, 57 passed / 3 failed / 1 skipped; six fictional MD/DOCX/PDF ai/production demo paths passed residual scan.",
+        "Source: https://github.com/qwertyzhu/legal-redactor/blob/7a2f925740a6369414ebd816782343c38d385381/README.md",
+        "Source: https://github.com/qwertyzhu/legal-redactor/blob/7a2f925740a6369414ebd816782343c38d385381/skills/legal-document-redactor/SKILL.md",
+        "Source: https://github.com/qwertyzhu/legal-redactor/actions/runs/36947543654"
+      ]
+    },
+    "1438388098-glitch/legal-hallu-guard": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-04",
+      "evidence": [
+        "2026-10-04 GitHub API verified public repository and default-branch commit 4683e0b70f070d5b8ee3604c3f70ac60962e7926.",
+        "2026-10-04 local python3 -m unittest discover -s tests -v: 9/9 passed; latest GitHub CI succeeded.",
+        "Source: https://github.com/1438388098-glitch/legal-hallu-guard/blob/4683e0b70f070d5b8ee3604c3f70ac60962e7926/README.md",
+        "Source: https://github.com/1438388098-glitch/legal-hallu-guard/blob/4683e0b70f070d5b8ee3604c3f70ac60962e7926/legal_hallu_guard/guard.py",
+        "Source: https://github.com/1438388098-glitch/legal-hallu-guard/actions/runs/36507157742"
+      ]
+    },
+    "bellaaaaxu/canada-law": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-04",
+      "evidence": [
+        "2026-10-04 GitHub API verified public repository and default-branch commit 13c698f23e60f0580808d9160fd698ae5bfdb9d4.",
+        "2026-10-04 local npm test: 19 files / 342 tests passed; TypeScript build, bundle and live official-source smoke all passed.",
+        "Source: https://github.com/bellaaaaxu/canada-law/blob/13c698f23e60f0580808d9160fd698ae5bfdb9d4/README.md",
+        "Source: https://github.com/bellaaaaxu/canada-law/blob/13c698f23e60f0580808d9160fd698ae5bfdb9d4/NOTICE",
+        "Source: https://github.com/bellaaaaxu/canada-law/actions/runs/36548512509"
+      ]
+    },
+    "QWED-AI/qwed-legal": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-04",
+      "evidence": [
+        "2026-10-04 GitHub API verified public repository and default-branch commit 2668fef0dd59861bef514c015785046a7014f605.",
+        "2026-10-04 local Python 3.14 run: 583/583 pytest passed and ruff check passed; current CI, SonarCloud and Snyk workflows succeeded.",
+        "Source: https://github.com/QWED-AI/qwed-legal/commit/2668fef0dd59861bef514c015785046a7014f605",
+        "Source: https://github.com/QWED-AI/qwed-legal/actions/runs/37158125852",
+        "Source: https://github.com/QWED-AI/qwed-legal/releases/tag/v0.4.0"
+      ]
+    },
+    "kkaann7744/legal-interest-calculator-skill": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-04",
+      "evidence": [
+        "2026-10-04 GitHub API verified public repository and default-branch commit 5a716cc18db6cdd463cc32fe3b631fd2678963ce.",
+        "2026-10-04 local unittest: 33/33 passed; fictional Word/Excel/HTML bundle generation and independent daily-fraction verification passed; current GitHub CI succeeded.",
+        "Source: https://github.com/kkaann7744/legal-interest-calculator-skill/blob/5a716cc18db6cdd463cc32fe3b631fd2678963ce/README.md",
+        "Source: https://github.com/kkaann7744/legal-interest-calculator-skill/blob/5a716cc18db6cdd463cc32fe3b631fd2678963ce/skills/legal-interest-calculator/references/legal-rules.md",
+        "Source: https://github.com/kkaann7744/legal-interest-calculator-skill/actions/runs/37007589538"
+      ]
+    },
+    "leerogerstheman/NMPARegHub": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-04",
+      "evidence": [
+        "2026-10-04 GitHub API verified public repository and default-branch commit 9e74fb753d841aec443d496a38f4a85f95b994d6; v1.0.0 tag points to the same commit.",
+        "2026-10-04 local tests: 22/22 passed; live gov.cn one-result crawl and body fetch succeeded without credentials.",
+        "Source: https://github.com/leerogerstheman/NMPARegHub/blob/9e74fb753d841aec443d496a38f4a85f95b994d6/README.md",
+        "Source: https://github.com/leerogerstheman/NMPARegHub/blob/9e74fb753d841aec443d496a38f4a85f95b994d6/src/fetchers.py",
+        "Source: https://github.com/leerogerstheman/NMPARegHub/releases/tag/v1.0.0"
+      ]
     }
   }
 }

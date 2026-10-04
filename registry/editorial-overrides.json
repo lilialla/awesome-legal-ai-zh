@@ -659,6 +659,187 @@
       ],
       "relationships": [],
       "legacy_category": "contract-doc-ip"
+    },
+    "qwertyzhu/legal-redactor": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "data-compliance",
+      "capabilities": [
+        "data-compliance",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "中国法律文书本地双模式脱敏：AI 外传前激进去标识，法院或对方交付前保留主体与案号；支持 DOCX/PDF/文本、扫描件、整方遮挡和残留报告。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "本地 Python CLI",
+          "扫描件可选 Tesseract",
+          "实体识别可选本机 Ollama"
+        ]
+      },
+      "data_path": "local",
+      "recommendation": "watch",
+      "selection_reason": "生产提交模式、扫描 PDF、整方及签名/公章区域遮挡相对现有轻量 DOCX 脱敏工具有独立增量；当前 CI 与发布链红灯，先列观察。",
+      "cautions": [
+        "当前主线本机 61 项测试为 57 passed / 3 failed / 1 skipped，最新 CI 与 v0.10.8 Release workflow 均失败；失败集中在 README 契约与公开树虚构测试数据的安全扫描，不标全量测试通过。",
+        "六个虚构 MD/DOCX/PDF 双模式样例与残留扫描通过，但残留报告不能证明自然语言实体全部清除；扫描 PDF、公章和签名须逐页人工复核。",
+        "ledger 含原文到替身的可逆映射，只能留在本地；使用在线 Agent 识别实体时原文仍受相应模型服务的数据政策约束。"
+      ],
+      "relationships": [],
+      "legacy_category": "data-compliance"
+    },
+    "1438388098-glitch/legal-hallu-guard": {
+      "scope": "core",
+      "kind": "tool",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "法律回答的确定性引用护栏：检查虚构法条、非逐字或拼接引文、无引文断言，并输出错误引用率。",
+      "setup": {
+        "mode": "cli",
+        "difficulty": "ready",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "可单独嵌入法律问答或评测链，纯规则检查与批量错误引用率指标构成独立增量。",
+      "cautions": [
+        "只校验引用存在、引文保真和断言覆盖，不判断引文是否在语义上支持结论，也不判断法律结论正确。",
+        "断言词表和引用格式仍为闭集；真实语料评测是确定性构造样本，不能把公布的 100% 检出率外推到真实模型回答。",
+        "仓库不随附 14,212 条真实法规语料，完整评测需用户另行提供合法来源的语料库。"
+      ],
+      "relationships": [],
+      "legacy_category": "retrieval-mcp"
+    },
+    "bellaaaaxu/canada-law": {
+      "scope": "core",
+      "kind": "mcp",
+      "primary_capability": "cross-border-arbitration",
+      "capabilities": [
+        "cross-border-arbitration",
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "cross_border"
+      ],
+      "summary": "面向中国用户和涉外律师的加拿大 BC 省及联邦劳动法 Agent Skill + MCP，直接读取官方现行文本并返回条号、原文链接和 current-to 日期。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Node.js 20+",
+          "BC Laws",
+          "Justice Laws Website"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "alternative",
+      "selection_reason": "相对通用域外法研究方法，提供加拿大劳动法的官方文本直连、中文术语映射和可运行 MCP，作为专项关键备选。",
+      "cautions": [
+        "只覆盖 BC 省劳动法与加拿大联邦劳动法，不含其他省份、EI 或 CPP；不替代加拿大律师意见。",
+        "法规文本依复制许可使用且不是官方版本，应以返回的官方链接和 current-to 日期复核。",
+        "Claude Code 与 Windows Claude Desktop 有真实安装验证；其他宿主主要按公开配置文档适配，未逐一实机验收。",
+        "GitHub 未识别许可证，但根 LICENSE 为 MIT；法规文本另受 BC King's Printer Licence 与联邦法律复制令约束。"
+      ],
+      "relationships": [],
+      "legacy_category": "cross-border-arbitration"
+    },
+    "QWED-AI/qwed-legal": {
+      "scope": "adjacent",
+      "kind": "tool",
+      "primary_capability": "adjacent-resources",
+      "capabilities": [
+        "adjacent-resources",
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "general"
+      ],
+      "summary": "法律计算输出的确定性拒绝层：验证结构化期限、金额、责任上限和有限约束，证据不足或日期含歧义时显式拒绝。",
+      "setup": {
+        "mode": "cli",
+        "difficulty": "technical",
+        "services": []
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "适合作为法律 AI 的计算和结构化约束底层护栏，但不把技术验证扩张为实体法律核验。",
+      "cautions": [
+        "不验证中国法语义、法源是否真实或现行，也不判断法律结论；业务日、时效和法域事实必须由上游正确提供。",
+        "引文模块只核格式与自声明元数据，不能把格式匹配解释为官方法源验证。",
+        "当前主线已显著领先 2026-05-30 的 v0.4.0 Release，使用者应固定提交或等待重新发布。"
+      ],
+      "relationships": [],
+      "legacy_category": "tech-foundation"
+    },
+    "kkaann7744/legal-interest-calculator-skill": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "一般债务利息与迟延履行加倍部分的本地确定性计算，支持固定/动态 LPR、还本、排除期间、Word/Excel/HTML 导出和独立复算。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "本地 Python 3.10+",
+          "更新 LPR 时访问中国货币网"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "primary",
+      "selection_reason": "填补目录中法律利息和执行阶段加倍部分的可复算计算缺口，参数到结果的算术链与文件完整性均有确定性验证。",
+      "cautions": [
+        "程序只执行已确认参数，不自动判断计息请求、清偿顺序、保护上限、起止节点或一般债务利息与加倍部分的法律适用。",
+        "当前不支持复利、整月结息、自动分配费用与利息、复杂银行重定价或 2014 年前迟延履行规则。",
+        "工程测试和独立复算只验证算术与导出链，正式结果仍须律师核对合同、裁判文书、还款证据和 LPR 口径。"
+      ],
+      "relationships": [],
+      "legacy_category": "criminal-admin-exec"
+    },
+    "leerogerstheman/NMPARegHub": {
+      "scope": "core",
+      "kind": "tool",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "药品法规本地知识库：gov.cn 与国家药典委员会采集、离线导入、SQLite FTS5 检索、ICH/CTD 分类、效力提示和版本 diff。",
+      "setup": {
+        "mode": "cli",
+        "difficulty": "ready",
+        "services": [
+          "gov.cn",
+          "国家药典委员会",
+          "NMPA/CDE/NHC 文件需用户合法下载后离线导入"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "填补药品注册、药物警戒和药事管理的专项法规检索与版本追踪缺口，且明确不绕过官方站点 WAF。",
+      "cautions": [
+        "项目创建时间短、当前无 GitHub Actions；22 项本地测试与单次实时抓取不能代表长期采集稳定性。",
+        "gov.cn 收录范围有限，NMPA/CDE/NHC 资料依赖用户自行合法下载；效力状态是保守文本推断，正式申报须回到官方最新文本。",
+        "gov.cn 全部查询失败或空结果时 crawl 命令仍可能以退出码 0 完成，应读取逐项警告和最终文档数，不能把空库当作采集成功。"
+      ],
+      "relationships": [],
+      "legacy_category": "retrieval-mcp"
     }
   }
 }

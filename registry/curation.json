@@ -95,10 +95,6 @@
         {
           "project": "zj-ai-lab/shuanglv-legal-skills",
           "reason": "更强调执业律师方法、事实证据来源状态、最小能力加载、人工决定与正式交付控制。"
-        },
-        {
-          "project": "Hylouis233/mcodeforlegal",
-          "reason": "适合需要法规现行性核验、引文占位与发送前 citation-audit 的插件式中国法套件。"
         }
       ],
       "gap": null,
@@ -288,10 +284,6 @@
         {
           "project": "TracyWang95/DataInfra-RedactionEverything",
           "reason": "多格式、OCR、视觉定位和人工复核更强，548 项后端测试通过，但部署门槛高。"
-        },
-        {
-          "project": "yangyc03/yangyc-legalai-skills",
-          "reason": "轻量本地脱敏并有 22 项法律网络/脱敏测试。"
         }
       ],
       "gap": null,
@@ -334,6 +326,39 @@
       ],
       "gap": null,
       "order": 10
+    },
+    {
+      "id": "drug-regulation-research",
+      "capability": "legal-research",
+      "title": "药品法规检索与版本追踪",
+      "homepage": false,
+      "decision_basis": "比较药品注册、药物警戒和药事管理文件的官方来源、全文检索、分类、效力提示、历史版本及反爬合规边界。",
+      "primary": {
+        "project": "leerogerstheman/NMPARegHub",
+        "reason": "本地 SQLite/FTS 检索、ICH/CTD 分类和版本 diff 已通过 22 项测试及 gov.cn 实时小样本；NMPA/CDE/NHC 文件坚持合法下载后离线导入。"
+      },
+      "alternatives": [],
+      "gap": "项目创建时间短且无 CI；效力状态是保守推断，正式申报仍须回到官方最新文本。",
+      "order": 10.2
+    },
+    {
+      "id": "legal-answer-guards",
+      "capability": "legal-research",
+      "title": "法律回答引用与计算护栏",
+      "homepage": false,
+      "decision_basis": "比较虚构法条、引文保真、无引文断言、期限与金额约束的确定性检查，并严格区分工程验证与实体法律正确性。",
+      "primary": {
+        "project": "1438388098-glitch/legal-hallu-guard",
+        "reason": "可单独嵌入法律问答链，9 项测试通过，专门输出虚构引用、错引和无引文断言及错误引用率。"
+      },
+      "alternatives": [
+        {
+          "project": "QWED-AI/qwed-legal",
+          "reason": "更偏期限、金额和结构化约束的确定性拒绝层，583 项测试与 ruff 通过，但不验证法源真伪或实体法语义。"
+        }
+      ],
+      "gap": "现有护栏主要验证格式、存在性和算术约束，仍不能替代法源现行性、语义支持和法律结论复核。",
+      "order": 10.4
     },
     {
       "id": "law-validity",
@@ -502,16 +527,26 @@
       },
       "alternatives": [
         {
-          "project": "Youchu-lawhub/cn-litigation-toolkit",
-          "reason": "需要期限管理与全流程案件工作结合时使用。"
-        },
-        {
           "project": "qwertyzhu/openlawkit",
           "reason": "适合只依据已核实触发事实和窄规则包计算劳动仲裁、民事执行期限，并保留原文与计算状态。"
         }
       ],
       "gap": null,
       "order": 17
+    },
+    {
+      "id": "legal-interest-calculation",
+      "capability": "litigation",
+      "title": "法律利息与执行款计算",
+      "homepage": true,
+      "decision_basis": "比较计息参数校验、LPR 版本、还本与排除期间、迟延履行加倍部分、舍入、可复算明细和正式文件导出。",
+      "primary": {
+        "project": "kkaann7744/legal-interest-calculator-skill",
+        "reason": "本地确定性计算一般债务利息和迟延履行加倍部分，33 项测试、Word/Excel/HTML 导出及独立逐日复算通过。"
+      },
+      "alternatives": [],
+      "gap": "工具不自动决定法律适用、清偿顺序、保护上限或计息起止节点，必须先由律师核对材料并确定参数。",
+      "order": 17.5
     },
     {
       "id": "enterprise-check",
@@ -794,7 +829,12 @@
         "project": "imchongliu/foreign-law-research",
         "reason": "面向中国律师的域外法研究路径，强调公开一手法源。"
       },
-      "alternatives": [],
+      "alternatives": [
+        {
+          "project": "bellaaaaxu/canada-law",
+          "reason": "适合需要 BC 省及加拿大联邦劳动法官方现行文本、中文术语映射和可运行 MCP 的用户。"
+        }
+      ],
       "gap": null,
       "order": 26
     },

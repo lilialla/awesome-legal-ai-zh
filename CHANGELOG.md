@@ -5,6 +5,22 @@
 
 ---
 
+## 2026-10-04
+
+### 新增
+- **近一周法律实务与护栏项目复核补录**（+6 仓 → **351**）：新增 `qwertyzhu/legal-redactor`、`1438388098-glitch/legal-hallu-guard`、`bellaaaaxu/canada-law`、`QWED-AI/qwed-legal`、`kkaann7744/legal-interest-calculator-skill`、`leerogerstheman/NMPARegHub`。分别补充法律文书双模式脱敏、法律回答引用护栏、加拿大劳动法官方文本 Skill/MCP、法律计算确定性拒绝层、法律利息与迟延履行加倍部分计算、药品法规本地检索与版本追踪。
+- 本轮按 2026-10-04 当前公开提交重新核验，不沿用旧快照：法律引用护栏 9/9、Canada Law 342/342、QWED Legal 583/583、法律利息计算 33/33、NMPARegHub 22/22 本机测试通过；Canada Law 构建/打包/官方源 smoke、法律利息虚构样例导出与独立复算、NMPARegHub gov.cn 实时小样本均通过。
+
+### 首页策展
+- 首页新增“法律利息与执行款计算”，以 `kkaann7744/legal-interest-calculator-skill` 为当前推荐，任务数 26→27；“域外法律研究”增加 `bellaaaaxu/canada-law` 作为 BC 省及加拿大联邦劳动法专项备选。其余新增项目进入能力地图与完整索引，不升首页。
+- 能力地图增加“药品法规检索与版本追踪”“法律回答引用与计算护栏”两个非首页任务，分别展示 NMPARegHub，以及 `legal-hallu-guard` / QWED Legal 的不同边界。
+- 为保持首页最多 40 个项目，将重复度较高的 `yangyc03/yangyc-legalai-skills` 本地脱敏备选、`Youchu-lawhub/cn-litigation-toolkit` 期限备选和 `Hylouis233/mcodeforlegal` 综合套件备选移回完整索引；三项目仍保留目录记录，且 `cn-litigation-toolkit` 继续作为“民商事诉讼全流程”当前推荐。企查查常用路径依目录验收要求保留 `zhanglunet/qcc` 备选。
+
+### 复核与使用边界
+- `qwertyzhu/legal-redactor` 当前主线 61 项测试为 57 passed / 3 failed / 1 skipped，最新 CI 和 v0.10.8 Release workflow 均失败；失败集中于 README 契约和公开树虚构测试数据扫描，六条虚构 MD/DOCX/PDF 双模式脱敏及残留扫描仍通过。因此只列“观察”，不标全量测试通过、不升首页。
+- 工程绿灯不等于法律正确：`legal-hallu-guard` 不判断引文是否支持结论；QWED Legal 不验证法源真伪或实体法语义；利息工具只执行律师已确认的参数；Canada Law 与药品法规库返回内容均须回到官方最新文本复核。NMPARegHub 全部查询失败或空结果时仍可能以退出码 0 完成，使用者须读取警告和最终文档数。
+- 新增六项的 GitHub 元数据核验于 2026-10-04；本轮未全量刷新其余 345 项旧仓的动态元数据，因此首页全库快照日期仍保持 2026-08-27，不把增量核验冒充全库刷新。
+
 ## 2026-09-24
 
 ### 新增
