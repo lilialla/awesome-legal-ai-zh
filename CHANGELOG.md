@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-10-13
+
+### 新增
+- **近期法律实务与文档工作流低位补录**（+5 仓 → **356**）：新增 `Kianchales/ibd-skills`、`827827sy-design/contract-legal-review`、`ChineseCodingboy/contract-review`、`zh-xx/Antu`、`1438388098-glitch/pdf-legal-zh-translator`。分别补充 A 股投行文件生产与复核、可回放的本地合同安全编辑、单 HTML 合同 AI 审查与 Word 回写、轻量离线诉讼图，以及长篇英文法律 PDF 中文翻译。
+- 本轮固定公开主干提交并写入仓库级证据：IBD Skills 本机 176 个 unittest 断言与 17 个情景检查通过，v0.5.14 Release ZIP 摘要一致；本地合同审查 Skill 的 53 项 Python、39 项质量浏览器和 48 项可用性浏览器检查通过；单 HTML 合同审查工具 478 项检查通过且重建产物与 v1.0.0 Release digest 一致；Antu v0.14.0 的 Verify、CodeQL、Pages、Release 与 npm publish 均成功；PDF 翻译 Skill 6/6 unittest 与当前 CI 成功。
+
+### 策展与使用边界
+- 五项均只进入完整索引，不新增或替换 README 首页任务。IBD Skills 的法律模块只做惯例对照；本地合同审查 Skill 仅内置三部固定法律快照；单 HTML 合同审查启用 AI 后会向所选模型服务发送合同正文并在 localStorage 保存 API Key/历史；Antu 受 AGPL-3.0 约束且只作轻量备选；PDF 翻译不支持扫描件 OCR。工程测试只验证相应实现与交付链，不证明法条适用、风险判断或法律翻译结论正确。
+- `Youchu-lawhub/gutachten-labor-case` 本轮不纳入：其 CC BY-NC-ND 4.0 及附加条款限制收费法律服务、企业使用、改编再分发和训练/RAG 用途，继续仅作待授权的非商业学习线索。
+
 ## 2026-10-04
 
 ### 新增

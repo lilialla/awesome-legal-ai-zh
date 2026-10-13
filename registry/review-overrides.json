@@ -384,6 +384,66 @@
         "Source: https://github.com/leerogerstheman/NMPARegHub/blob/9e74fb753d841aec443d496a38f4a85f95b994d6/src/fetchers.py",
         "Source: https://github.com/leerogerstheman/NMPARegHub/releases/tag/v1.0.0"
       ]
+    },
+    "Kianchales/ibd-skills": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-13",
+      "evidence": [
+        "2026-10-13 GitHub API verified public repository, MIT license and default-branch commit d773f5315b068a57a6e0a22b4d320cdc8e889179; current gates workflow succeeded.",
+        "2026-10-13 local verification ran 13 test scripts: 176 unittest assertions plus 17 scenario checks passed; legal-review frontmatter gate reported 0 errors / 0 warnings and nine-package consistency passed.",
+        "Release ibd-skills-v0.5.14 asset SHA-256 26dfb3724d4ce0f18c749ef3e36bf2b388f26acafcc9b1a80812f218a67bc1f0 matched the GitHub digest and unzip integrity check passed.",
+        "Source: https://github.com/Kianchales/ibd-skills/blob/d773f5315b068a57a6e0a22b4d320cdc8e889179/README.md",
+        "Source: https://github.com/Kianchales/ibd-skills/blob/d773f5315b068a57a6e0a22b4d320cdc8e889179/skills/ibd-legal-review/SKILL.md",
+        "Source: https://github.com/Kianchales/ibd-skills/releases/tag/ibd-skills-v0.5.14"
+      ]
+    },
+    "827827sy-design/contract-legal-review": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-13",
+      "evidence": [
+        "2026-10-13 GitHub API verified public repository, MIT license and default-branch commit 677616812252c4b52ba6e152c4254099525ed4f8.",
+        "2026-10-13 local pytest: 53/53 passed; Playwright synthetic browser verification passed 39 quality checks and 48 usability checks with zero JavaScript errors.",
+        "Browser fixtures verified grouped edits, failure atomicity, draft persistence, local JSON replay, new-DOCX export and original-source digest preservation; they did not provide independent legal-semantic or Word page-render validation.",
+        "Source: https://github.com/827827sy-design/contract-legal-review/blob/677616812252c4b52ba6e152c4254099525ed4f8/README.md",
+        "Source: https://github.com/827827sy-design/contract-legal-review/blob/677616812252c4b52ba6e152c4254099525ed4f8/SKILL.md",
+        "Source: https://github.com/827827sy-design/contract-legal-review/tree/677616812252c4b52ba6e152c4254099525ed4f8/tests"
+      ]
+    },
+    "ChineseCodingboy/contract-review": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-13",
+      "evidence": [
+        "2026-10-13 GitHub API verified public repository, MIT license, default-branch commit b9e471e7fbfc9ef52042468e466ff612fa1fe58a and v1.0.0 Release.",
+        "2026-10-12 local npm ci && npm test passed 478 checks; npm audit reported 0 vulnerabilities.",
+        "The locally rebuilt 3.2 MB single-HTML artifact SHA-256 matched the published Release asset digest.",
+        "Source: https://github.com/ChineseCodingboy/contract-review/blob/b9e471e7fbfc9ef52042468e466ff612fa1fe58a/README.md",
+        "Source: https://github.com/ChineseCodingboy/contract-review/blob/b9e471e7fbfc9ef52042468e466ff612fa1fe58a/src",
+        "Source: https://github.com/ChineseCodingboy/contract-review/releases/tag/v1.0.0"
+      ]
+    },
+    "zh-xx/Antu": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-13",
+      "evidence": [
+        "2026-10-13 GitHub API verified public repository, AGPL-3.0 license, five stars, commit 1737db893bd326f0867633585071b1de01fb9d13 and v0.14.0 Release.",
+        "2026-10-13 current Verify, CodeQL, Pages, Release and npm publish workflows all succeeded for the reviewed commit.",
+        "Prior local verification on the same maintained line passed the pure-function suite, engine build and Skill build with 0 npm vulnerabilities; current workflow additionally reported the packaged Skill CLI checks passing.",
+        "Source: https://github.com/zh-xx/Antu/blob/1737db893bd326f0867633585071b1de01fb9d13/README.md",
+        "Source: https://github.com/zh-xx/Antu/releases/tag/v0.14.0",
+        "Source: https://github.com/zh-xx/Antu/actions"
+      ]
+    },
+    "1438388098-glitch/pdf-legal-zh-translator": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-13",
+      "evidence": [
+        "2026-10-13 GitHub API verified public repository, MIT license, one star and unchanged commit f18cfb0367694deb2588ff8f7e3968b4d6428825; current CI succeeded.",
+        "2026-10-07 local unittest: 6/6 passed; repository includes a public-domain two-page source sample and translated PDF.",
+        "A fresh end-to-end dependency installation was stopped after prolonged no-progress download, so no new long-document execution result was claimed.",
+        "Source: https://github.com/1438388098-glitch/pdf-legal-zh-translator/blob/f18cfb0367694deb2588ff8f7e3968b4d6428825/README.md",
+        "Source: https://github.com/1438388098-glitch/pdf-legal-zh-translator/blob/f18cfb0367694deb2588ff8f7e3968b4d6428825/SKILL.md",
+        "Source: https://github.com/1438388098-glitch/pdf-legal-zh-translator/actions"
+      ]
     }
   }
 }

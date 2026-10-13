@@ -840,6 +840,163 @@
       ],
       "relationships": [],
       "legacy_category": "retrieval-mcp"
+    },
+    "Kianchales/ibd-skills": {
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "corporate-ma",
+      "capabilities": [
+        "corporate-ma",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "A 股投行九包技能集：覆盖申报文件写作、质量与财务复核、法律惯例对照、Word/PDF 批注交付和方法论沉淀。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Agent 宿主",
+          "Python 3",
+          "DOCX 新建或套版时需外部文档工具"
+        ]
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "填补 A 股投行申报文件生产、复核和批注交付的组合型缺口；完整索引低位收录，不升首页。",
+      "cautions": [
+        "法律复核只做市场惯例对照，不给法律定性；正式申报仍须由保荐机构、律师和会计师核定。",
+        "B 档惯例依赖使用者自备方法论库；缺库时降为 A 档明文核对并应如实标明无例可取。",
+        "投行线八包存在相互依赖，DOCX 新建或套版还需外部文档工具；不能把部分包安装成功表述为完整链路可用。"
+      ],
+      "relationships": [],
+      "legacy_category": "corp-finance-ma-dd"
+    },
+    "827827sy-design/contract-legal-review": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "本地解析 TXT/MD/DOCX，执行三法索引检索、证据定位、字段与谈判方案完善、安全编辑，并将确认修改写回新 Word。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Python 3",
+          "支持 Agent Skill 的宿主"
+        ]
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "以合同原文定位、独立修订记录、失败阻断和 Word 回写恢复形成可复核编辑链；完整索引低位收录，不升首页。",
+      "cautions": [
+        "内置法源仅覆盖《民法典》《劳动合同法》《公司法》固定快照，原始抓取页和索引重建来源链未完整随仓。",
+        "机械核验只能证明条号和原文位置存在，不能证明法律适用、风险结论或建议条款正确。",
+        "当前无 GitHub Actions 或 Release；测试使用合成材料，真实客户合同、宿主会话和 Word 逐页视觉仍须人工验收。"
+      ],
+      "relationships": [],
+      "legacy_category": "contract-doc-ip"
+    },
+    "ChineseCodingboy/contract-review": {
+      "scope": "core",
+      "kind": "app",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "单 HTML 合同审查应用：本地解析 DOCX/PDF/TXT、比较两个版本、调用用户选择的 AI，并把确认结果以 Word 修订和批注写回。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "现代浏览器",
+          "用户自备 OpenAI-compatible / Gemini 等模型 API"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "单文件交付同时覆盖本地解析、版本比较、外部模型审查和 Word 原生修订/批注回写；完整索引低位收录，不升首页。",
+      "cautions": [
+        "启用 AI 后合同正文会发送至用户选择的模型服务；API Key 与审查历史存于浏览器 localStorage，处理客户材料前须确认供应商、终端和清理策略。",
+        "221 条内置规则及法条摘录缺少逐条官方来源和现行性台账，不能替代律师核验实体法律结论。",
+        "仓库创建时间短且无 GitHub Actions；v1.0.0 Release 和合成测试通过不等于真实合同、扫描 PDF 或跨版本 Word 均已验收。"
+      ],
+      "relationships": [],
+      "legacy_category": "contract-doc-ip"
+    },
+    "zh-xx/Antu": {
+      "scope": "core",
+      "kind": "suite",
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "把结构化案件事实转换为单文件离线法律图，覆盖事实时间轴、程序、主体/股权关系和论证树，并提供 Skill、CLI 与 MCP。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Node.js 18+",
+          "可选 Agent Skill / MCP 宿主"
+        ]
+      },
+      "data_path": "local",
+      "recommendation": "indexed",
+      "selection_reason": "作为诉讼可视化的轻量离线 HTML/Skill/MCP 备选，强调来源页码、无网络输出和程序状态表达；不替换首页完整多格式方案。",
+      "cautions": [
+        "AGPL-3.0，网络部署、修改和再分发须履行对应源码开放义务。",
+        "与已收录的 MiaoQichuan/new-litigation-visualization 存在任务重叠，本项目仅定位为更轻量的单 HTML/Skill/MCP 备选。",
+        "结构化图形不替代材料真实性核验、事实认定或法律判断；输入缺少来源页码时仍须人工补正。"
+      ],
+      "relationships": [],
+      "legacy_category": "criminal-admin-exec"
+    },
+    "1438388098-glitch/pdf-legal-zh-translator": {
+      "scope": "core",
+      "kind": "skill",
+      "primary_capability": "cross-border-arbitration",
+      "capabilities": [
+        "cross-border-arbitration",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "cross_border"
+      ],
+      "summary": "长篇英文法律与政策 PDF 中文翻译 Skill：按页提取、分块并行翻译、术语合并、引注保真，并以缺页校验阻断不完整交付。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Python 3",
+          "PyMuPDF 等本地 PDF 依赖",
+          "Agent 宿主的翻译模型能力"
+        ]
+      },
+      "data_path": "mixed",
+      "recommendation": "indexed",
+      "selection_reason": "为跨境法律工作补充长篇 PDF 的分页、术语和引注保真翻译链；完整索引低位收录，不升首页。",
+      "cautions": [
+        "仅支持有文本层 PDF，扫描 PDF 和图片没有 OCR 路径；应先转换或人工确认文字层。",
+        "公开端到端样本仅为公有领域两页文件，不能据此外推真实长篇法律文件的术语一致性和版面质量。",
+        "模型翻译仍须由具备相应法域和语言能力的人员复核，不得把缺页通过等同于法律翻译准确。"
+      ],
+      "relationships": [],
+      "legacy_category": "cross-border-arbitration"
     }
   }
 }
