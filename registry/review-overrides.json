@@ -444,6 +444,141 @@
         "Source: https://github.com/1438388098-glitch/pdf-legal-zh-translator/blob/f18cfb0367694deb2588ff8f7e3968b4d6428825/SKILL.md",
         "Source: https://github.com/1438388098-glitch/pdf-legal-zh-translator/actions"
       ]
+    },
+    "yuluo554/labor-compliance-calculator": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit b828e4f46824fe7e324ab232a0bfb55f8f39b5f6: local Python 3.12 run passed 224 tests; 5 optional GUI/XLSX tests skipped because PySide6/openpyxl were not installed.",
+        "Prior substantive review checked B1-B5 positive controls and sampled official source URLs; only Beijing/Shanghai 2025/2026 parameters were treated as verified.",
+        "Source: https://github.com/yuluo554/labor-compliance-calculator/blob/b828e4f46824fe7e324ab232a0bfb55f8f39b5f6/README.md",
+        "Source: https://github.com/yuluo554/labor-compliance-calculator/tree/b828e4f46824fe7e324ab232a0bfb55f8f39b5f6/code/tests"
+      ]
+    },
+    "amphibi-ch/acnlb": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit 4df2c131bbadc9b599f00ff44ce041063d46876a is unchanged from the substantive review line; 58 pytest checks, 10 sample validations and deterministic scoring passed.",
+        "Current GitHub CI succeeded for the reviewed line.",
+        "Source: https://github.com/amphibi-ch/acnlb/blob/4df2c131bbadc9b599f00ff44ce041063d46876a/README.md"
+      ]
+    },
+    "7toCR/paper2patent": {
+      "depth": "smoke",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit 53d0a2d2cbd8db6de824dfed86aab1763caa7142: repository example validation reported 0 errors and 0 warnings; four SVG/PNG figures, application DOCX and drafting-notes DOCX were generated and inspected.",
+        "GitHub repository files identify the code as MIT; professional patent review remains required.",
+        "Source: https://github.com/7toCR/paper2patent/blob/53d0a2d2cbd8db6de824dfed86aab1763caa7142/README.md"
+      ]
+    },
+    "yel66026-stack/cn-criminal-defense-skill": {
+      "depth": "smoke",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit 0e9f7fb68882f877b5a7191add438ad0032ddaed: 50 repository structure/CLI checks passed and the 18-file install package was reproduced.",
+        "Repository LICENSE is MIT and v1.0.0 is the reviewed release line.",
+        "Source: https://github.com/yel66026-stack/cn-criminal-defense-skill/blob/0e9f7fb68882f877b5a7191add438ad0032ddaed/README.md",
+        "Source: https://github.com/yel66026-stack/cn-criminal-defense-skill/blob/0e9f7fb68882f877b5a7191add438ad0032ddaed/SKILL.md"
+      ]
+    },
+    "weixiaocan/env-reg-rag": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit ac4f70fd4d89b4290a006992c0b7c93dbd0fbc3d: five targeted current test modules for query orchestration, evidence policy, external-run guard, canonical validation and public deployment all passed under Python 3.12.",
+        "Earlier substantive review passed a 56-test targeted suite; the full OCR/Qdrant/model E2E was not rerun.",
+        "Source: https://github.com/weixiaocan/env-reg-rag/blob/ac4f70fd4d89b4290a006992c0b7c93dbd0fbc3d/README.md",
+        "Source: https://github.com/weixiaocan/env-reg-rag/tree/ac4f70fd4d89b4290a006992c0b7c93dbd0fbc3d/tests"
+      ]
+    },
+    "goodseafly/how-to-make-work-pay": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit 406d5f0f28c7b5c74be71d378ca8ddb727e566ed: body-format, reference-anchor and full source-only audits passed; 576 items, 821 anchored references and six source audit groups were checked.",
+        "Prior review sampled 12 National People's Congress / State Council official URLs successfully; current project Actions for checks and publications were also reviewed.",
+        "Source: https://github.com/goodseafly/how-to-make-work-pay/blob/406d5f0f28c7b5c74be71d378ca8ddb727e566ed/README.md",
+        "Source: https://github.com/goodseafly/how-to-make-work-pay/tree/406d5f0f28c7b5c74be71d378ca8ddb727e566ed/book"
+      ]
+    },
+    "CSlawyer1985/agent-data-gateway": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit 0c7835274b9073bfef9de882046925d1d110ef36 is unchanged from the reviewed line; local verification passed 248 pytest checks plus 43 subtests.",
+        "Current dual-Python GitHub CI succeeded for the reviewed line.",
+        "Source: https://github.com/CSlawyer1985/agent-data-gateway/blob/0c7835274b9073bfef9de882046925d1d110ef36/README.md"
+      ]
+    },
+    "kevanwee/sg-legalresearch-skill": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit bbc3fb6f66d96b34f28c64a9d9a758e4bc22f1a2: 169 unittest checks and repository validator passed locally on 2026-10-28.",
+        "The current GitHub checks workflow runs the same test and validator commands.",
+        "Source: https://github.com/kevanwee/sg-legalresearch-skill/blob/bbc3fb6f66d96b34f28c64a9d9a758e4bc22f1a2/README.md",
+        "Source: https://github.com/kevanwee/sg-legalresearch-skill/tree/bbc3fb6f66d96b34f28c64a9d9a758e4bc22f1a2/tests"
+      ]
+    },
+    "kevanwee/legal-extraction-skill": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit 4e8af446c575425120548c1df3847313621734e8 is unchanged from the reviewed line; local standard-library unittest run passed 7/7 checks and current CI succeeded.",
+        "Source: https://github.com/kevanwee/legal-extraction-skill/blob/4e8af446c575425120548c1df3847313621734e8/README.md",
+        "Source: https://github.com/kevanwee/legal-extraction-skill/blob/4e8af446c575425120548c1df3847313621734e8/SKILL.md"
+      ]
+    },
+    "pulinnsann/lawAgent": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit b66778a2a41755c436ecca6088396f3249b7c412: local run passed 437 Node tests, TypeScript typecheck, 43-resource runtime release verification and production dependency audit with 0 vulnerabilities.",
+        "The current code retains OS-protected credential storage without plaintext fallback and explicit model/retrieval/MCP/SFTP data routes.",
+        "Source: https://github.com/pulinnsann/lawAgent/blob/b66778a2a41755c436ecca6088396f3249b7c412/README.md",
+        "Source: https://github.com/pulinnsann/lawAgent/tree/b66778a2a41755c436ecca6088396f3249b7c412/tests"
+      ]
+    },
+    "futuremeng/OpenLaw": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit f05208eaa2ee3b7f2d93a8af5aaf641dc152690d is unchanged from the reviewed line; 46 Go tests, go vet and gofmt passed, and current upstream CI succeeded.",
+        "Broken links, tampered files, scans and robots restrictions fail visibly; flk.npc.gov.cn automated collection is refused.",
+        "Source: https://github.com/futuremeng/OpenLaw/blob/f05208eaa2ee3b7f2d93a8af5aaf641dc152690d/README.md"
+      ]
+    },
+    "shiroidaoqi/pkulaw-mcp": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit c6d609d8088f4005db9b134ae5e28bc0d6172194: local npm ci, syntax checks, 13/13 tests and npm audit with 0 vulnerabilities passed.",
+        "Published npm package core files matched the reviewed repository by SHA-256.",
+        "Source: https://github.com/shiroidaoqi/pkulaw-mcp/blob/c6d609d8088f4005db9b134ae5e28bc0d6172194/README.md"
+      ]
+    },
+    "lkyyds77/lexvault": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit f64605e63553a532edf2a562fa1a6a4d34518d99 / v0.5.2: local npm ci --ignore-scripts, 19/19 Node tests and production dependency audit with 0 vulnerabilities passed.",
+        "API secrets use Electron safeStorage; local-only retrieval remains available without a model.",
+        "Source: https://github.com/lkyyds77/lexvault/blob/f64605e63553a532edf2a562fa1a6a4d34518d99/README.md",
+        "Source: https://github.com/lkyyds77/lexvault/tree/f64605e63553a532edf2a562fa1a6a4d34518d99/test"
+      ]
+    },
+    "245678000000/lawdesk": {
+      "depth": "tested",
+      "reviewed_at": "2026-10-28",
+      "evidence": [
+        "Current commit ec8f8c5c2198d645f4f6ed68bd12e95c2fe768db / v0.4.2: local npm smoke passed fake API/OAuth, file transfer, update checks and Codex request adaptation.",
+        "Current Windows/macOS/Linux smoke and Windows installer E2E workflows succeeded; v0.4.2 DMG/EXE assets carry GitHub SHA-256 digests.",
+        "Source: https://github.com/245678000000/lawdesk/blob/ec8f8c5c2198d645f4f6ed68bd12e95c2fe768db/README.md",
+        "Source: https://github.com/245678000000/lawdesk/actions",
+        "Source: https://github.com/245678000000/lawdesk/releases/tag/v0.4.2"
+      ]
     }
   }
 }

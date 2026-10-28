@@ -5,6 +5,24 @@
 
 ---
 
+## 2026-10-28
+
+### 新增
+- **10 月 13 日后未阅推荐项目集中补录**（+14 仓 → **370**）：
+  - 劳动与个人权益：`yuluo554/labor-compliance-calculator`、`goodseafly/how-to-make-work-pay`，分别补充北京/上海参数化劳动金额计算，以及带来源索引的职场与劳动权益决策指南。
+  - 法律材料与评测基础：`amphibi-ch/acnlb`、`CSlawyer1985/agent-data-gateway`、`kevanwee/legal-extraction-skill`，分别补充中国法工作成果基准、混合材料摄取/来源锚点，以及字段值到原文字符区间的确定性绑定。
+  - 诉讼、知产与域外研究：`yel66026-stack/cn-criminal-defense-skill`、`7toCR/paper2patent`、`kevanwee/sg-legalresearch-skill`，分别补充大陆刑辩流程、论文转专利申请草稿和新加坡法检索/版本/引注证据工作流。
+  - 法规与知识底座：`weixiaocan/env-reg-rag`、`futuremeng/OpenLaw`、`shiroidaoqi/pkulaw-mcp`、`lkyyds77/lexvault`，分别补充环境法规证据型 RAG、可溯源离线导入底座、北大法宝窄接口 MCP 桥和 Windows 个人法规知识库。
+  - 综合与合同工作台：`pulinnsann/lawAgent`、`245678000000/lawdesk`，分别补充企业合同审查/起草/Word 交付工作台，以及连接本机 Claude Code、Codex、ChatGPT 套餐或自有 API 的轻量法律 Agent 界面。
+
+### 首页策展
+- 14 项均进入完整索引，不替换现有首页当前推荐或关键备选；`kevanwee/sg-legalresearch-skill` 进入涉外能力池，但为遵守首页最多 40 个项目的门槛，不占首页展示位。首页任务数仍为 27。
+
+### 复核与使用边界
+- 对初审后继续更新的项目按当前主干复跑关键验证：劳动计算器 224 passed / 5 个可选 GUI-XLSX skipped；职场指南 6 组 source-only 审计通过；新加坡法研究 169 unittest 与仓库 validator 通过；lawAgent 437 tests、typecheck、43 项发行资源校验与生产依赖 audit 通过；LexVault 19/19 tests 与生产依赖 audit 通过；环境法规 RAG 的查询、证据、外部调用、canonical 和公开部署五组定向测试通过。其余项目固定当前公开提交并沿用未被后续提交改变的实质审查证据。
+- 工程测试不等于实体法律正确。劳动计算器当前只核到北京/上海 2025/2026 参数；环境 RAG 和 OpenLaw 不附可直接依赖的现行法规库；北大法宝桥依赖合法账号/Token/额度；职场指南 576 条内容未逐条独立复核；刑辩、专利和新加坡法结果仍需相应专业人员复核。
+- 数据和许可边界继续保留：lawAgent、LawDesk、LexVault、ACNLB 及环境 RAG 启用外部模型或连接器时可能发生材料出站；LawDesk 自有 API Key 明文保存在本机配置文件，ChatGPT 令牌仅做文件权限限制而未进系统钥匙串；`how-to-make-work-pay` 为正文 CC BY 4.0、代码 MIT 的混合许可；环境 RAG 受 AGPL-3.0 约束。安装包签名、公证和真实客户材料验收均未由本轮工程验证代替。
+
 ## 2026-10-13
 
 ### 新增

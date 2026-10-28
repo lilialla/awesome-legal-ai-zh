@@ -16330,6 +16330,746 @@
         }
       },
       "legacy_category": "cross-border-arbitration"
+    },
+    {
+      "id": "yuluo554/labor-compliance-calculator",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/yuluo554/labor-compliance-calculator",
+      "name": "劳动用工合规计算器",
+      "kind": "tool",
+      "primary_capability": "labor-family",
+      "capabilities": [
+        "labor-family"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "本地确定性计算经济补偿、赔偿金、加班费、未休年休假和未签劳动合同二倍工资，并按地区与年度参数保留来源和状态。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Python 3.12+",
+          "可选 PySide6 与 openpyxl"
+        ]
+      },
+      "data_path": "local",
+      "selection_reason": "为劳动争议补充参数化、可回溯的本地金额计算；仅进入完整索引。",
+      "cautions": [
+        "当前已核参数仅覆盖北京、上海的 2025/2026 四组坐标，其他地区和年度不得外推。",
+        "工程测试验证计算实现与门禁，不证明输入事实、适用口径或正式金额结论正确。",
+        "本机当前主干 224 项通过，5 个 GUI/XLSX 用例因未安装可选组件跳过。"
+      ],
+      "legacy_category": "labor-family-personal",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit b828e4f46824fe7e324ab232a0bfb55f8f39b5f6: local Python 3.12 run passed 224 tests; 5 optional GUI/XLSX tests skipped because PySide6/openpyxl were not installed.",
+          "Prior substantive review checked B1-B5 positive controls and sampled official source URLs; only Beijing/Shanghai 2025/2026 parameters were treated as verified.",
+          "Source: https://github.com/yuluo554/labor-compliance-calculator/blob/b828e4f46824fe7e324ab232a0bfb55f8f39b5f6/README.md",
+          "Source: https://github.com/yuluo554/labor-compliance-calculator/tree/b828e4f46824fe7e324ab232a0bfb55f8f39b5f6/code/tests"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 16,
+          "code_files": 53,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "amphibi-ch/acnlb",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/amphibi-ch/acnlb",
+      "name": "ACNLB 中国法任务基准",
+      "kind": "tool",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "面向中国法任务的工作成果与评分量表基准框架，支持样例校验、确定性评分和受控模型端点评测。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Python",
+          "真实事项评测时由用户配置 OpenAI-compatible endpoint"
+        ]
+      },
+      "data_path": "mixed",
+      "selection_reason": "补充中国法工作成果的可复现实验与量表基准；只作为工程评测基础设施低位索引。",
+      "cautions": [
+        "真实事项经用户配置的模型端点出站，敏感案卷不应提交公开 Actions 或公开结果仓。",
+        "合成样例和确定性评分只能验证协议与量表实现，不能证明模型法律结论正确。"
+      ],
+      "legacy_category": "dataset-infra",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit 4df2c131bbadc9b599f00ff44ce041063d46876a is unchanged from the substantive review line; 58 pytest checks, 10 sample validations and deterministic scoring passed.",
+          "Current GitHub CI succeeded for the reviewed line.",
+          "Source: https://github.com/amphibi-ch/acnlb/blob/4df2c131bbadc9b599f00ff44ce041063d46876a/README.md"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 8,
+          "code_files": 37,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "7toCR/paper2patent",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/7toCR/paper2patent",
+      "name": "Paper2Patent",
+      "kind": "skill",
+      "primary_capability": "ip-competition",
+      "capabilities": [
+        "ip-competition",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "把科研论文整理为中国发明专利申请草稿、说明书与附图的提示词、模板和 Agent Skill 工具包。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Agent Skill 宿主",
+          "可选图像生成能力"
+        ]
+      },
+      "data_path": "mixed",
+      "selection_reason": "补充论文成果向专利交底与申请草稿转换的细分场景；不替换首页专利交底推荐。",
+      "cautions": [
+        "样例生成通过不代表新颖性、创造性、权利要求范围或正式申请质量已获验证。",
+        "README/CLAUSE 的社区使用文案与 MIT 商用口径存在表达张力，复用时宜保留署名并核对许可原文。",
+        "正式申请仍须由专利代理师或具备相应资质的人员复核。"
+      ],
+      "legacy_category": "contract-doc-ip",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit 53d0a2d2cbd8db6de824dfed86aab1763caa7142: repository example validation reported 0 errors and 0 warnings; four SVG/PNG figures, application DOCX and drafting-notes DOCX were generated and inspected.",
+          "GitHub repository files identify the code as MIT; professional patent review remains required.",
+          "Source: https://github.com/7toCR/paper2patent/blob/53d0a2d2cbd8db6de824dfed86aab1763caa7142/README.md"
+        ],
+        "signals": {
+          "skill_files": 2,
+          "test_files": 0,
+          "code_files": 11,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "yel66026-stack/cn-criminal-defense-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/yel66026-stack/cn-criminal-defense-skill",
+      "name": "中国大陆刑事辩护 Skill",
+      "kind": "skill",
+      "primary_capability": "litigation",
+      "capabilities": [
+        "litigation",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "覆盖刑事案件接案、会见、阅卷与证据溯源、认罪认罚、量刑、庭审和救济的大陆刑辩工作流 Skill。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Agent Skill 宿主",
+          "正式使用需接现行法与案例核验能力"
+        ]
+      },
+      "data_path": "mixed",
+      "selection_reason": "补充大陆刑辩全阶段的专门流程与证据边界；完整索引低位收录。",
+      "cautions": [
+        "50 项检查主要覆盖结构、CLI 和安装包，不证明个案策略、量刑判断或法律引用正确。",
+        "正式使用必须回到现行法律、司法解释、当地实践和完整案卷，由刑辩律师复核。",
+        "项目仍属早期单线版本，缺少真实案件连续验收。"
+      ],
+      "legacy_category": "criminal-admin-exec",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "smoke",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit 0e9f7fb68882f877b5a7191add438ad0032ddaed: 50 repository structure/CLI checks passed and the 18-file install package was reproduced.",
+          "Repository LICENSE is MIT and v1.0.0 is the reviewed release line.",
+          "Source: https://github.com/yel66026-stack/cn-criminal-defense-skill/blob/0e9f7fb68882f877b5a7191add438ad0032ddaed/README.md",
+          "Source: https://github.com/yel66026-stack/cn-criminal-defense-skill/blob/0e9f7fb68882f877b5a7191add438ad0032ddaed/SKILL.md"
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 1,
+          "code_files": 3,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "weixiaocan/env-reg-rag",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/weixiaocan/env-reg-rag",
+      "name": "环境法规证据型 RAG",
+      "kind": "app",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "data-compliance"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "面向环境与排水法规、标准及技术规范的本地证据型 RAG，提供版本治理、页码与 bbox 溯源、证据准入、引用校验和受控拒答。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Python 3.12",
+          "Qdrant",
+          "可选 OCR 与外部模型"
+        ]
+      },
+      "data_path": "mixed",
+      "selection_reason": "补充环境法规 PDF 的版本化证据摄取与引用受控问答；不标为内置现行法规数据库。",
+      "cautions": [
+        "AGPL-3.0，网络部署和修改分发须履行对应源码开放义务。",
+        "当前仓库不附原始法规 PDF，部署者须自备有权材料并自行核验现行性。",
+        "本轮只复跑查询、证据、外部调用、canonical 与公开部署五组定向测试；完整 OCR、Qdrant 和外部模型 E2E 未复跑。"
+      ],
+      "legacy_category": "retrieval-mcp",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit ac4f70fd4d89b4290a006992c0b7c93dbd0fbc3d: five targeted current test modules for query orchestration, evidence policy, external-run guard, canonical validation and public deployment all passed under Python 3.12.",
+          "Earlier substantive review passed a 56-test targeted suite; the full OCR/Qdrant/model E2E was not rerun.",
+          "Source: https://github.com/weixiaocan/env-reg-rag/blob/ac4f70fd4d89b4290a006992c0b7c93dbd0fbc3d/README.md",
+          "Source: https://github.com/weixiaocan/env-reg-rag/tree/ac4f70fd4d89b4290a006992c0b7c93dbd0fbc3d/tests"
+        ],
+        "signals": {
+          "skill_files": 3,
+          "test_files": 86,
+          "code_files": 204,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "goodseafly/how-to-make-work-pay",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/goodseafly/how-to-make-work-pay",
+      "name": "如何让工作更划算",
+      "kind": "skill",
+      "primary_capability": "labor-family",
+      "capabilities": [
+        "labor-family",
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "面向求职、工资、加班、年假、社保、工伤、裁员和劳动仲裁的 576 条职场决策建议、来源索引与本地 workplace-decision-guide Skill。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Python 标准库",
+          "查阅最新官方来源时需公开网络"
+        ]
+      },
+      "data_path": "local",
+      "selection_reason": "补充劳动权益与职场决策的系统化公开指南及本地 Skill；仅进入完整索引。",
+      "cautions": [
+        "正文采用 CC BY 4.0、代码采用 MIT；GitHub API 对混合许可识别为 NOASSERTION，复用时须分别遵守。",
+        "576 条建议不等于 576 项实体结论均经独立复核，个案适用仍须回到现行法和实际证据。",
+        "它是职场决策与劳动权益通用知识资源，不替代律师针对具体案件出具意见。",
+        "GitHub 未识别许可证，复制、修改或分发前需另行核验"
+      ],
+      "legacy_category": "labor-family-personal",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit 406d5f0f28c7b5c74be71d378ca8ddb727e566ed: body-format, reference-anchor and full source-only audits passed; 576 items, 821 anchored references and six source audit groups were checked.",
+          "Prior review sampled 12 National People's Congress / State Council official URLs successfully; current project Actions for checks and publications were also reviewed.",
+          "Source: https://github.com/goodseafly/how-to-make-work-pay/blob/406d5f0f28c7b5c74be71d378ca8ddb727e566ed/README.md",
+          "Source: https://github.com/goodseafly/how-to-make-work-pay/tree/406d5f0f28c7b5c74be71d378ca8ddb727e566ed/book"
+        ],
+        "signals": {
+          "skill_files": 2,
+          "test_files": 0,
+          "code_files": 24,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "CSlawyer1985/agent-data-gateway",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/CSlawyer1985/agent-data-gateway",
+      "name": "Agent Data Gateway",
+      "kind": "tool",
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents",
+        "data-compliance"
+      ],
+      "jurisdictions": [
+        "general"
+      ],
+      "summary": "面向合同、证据、判决书和混合材料的本地优先摄取编排层，提供完整性入账、质量分级、来源锚点和可追溯输出。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Python",
+          "可选 OCR/VLM/音视频 worker"
+        ]
+      },
+      "data_path": "local",
+      "selection_reason": "补充法律材料进入 Agent 前的完整性、质量和来源治理基础设施；完整索引低位收录。",
+      "cautions": [
+        "核心零硬依赖，但 OCR、VLM 与音视频 worker 各有额外安装、许可证和计算资源成本。",
+        "来源锚点和完整性账本不证明材料真实、内容正确或法律上可采。",
+        "当前无 GitHub Release，部署者应从固定提交构建并自行验证可选 worker。"
+      ],
+      "legacy_category": "tech-foundation",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit 0c7835274b9073bfef9de882046925d1d110ef36 is unchanged from the reviewed line; local verification passed 248 pytest checks plus 43 subtests.",
+          "Current dual-Python GitHub CI succeeded for the reviewed line.",
+          "Source: https://github.com/CSlawyer1985/agent-data-gateway/blob/0c7835274b9073bfef9de882046925d1d110ef36/README.md"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 22,
+          "code_files": 112,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "kevanwee/sg-legalresearch-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/kevanwee/sg-legalresearch-skill",
+      "name": "Singapore Legal Research Skill",
+      "kind": "skill",
+      "primary_capability": "cross-border-arbitration",
+      "capabilities": [
+        "cross-border-arbitration",
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "cross_border"
+      ],
+      "summary": "面向新加坡法的判例、成文法和 Hansard 检索，提供法条版本与生效核验、引注核查、证据记录和研究交付。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "Singapore Statutes Online",
+          "eLitigation",
+          "可选授权 LawNet"
+        ]
+      },
+      "data_path": "mixed",
+      "selection_reason": "填补目录的新加坡法专项空白，作为域外法律研究的低位关键备选。",
+      "cautions": [
+        "公开检索不能替代完整 citator、SLR 或 LawNet；LawNet 仅可在用户已有合法授权时使用。",
+        "离线测试验证工作流和证据约束，不证明每项新加坡法结论正确。",
+        "项目仍较新，正式涉外意见应由熟悉新加坡法的专业人员复核。"
+      ],
+      "legacy_category": "cross-border-arbitration",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit bbc3fb6f66d96b34f28c64a9d9a758e4bc22f1a2: 169 unittest checks and repository validator passed locally on 2026-10-28.",
+          "The current GitHub checks workflow runs the same test and validator commands.",
+          "Source: https://github.com/kevanwee/sg-legalresearch-skill/blob/bbc3fb6f66d96b34f28c64a9d9a758e4bc22f1a2/README.md",
+          "Source: https://github.com/kevanwee/sg-legalresearch-skill/tree/bbc3fb6f66d96b34f28c64a9d9a758e4bc22f1a2/tests"
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 4,
+          "code_files": 9,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "kevanwee/legal-extraction-skill",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/kevanwee/legal-extraction-skill",
+      "name": "Legal Extraction Skill",
+      "kind": "skill",
+      "primary_capability": "legal-documents",
+      "capabilities": [
+        "legal-documents",
+        "contracts",
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "general"
+      ],
+      "summary": "把合同、判决和函件的字段值绑定到源文件哈希、精确字符区间与原文摘录，并对缺失、歧义和来源变化显式失败。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Python 标准库"
+        ]
+      },
+      "data_path": "local",
+      "selection_reason": "补充通用字段抽取的确定性来源绑定和失败门禁；不替代 OCR、版面或实体法律判断。",
+      "cautions": [
+        "当前只处理用户另行生成的 UTF-8 文本层，PDF、DOCX 与 OCR 转换及版面核对须另行完成。",
+        "精确字符区间只能证明字段来自给定文本，不能证明源文件真实、完整或所选条款法律上正确。",
+        "项目无 Release，宜固定提交安装。"
+      ],
+      "legacy_category": "contract-doc-ip",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit 4e8af446c575425120548c1df3847313621734e8 is unchanged from the reviewed line; local standard-library unittest run passed 7/7 checks and current CI succeeded.",
+          "Source: https://github.com/kevanwee/legal-extraction-skill/blob/4e8af446c575425120548c1df3847313621734e8/README.md",
+          "Source: https://github.com/kevanwee/legal-extraction-skill/blob/4e8af446c575425120548c1df3847313621734e8/SKILL.md"
+        ],
+        "signals": {
+          "skill_files": 1,
+          "test_files": 1,
+          "code_files": 2,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "pulinnsann/lawAgent",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/pulinnsann/lawAgent",
+      "name": "lawAgent 企业合同工作台",
+      "kind": "app",
+      "primary_capability": "contracts",
+      "capabilities": [
+        "contracts",
+        "legal-documents",
+        "starter-suites"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "本地优先的企业合同审查、起草、改稿和报告桌面工作台，支持中英泰合同、来源快照、Word 修订与自带模型端点。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "technical",
+        "services": [
+          "桌面端",
+          "用户自备模型 API 或 Codex",
+          "可选 MCP/SFTP"
+        ]
+      },
+      "data_path": "mixed",
+      "selection_reason": "补充企业合同的本地工作区、证据快照、人工确认和 Word 交付闭环；不上首页。",
+      "cautions": [
+        "启用模型、检索、MCP 或 SFTP 时会把选定数据发送至用户配置端点，处理客户材料前须确认授权和服务条款。",
+        "系统凭据使用操作系统保护且无明文回退，但这不替代终端安全、备份和离职交接管理。",
+        "工程测试不证明法律和语言结论正确；当前分发仍缺稳定签名、公证和真实企业网络连续验收。"
+      ],
+      "legacy_category": "contract-doc-ip",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit b66778a2a41755c436ecca6088396f3249b7c412: local run passed 437 Node tests, TypeScript typecheck, 43-resource runtime release verification and production dependency audit with 0 vulnerabilities.",
+          "The current code retains OS-protected credential storage without plaintext fallback and explicit model/retrieval/MCP/SFTP data routes.",
+          "Source: https://github.com/pulinnsann/lawAgent/blob/b66778a2a41755c436ecca6088396f3249b7c412/README.md",
+          "Source: https://github.com/pulinnsann/lawAgent/tree/b66778a2a41755c436ecca6088396f3249b7c412/tests"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 66,
+          "code_files": 263,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "futuremeng/OpenLaw",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/futuremeng/OpenLaw",
+      "name": "OpenLaw 可溯源法律知识底座",
+      "kind": "tool",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "以本地 PDF、Markdown 和 SQLite 组织来源链、导入校验、离线重解析及版本待确认状态的法律知识底座。",
+      "setup": {
+        "mode": "self_host",
+        "difficulty": "technical",
+        "services": [
+          "Go",
+          "用户自备有权法律文件"
+        ]
+      },
+      "data_path": "local",
+      "selection_reason": "补充法律资料的来源链、导入校验和离线重解析基础设施；不标为现行法数据库。",
+      "cautions": [
+        "仓库不附真实法规数据，使用者须自备有权文件并核验效力和完整性。",
+        "法规修改、废止和版本关系默认 pending 转人工，不应把导入成功理解为现行有效。",
+        "项目较新且无 Release，当前工程证据不等于真实法规库连续运行验收。"
+      ],
+      "legacy_category": "retrieval-mcp",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit f05208eaa2ee3b7f2d93a8af5aaf641dc152690d is unchanged from the reviewed line; 46 Go tests, go vet and gofmt passed, and current upstream CI succeeded.",
+          "Broken links, tampered files, scans and robots restrictions fail visibly; flk.npc.gov.cn automated collection is refused.",
+          "Source: https://github.com/futuremeng/OpenLaw/blob/f05208eaa2ee3b7f2d93a8af5aaf641dc152690d/README.md"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 5,
+          "code_files": 40,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "shiroidaoqi/pkulaw-mcp",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/shiroidaoqi/pkulaw-mcp",
+      "name": "北大法宝 MCP Bridge",
+      "kind": "mcp",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "通过本地 stdio 两工具桥接北大法宝聚合 MCP，固定单一上游、环境变量 Token、限时限量并隐藏敏感错误。",
+      "setup": {
+        "mode": "config",
+        "difficulty": "account_required",
+        "services": [
+          "Node.js",
+          "北大法宝账号、Token 与额度"
+        ]
+      },
+      "data_path": "external_api",
+      "selection_reason": "补充北大法宝的窄接口 MCP 桥接方案；仅完整索引低位收录。",
+      "cautions": [
+        "必须具备合法北大法宝账号、Token 和额度，实际使用受平台授权与数据处理条款约束。",
+        "本轮未执行真实上游查询，离线测试和 npm 包一致性不证明账号端工具可用或结果完整。",
+        "项目较新且无 CI/GitHub Release；固定上游和大小/超时限制仍须结合机构网络验证。"
+      ],
+      "legacy_category": "retrieval-mcp",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit c6d609d8088f4005db9b134ae5e28bc0d6172194: local npm ci, syntax checks, 13/13 tests and npm audit with 0 vulnerabilities passed.",
+          "Published npm package core files matched the reviewed repository by SHA-256.",
+          "Source: https://github.com/shiroidaoqi/pkulaw-mcp/blob/c6d609d8088f4005db9b134ae5e28bc0d6172194/README.md"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 3,
+          "code_files": 6,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "lkyyds77/lexvault",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/lkyyds77/lexvault",
+      "name": "LexVault 个人法规知识库",
+      "kind": "app",
+      "primary_capability": "legal-research",
+      "capabilities": [
+        "legal-research",
+        "legal-documents"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "Windows 本地优先的个人法规知识库，支持本地导入、法条切分、关键词与索引检索、原文引用及可选 DeepSeek 问答。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "ready",
+        "services": [
+          "Windows 10/11",
+          "可选 DeepSeek API"
+        ]
+      },
+      "data_path": "mixed",
+      "selection_reason": "补充个人法规资料的轻量本地导入和检索；不标为权威或现行法规数据库。",
+      "cautions": [
+        "项目不附法规数据，内容完整性、版本和效力完全取决于用户导入文件。",
+        "关闭本地模式后，问题和命中片段会发送至所选模型服务；须确认客户材料授权。",
+        "Windows 安装包未代码签名，Release 资产不由公开构建 workflow 自动生成。"
+      ],
+      "legacy_category": "retrieval-mcp",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit f64605e63553a532edf2a562fa1a6a4d34518d99 / v0.5.2: local npm ci --ignore-scripts, 19/19 Node tests and production dependency audit with 0 vulnerabilities passed.",
+          "API secrets use Electron safeStorage; local-only retrieval remains available without a model.",
+          "Source: https://github.com/lkyyds77/lexvault/blob/f64605e63553a532edf2a562fa1a6a4d34518d99/README.md",
+          "Source: https://github.com/lkyyds77/lexvault/tree/f64605e63553a532edf2a562fa1a6a4d34518d99/test"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 4,
+          "code_files": 14,
+          "tree_truncated": false
+        }
+      }
+    },
+    {
+      "id": "245678000000/lawdesk",
+      "aliases": [],
+      "source": "github",
+      "url": "https://github.com/245678000000/lawdesk",
+      "name": "LawDesk 律台",
+      "kind": "app",
+      "primary_capability": "starter-suites",
+      "capabilities": [
+        "starter-suites",
+        "contracts",
+        "legal-research",
+        "litigation"
+      ],
+      "jurisdictions": [
+        "prc"
+      ],
+      "summary": "本地法律 Agent 工作台，可接本机 Claude Code、Codex、ChatGPT 套餐或自有 API，并提供 macOS 与 Windows 客户端。",
+      "setup": {
+        "mode": "install",
+        "difficulty": "account_required",
+        "services": [
+          "本机 Claude Code/Codex 或 ChatGPT/外部模型 API"
+        ]
+      },
+      "data_path": "mixed",
+      "selection_reason": "以轻量本地界面连接现有 CLI 或用户自有模型，补充综合法律 Agent 工作台入口；不上首页。",
+      "cautions": [
+        "自有 API Key 明文保存在本机 config.json；ChatGPT access/refresh token 虽限制为仅本人读写，但未使用系统钥匙串加密。",
+        "启用云模型或联网 CLI 后，消息和所选附件可能发送至相应服务，须确认客户材料授权与平台条款。",
+        "安装包未签名/公证；本轮只跑假 API/OAuth 冒烟，未做真实 ChatGPT 登录或消耗真实 Claude/Codex 调用。"
+      ],
+      "legacy_category": "skill-suite",
+      "scope": "core",
+      "recommendation": "indexed",
+      "relationships": [],
+      "source_grade": "verified",
+      "review": {
+        "depth": "tested",
+        "reviewed_at": "2026-10-28",
+        "evidence": [
+          "Current commit ec8f8c5c2198d645f4f6ed68bd12e95c2fe768db / v0.4.2: local npm smoke passed fake API/OAuth, file transfer, update checks and Codex request adaptation.",
+          "Current Windows/macOS/Linux smoke and Windows installer E2E workflows succeeded; v0.4.2 DMG/EXE assets carry GitHub SHA-256 digests.",
+          "Source: https://github.com/245678000000/lawdesk/blob/ec8f8c5c2198d645f4f6ed68bd12e95c2fe768db/README.md",
+          "Source: https://github.com/245678000000/lawdesk/actions",
+          "Source: https://github.com/245678000000/lawdesk/releases/tag/v0.4.2"
+        ],
+        "signals": {
+          "skill_files": 0,
+          "test_files": 3,
+          "code_files": 20,
+          "tree_truncated": false
+        }
+      }
     }
   ]
 }

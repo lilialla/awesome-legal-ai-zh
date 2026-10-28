@@ -3,9 +3,11 @@
 1438388098-glitch/legal-hallu-guard	retrieval-mcp
 1438388098-glitch/pdf-legal-zh-translator	cross-border-arbitration
 245678000000/caselaw-mcp-server	retrieval-mcp
+245678000000/lawdesk	skill-suite
 2noise/ChatTTS	media-ip
 384363367-dot/legal-os	skill-suite
 5tnb6xgsm5-ops/contract-guardian	contract-doc-ip
+7toCR/paper2patent	contract-doc-ip
 827827sy-design/contract-legal-review	contract-doc-ip
 996icu/996.ICU	labor-family-personal
 a1531307144-cell/LexBench	retrieval-mcp
@@ -21,6 +23,7 @@ AI4Finance-Foundation/FinRobot	corp-finance-ma-dd
 AiHubCN/Awesome-Chinese-LLM	tech-foundation
 alirezarezvani/claude-skills	tech-foundation
 allenymt/PrivacySentry	data-compliance
+amphibi-ch/acnlb	dataset-infra
 AndrewZhe/lawyer-llama	llm
 anthropics/claude-for-legal	skill-suite
 anthropics/courses	tech-foundation
@@ -66,6 +69,7 @@ ComposioHQ/awesome-claude-skills	tech-foundation
 createrivabu/Iuris-Soft	law-firm-mgmt
 CSHaitao/LegalOne	llm
 CSHaitao/LexiLaw	llm
+CSlawyer1985/agent-data-gateway	tech-foundation
 CSlawyer1985/case-type-guide	criminal-admin-exec
 CSlawyer1985/china-lawyer-analyst	contract-doc-ip
 CSlawyer1985/claude-for-legal-ZH	skill-suite
@@ -114,6 +118,7 @@ freelawproject/courtlistener-api-client	retrieval-mcp
 freelawproject/eyecite	dataset-infra
 FudanDISC/DISC-LawLLM	llm
 FunAudioLLM/CosyVoice	media-ip
+futuremeng/OpenLaw	retrieval-mcp
 GaaZeon-Hui/legal-text-splitter-mcp	retrieval-mcp
 gcheng001/legal-skills	skill-suite
 geekjourneyx/md2wechat-skill	media-ip
@@ -121,6 +126,7 @@ getzep/graphiti	tech-foundation
 gitbrent/PptxGenJS	ppt-assets
 Golden2002/legal-research-skill	retrieval-mcp
 GongRzhe/Office-PowerPoint-MCP-Server	ppt-assets
+goodseafly/how-to-make-work-pay	labor-family-personal
 google/fonts	ppt-assets
 gridaco/grida	ppt-assets
 hakimel/reveal.js	ppt-assets
@@ -156,6 +162,8 @@ jlawyerorg/j-lawyer-org	law-firm-mgmt
 jnMetaCode/agency-agents-zh	tech-foundation
 katejianglaw/refine-legal-chinese	contract-doc-ip
 kennethkhoocy/legal-scholarship-skills	skill-suite
+kevanwee/legal-extraction-skill	contract-doc-ip
+kevanwee/sg-legalresearch-skill	cross-border-arbitration
 kevchentw/awesome-chinese-fonts	ppt-assets
 khoj-ai/khoj	tech-foundation
 Kianchales/ibd-skills	corp-finance-ma-dd
@@ -189,6 +197,7 @@ Liquid-Legal-Institute/Legal-Text-Analytics	dataset-infra
 Liu8Can/pkulaw-mcp-router	retrieval-mcp
 liuhuanyong/CrimeKgAssitant	dataset-infra
 liyupi/ai-guide	tech-foundation
+lkyyds77/lexvault	retrieval-mcp
 LLMQuant/awesome-trading-agents	corp-finance-ma-dd
 LLMQuant/skills	corp-finance-ma-dd
 lololo-xiao/MultiJustice-MPMCP	criminal-admin-exec
@@ -255,6 +264,7 @@ PKU-YuanGroup/ChatLaw	llm
 PlexPt/awesome-chatgpt-prompts-zh	tech-foundation
 PolarisRisingWar/LJP_Collection	criminal-admin-exec
 presenton/presenton	ppt-assets
+pulinnsann/lawAgent	contract-doc-ip
 QWED-AI/qwed-legal	tech-foundation
 qwertyzhu/legal-redactor	data-compliance
 qwertyzhu/openlawkit	skill-suite
@@ -272,6 +282,7 @@ SEC-API-io/sec-api-python	corp-finance-ma-dd
 SenryLee/rule-harness	contract-doc-ip
 shaw07x/ad-compliance-review-skill	data-compliance
 shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills	dataset-infra
+shiroidaoqi/pkulaw-mcp	retrieval-mcp
 siat-nlp/HanFei	llm
 SimbaCD/html-slides-studio	ppt-assets
 SimbaCD/legal-period-manager-skills	criminal-admin-exec
@@ -311,6 +322,7 @@ vercel/satori	ppt-assets
 wangchangwei/arb-skill	labor-family-personal
 wechatsync/Wechatsync	media-ip
 WEIFENG2333/VideoCaptioner	media-ip
+weixiaocan/env-reg-rag	retrieval-mcp
 wgpsec/ENScan_GO	enterprise-check
 whthomas/china-laws	retrieval-mcp
 worker-aid-ai/worker-aid-agent	labor-family-personal
@@ -325,6 +337,7 @@ xyl0729/weiquan-agent	labor-family-personal
 yamazaki82/trade-doc-review	cross-border-arbitration
 yangyc03/yangyc-legalai-skills	skill-suite
 yel66026-stack/case-material-organizer	criminal-admin-exec
+yel66026-stack/cn-criminal-defense-skill	criminal-admin-exec
 Youchu-lawhub/app-compliance-review	data-compliance
 Youchu-lawhub/cn-litigation-toolkit	criminal-admin-exec
 Youchu-lawhub/gutachten-admin-case	criminal-admin-exec
@@ -340,6 +353,7 @@ yuc16/PatentRadar	contract-doc-ip
 yuhudie598-dev/legal-case-analysis-plus	criminal-admin-exec
 yuhudie598-dev/online-store-webpage-and-other-e-commerce-information-ai-proofreading-plus	data-compliance
 yuhudie598-dev/workbuddy-calendar	law-firm-mgmt
+yuluo554/labor-compliance-calculator	labor-family-personal
 yxk-lawyer/litigation-prep-skill-cn	criminal-admin-exec
 zeweihan/aiworkdeck	skill-suite
 zgbrenner/agentcounsel	skill-suite
